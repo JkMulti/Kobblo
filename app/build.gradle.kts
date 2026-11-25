@@ -34,8 +34,8 @@ android {
         // Targeting 37 would need the ACCESS_LOCAL_NETWORK runtime permission, which the server
         // connections and Nearby Share don't ask for yet.
         targetSdk = 36
-        versionCode = 100
-        versionName = "1.0"
+        versionCode = 101
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
