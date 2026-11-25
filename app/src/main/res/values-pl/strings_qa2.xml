@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Zostaną posortowane do folderów</string>
+    <string name="organize_pill_action">Organizuj</string>
+    <string name="extract_pill_running">Wypakowywanie</string>
+    <string name="extract_pill_done">Wypakowano</string>
+    <string name="extract_pill_done_detail">Wypakowano wszystkie pliki</string>
+    <string name="op_resume">Wznów</string>
+    <string name="archive_kind">Archiwum</string>
+    <string name="archive_kind_rar">Archiwum RAR</string>
+    <string name="archive_extract_here">Wypakuj tutaj</string>
+    <string name="archive_extract_here_subtitle">Wypakuj pliki do bieżącego folderu</string>
+    <string name="archive_extract_here_downloads">Wypakuj pliki do folderu Download</string>
+    <string name="archive_extract_to">Wypakuj do…</string>
+    <string name="archive_extract_to_subtitle">Wybierz folder</string>
+    <string name="archive_view_contents">Pokaż zawartość</string>
+    <string name="archive_view_contents_subtitle">Zobacz pliki w tym archiwum</string>
+    <string name="archive_delete">Usuń archiwum</string>
+    <string name="archive_create_title">Utwórz archiwum</string>
+    <string name="archive_create_name">Nazwa archiwum</string>
+    <string name="archive_create_lock">Zabezpiecz hasłem</string>
+    <string name="archive_create_lock_desc">Szyfrowanie AES-256</string>
+    <string name="archive_create_action">Utwórz</string>
+    <string name="archive_extract_out_toast">Wypakowywanie do Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elementy</item>
+        <item quantity="many">%1$d elementów</item>
+        <item quantity="other">%1$d elementu</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d element, %2$s</item>
+        <item quantity="few">%1$d elementy, %2$s</item>
+        <item quantity="many">%1$d elementów, %2$s</item>
+        <item quantity="other">%1$d elementu, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Wymagane hasło</string>
+    <string name="archive_password_placeholder">Hasło</string>
+    <string name="archive_password_wrong">Nieprawidłowe hasło</string>
+    <string name="archive_encrypted_name">To archiwum jest zaszyfrowane.</string>
+    <string name="archive_failed_title">Nie udało się wypakować</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">Nowy folder</string>
+    <string name="dialog_new_file">Nowy plik</string>
+    <string name="dialog_rename">Zmień nazwę</string>
+    <string name="dialog_rename_placeholder">Nowa nazwa</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">Ukryto %1$d element</item>
+        <item quantity="few">Ukryto %1$d elementy</item>
+        <item quantity="many">Ukryto %1$d elementów</item>
+        <item quantity="other">Ukryto %1$d elementu</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">Odkryto %1$d element</item>
+        <item quantity="few">Odkryto %1$d elementy</item>
+        <item quantity="many">Odkryto %1$d elementów</item>
+        <item quantity="other">Odkryto %1$d elementu</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">Nie udało się ukryć %1$d elementu</item>
+        <item quantity="few">Nie udało się ukryć %1$d elementów</item>
+        <item quantity="many">Nie udało się ukryć %1$d elementów</item>
+        <item quantity="other">Nie udało się ukryć %1$d elementu</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">Nie udało się odkryć %1$d elementu</item>
+        <item quantity="few">Nie udało się odkryć %1$d elementów</item>
+        <item quantity="many">Nie udało się odkryć %1$d elementów</item>
+        <item quantity="other">Nie udało się odkryć %1$d elementu</item>
+    </plurals>
+    <string name="settings_grid_columns">Kolumny folderów</string>
+    <string name="settings_grid_columns_desc">W widoku ikon</string>
+    <string name="settings_lock_password_changed">Zmieniono hasło</string>
+    <string name="settings_show_vault">Pokaż sejf w Narzędziach</string>
+    <string name="settings_show_vault_desc">Gdy wyłączone, przytrzymaj ⋯ lub + na karcie Przeglądaj, aby go otworzyć</string>
+    <string name="settings_open_with">Otwieraj za pomocą</string>
+    <string name="settings_open_text">Dokumenty</string>
+    <string name="settings_open_music">Muzyka</string>
+    <string name="settings_open_images">Obrazy</string>
+    <string name="settings_open_videos">Wideo</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Inna aplikacja</string>
+    <string name="settings_organizer_footer">Dokąd funkcja Organizuj pobrane przenosi poszczególne rodzaje plików.</string>
+    <string name="settings_choose_folder">Wybierz</string>
+    <string name="settings_send_name">Nazwa urządzenia</string>
+    <string name="settings_send_name_desc">Tę nazwę widzą inne urządzenia, gdy szukają tego urządzenia.</string>
+    <string name="settings_send_folder">Odebrane pliki</string>
+    <string name="settings_send_ask">Pytaj przed odebraniem</string>
+    <string name="settings_send_ask_on">Akceptuj lub odrzucaj każde przychodzące przesyłanie</string>
+    <string name="settings_send_ask_off">Każdy w Twojej sieci może zapisywać tu pliki bez pytania</string>
+    <string name="crash_title">Kobblo przestał działać</string>
+    <string name="crash_subtitle">Oto, co poszło nie tak. Te informacje pozostaną na tym telefonie, chyba że je udostępnisz.</string>
+    <string name="crash_last_title">Ostatnia awaria</string>
+    <string name="crash_last_subtitle">Co poszło nie tak, gdy Kobblo ostatnio przestał działać</string>
+    <string name="crash_copy">Kopiuj</string>
+    <string name="crash_share">Udostępnij</string>
+    <string name="crash_delete">Usuń</string>
+    <string name="crash_close">Zamknij</string>
+    <string name="crash_copied">Skopiowano dziennik awarii</string>
+    <string name="crash_share_subject">Dziennik awarii Kobblo</string>
+    <string name="crash_none">Nie zarejestrowano awarii</string>
+</resources>

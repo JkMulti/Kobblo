@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Send tab -->
+    <string name="transfer_send_tab">Send</string>
+    <string name="transfer_send">Send</string>
+    <string name="transfer_send_nearby">Send to a Nearby Device</string>
+    <string name="transfer_receive_files">Receive Files</string>
+    <string name="transfer_visible">Visible nearby. Stops 15 minutes after you\'re done.</string>
+    <string name="transfer_not_visible">Off. This phone can\'t be seen or find others.</string>
+    <string name="transfer_searching">Searching for nearby devices</string>
+    <string name="transfer_receiving_off">Receiving is off</string>
+    <string name="transfer_same_wifi_hint">Open the Send tab on the other device, on the same Wi-Fi.</string>
+    <string name="transfer_scanning">Looking around this network</string>
+    <string name="transfer_scan_nothing">Nothing answered on this network</string>
+    <string name="transfer_scan_nothing_hint">Open the Send tab on the other device, on the same Wi-Fi. Guest and office Wi-Fi often hide devices from each other: connect with a code, or create a connection, below.</string>
+    <string name="transfer_look_again">Look Again</string>
+    <string name="transfer_dont_see_it">Someone missing?</string>
+    <string name="transfer_tile_on">Visible nearby</string>
+    <string name="transfer_tile_off">Off</string>
+    <string name="transfer_no_wifi">This phone isn\'t on Wi-Fi</string>
+    <string name="transfer_no_wifi_hint">Join the same Wi-Fi as the other device, or create a connection below.</string>
+    <string name="transfer_vpn_on">A VPN is on</string>
+    <string name="transfer_vpn_hint">It can hide nearby devices. If nothing appears, turn it off for a moment.</string>
+    <string name="transfer_turn_on_to_find">Turn on Receive Files to find nearby devices.</string>
+    <string name="transfer_not_here">Not here right now</string>
+    <string name="transfer_known_device">a device you know</string>
+    <string name="transfer_choose_what_to_send">Choose What to Send</string>
+    <string name="transfer_tap_device_hint">Tap a device to send.</string>
+    <string name="transfer_add">Add</string>
+    <string name="transfer_remove_item">Remove %1$s</string>
+    <string name="transfer_send_to_several">Send to Several Devices</string>
+    <string name="transfer_more_ways">More Ways to Connect</string>
+    <string name="transfer_not_encrypted">not encrypted</string>
+    <string name="transfer_verified">Verified by code</string>
+    <plurals name="transfer_send_to_devices">
+        <item quantity="one">Send to %1$d Device</item>
+        <item quantity="other">Send to %1$d Devices</item>
+    </plurals>
+
+    <!-- Counts -->
+    <plurals name="transfer_file_count">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d files</item>
+    </plurals>
+    <plurals name="transfer_item_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+
+    <!-- Picker -->
+    <string name="transfer_picker_title">Choose</string>
+    <string name="transfer_tab_apps">Apps</string>
+    <string name="transfer_tab_photos">Photos</string>
+    <string name="transfer_tab_videos">Videos</string>
+    <string name="transfer_tab_music">Music</string>
+    <string name="transfer_tab_files">Files</string>
+    <string name="transfer_picker_add">Done</string>
+    <string name="transfer_search_files">Search files</string>
+    <string name="transfer_recent_files">Recent</string>
+    <string name="transfer_no_matches">Nothing Matches</string>
+    <string name="transfer_write_note">Write a Note</string>
+    <string name="transfer_picker_counting">Counting files</string>
+    <string name="transfer_send_to_peer">Send to %1$s</string>
+    <string name="transfer_search_apps">Search apps</string>
+    <string name="transfer_search_music">Search music</string>
+    <string name="transfer_no_apps_title">No Apps to Send</string>
+    <string name="transfer_no_apps_body">Apps you have installed will appear here.</string>
+    <string name="transfer_no_photos">No Photos</string>
+    <string name="transfer_no_videos">No Videos</string>
+    <string name="transfer_no_music">No Music</string>
+    <string name="transfer_folder_empty">Nothing in This Folder</string>
+    <string name="transfer_files_storage">Internal Storage</string>
+    <string name="transfer_files_up">Back up a folder</string>
+    <string name="transfer_files_other_apps">Other Apps</string>
+    <string name="transfer_app_split">%1$s · %2$d parts</string>
+
+    <!-- Transfer state -->
+    <string name="transfer_sending_to">Sending to %1$s</string>
+    <string name="transfer_receiving_from">Receiving from %1$s</string>
+    <string name="transfer_connecting">Connecting</string>
+    <string name="transfer_reconnecting">The connection dropped. Trying again</string>
+    <string name="transfer_waiting_on">Waiting for %1$s</string>
+    <string name="transfer_waiting_accept">Waiting for %1$s to accept</string>
+    <string name="transfer_speed">%1$s/s</string>
+    <string name="transfer_eta_seconds">%1$d s left</string>
+    <string name="transfer_eta_minutes">%1$d min left</string>
+    <string name="transfer_eta_hours">%1$d h %2$d min left</string>
+    <string name="transfer_files_progress">%1$d of %2$d files</string>
+    <string name="transfer_files_title">Files</string>
+    <string name="transfer_done">Done</string>
+    <string name="transfer_cancelled_title">Transfer Cancelled</string>
+    <string name="transfer_cancelled_detail">%1$d of %2$d files got through</string>
+    <string name="transfer_failed_unknown">Something went wrong</string>
+    <string name="transfer_nothing_sent">Nothing was sent</string>
+    <string name="transfer_send_failed_title">Couldn\'t Finish Sending to %1$s</string>
+    <string name="transfer_receive_failed_title">Couldn\'t Finish Receiving from %1$s</string>
+    <string name="transfer_multi_progress">Device %1$d of %2$d</string>
+    <string name="transfer_multi_failed">Didn\'t go through to %1$s</string>
+    <plurals name="transfer_multi_done">
+        <item quantity="one">Sent to %1$d of %2$d device</item>
+        <item quantity="other">Sent to %1$d of %2$d devices</item>
+    </plurals>
+    <plurals name="transfer_sent_title">
+        <item quantity="one">Sent %1$d File to %2$s</item>
+        <item quantity="other">Sent %1$d Files to %2$s</item>
+    </plurals>
+    <plurals name="transfer_received_title">
+        <item quantity="one">Received %1$d File from %2$s</item>
+        <item quantity="other">Received %1$d Files from %2$s</item>
+    </plurals>
+    <plurals name="transfer_received_files_from">
+        <item quantity="one">Received %1$d file from %2$s</item>
+        <item quantity="other">Received %1$d files from %2$s</item>
+    </plurals>
+
+    <!-- Why a transfer failed. Each says what happened, as nearly as this device can know. -->
+    <string name="transfer_nothing_chosen">Nothing is chosen to send</string>
+    <string name="transfer_already_running">Another transfer is still going. Wait for it to finish.</string>
+    <string name="transfer_files_not_found">The chosen files can\'t be found. Only files on this phone can be sent.</string>
+    <plurals name="transfer_skipped_count">
+        <item quantity="one">%1$d chosen item can\'t be sent, so it\'s being skipped</item>
+        <item quantity="other">%1$d chosen items can\'t be sent, so they\'re being skipped</item>
+    </plurals>
+    <string name="transfer_file_not_accepted">The other device didn\'t accept the rest.</string>
+    <string name="transfer_file_unreadable">One couldn\'t be read on this phone.</string>
+    <string name="transfer_partial_sent">Sent %1$d of %2$d files. %3$s</string>
+    <string name="transfer_declined_by">Rejected by %1$s</string>
+    <string name="transfer_pin_required">%1$s asks for a PIN, which this app can\'t enter yet. Turn off its PIN to send.</string>
+    <string name="transfer_peer_busy">%1$s is busy with another transfer. Try again when it\'s done.</string>
+    <string name="transfer_too_many_requests">%1$s is refusing new requests for now. Try again shortly.</string>
+    <string name="transfer_peer_full">%1$s doesn\'t have enough free space.</string>
+    <string name="transfer_peer_error">%1$s reported an error (%2$d).</string>
+    <string name="transfer_stopped_by">%1$s stopped the transfer.</string>
+    <string name="transfer_damaged">A file arrived damaged and was discarded.</string>
+    <string name="transfer_identity_changed">The device at this address doesn\'t match %1$s. Nothing was sent.</string>
+    <string name="transfer_no_answer">%1$s didn\'t answer. Check it\'s still awake with its Send tab open, then try again.</string>
+    <string name="transfer_problem_not_listening">%1$s isn\'t ready to receive. Open the Send tab on it, then try again.</string>
+    <string name="transfer_problem_no_network">This phone isn\'t on Wi-Fi. Join the same Wi-Fi as %1$s, or use Create a Connection.</string>
+    <string name="transfer_problem_vpn">Can\'t reach %1$s while a VPN is on. Turn the VPN off and try again.</string>
+    <string name="transfer_problem_other_network">%1$s is on a different network (%2$s). Join the same Wi-Fi, then try again.</string>
+    <string name="transfer_problem_blocked">Can\'t reach %1$s. Guest and office Wi-Fi often keep devices apart, so try Create a Connection.</string>
+    <string name="transfer_problem_firewall">Can\'t reach %1$s. Check its firewall lets this through, or use Send to a Computer.</string>
+    <string name="transfer_connection_lost">Lost the connection to %1$s. Check you\'re both on the same Wi-Fi, then try again.</string>
+    <string name="transfer_connection_lost_partial">Lost the connection to %1$s after %2$d of %3$d files. Those are safe, and only the rest needs to go again.</string>
+    <string name="transfer_sender_stopped">%1$s stopped sending. What finished is here, and it can send the rest.</string>
+    <string name="transfer_sender_stopped_short">It lost the connection and is sending the rest.</string>
+    <string name="transfer_disk_full">This phone ran out of space. The file that was arriving was removed.</string>
+    <string name="transfer_cant_save">Couldn\'t save a file to the Received folder.</string>
+    <string name="transfer_not_answered">Not answered in time</string>
+    <string name="transfer_not_answered_by">Nobody answered on %1$s. Ask them to look at their phone, then try again.</string>
+    <string name="transfer_refused_no_space">%1$s tried to send %2$s, but this phone only has %3$s free.</string>
+
+    <!-- Notifications -->
+    <string name="transfer_notification_title">%1$s Send &amp; Receive</string>
+    <string name="transfer_notification_ready">Visible nearby until you\'ve been idle for 15 minutes</string>
+    <string name="transfer_notification_stop">Stop</string>
+    <string name="transfer_system_time_limit">Receiving stopped because the system ended it</string>
+    <string name="transfer_receive_start_failed">Couldn\'t start receiving. Check your network connection.</string>
+    <string name="transfer_notes_channel">Notes from other devices</string>
+    <string name="transfer_prompt_channel">Accept or Reject</string>
+    <string name="transfer_prompt_channel_note">When a device or a browser wants to send you something</string>
+    <string name="transfer_result_channel">How a transfer ended</string>
+    <string name="transfer_result_channel_note">Sent, received or rejected, when the app isn\'t on screen</string>
+    <string name="transfer_incoming_from">%1$s wants to send you files</string>
+    <string name="transfer_incoming_note_from">%1$s wants to send you a note</string>
+    <string name="transfer_note_accept_to_read">Accept to read it. Nothing is saved.</string>
+    <string name="transfer_browser_at">A browser at %1$s</string>
+    <plurals name="transfer_browser_wants_files">
+        <item quantity="one">Wants to send %1$d file · %2$s</item>
+        <item quantity="other">Wants to send %1$d files · %2$s</item>
+    </plurals>
+    <string name="transfer_browser_wants_note">Wants to send a note</string>
+    <string name="transfer_browser_wants_open">Wants to open Web Share</string>
+    <string name="transfer_browser_open_detail">Once it\'s in, it can see what you\'ve chosen to share, and ask to send you files. Allow it only if it\'s yours.</string>
+    <string name="transfer_dont_ask_browser">Don\'t Ask Again for This Browser</string>
+    <string name="transfer_dont_ask_browser_note">Until Web Share stops. It goes by the browser\'s address.</string>
+    <string name="transfer_unverified">Unverified</string>
+    <string name="transfer_known_device_title">A device you know</string>
+    <string name="transfer_names_more">%1$s and %2$d more</string>
+    <string name="transfer_sender_gave_up">%1$s stopped asking</string>
+    <string name="transfer_notifications_off">To accept or reject from outside the app, turn on notifications.</string>
+    <string name="transfer_notifications_turn_on">Turn On</string>
+    <plurals name="transfer_incoming_summary">
+        <item quantity="one">%1$d file · %2$s</item>
+        <item quantity="other">%1$d files · %2$s</item>
+    </plurals>
+    <string name="transfer_accept">Accept</string>
+    <string name="transfer_reject">Reject</string>
+    <string name="transfer_allow">Allow</string>
+
+    <!-- Receive prompt -->
+    <string name="transfer_incoming_saved_to">They\'ll be saved in %1$s. Nothing already there is replaced.</string>
+    <string name="transfer_incoming_unverified">Only accept if you were expecting these.</string>
+    <string name="transfer_borrowed_name">This isn\'t the %1$s you know. It only has the same name.</string>
+    <plurals name="transfer_some_already_here">
+        <item quantity="one">%1$d more is already here, from an earlier try.</item>
+        <item quantity="other">%1$d more are already here, from an earlier try.</item>
+    </plurals>
+    <plurals name="transfer_all_already_here">
+        <item quantity="one">%2$s sent %1$d file you already have</item>
+        <item quantity="other">%2$s sent %1$d files you already have</item>
+    </plurals>
+    <plurals name="transfer_already_there_detail">
+        <item quantity="one">%2$s · %1$d was already there</item>
+        <item quantity="other">%2$s · %1$d were already there</item>
+    </plurals>
+    <plurals name="transfer_send_the_rest">
+        <item quantity="one">Send the Last File</item>
+        <item quantity="other">Send the Other %1$d Files</item>
+    </plurals>
+
+    <!-- After receiving -->
+    <string name="transfer_received_count">%1$d of %2$d received</string>
+    <string name="transfer_open">Open</string>
+    <string name="transfer_install">Install</string>
+    <string name="transfer_installed">Installed</string>
+    <string name="transfer_install_failed">This app couldn\'t be installed. It may be for another kind of phone, or conflict with one already here.</string>
+    <string name="transfer_show_in_folder">Show in Folder</string>
+    <string name="transfer_share">Share</string>
+
+    <!-- Notes and links -->
+    <string name="transfer_note_title">Note</string>
+    <string name="transfer_note_from">Note from %1$s</string>
+    <string name="transfer_note_tap">Tap to read it</string>
+    <string name="transfer_note_sent">Sent a Note to %1$s</string>
+    <string name="transfer_note_sent_detail">It\'s on their screen</string>
+    <string name="transfer_note_open">Open %1$s</string>
+    <string name="transfer_note_copied">Copied</string>
+    <string name="transfer_note_link_warning">Only open links from people you trust.</string>
+    <string name="transfer_note_compose_title">Note or Link</string>
+    <string name="transfer_note_placeholder">Type or paste here</string>
+
+    <!-- Known devices -->
+    <string name="transfer_always_accept">Always Accept from This Device</string>
+    <string name="transfer_always_accept_short">Saves what it sends without asking.</string>
+    <string name="transfer_always_accept_risk">Anything %1$s sends will be saved without asking, including if someone else gets hold of it. Only for your own devices and people you trust. A stranger can\'t use this by copying its name: the device has to prove it\'s this one.</string>
+    <string name="transfer_always_accept_unavailable">%1$s hasn\'t yet sent anything here that proves who it is, so this phone will keep asking.</string>
+    <string name="transfer_forget_device">Forget This Device</string>
+    <string name="transfer_forget_note">It won\'t be listed first, and it\'ll have to be accepted like a new device.</string>
+    <string name="transfer_last_used">Used %1$s</string>
+    <string name="transfer_used_just_now">Used just now</string>
+
+    <!-- History -->
+    <string name="transfer_history">History</string>
+    <string name="transfer_history_clear">Clear History</string>
+    <string name="transfer_history_clear_title">Clear History?</string>
+    <string name="transfer_history_clear_body">This only forgets the list. Files stay where they are.</string>
+    <string name="transfer_history_empty_title">Nothing Yet</string>
+    <string name="transfer_history_empty_body">Files you send and receive will be listed here.</string>
+    <string name="transfer_to_peer">To %1$s</string>
+    <string name="transfer_from_peer">From %1$s</string>
+    <string name="transfer_today">Today</string>
+    <string name="transfer_yesterday">Yesterday</string>
+    <string name="transfer_result">Result</string>
+    <string name="transfer_result_completed">Completed</string>
+    <string name="transfer_result_partial">Partly done</string>
+    <string name="transfer_result_failed">Failed</string>
+    <string name="transfer_result_cancelled">Cancelled</string>
+    <string name="transfer_result_declined">Rejected</string>
+    <string name="transfer_when">When</string>
+    <string name="transfer_size">Size</string>
+    <string name="transfer_address">Address</string>
+    <plurals name="transfer_more_files_count">
+        <item quantity="one">And %1$d more file</item>
+        <item quantity="other">And %1$d more files</item>
+    </plurals>
+    <string name="transfer_send_again">Send Again</string>
+    <string name="transfer_remove_from_history">Remove from History</string>
+    <string name="transfer_file_not_sent">Didn\'t go through</string>
+
+    <!-- Connect -->
+    <string name="transfer_connect_title">Connect with a Code</string>
+    <string name="transfer_connect_subtitle">When devices don\'t appear by themselves</string>
+    <string name="transfer_connect_tab_code">My Code</string>
+    <string name="transfer_connect_tab_scan">Scan</string>
+    <string name="transfer_connect_tab_address">Address</string>
+    <string name="transfer_my_code_description">QR code for connecting to this device</string>
+    <string name="transfer_my_code_note">Scan this on the other device. The code also proves it\'s connecting to this phone and not something pretending to be it.</string>
+    <string name="transfer_fingerprint_short">Fingerprint %1$s</string>
+    <string name="transfer_no_address">This device isn\'t on a network another device could reach. Join Wi-Fi, or use Create a Connection.</string>
+    <string name="transfer_camera_needed">Scanning a code uses the camera.</string>
+    <string name="transfer_camera_allow">Allow Camera</string>
+    <string name="transfer_camera_unavailable">No camera is available on this device. You can scan a code from a photo instead.</string>
+    <string name="transfer_scan_from_photo">Scan from a Photo</string>
+    <string name="transfer_scan_hint">Point the camera at the code on the other device.</string>
+    <string name="transfer_qr_none_found">There\'s no readable code in that picture.</string>
+    <string name="transfer_qr_not_ours">That code isn\'t for connecting a device.</string>
+    <string name="transfer_qr_invalid">That code can\'t be used: %1$s.</string>
+    <string name="transfer_connect_unreachable">Can\'t reach %1$s. Check that it\'s on the same network with receiving on.</string>
+    <string name="transfer_connect_mismatch">The device at %1$s isn\'t who it says it is, or its identity has changed. Not connecting. If you trust it now, forget it below and connect again.</string>
+    <string name="transfer_connect_not_device">%1$s answered, but it isn\'t a device that can receive files.</string>
+    <string name="transfer_connect_self">That\'s this device.</string>
+    <string name="transfer_connected_to">Connected to %1$s</string>
+    <string name="transfer_connected_verified">Identity confirmed by the code</string>
+    <string name="transfer_connected_unverified">It\'ll be held to this identity from now on</string>
+    <string name="transfer_address_label">Address</string>
+    <string name="transfer_port_label">Port</string>
+    <string name="transfer_port_automatic">Automatic</string>
+    <string name="transfer_address_note">The other device shows its address under My Code. A code is safer, because an address can\'t prove who answers it.</string>
+    <string name="transfer_connect_action">Connect</string>
+    <string name="transfer_saved_devices">Saved Devices</string>
+    <string name="transfer_saved_note">Saved devices appear by themselves when they\'re reachable. Forgetting one means connecting again from the start.</string>
+    <string name="transfer_device_online">online</string>
+    <string name="transfer_device_offline">not reachable</string>
+    <string name="transfer_copy">Copy</string>
+
+    <!-- Joining a hotspot -->
+    <string name="transfer_join_joining">Joining %1$s. Confirm if your phone asks.</string>
+    <string name="transfer_join_joined">Joined %1$s</string>
+    <string name="transfer_join_leave">Leave</string>
+    <string name="transfer_join_failed">Couldn\'t join %1$s automatically. Join it in Wi-Fi settings instead.</string>
+    <string name="transfer_join_manual">This version of Android can\'t join %1$s from here. Join it in Wi-Fi settings.</string>
+    <string name="transfer_join_done">I\'ve Joined</string>
+    <string name="transfer_network_name">Network</string>
+    <string name="transfer_network_password">Password</string>
+    <string name="transfer_open_wifi_settings">Open Wi-Fi Settings</string>
+
+    <!-- Create a connection -->
+    <string name="transfer_create_title">Create a Connection</string>
+    <string name="transfer_create_subtitle">No Wi-Fi? Make a network between two phones</string>
+    <string name="transfer_create_subtitle_on">On</string>
+    <string name="transfer_create_intro">This phone makes a small Wi-Fi network of its own, and the other phone joins it by scanning a code. It doesn\'t need Wi-Fi or use mobile data, and it doesn\'t connect either phone to the internet.</string>
+    <string name="transfer_create_start">Create Connection</string>
+    <string name="transfer_create_stop">Stop Connection</string>
+    <string name="transfer_create_scan_prompt">On the other phone, go to Connect with a Code, then Scan.</string>
+    <string name="transfer_create_running_note">While this is on, this phone stays off your regular Wi-Fi if the hardware can\'t do both.</string>
+    <string name="transfer_create_fallback">If this keeps failing, a phone\'s regular hotspot works too: turn it on, join it from the other phone, and connect with a code or address.</string>
+    <string name="transfer_try_again">Try Again</string>
+    <string name="transfer_open_location_settings">Open Location Settings</string>
+    <string name="transfer_hotspot_incompatible">Couldn\'t start. A regular hotspot or tethering may already be on, so turn that off first.</string>
+    <string name="transfer_hotspot_no_channel">Couldn\'t start because no Wi-Fi channel is free right now.</string>
+    <string name="transfer_hotspot_disallowed">This phone doesn\'t allow creating a network. Its settings or a work profile may be blocking it.</string>
+    <string name="transfer_hotspot_location_off">Android needs Location turned on to create a network on this version.</string>
+    <string name="transfer_hotspot_needs_nearby">This needs the Nearby Devices permission, which was refused.</string>
+    <string name="transfer_hotspot_needs_location">This needs the Location permission, which was refused.</string>
+    <string name="transfer_hotspot_no_credentials">It started, but the system wouldn\'t say the network\'s name or password, so it was turned off.</string>
+    <string name="transfer_hotspot_unknown">This phone refused to create a network. It may not support it.</string>
+
+    <!-- Web Share -->
+    <string name="web_share_title">Send to a Computer</string>
+    <string name="web_share_subtitle">A link for any browser, on a computer or a phone without this app</string>
+    <string name="web_share_switch">Web Share</string>
+    <string name="web_share_on">On. A browser with the link has to be let in by you before it sees anything.</string>
+    <string name="web_share_off">Off</string>
+    <string name="web_share_starting">Starting</string>
+    <string name="web_share_intro">Turn this on, then open the link in a browser on a computer on the same network. You\'ll be asked to allow it. After that, it can accept what you choose here, and ask to send files to this phone.</string>
+    <string name="web_share_qr_description">QR code of the Web Share link</string>
+    <string name="web_share_warning">This link uses plain HTTP, so anyone on this network who sees the traffic could read these files. Use it on networks you trust.</string>
+    <string name="web_share_files">Shared Files</string>
+    <string name="web_share_no_files">Nothing chosen</string>
+    <string name="web_share_upload_note">Tap to choose. The browser can still ask to send you files.</string>
+    <string name="web_share_clients">Connected</string>
+    <string name="web_share_no_clients">Nobody yet</string>
+    <string name="web_share_client_sent">%1$s sent</string>
+    <string name="web_share_client_received">%1$s received</string>
+    <string name="web_share_idle_note">Stops by itself after %1$d minutes without activity. The link changes each time it starts.</string>
+    <string name="web_share_stopped_idle">Stopped because nothing used it for a while.</string>
+    <string name="web_share_failed">Couldn\'t start Web Share on this phone.</string>
+    <string name="web_share_notification_title">Web Share is on</string>
+    <string name="web_share_notification_text">A browser with the link has to be allowed first</string>
+    <string name="web_share_client_waiting">Waiting for you to allow it</string>
+    <plurals name="web_share_outcome_accepted">
+        <item quantity="one">accepted %1$d item</item>
+        <item quantity="other">accepted %1$d items</item>
+    </plurals>
+    <plurals name="web_share_outcome_rejected">
+        <item quantity="one">rejected %1$d item</item>
+        <item quantity="other">rejected %1$d items</item>
+    </plurals>
+    <plurals name="web_share_outcome_downloaded">
+        <item quantity="one">downloaded %1$d file</item>
+        <item quantity="other">downloaded %1$d files</item>
+    </plurals>
+    <plurals name="web_share_told_accepted">
+        <item quantity="one">%1$s accepted %2$d item</item>
+        <item quantity="other">%1$s accepted %2$d items</item>
+    </plurals>
+    <plurals name="web_share_told_rejected">
+        <item quantity="one">%1$s rejected %2$d item</item>
+        <item quantity="other">%1$s rejected %2$d items</item>
+    </plurals>
+    <plurals name="web_share_told_downloaded">
+        <item quantity="one">%1$s downloaded %2$d file</item>
+        <item quantity="other">%1$s downloaded %2$d files</item>
+    </plurals>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Verranno ordinati in cartelle</string>
+    <string name="organize_pill_action">Organizza</string>
+    <string name="extract_pill_running">Estrazione</string>
+    <string name="extract_pill_done">Estratto</string>
+    <string name="extract_pill_done_detail">Tutti i file estratti</string>
+    <string name="op_resume">Riprendi</string>
+    <string name="archive_kind">Archivio</string>
+    <string name="archive_kind_rar">Archivio RAR</string>
+    <string name="archive_extract_here">Estrai qui</string>
+    <string name="archive_extract_here_subtitle">Estrai i file nella cartella corrente</string>
+    <string name="archive_extract_here_downloads">Estrai i file in Download</string>
+    <string name="archive_extract_to">Estrai in…</string>
+    <string name="archive_extract_to_subtitle">Scegli una cartella</string>
+    <string name="archive_view_contents">Visualizza contenuto</string>
+    <string name="archive_view_contents_subtitle">Vedi i file contenuti nell\'archivio</string>
+    <string name="archive_delete">Elimina archivio</string>
+    <string name="archive_create_title">Crea archivio</string>
+    <string name="archive_create_name">Nome archivio</string>
+    <string name="archive_create_lock">Proteggi con password</string>
+    <string name="archive_create_lock_desc">Crittografia AES-256</string>
+    <string name="archive_create_action">Crea</string>
+    <string name="archive_extract_out_toast">Estrazione in Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d elemento</item>
+        <item quantity="many">%1$d di elementi</item>
+        <item quantity="other">%1$d elementi</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d elemento, %2$s</item>
+        <item quantity="many">%1$d di elementi, %2$s</item>
+        <item quantity="other">%1$d elementi, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Password richiesta</string>
+    <string name="archive_password_placeholder">Password</string>
+    <string name="archive_password_wrong">Password errata</string>
+    <string name="archive_encrypted_name">Questo archivio è crittografato.</string>
+    <string name="archive_failed_title">Impossibile estrarre</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">Nuova cartella</string>
+    <string name="dialog_new_file">Nuovo file</string>
+    <string name="dialog_rename">Rinomina</string>
+    <string name="dialog_rename_placeholder">Nuovo nome</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d elemento nascosto</item>
+        <item quantity="many">%1$d di elementi nascosti</item>
+        <item quantity="other">%1$d elementi nascosti</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d elemento reso visibile</item>
+        <item quantity="many">%1$d di elementi resi visibili</item>
+        <item quantity="other">%1$d elementi resi visibili</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">Impossibile nascondere %1$d elemento</item>
+        <item quantity="many">Impossibile nascondere %1$d di elementi</item>
+        <item quantity="other">Impossibile nascondere %1$d elementi</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">Impossibile rendere visibile %1$d elemento</item>
+        <item quantity="many">Impossibile rendere visibili %1$d di elementi</item>
+        <item quantity="other">Impossibile rendere visibili %1$d elementi</item>
+    </plurals>
+    <string name="settings_grid_columns">Colonne cartelle</string>
+    <string name="settings_grid_columns_desc">Nella vista a icone</string>
+    <string name="settings_lock_password_changed">Password cambiata</string>
+    <string name="settings_show_vault">Mostra Cassaforte in Strumenti</string>
+    <string name="settings_show_vault_desc">Se disattivato, tieni premuto ⋯ o + in Sfoglia per aprirla</string>
+    <string name="settings_open_with">Apri con</string>
+    <string name="settings_open_text">Documenti</string>
+    <string name="settings_open_music">Musica</string>
+    <string name="settings_open_images">Immagini</string>
+    <string name="settings_open_videos">Video</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Altra app</string>
+    <string name="settings_organizer_footer">Dove Organizza download sposta ogni tipo di file.</string>
+    <string name="settings_choose_folder">Scegli</string>
+    <string name="settings_send_name">Nome dispositivo</string>
+    <string name="settings_send_name_desc">Il nome che vedono gli altri dispositivi quando cercano questo.</string>
+    <string name="settings_send_folder">File ricevuti</string>
+    <string name="settings_send_ask">Chiedi prima di ricevere</string>
+    <string name="settings_send_ask_on">Accetta o rifiuta ogni trasferimento in arrivo</string>
+    <string name="settings_send_ask_off">Chiunque sulla tua rete può salvare file qui senza chiedere</string>
+    <string name="crash_title">Kobblo si è arrestato</string>
+    <string name="crash_subtitle">Ecco cosa è andato storto. Resta su questo telefono, a meno che tu non lo condivida.</string>
+    <string name="crash_last_title">Ultimo arresto anomalo</string>
+    <string name="crash_last_subtitle">Cosa è andato storto l\'ultima volta che Kobblo si è arrestato</string>
+    <string name="crash_copy">Copia</string>
+    <string name="crash_share">Condividi</string>
+    <string name="crash_delete">Elimina</string>
+    <string name="crash_close">Chiudi</string>
+    <string name="crash_copied">Log dell\'arresto anomalo copiato</string>
+    <string name="crash_share_subject">Log arresto anomalo di Kobblo</string>
+    <string name="crash_none">Nessun arresto anomalo registrato</string>
+</resources>

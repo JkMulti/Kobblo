@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Будут разложены по папкам</string>
+    <string name="organize_pill_action">Упорядочить</string>
+    <string name="extract_pill_running">Извлечение</string>
+    <string name="extract_pill_done">Извлечено</string>
+    <string name="extract_pill_done_detail">Все файлы извлечены</string>
+    <string name="op_resume">Продолжить</string>
+    <string name="archive_kind">Архив</string>
+    <string name="archive_kind_rar">Архив RAR</string>
+    <string name="archive_extract_here">Извлечь сюда</string>
+    <string name="archive_extract_here_subtitle">Извлечь файлы в текущую папку</string>
+    <string name="archive_extract_here_downloads">Извлечь файлы в Download</string>
+    <string name="archive_extract_to">Извлечь в…</string>
+    <string name="archive_extract_to_subtitle">Выберите папку</string>
+    <string name="archive_view_contents">Просмотреть содержимое</string>
+    <string name="archive_view_contents_subtitle">Посмотреть файлы внутри архива</string>
+    <string name="archive_delete">Удалить архив</string>
+    <string name="archive_create_title">Создать архив</string>
+    <string name="archive_create_name">Имя архива</string>
+    <string name="archive_create_lock">Защитить паролем</string>
+    <string name="archive_create_lock_desc">Шифрование AES-256</string>
+    <string name="archive_create_action">Создать</string>
+    <string name="archive_extract_out_toast">Извлечение в Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d элемент</item>
+        <item quantity="few">%1$d элемента</item>
+        <item quantity="many">%1$d элементов</item>
+        <item quantity="other">%1$d элемента</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d элемент, %2$s</item>
+        <item quantity="few">%1$d элемента, %2$s</item>
+        <item quantity="many">%1$d элементов, %2$s</item>
+        <item quantity="other">%1$d элемента, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Требуется пароль</string>
+    <string name="archive_password_placeholder">Пароль</string>
+    <string name="archive_password_wrong">Неверный пароль</string>
+    <string name="archive_encrypted_name">Этот архив зашифрован.</string>
+    <string name="archive_failed_title">Не удалось извлечь</string>
+    <string name="archive_failed_dismiss">ОК</string>
+    <string name="dialog_new_folder">Новая папка</string>
+    <string name="dialog_new_file">Новый файл</string>
+    <string name="dialog_rename">Переименовать</string>
+    <string name="dialog_rename_placeholder">Новое имя</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d элемент скрыт</item>
+        <item quantity="few">%1$d элемента скрыто</item>
+        <item quantity="many">%1$d элементов скрыто</item>
+        <item quantity="other">%1$d элемента скрыто</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d элемент больше не скрыт</item>
+        <item quantity="few">%1$d элемента больше не скрыты</item>
+        <item quantity="many">%1$d элементов больше не скрыто</item>
+        <item quantity="other">%1$d элемента больше не скрыто</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">Не удалось скрыть %1$d элемент</item>
+        <item quantity="few">Не удалось скрыть %1$d элемента</item>
+        <item quantity="many">Не удалось скрыть %1$d элементов</item>
+        <item quantity="other">Не удалось скрыть %1$d элемента</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">Не удалось показать %1$d элемент</item>
+        <item quantity="few">Не удалось показать %1$d элемента</item>
+        <item quantity="many">Не удалось показать %1$d элементов</item>
+        <item quantity="other">Не удалось показать %1$d элемента</item>
+    </plurals>
+    <string name="settings_grid_columns">Столбцы папок</string>
+    <string name="settings_grid_columns_desc">В режиме значков</string>
+    <string name="settings_lock_password_changed">Пароль изменен</string>
+    <string name="settings_show_vault">Показывать сейф в «Инструментах»</string>
+    <string name="settings_show_vault_desc">Если выключено, удерживайте ⋯ или + в разделе «Обзор», чтобы открыть его</string>
+    <string name="settings_open_with">Открывать с помощью</string>
+    <string name="settings_open_text">Документы</string>
+    <string name="settings_open_music">Музыка</string>
+    <string name="settings_open_images">Изображения</string>
+    <string name="settings_open_videos">Видео</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Другое приложение</string>
+    <string name="settings_organizer_footer">Куда «Сортировка загрузок» перемещает файлы каждого типа.</string>
+    <string name="settings_choose_folder">Выбрать</string>
+    <string name="settings_send_name">Имя устройства</string>
+    <string name="settings_send_name_desc">Это имя видят другие устройства, когда ищут это.</string>
+    <string name="settings_send_folder">Полученные файлы</string>
+    <string name="settings_send_ask">Спрашивать перед получением</string>
+    <string name="settings_send_ask_on">Принимать или отклонять каждую входящую передачу</string>
+    <string name="settings_send_ask_off">Любой в вашей сети может сохранять сюда файлы без запроса</string>
+    <string name="crash_title">Сбой в работе Kobblo</string>
+    <string name="crash_subtitle">Вот что пошло не так. Эти данные остаются на телефоне, если вы ими не поделитесь.</string>
+    <string name="crash_last_title">Последний сбой</string>
+    <string name="crash_last_subtitle">Что пошло не так при последнем сбое Kobblo</string>
+    <string name="crash_copy">Копировать</string>
+    <string name="crash_share">Поделиться</string>
+    <string name="crash_delete">Удалить</string>
+    <string name="crash_close">Закрыть</string>
+    <string name="crash_copied">Журнал сбоя скопирован</string>
+    <string name="crash_share_subject">Журнал сбоя Kobblo</string>
+    <string name="crash_none">Сбоев не зафиксировано</string>
+</resources>

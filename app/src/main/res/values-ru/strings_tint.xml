@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Цвет акцента</string>
+    <string name="tint_blue">Синий</string>
+    <string name="tint_indigo">Индиго</string>
+    <string name="tint_purple">Фиолетовый</string>
+    <string name="tint_pink">Розовый</string>
+    <string name="tint_orange">Оранжевый</string>
+    <string name="tint_green">Зеленый</string>
+    <string name="tint_teal">Бирюзовый</string>
+</resources>

@@ -1,0 +1,112 @@
+name: Release
+
+# Push a tag that matches versionName in app/build.gradle.kts, for example v1.0, and this builds a
+# signed release APK and publishes it as a GitHub release. The signing key comes from the
+# repository's encrypted secrets and never touches the repository itself.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: An existing tag to build and publish, for example v1.0
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Signed release APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TAG: ${{ github.event.inputs.tag || github.ref_name }}
+    steps:
+      - name: Check out the tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.tag || github.ref }}
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Check the tag matches the app version
+        run: |
+          version=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          if [ "v$version" != "$TAG" ]; then
+            echo "::error::Tag $TAG doesn't match versionName $version in app/build.gradle.kts"
+            exit 1
+          fi
+
+      - name: Restore the signing key
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KOBBLO_KEYSTORE_BASE64 }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::error::The KOBBLO_KEYSTORE_BASE64 secret is missing"
+            exit 1
+          fi
+          echo "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/kobblo.jks"
+          echo "KOBBLO_KEYSTORE_FILE=$RUNNER_TEMP/kobblo.jks" >> "$GITHUB_ENV"
+
+      - name: Unit tests
+        run: ./gradlew testDebugUnitTest --console=plain
+
+      - name: Build the signed release APK
+        env:
+          KOBBLO_KEYSTORE_PASSWORD: ${{ secrets.KOBBLO_KEYSTORE_PASSWORD }}
+          KOBBLO_KEY_ALIAS: ${{ secrets.KOBBLO_KEY_ALIAS }}
+          KOBBLO_KEY_PASSWORD: ${{ secrets.KOBBLO_KEY_PASSWORD }}
+        run: ./gradlew assembleRelease --console=plain
+
+      - name: Verify the signature and name the APK
+        run: |
+          apk=app/build/outputs/apk/release/app-release.apk
+          apksigner="$(ls -d "$ANDROID_HOME"/build-tools/*/ | sort -V | tail -1)apksigner"
+          "$apksigner" verify --print-certs "$apk" | tee certs.txt
+          cert=$(grep -m1 'certificate SHA-256 digest' certs.txt | awk '{print $NF}')
+          if [ -z "$cert" ]; then
+            echo "::error::The release APK isn't signed"
+            exit 1
+          fi
+          echo "CERT_SHA256=$cert" >> "$GITHUB_ENV"
+          mkdir -p dist
+          cp "$apk" "dist/Kobblo-$TAG.apk"
+          (cd dist && sha256sum "Kobblo-$TAG.apk" > "Kobblo-$TAG.apk.sha256")
+
+      - name: Write the release notes
+        run: |
+          code=$(grep -oP 'versionCode = \K[0-9]+' app/build.gradle.kts)
+          changelog="fastlane/metadata/android/en-US/changelogs/$code.txt"
+          {
+            if [ -f "$changelog" ]; then cat "$changelog"; echo; fi
+            echo "### Install"
+            echo "Download \`Kobblo-$TAG.apk\` below and open it on your phone. Android 8.0 or later."
+            echo
+            echo "### Verify the download"
+            echo "- APK SHA-256: \`$(cut -d' ' -f1 "dist/Kobblo-$TAG.apk.sha256")\`"
+            echo "- Signing certificate SHA-256: \`$CERT_SHA256\`"
+          } > release-notes.md
+          cat release-notes.md
+
+      - name: Publish the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/* --clobber
+            gh release edit "$TAG" --notes-file release-notes.md
+          else
+            gh release create "$TAG" dist/* --title "Kobblo $TAG" --notes-file release-notes.md --verify-tag
+          fi
+
+      - name: Remove the signing key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/kobblo.jks"

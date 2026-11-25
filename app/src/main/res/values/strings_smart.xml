@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Smart Features -->
+    <string name="smart_title">Smart Features</string>
+    <string name="smart_subtitle">Find photos by what\'s in them, read the text in them, and see everyone\'s photos together. It all happens on your phone.</string>
+    <string name="smart_settings_row_body">Smart Search, text in photos and people</string>
+    <string name="smart_features_header">Features</string>
+    <string name="smart_search">Smart Search</string>
+    <string name="smart_search_body">Describe a photo to find it, like \"dog on the beach\".</string>
+    <string name="smart_text">Text in Photos</string>
+    <string name="smart_text_body">Find photos by the words in them, and copy text from any photo.</string>
+    <string name="smart_people">People</string>
+    <string name="smart_people_body">Puts the photos of each person together, for you to name.</string>
+    <string name="smart_quality_accurate">Accurate</string>
+    <string name="smart_quality_fast">Fast</string>
+    <string name="smart_quality_size">%1$s download</string>
+    <string name="smart_quality_size_recommended">%1$s download · Recommended for this phone</string>
+    <string name="smart_quality_footer">Accurate finds more. Fast takes less space and suits phones with less memory.</string>
+    <string name="smart_downloads_header">Downloads</string>
+    <string name="smart_wifi_only">Download on Wi-Fi Only</string>
+    <string name="smart_wifi_only_body">Models are large, so they wait for Wi-Fi.</string>
+    <string name="smart_source_footer">Models come from Hugging Face, once, and are checked before use. Your photos and what\'s found in them never leave your phone.</string>
+    <string name="smart_indexing_header">Reading Your Photos</string>
+    <string name="smart_while_charging">While Charging</string>
+    <string name="smart_while_charging_body">Only when plugged in, so it never costs battery.</string>
+    <string name="smart_overnight">Overnight</string>
+    <string name="smart_overnight_body">From 1 to 7 AM, plugged in or not.</string>
+    <string name="smart_index_now">Read New Photos Now</string>
+    <string name="smart_index_footer">It pauses when the phone gets warm or the battery is low.</string>
+
+    <!-- Status -->
+    <string name="smart_status_off">%1$s to download</string>
+    <string name="smart_status_waiting">Waiting for Wi-Fi</string>
+    <string name="smart_status_queued">Waiting to download</string>
+    <string name="smart_status_downloading">Downloading · %1$s of %2$s</string>
+    <string name="smart_status_ready">On</string>
+    <string name="smart_status_update">On · An update is ready</string>
+    <string name="smart_status_reading">Reading photos · %1$s of %2$s</string>
+    <string name="smart_update">Update</string>
+    <string name="smart_unsupported">Smart Features need Android 11 or later.</string>
+
+    <!-- Remove -->
+    <string name="smart_remove_title">Turn Off %1$s?</string>
+    <string name="smart_remove_body">Its model and what it found are deleted. You can download it again any time.</string>
+    <string name="smart_remove_people_body">Its model, the people it found and their names are deleted.</string>
+    <string name="smart_remove">Turn Off</string>
+
+    <!-- Search -->
+    <string name="smart_search_section">Found by Smart Search</string>
+
+    <!-- People -->
+    <string name="smart_people_title">People</string>
+    <string name="smart_people_see_all">See All</string>
+    <string name="smart_people_add_name">Add Name</string>
+    <string name="smart_people_name_title">Name This Person</string>
+    <string name="smart_people_rename_title">Rename</string>
+    <string name="smart_people_name_action">Done</string>
+    <string name="smart_people_hide">Hide This Person</string>
+    <string name="smart_people_empty">No People Yet</string>
+    <string name="smart_people_empty_body">People appear here as your photos are read, which happens while the phone charges.</string>
+
+    <!-- Text in photos -->
+    <string name="smart_text_button">Text</string>
+    <string name="smart_text_title">Text in This Photo</string>
+    <string name="smart_text_copy_all">Copy All</string>
+    <string name="smart_text_share">Share Text</string>
+
+    <!-- Welcome step -->
+    <string name="smart_welcome_download">Download %1$s</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Klasörlere ayrılacak</string>
+    <string name="organize_pill_action">Düzenle</string>
+    <string name="extract_pill_running">Çıkartılıyor</string>
+    <string name="extract_pill_done">Çıkartıldı</string>
+    <string name="extract_pill_done_detail">Tüm dosyalar çıkartıldı</string>
+    <string name="op_resume">Devam et</string>
+    <string name="archive_kind">Arşiv</string>
+    <string name="archive_kind_rar">RAR arşivi</string>
+    <string name="archive_extract_here">Buraya çıkart</string>
+    <string name="archive_extract_here_subtitle">Dosyaları geçerli klasöre çıkart</string>
+    <string name="archive_extract_here_downloads">Dosyaları Download klasörüne çıkart</string>
+    <string name="archive_extract_to">Şuraya çıkart…</string>
+    <string name="archive_extract_to_subtitle">Bir klasör seçin</string>
+    <string name="archive_view_contents">İçeriği görüntüle</string>
+    <string name="archive_view_contents_subtitle">Bu arşivin içindeki dosyaları görün</string>
+    <string name="archive_delete">Arşivi sil</string>
+    <string name="archive_create_title">Arşiv oluştur</string>
+    <string name="archive_create_name">Arşiv adı</string>
+    <string name="archive_create_lock">Şifreyle kilitle</string>
+    <string name="archive_create_lock_desc">AES-256 ile şifrelenir</string>
+    <string name="archive_create_action">Oluştur</string>
+    <string name="archive_extract_out_toast">Download/%1$s konumuna çıkartılıyor</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d öğe</item>
+        <item quantity="other">%1$d öğe</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d öğe, %2$s</item>
+        <item quantity="other">%1$d öğe, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Şifre gerekli</string>
+    <string name="archive_password_placeholder">Şifre</string>
+    <string name="archive_password_wrong">Yanlış şifre</string>
+    <string name="archive_encrypted_name">Bu arşiv şifrelenmiş.</string>
+    <string name="archive_failed_title">Çıkartılamadı</string>
+    <string name="archive_failed_dismiss">Tamam</string>
+    <string name="dialog_new_folder">Yeni klasör</string>
+    <string name="dialog_new_file">Yeni dosya</string>
+    <string name="dialog_rename">Yeniden adlandır</string>
+    <string name="dialog_rename_placeholder">Yeni ad</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d öğe gizlendi</item>
+        <item quantity="other">%1$d öğe gizlendi</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d öğe artık gizli değil</item>
+        <item quantity="other">%1$d öğe artık gizli değil</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d öğe gizlenemedi</item>
+        <item quantity="other">%1$d öğe gizlenemedi</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d öğe görünür yapılamadı</item>
+        <item quantity="other">%1$d öğe görünür yapılamadı</item>
+    </plurals>
+    <string name="settings_grid_columns">Klasör sütunları</string>
+    <string name="settings_grid_columns_desc">Simge görünümünde</string>
+    <string name="settings_lock_password_changed">Şifre değiştirildi</string>
+    <string name="settings_show_vault">Kasa\'yı Araçlar\'da göster</string>
+    <string name="settings_show_vault_desc">Kapalıyken açmak için Göz At\'ta ⋯ veya + simgesine basılı tutun</string>
+    <string name="settings_open_with">Şununla aç</string>
+    <string name="settings_open_text">Belgeler</string>
+    <string name="settings_open_music">Müzik</string>
+    <string name="settings_open_images">Resimler</string>
+    <string name="settings_open_videos">Videolar</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Başka uygulama</string>
+    <string name="settings_organizer_footer">İndirilenleri düzenle özelliğinin her dosya türünü taşıyacağı yer.</string>
+    <string name="settings_choose_folder">Seç</string>
+    <string name="settings_send_name">Cihaz adı</string>
+    <string name="settings_send_name_desc">Diğer cihazlar bu cihazı ararken bu adı görür.</string>
+    <string name="settings_send_folder">Alınan dosyalar</string>
+    <string name="settings_send_ask">Almadan önce sor</string>
+    <string name="settings_send_ask_on">Gelen her aktarımı kabul edin veya reddedin</string>
+    <string name="settings_send_ask_off">Ağınızdaki herkes size sormadan buraya dosya kaydedebilir</string>
+    <string name="crash_title">Kobblo durdu</string>
+    <string name="crash_subtitle">Sorunun ne olduğu aşağıda. Siz paylaşmadıkça bu bilgi bu telefonda kalır.</string>
+    <string name="crash_last_title">Son çökme</string>
+    <string name="crash_last_subtitle">Kobblo en son durduğunda neyin ters gittiği</string>
+    <string name="crash_copy">Kopyala</string>
+    <string name="crash_share">Paylaş</string>
+    <string name="crash_delete">Sil</string>
+    <string name="crash_close">Kapat</string>
+    <string name="crash_copied">Çökme kaydı kopyalandı</string>
+    <string name="crash_share_subject">Kobblo çökme kaydı</string>
+    <string name="crash_none">Kayıtlı çökme yok</string>
+</resources>

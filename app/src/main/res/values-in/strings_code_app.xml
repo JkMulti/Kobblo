@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">Shizuku tidak terdeteksi atau tidak berjalan</string>
+    <string name="app_auth_required">Autentikasi diperlukan. Berikan izin.</string>
+    <string name="app_folder_open_failed">Folder ini tidak dapat dibuka.</string>
+    <string name="app_cloud">Cloud</string>
+    <string name="app_open_failed_named">Tidak dapat membuka %1$s</string>
+    <string name="app_open_failed">Tidak dapat membuka berkas ini.</string>
+    <string name="app_open_access_denied">Aplikasi lain tidak mengizinkan akses ke berkas ini.</string>
+    <string name="app_rename_some_failed">Beberapa berkas tidak diganti namanya, karena namanya sudah dipakai atau tidak dapat digunakan</string>
+    <string name="app_drive_delete_failed">Beberapa berkas Google Drive tidak dapat dihapus.</string>
+    <string name="app_organize_nothing">Tidak ada berkas untuk diatur</string>
+    <string name="app_unknown">Tidak dikenal</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="other">Dipindahkan ke Baru dihapus selama %1$d hari</item>
+    </plurals>
+    <string name="app_bin_moved_for">Dipindahkan ke Baru dihapus selama %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">Mencopot versi sebelumnya…</string>
+    <string name="app_install_done">Aplikasi dipasang</string>
+    <string name="app_install_failed">Aplikasi ini tidak dapat dipasang.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="other">%1$d dari %2$d aplikasi dipasang</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">Pemasangan sekaligus memerlukan Shizuku untuk otomatisasi — gunakan mode Senyap saja.</string>
+    <string name="app_mega_wrong_login">Email atau kata sandi tidak valid.</string>
+    <string name="app_mega_login_failed">Tidak dapat masuk. Periksa email dan kata sandi Anda.</string>
+    <string name="app_connect_failed">Tidak dapat terhubung. Periksa alamat dan info masuk Anda.</string>
+    <string name="app_share_unreadable">Tidak ada yang dapat dibaca di sini.</string>
+    <string name="app_share_storage">Penyimpanan</string>
+    <string name="app_share_saved_one">%1$s disimpan ke %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="other">%1$d dari %2$d berkas disimpan ke %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="other">%1$d berkas disimpan ke %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">Baru saja</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="other">%1$d mnt lalu</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="other">%1$d jam lalu</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="other">%1$d hari lalu</item>
+    </plurals>
+    <string name="app_recent_visited">Dikunjungi</string>
+    <string name="app_recent_opened">Dibuka</string>
+    <string name="app_recent_renamed_from">Diganti nama dari %1$s</string>
+    <string name="app_extract_needs_space">Perlu ruang %1$s, sedangkan yang kosong %2$s</string>
+    <string name="app_extract_storage_full">Dihentikan karena penyimpanan hampir penuh. Isi arsip ini lebih besar dari ruang yang tersedia</string>
+</resources>

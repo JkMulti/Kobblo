@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Seront triés dans des dossiers</string>
+    <string name="organize_pill_action">Organiser</string>
+    <string name="extract_pill_running">Extraction</string>
+    <string name="extract_pill_done">Extrait</string>
+    <string name="extract_pill_done_detail">Tous les fichiers ont été extraits</string>
+    <string name="op_resume">Reprendre</string>
+    <string name="archive_kind">Archive</string>
+    <string name="archive_kind_rar">Archive RAR</string>
+    <string name="archive_extract_here">Extraire ici</string>
+    <string name="archive_extract_here_subtitle">Extraire les fichiers dans le dossier actuel</string>
+    <string name="archive_extract_here_downloads">Extraire les fichiers dans Download</string>
+    <string name="archive_extract_to">Extraire vers…</string>
+    <string name="archive_extract_to_subtitle">Choisir un dossier</string>
+    <string name="archive_view_contents">Afficher le contenu</string>
+    <string name="archive_view_contents_subtitle">Voir les fichiers de cette archive</string>
+    <string name="archive_delete">Supprimer l\'archive</string>
+    <string name="archive_create_title">Créer une archive</string>
+    <string name="archive_create_name">Nom de l\'archive</string>
+    <string name="archive_create_lock">Protéger par mot de passe</string>
+    <string name="archive_create_lock_desc">Chiffrement AES-256</string>
+    <string name="archive_create_action">Créer</string>
+    <string name="archive_extract_out_toast">Extraction dans Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d élément</item>
+        <item quantity="many">%1$d d\'éléments</item>
+        <item quantity="other">%1$d éléments</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d élément, %2$s</item>
+        <item quantity="many">%1$d d\'éléments, %2$s</item>
+        <item quantity="other">%1$d éléments, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Mot de passe requis</string>
+    <string name="archive_password_placeholder">Mot de passe</string>
+    <string name="archive_password_wrong">Mot de passe incorrect</string>
+    <string name="archive_encrypted_name">Cette archive est chiffrée.</string>
+    <string name="archive_failed_title">Échec de l\'extraction</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">Nouveau dossier</string>
+    <string name="dialog_new_file">Nouveau fichier</string>
+    <string name="dialog_rename">Renommer</string>
+    <string name="dialog_rename_placeholder">Nouveau nom</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d élément masqué</item>
+        <item quantity="many">%1$d d\'éléments masqués</item>
+        <item quantity="other">%1$d éléments masqués</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d élément réaffiché</item>
+        <item quantity="many">%1$d d\'éléments réaffichés</item>
+        <item quantity="other">%1$d éléments réaffichés</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">Impossible de masquer %1$d élément</item>
+        <item quantity="many">Impossible de masquer %1$d d\'éléments</item>
+        <item quantity="other">Impossible de masquer %1$d éléments</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">Impossible de réafficher %1$d élément</item>
+        <item quantity="many">Impossible de réafficher %1$d d\'éléments</item>
+        <item quantity="other">Impossible de réafficher %1$d éléments</item>
+    </plurals>
+    <string name="settings_grid_columns">Colonnes des dossiers</string>
+    <string name="settings_grid_columns_desc">En vue Icônes</string>
+    <string name="settings_lock_password_changed">Mot de passe modifié</string>
+    <string name="settings_show_vault">Afficher le coffre-fort dans Outils</string>
+    <string name="settings_show_vault_desc">Si désactivé, appuyez de manière prolongée sur ⋯ ou + dans Parcourir pour l\'ouvrir</string>
+    <string name="settings_open_with">Ouvrir avec</string>
+    <string name="settings_open_text">Documents</string>
+    <string name="settings_open_music">Musique</string>
+    <string name="settings_open_images">Images</string>
+    <string name="settings_open_videos">Vidéos</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Autre application</string>
+    <string name="settings_organizer_footer">Dossier où Organiser les téléchargements place chaque type de fichier.</string>
+    <string name="settings_choose_folder">Choisir</string>
+    <string name="settings_send_name">Nom de l\'appareil</string>
+    <string name="settings_send_name_desc">Le nom que voient les autres appareils lorsqu\'ils recherchent celui-ci.</string>
+    <string name="settings_send_folder">Fichiers reçus</string>
+    <string name="settings_send_ask">Demander avant de recevoir</string>
+    <string name="settings_send_ask_on">Accepter ou refuser chaque transfert entrant</string>
+    <string name="settings_send_ask_off">N\'importe qui sur votre réseau peut enregistrer des fichiers ici sans demander</string>
+    <string name="crash_title">Kobblo s\'est arrêté</string>
+    <string name="crash_subtitle">Voici ce qui s\'est mal passé. Ces informations restent sur ce téléphone, sauf si vous les partagez.</string>
+    <string name="crash_last_title">Dernier plantage</string>
+    <string name="crash_last_subtitle">Ce qui s\'est mal passé lors du dernier arrêt d\'Kobblo</string>
+    <string name="crash_copy">Copier</string>
+    <string name="crash_share">Partager</string>
+    <string name="crash_delete">Supprimer</string>
+    <string name="crash_close">Fermer</string>
+    <string name="crash_copied">Rapport de plantage copié</string>
+    <string name="crash_share_subject">Rapport de plantage Kobblo</string>
+    <string name="crash_none">Aucun plantage enregistré</string>
+</resources>

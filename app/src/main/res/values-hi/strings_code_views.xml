@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">एन्क्रिप्ट किया गया</string>
+    <string name="view_archive_enter_password">पासवर्ड दर्ज करें।</string>
+    <string name="view_archive_contents_unreadable">अंदर की सामग्री पढ़ी नहीं जा सकी।</string>
+    <string name="view_archive_password_check_failed">उस पासवर्ड की जाँच नहीं हो सकी।</string>
+    <string name="view_archive_password_prompt">अंदर क्या है, यह देखने के लिए पासवर्ड दर्ज करें।</string>
+    <string name="view_archive_checking_password">पासवर्ड जाँचा जा रहा है…</string>
+    <plurals name="view_file_count">
+        <item quantity="one">%1$d फ़ाइल</item>
+        <item quantity="other">%1$d फ़ाइलें</item>
+    </plurals>
+    <string name="view_archive_empty">यह आर्काइव खाली है</string>
+    <string name="view_extract_all">सभी निकालें</string>
+    <string name="view_archive_invalid_zip">अमान्य ZIP फ़ाइल</string>
+    <string name="view_archive_extracting">निकाला जा रहा है...</string>
+    <string name="view_archive_storage_full">स्टोरेज लगभग भर जाने के कारण रोक दिया गया। यह आर्काइव खुलकर जितनी जगह लेगा, उतनी जगह नहीं है।</string>
+    <string name="view_archive_extraction_cancelled">निकालना रद्द किया गया</string>
+    <string name="view_archive_nothing_extracted">कोई फ़ाइल नहीं निकाली गई</string>
+    <string name="view_archive_encrypted_entry">(एन्क्रिप्ट किया गया आर्काइव)</string>
+    <string name="view_archive_done">हो गया</string>
+    <string name="view_zip_entry_size">आकार: %1$s</string>
+    <string name="view_zip_entry_size_unknown">आकार अज्ञात</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="one">ले जाने के लिए %1$d आइटम</item>
+        <item quantity="other">ले जाने के लिए %1$d आइटम</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="one">कॉपी करने के लिए %1$d आइटम</item>
+        <item quantity="other">कॉपी करने के लिए %1$d आइटम</item>
+    </plurals>
+    <string name="view_hide_items">आइटम छिपाएँ</string>
+    <string name="view_show_items">आइटम दिखाएँ</string>
+    <string name="view_move_here">यहाँ ले जाएँ</string>
+    <string name="view_picker_storage">स्टोरेज</string>
+    <string name="view_picker_downloads">डाउनलोड</string>
+    <string name="view_picker_documents">दस्तावेज़</string>
+    <string name="view_picker_pictures">चित्र</string>
+    <string name="view_picker_music">संगीत</string>
+    <string name="view_picker_tap_to_select">चुनने के लिए फ़ाइलों पर टैप करें</string>
+    <plurals name="view_selected_count">
+        <item quantity="one">%1$d चुना गया</item>
+        <item quantity="other">%1$d चुने गए</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+    <string name="view_trash_subtitle_kept">%1$s · रखने की अवधि: %2$s</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · हटाई गई फ़ाइलें नहीं रखी जा रहीं</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="one">%1$d सेकंड</item>
+        <item quantity="other">%1$d सेकंड</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="one">%1$d मिनट</item>
+        <item quantity="other">%1$d मिनट</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="one">%1$d घंटा</item>
+        <item quantity="other">%1$d घंटे</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="one">%1$d दिन</item>
+        <item quantity="other">%1$d दिन</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="one">%1$d हफ़्ता</item>
+        <item quantity="other">%1$d हफ़्ते</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="one">%1$d महीना</item>
+        <item quantity="other">%1$d महीने</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="one">%1$d साल</item>
+        <item quantity="other">%1$d साल</item>
+    </plurals>
+    <string name="view_show_as_icons">आइकन के रूप में दिखाएँ</string>
+    <string name="view_show_as_list">सूची के रूप में दिखाएँ</string>
+    <string name="view_trash_settings">\'हाल ही में हटाए गए\' की सेटिंग्स</string>
+    <string name="view_restore_all">सभी पुनर्स्थापित करें</string>
+    <string name="view_delete_all">सभी हटाएँ</string>
+    <string name="view_delete_named_title">\"%1$s\" हटाएँ?</string>
+    <string name="view_trash_delete_body">इसके बाद इसे पुनर्स्थापित नहीं किया जा सकेगा।</string>
+    <string name="view_trash_delete_everything_title">सब कुछ हटाएँ?</string>
+    <string name="view_trash_delete_everything_body">इसके बाद \'हाल ही में हटाए गए\' में से कुछ भी पुनर्स्थापित नहीं किया जा सकेगा।</string>
+    <string name="view_trash_days_to_keep">फ़ाइलें कितने दिन रखें</string>
+    <string name="view_cat_duplicates">डुप्लिकेट</string>
+    <string name="view_manage_storage">स्टोरेज प्रबंधित करें</string>
+    <string name="view_manage_storage_subtitle">%1$s खाली, आपके फ़ोन की सेटिंग्स में</string>
+    <string name="view_delete_image_title">इमेज हटाएँ?</string>
+    <string name="view_delete_moves_to_bin">यह \'हाल ही में हटाए गए\' में चली जाएगी।</string>
+    <string name="view_edit_image">इमेज संपादित करें</string>
+    <string name="view_document_unreadable">यह दस्तावेज़ दिखाया नहीं जा सकता। हो सकता है यह खराब हो।</string>
+    <string name="view_document_reading">दस्तावेज़ पढ़ा जा रहा है…</string>
+    <string name="view_open_in_external_app">बाहरी ऐप में खोलें</string>
+    <string name="view_copy_text">टेक्स्ट कॉपी करें</string>
+    <string name="view_text_copied">टेक्स्ट क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="view_loading_page">पेज लोड हो रहा है…</string>
+    <string name="view_share_document">दस्तावेज़ साझा करें</string>
+    <string name="view_open_with_chooser">इसके साथ खोलें</string>
+    <string name="view_doc_error_reading">दस्तावेज़ पढ़ने में त्रुटि: %1$s</string>
+    <string name="view_doc_unable_to_read_content">सामग्री पढ़ी नहीं जा सकी</string>
+    <string name="view_doc_empty">(खाली दस्तावेज़)</string>
+    <string name="view_doc_truncated_pages">... [सामग्री छोटी की गई। पहले 250 पेज दिखाए जा रहे हैं।]</string>
+    <string name="view_doc_empty_file">(खाली फ़ाइल)</string>
+    <string name="view_doc_truncated_size">... [सामग्री 4 MB पर छोटी की गई]</string>
+    <string name="view_docx_empty_no_text">(यह Word दस्तावेज़ खाली लगता है या इसमें पढ़ने लायक कोई टेक्स्ट नहीं है)</string>
+    <string name="view_docx_error_reading_damaged">DOCX फ़ाइल पढ़ने में त्रुटि: %1$s\n\nहो सकता है फ़ाइल खराब हो या पासवर्ड से सुरक्षित हो।</string>
+    <string name="view_docx_unable_to_read">दस्तावेज़ पढ़ा नहीं जा सका</string>
+    <string name="view_docx_empty">(यह Word दस्तावेज़ खाली लगता है)</string>
+    <string name="view_docx_error_reading">DOCX फ़ाइल पढ़ने में त्रुटि: %1$s</string>
+    <string name="view_file_error_reading">फ़ाइल पढ़ने में त्रुटि: %1$s</string>
+    <string name="view_apk_not_installed">यह ऐप इंस्टॉल नहीं है।</string>
+    <string name="view_apk_not_older">यह इस ऐप का पुराना वर्शन नहीं है।</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku कनेक्ट नहीं है। सेट अप करने के लिए टैप करें।</string>
+    <string name="view_apk_normal_install">सामान्य इंस्टॉल</string>
+    <string name="view_apk_normal_install_subtitle">सिस्टम पैकेज इंस्टॉलर का इस्तेमाल करता है</string>
+    <string name="view_apk_downgrade">डाउनग्रेड करें</string>
+    <string name="view_apk_downgrade_subtitle">पुराना वर्शन ज़बरदस्ती इंस्टॉल करें</string>
+    <string name="view_apk_downgrade_install">डाउनग्रेड इंस्टॉल</string>
+    <string name="view_apk_silent_install">साइलेंट इंस्टॉल</string>
+    <string name="view_apk_silent_install_subtitle">बिना पूछे बैकग्राउंड में इंस्टॉल</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="one">%1$d ऐप इंस्टॉल करें</item>
+        <item quantity="other">%1$d ऐप इंस्टॉल करें</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku कनेक्ट है</string>
+    <string name="view_apk_install_count">%1$d इंस्टॉल करें</string>
+    <string name="view_remove">हटाएँ</string>
+    <string name="view_connected_account">कनेक्ट किया गया खाता</string>
+    <string name="view_unknown">अज्ञात</string>
+    <string name="view_unknown_version">अज्ञात वर्शन</string>
+    <plurals name="view_app_count">
+        <item quantity="one">%1$d ऐप</item>
+        <item quantity="other">%1$d ऐप</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">यह ऐप डाउनग्रेड करें?</string>
+    <string name="view_apk_downgrade_one_body">Android ज़्यादातर ऐप्स को पुराने वर्शन पर वापस जाने नहीं देता। इसे इंस्टॉल करने के लिए पहले मौजूदा ऐप को अनइंस्टॉल करना होगा, और इससे उसका सारा डेटा मिट जाएगा।</string>
+    <string name="view_apk_downgrade_many_title">ये ऐप डाउनग्रेड करें?</string>
+    <string name="view_apk_downgrade_many_body">Android ज़्यादातर ऐप्स को पुराने वर्शन पर वापस जाने नहीं देता। इन्हें इंस्टॉल करने के लिए पहले मौजूदा ऐप्स को अनइंस्टॉल करना होगा, और इससे उनका सारा डेटा मिट जाएगा।</string>
+    <string name="view_apk_erase_and_downgrade">डेटा मिटाएँ और डाउनग्रेड करें</string>
+    <string name="view_apk_try_keeping_data">डेटा रखने की कोशिश करें</string>
+    <string name="view_share_files">फ़ाइलें साझा करें</string>
+    <string name="view_current_folder">मौजूदा फ़ोल्डर</string>
+    <string name="view_delete_selected_item">चुना गया आइटम हटाएँ?</string>
+    <string name="view_delete_selected_items">चुने गए आइटम हटाएँ?</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="one">%1$d आइटम हटाएँ?</item>
+        <item quantity="other">%1$d आइटम हटाएँ?</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">खाली फ़ोल्डर हमेशा के लिए हटा दिए जाते हैं, क्योंकि उनमें पुनर्स्थापित करने के लिए कुछ नहीं होता।</string>
+    <string name="view_delete_they_move_to_bin">ये \'हाल ही में हटाए गए\' में चले जाएँगे।</string>
+    <string name="view_extracted_folder_name">निकाली गई फ़ाइलें</string>
+    <string name="view_share_archive">आर्काइव साझा करें</string>
+    <string name="view_share_named">%1$s साझा करें</string>
+    <string name="view_no_app_to_open">इस फ़ाइल को खोलने के लिए कोई ऐप उपलब्ध नहीं है</string>
+    <string name="view_hiding_files_title">फ़ाइलें छिपाना</string>
+    <string name="view_hiding_files_body">छिपाने पर नाम से पहले एक डॉट (.) लग जाता है, इसलिए गैलरी और ज़्यादातर ऐप्स उसे नहीं दिखाते। उसे वापस पाने के लिए, सेटिंग्स में \'छिपी हुई फ़ाइलें दिखाएँ\' चालू करें और उस पर दबाकर रखें।</string>
+    <string name="view_got_it">ठीक है</string>
+    <string name="view_item_exists_title">आइटम पहले से मौजूद है</string>
+    <string name="view_item_exists_body">इस जगह पर \"%1$s\" नाम का आइटम पहले से मौजूद है।</string>
+    <string name="view_item_exists_question">क्या आप इसे ओवरराइट करना चाहेंगे, इसका नाम बदलकर \"%1$s\" रखना चाहेंगे, या इसे छोड़ना चाहेंगे?</string>
+    <string name="view_overwrite">ओवरराइट करें</string>
+    <string name="view_skip">छोड़ें</string>
+    <string name="view_numbering_none">कोई नहीं</string>
+</resources>

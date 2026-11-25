@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Joins two whole sentences, the first without its full stop. -->
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <!-- What went wrong, then why: "Couldn't create a.zip: the name or path is too long". -->
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <!-- A whole sentence, then the reason, which ends without its full stop. -->
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+
+    <!-- Shizuku -->
+    <string name="app_shizuku_not_running">Shizuku not detected or not running</string>
+
+    <!-- Folders and files -->
+    <string name="app_auth_required">Authentication required. Please grant permission.</string>
+    <string name="app_folder_open_failed">This folder couldn\'t be opened.</string>
+    <!-- The name of a cloud folder that has none of its own, as the place to go back to. -->
+    <string name="app_cloud">Cloud</string>
+    <string name="app_open_failed_named">Couldn\'t open %1$s</string>
+    <string name="app_open_failed">Couldn\'t open this file.</string>
+    <string name="app_open_access_denied">The other app didn\'t allow access to this file.</string>
+    <string name="app_rename_some_failed">Some files weren\'t renamed, because the name was taken or couldn\'t be used</string>
+    <string name="app_drive_delete_failed">Some Google Drive files couldn\'t be deleted.</string>
+    <string name="app_organize_nothing">No files to organize</string>
+    <!-- A file, size or date the server didn't give. -->
+    <string name="app_unknown">Unknown</string>
+
+    <!-- Recently Deleted -->
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">Moved to Recently Deleted for %1$d day</item>
+        <item quantity="other">Moved to Recently Deleted for %1$d days</item>
+    </plurals>
+    <!-- How long, then the unit it was saved in, from older versions. -->
+    <string name="app_bin_moved_for">Moved to Recently Deleted for %1$d %2$s</string>
+
+    <!-- Installing apps -->
+    <string name="app_install_uninstalling_old">Uninstalling the previous version…</string>
+    <string name="app_install_done">App installed</string>
+    <string name="app_install_failed">This app couldn\'t be installed.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">Installed %1$d of %2$d app</item>
+        <item quantity="other">Installed %1$d of %2$d apps</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">Batch install needs Shizuku for automation — use Silent mode instead.</string>
+
+    <!-- MEGA sign-in -->
+    <string name="app_mega_wrong_login">Invalid email or password.</string>
+    <string name="app_mega_login_failed">Couldn\'t log in. Check your email and password.</string>
+
+    <!-- Network drives -->
+    <string name="app_connect_failed">Couldn\'t connect. Check the address and your login.</string>
+
+    <!-- Files shared into the app -->
+    <string name="app_share_unreadable">Nothing here could be read.</string>
+    <!-- Where shared files go, when the folder has no name of its own. -->
+    <string name="app_share_storage">Storage</string>
+    <string name="app_share_saved_one">Saved %1$s to %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">Saved %1$d of %2$d file to %3$s</item>
+        <item quantity="other">Saved %1$d of %2$d files to %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">Saved %1$d file to %2$s</item>
+        <item quantity="other">Saved %1$d files to %2$s</item>
+    </plurals>
+
+    <!-- Recents: when, and what was done -->
+    <string name="app_recent_just_now">Just now</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d min ago</item>
+        <item quantity="other">%1$d mins ago</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="other">%1$d hours ago</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d day ago</item>
+        <item quantity="other">%1$d days ago</item>
+    </plurals>
+    <string name="app_recent_visited">Visited</string>
+    <string name="app_recent_opened">Opened</string>
+    <string name="app_recent_renamed_from">Renamed from %1$s</string>
+    <string name="app_extract_needs_space">This needs %1$s of space, and %2$s is free</string>
+    <string name="app_extract_storage_full">Stopped because storage is nearly full. This archive unpacks to more than there\'s room for</string>
+</resources>

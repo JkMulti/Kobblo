@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s。%2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s%2$s。</string>
+    <string name="app_shizuku_not_running">Shizukuが検出されないか、実行されていません</string>
+    <string name="app_auth_required">認証が必要です。権限を許可してください。</string>
+    <string name="app_folder_open_failed">このフォルダーを開けませんでした。</string>
+    <string name="app_cloud">クラウド</string>
+    <string name="app_open_failed_named">%1$s を開けませんでした</string>
+    <string name="app_open_failed">このファイルを開けませんでした。</string>
+    <string name="app_open_access_denied">他のアプリがこのファイルへのアクセスを許可しませんでした。</string>
+    <string name="app_rename_some_failed">名前がすでに使われているか使用できないため、一部のファイルの名前を変更できませんでした</string>
+    <string name="app_drive_delete_failed">Google ドライブの一部のファイルを削除できませんでした。</string>
+    <string name="app_organize_nothing">整理するファイルがありません</string>
+    <string name="app_unknown">不明</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="other">ゴミ箱に移動しました（%1$d 日間保管）</item>
+    </plurals>
+    <string name="app_bin_moved_for">ゴミ箱に移動しました（保管期間: %1$d %2$s）</string>
+    <string name="app_install_uninstalling_old">以前のバージョンをアンインストール中…</string>
+    <string name="app_install_done">アプリをインストールしました</string>
+    <string name="app_install_failed">このアプリをインストールできませんでした。</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="other">%2$d 個中 %1$d 個のアプリをインストールしました</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">一括インストールを自動で行うにはShizukuが必要です。代わりにサイレントモードを使用してください。</string>
+    <string name="app_mega_wrong_login">メールアドレスまたはパスワードが正しくありません。</string>
+    <string name="app_mega_login_failed">ログインできませんでした。メールアドレスとパスワードを確認してください。</string>
+    <string name="app_connect_failed">接続できませんでした。アドレスとログイン情報を確認してください。</string>
+    <string name="app_share_unreadable">読み込めるものがありませんでした。</string>
+    <string name="app_share_storage">ストレージ</string>
+    <string name="app_share_saved_one">%1$s を %2$s に保存しました</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="other">%2$d 個中 %1$d 個のファイルを %3$s に保存しました</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="other">%1$d 個のファイルを %2$s に保存しました</item>
+    </plurals>
+    <string name="app_recent_just_now">たった今</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="other">%1$d 分前</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="other">%1$d 時間前</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="other">%1$d 日前</item>
+    </plurals>
+    <string name="app_recent_visited">閲覧した</string>
+    <string name="app_recent_opened">開いた</string>
+    <string name="app_recent_renamed_from">%1$s から名前を変更</string>
+    <string name="app_extract_needs_space">%1$s の空き容量が必要ですが、空きは %2$s です</string>
+    <string name="app_extract_storage_full">ストレージの空き容量がほとんどないため、停止しました。この圧縮ファイルを解凍すると、空き容量を超えてしまいます</string>
+</resources>

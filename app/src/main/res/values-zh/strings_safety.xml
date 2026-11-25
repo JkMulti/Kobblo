@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">正在删除</string>
+    <string name="safety_restoring">正在恢复</string>
+    <string name="safety_progress_count">%1$s / %2$s</string>
+    <string name="safety_reason_missing">该项目已不存在</string>
+    <string name="safety_reason_no_space">存储空间不足</string>
+    <string name="safety_reason_into_itself">文件夹不能放入其自身</string>
+    <string name="safety_reason_denied">应用无权更改该项目</string>
+    <string name="safety_reason_name_too_long">名称或路径过长</string>
+    <string name="safety_reason_check_failed">副本与原件不一致，因此保留了原件</string>
+    <string name="safety_reason_not_possible">无法对此项目执行此操作</string>
+    <string name="safety_reason_unknown">出现未知问题</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="other">%2$d 个项目中有 %1$d 个未删除，主要原因是%3$s。</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="other">%2$d 个项目中有 %1$d 个未能转移且保持不变，主要原因是%3$s。</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="other">%1$d 个项目因名称已被占用而重新命名。</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="other">文件夹中有 %1$d 个链接无法复制到此处。</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="other">已停止。%1$d 个项目已移动，其余项目仍在原位置。</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="other">已停止。未复制任何内容。</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="other">已恢复 %1$d 个项目。</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="other">%1$d 个项目已重新命名，因为原位置已有同名项目。</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="other">%1$d 个项目的原位置未知，已恢复到“下载”文件夹。</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="other">%1$d 个项目仍在回收站中，主要原因是%2$s。</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="other">%1$d 个项目无法删除，仍在回收站中。</item>
+    </plurals>
+    <string name="safety_rename_taken">此处已存在“%1$s”，未进行重命名。</string>
+    <string name="safety_rename_bad_name">该名称不能用作文件名。</string>
+    <string name="safety_rename_failed">无法重命名。</string>
+    <string name="safety_create_failed">无法创建“%1$s”，该名称可能已被使用。</string>
+    <string name="safety_similar_look_first">只有完全相同的副本会被标记。其余只是看起来相似，请点按要删除的项目，长按可先查看。</string>
+    <string name="safety_similar_some_failed">%1$d 个项目无法移至回收站。</string>
+    <string name="safety_job_channel">文件操作</string>
+    <string name="safety_job_copying_to">正在复制到 %1$s</string>
+    <string name="safety_job_moving_to">正在移动到 %1$s</string>
+    <string name="safety_job_compressing">正在创建 %1$s</string>
+    <string name="safety_job_extracting">正在解压 %1$s</string>
+    <string name="safety_job_organizing">正在整理下载文件</string>
+    <string name="safety_job_finishing">即将完成</string>
+    <string name="safety_job_stopping">正在停止</string>
+    <string name="safety_job_cancel_all">全部取消</string>
+    <string name="safety_job_waiting">当前任务完成后将开始执行。</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="other">另有 %1$d 个任务等待中</item>
+    </plurals>
+    <string name="safety_job_in_use">该项目正在被复制或移动，请在完成后重试。</string>
+    <string name="safety_job_internal_storage">内部存储</string>
+    <string name="safety_job_cloud">云端</string>
+    <string name="safety_job_nothing_changed">未做任何更改。</string>
+    <string name="safety_job_failed_names">受影响的项目：%1$s。</string>
+    <string name="safety_job_failed_names_more">受影响的项目：%1$s 及其他 %2$d 个。</string>
+    <string name="safety_job_time_limit">Android 限制此类任务每天在后台运行的时长。任务已安全停止，请打开 Kobblo 重新开始以完成操作。</string>
+    <plurals name="safety_job_copied">
+        <item quantity="other">已将 %1$d 个项目复制到 %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="other">已将 %1$d 个项目移动到 %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">复制到 %1$s 已停止</string>
+    <string name="safety_job_move_stopped">移动到 %1$s 已停止</string>
+    <string name="safety_job_copy_problem">复制到 %1$s 时出现问题</string>
+    <string name="safety_job_move_problem">移动到 %1$s 时出现问题</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="other">已将 %1$d 个项目移至回收站</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="other">已删除 %1$d 个项目</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">删除已停止</string>
+    <string name="safety_job_delete_problem">删除时出现问题</string>
+    <string name="safety_job_delete_partly">已删除 %1$d 个（共 %2$d 个），其余仍在原位置。</string>
+    <string name="safety_job_empty_partly">已删除 %1$d 个（共 %2$d 个），其余仍在回收站中。</string>
+    <string name="safety_job_restore_done">已恢复</string>
+    <string name="safety_job_restore_stopped">恢复已停止</string>
+    <string name="safety_job_restore_problem">恢复时出现问题</string>
+    <string name="safety_job_restore_partly">已恢复 %1$d 个（共 %2$d 个），其余仍在回收站中。</string>
+    <string name="safety_job_vault_adding">正在添加到保险箱</string>
+    <string name="safety_job_vault_stopped">添加到保险箱已停止</string>
+    <string name="safety_job_vault_problem">无法添加到保险箱</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="other">已将 %1$d 个项目添加到保险箱</item>
+    </plurals>
+    <string name="safety_notice_vault">添加到保险箱未完成</string>
+    <string name="safety_notice_vault_waiting">添加到保险箱未开始</string>
+    <string name="safety_notice_vault_detail">已添加的内容在保险箱中。项目只有在安全存入后才会从原位置移除，因此其余项目仍在原处。</string>
+    <string name="safety_job_organized">文件已整理</string>
+    <string name="safety_job_organize_stopped">整理已停止</string>
+    <string name="safety_job_organize_problem">整理时出现问题</string>
+    <string name="safety_job_compressed">已创建 %1$s</string>
+    <string name="safety_job_compress_stopped">创建 %1$s 已停止</string>
+    <string name="safety_job_compress_problem">无法创建 %1$s</string>
+    <string name="safety_job_no_archive">未创建压缩包，您的文件未被更改。</string>
+    <string name="safety_job_extracted">已解压 %1$s</string>
+    <string name="safety_job_extract_stopped">解压 %1$s 已停止</string>
+    <string name="safety_job_extract_stopped_detail">已解压的内容已被移除，压缩包未被更改。</string>
+    <string name="safety_job_extract_problem">无法解压 %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s 需要密码</string>
+    <string name="safety_job_extract_prepare_failed">无法准备解压此压缩包。</string>
+    <string name="safety_notice_open_folder">打开文件夹</string>
+    <string name="safety_notice_closed">Kobblo 在此操作完成前被关闭。</string>
+    <string name="safety_notice_never_started">Kobblo 在此操作排队等待时被关闭，未做任何更改。</string>
+    <string name="safety_notice_originals_safe">您的原始文件未被更改。</string>
+    <string name="safety_notice_copy_removed">未完成的副本已被移除。</string>
+    <string name="safety_notice_original_left">“%1$s”已完整移动，但原件的部分或全部内容仍在 %2$s，您可以删除剩余部分。</string>
+    <string name="safety_notice_partial_kept">%1$s 中仍有未完成的内容。</string>
+    <string name="safety_notice_copy">复制到 %1$s 未完成</string>
+    <string name="safety_notice_copy_waiting">复制到 %1$s 未开始</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="other">%2$d 个项目中有 %1$d 个已完整复制。</item>
+    </plurals>
+    <string name="safety_notice_move">移动到 %1$s 未完成</string>
+    <string name="safety_notice_move_waiting">移动到 %1$s 未开始</string>
+    <string name="safety_notice_move_none">它仍在原位置。</string>
+    <string name="safety_notice_organize">整理下载文件未完成</string>
+    <string name="safety_notice_organize_waiting">整理下载文件未开始</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="other">已移动 %1$d 个项目（共 %2$d 个），其余仍在原位置。</item>
+    </plurals>
+    <string name="safety_notice_delete">删除未完成</string>
+    <string name="safety_notice_delete_waiting">删除未开始</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="other">已将 %1$d 个项目（共 %2$d 个）移至回收站，其余仍在原位置。</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="other">已删除 %1$d 个项目（共 %2$d 个），其余仍在原位置。</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="other">已删除 %1$d 个项目（共 %2$d 个），其余仍在回收站中。</item>
+    </plurals>
+    <string name="safety_notice_restore">恢复未完成</string>
+    <string name="safety_notice_restore_waiting">恢复未开始</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="other">已恢复 %1$d 个项目（共 %2$d 个），其余仍在回收站中。</item>
+    </plurals>
+    <string name="safety_notice_compress">创建 %1$s 未完成</string>
+    <string name="safety_notice_compress_waiting">创建 %1$s 未开始</string>
+    <string name="safety_notice_compress_detail">未创建压缩包，您的文件未被更改。</string>
+    <string name="safety_notice_archive_made">压缩包在 Kobblo 关闭前刚好完成，内容完整。</string>
+    <string name="safety_notice_extract">解压 %1$s 未完成</string>
+    <string name="safety_notice_extract_waiting">解压 %1$s 未开始</string>
+    <string name="safety_notice_extract_detail">已解压的内容已被移除，压缩包未被更改。</string>
+    <string name="safety_lock_what_it_is">此操作会在 Kobblo 中隐藏该项目，但其他应用仍可读取。保险箱则能让文件不被其他应用读取。</string>
+    <string name="safety_lock_confirm_title">需要密码</string>
+    <string name="safety_lock_done">已锁定。该项目已在 Kobblo 中隐藏，但其他应用仍可读取。</string>
+    <string name="safety_lock_in_folder">此项目位于已锁定的文件夹中。请先解锁该文件夹。</string>
+    <string name="safety_lock_delete_elsewhere">此项目已锁定。请在其所在文件夹中删除，以便输入密码。</string>
+    <string name="safety_lock_no_app">没有其他应用可以打开此文件，因此已在此处打开。</string>
+</resources>

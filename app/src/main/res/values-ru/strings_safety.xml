@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Удаление</string>
+    <string name="safety_restoring">Восстановление</string>
+    <string name="safety_progress_count">%1$s из %2$s</string>
+    <string name="safety_reason_missing">элемента больше нет на месте</string>
+    <string name="safety_reason_no_space">недостаточно места в хранилище</string>
+    <string name="safety_reason_into_itself">папку нельзя поместить в саму себя</string>
+    <string name="safety_reason_denied">у приложения нет прав на изменение</string>
+    <string name="safety_reason_name_too_long">имя или путь слишком длинные</string>
+    <string name="safety_reason_check_failed">копия не совпала с оригиналом, поэтому оригинал сохранен</string>
+    <string name="safety_reason_not_possible">с этим элементом это сделать нельзя</string>
+    <string name="safety_reason_unknown">что-то пошло не так</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%1$d из %2$d не удален, так как %3$s.</item>
+        <item quantity="few">%1$d из %2$d не удалены, в основном потому, что %3$s.</item>
+        <item quantity="many">%1$d из %2$d не удалено, в основном потому, что %3$s.</item>
+        <item quantity="other">%1$d из %2$d не удалено, в основном потому, что %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%1$d из %2$d не перенесен и не изменен, так как %3$s.</item>
+        <item quantity="few">%1$d из %2$d не перенесены и не изменены, в основном потому, что %3$s.</item>
+        <item quantity="many">%1$d из %2$d не перенесено и не изменено, в основном потому, что %3$s.</item>
+        <item quantity="other">%1$d из %2$d не перенесено и не изменено, в основном потому, что %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d элемент получил новое имя, так как это имя было занято.</item>
+        <item quantity="few">%1$d элемента получили новые имена, так как имена были заняты.</item>
+        <item quantity="many">%1$d элементов получили новые имена, так как имена были заняты.</item>
+        <item quantity="other">%1$d элемента получили новые имена, так как имена были заняты.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">Не удалось скопировать сюда %1$d ссылку из папки.</item>
+        <item quantity="few">Не удалось скопировать сюда %1$d ссылки из папки.</item>
+        <item quantity="many">Не удалось скопировать сюда %1$d ссылок из папки.</item>
+        <item quantity="other">Не удалось скопировать сюда %1$d ссылки из папки.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Остановлено. %1$d элемент уже перемещен, остальные остались на месте.</item>
+        <item quantity="few">Остановлено. %1$d элемента уже перемещены, остальные остались на месте.</item>
+        <item quantity="many">Остановлено. %1$d элементов уже перемещено, остальные остались на месте.</item>
+        <item quantity="other">Остановлено. %1$d элемента уже перемещено, остальные остались на месте.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Остановлено. Ничего не скопировано.</item>
+        <item quantity="few">Остановлено. Ничего не скопировано.</item>
+        <item quantity="many">Остановлено. Ничего не скопировано.</item>
+        <item quantity="other">Остановлено. Ничего не скопировано.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d элемент восстановлен.</item>
+        <item quantity="few">%1$d элемента восстановлены.</item>
+        <item quantity="many">%1$d элементов восстановлено.</item>
+        <item quantity="other">%1$d элемента восстановлено.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d элемент получил новое имя, так как прежнее место уже занято.</item>
+        <item quantity="few">%1$d элемента получили новые имена, так как прежние места уже заняты.</item>
+        <item quantity="many">%1$d элементов получили новые имена, так как прежние места уже заняты.</item>
+        <item quantity="other">%1$d элемента получили новые имена, так как прежние места уже заняты.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d элемент перемещен в «Загрузки», так как его исходное место неизвестно.</item>
+        <item quantity="few">%1$d элемента перемещены в «Загрузки», так как их исходное место неизвестно.</item>
+        <item quantity="many">%1$d элементов перемещено в «Загрузки», так как их исходное место неизвестно.</item>
+        <item quantity="other">%1$d элемента перемещено в «Загрузки», так как их исходное место неизвестно.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d элемент остался в разделе «Недавно удаленные», так как %2$s.</item>
+        <item quantity="few">%1$d элемента остались в разделе «Недавно удаленные», в основном потому, что %2$s.</item>
+        <item quantity="many">%1$d элементов осталось в разделе «Недавно удаленные», в основном потому, что %2$s.</item>
+        <item quantity="other">%1$d элемента осталось в разделе «Недавно удаленные», в основном потому, что %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">Не удалось удалить %1$d элемент, он остался в разделе «Недавно удаленные».</item>
+        <item quantity="few">Не удалось удалить %1$d элемента, они остались в разделе «Недавно удаленные».</item>
+        <item quantity="many">Не удалось удалить %1$d элементов, они остались в разделе «Недавно удаленные».</item>
+        <item quantity="other">Не удалось удалить %1$d элемента, они остались в разделе «Недавно удаленные».</item>
+    </plurals>
+    <string name="safety_rename_taken">Здесь уже есть «%1$s», поэтому ничего не переименовано.</string>
+    <string name="safety_rename_bad_name">Это имя нельзя использовать для файла.</string>
+    <string name="safety_rename_failed">Не удалось переименовать.</string>
+    <string name="safety_create_failed">Не удалось создать «%1$s». Возможно, это имя уже занято.</string>
+    <string name="safety_similar_look_first">Отмечены только точные копии. Остальные лишь похожи: нажмите на те, что хотите удалить, или удерживайте, чтобы сначала посмотреть.</string>
+    <string name="safety_similar_some_failed">Не удалось переместить в «Недавно удаленные»: %1$d.</string>
+    <string name="safety_job_channel">Файловые операции</string>
+    <string name="safety_job_copying_to">Копирование в %1$s</string>
+    <string name="safety_job_moving_to">Перемещение в %1$s</string>
+    <string name="safety_job_compressing">Создание %1$s</string>
+    <string name="safety_job_extracting">Извлечение %1$s</string>
+    <string name="safety_job_organizing">Сортировка загрузок</string>
+    <string name="safety_job_finishing">Завершение</string>
+    <string name="safety_job_stopping">Остановка</string>
+    <string name="safety_job_cancel_all">Отменить все</string>
+    <string name="safety_job_waiting">Начнется, когда завершится текущая операция.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">Еще %1$d в очереди</item>
+        <item quantity="few">Еще %1$d в очереди</item>
+        <item quantity="many">Еще %1$d в очереди</item>
+        <item quantity="other">Еще %1$d в очереди</item>
+    </plurals>
+    <string name="safety_job_in_use">Это сейчас используется при копировании или перемещении. Повторите, когда операция завершится.</string>
+    <string name="safety_job_internal_storage">Внутренняя память</string>
+    <string name="safety_job_cloud">облако</string>
+    <string name="safety_job_nothing_changed">Ничего не изменено.</string>
+    <string name="safety_job_failed_names">Затронуто: %1$s.</string>
+    <string name="safety_job_failed_names_more">Затронуто: %1$s и еще %2$d.</string>
+    <string name="safety_job_time_limit">Android ограничивает, сколько такая работа может длиться в фоне за день. Операция корректно остановлена. Откройте Kobblo и запустите ее снова, чтобы завершить.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">%1$d элемент скопирован в %2$s</item>
+        <item quantity="few">%1$d элемента скопировано в %2$s</item>
+        <item quantity="many">%1$d элементов скопировано в %2$s</item>
+        <item quantity="other">%1$d элемента скопировано в %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">%1$d элемент перемещен в %2$s</item>
+        <item quantity="few">%1$d элемента перемещено в %2$s</item>
+        <item quantity="many">%1$d элементов перемещено в %2$s</item>
+        <item quantity="other">%1$d элемента перемещено в %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Копирование в %1$s остановлено</string>
+    <string name="safety_job_move_stopped">Перемещение в %1$s остановлено</string>
+    <string name="safety_job_copy_problem">Ошибка при копировании в %1$s</string>
+    <string name="safety_job_move_problem">Ошибка при перемещении в %1$s</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">%1$d элемент перемещен в «Недавно удаленные»</item>
+        <item quantity="few">%1$d элемента перемещено в «Недавно удаленные»</item>
+        <item quantity="many">%1$d элементов перемещено в «Недавно удаленные»</item>
+        <item quantity="other">%1$d элемента перемещено в «Недавно удаленные»</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">Удален %1$d элемент</item>
+        <item quantity="few">Удалено %1$d элемента</item>
+        <item quantity="many">Удалено %1$d элементов</item>
+        <item quantity="other">Удалено %1$d элемента</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Удаление остановлено</string>
+    <string name="safety_job_delete_problem">Ошибка при удалении</string>
+    <string name="safety_job_delete_partly">Удалено %1$d из %2$d. Остальные остались на месте.</string>
+    <string name="safety_job_empty_partly">Удалено %1$d из %2$d. Остальные по-прежнему в разделе «Недавно удаленные».</string>
+    <string name="safety_job_restore_done">Восстановлено</string>
+    <string name="safety_job_restore_stopped">Восстановление остановлено</string>
+    <string name="safety_job_restore_problem">Ошибка при восстановлении</string>
+    <string name="safety_job_restore_partly">Восстановлено %1$d из %2$d. Остальные по-прежнему в разделе «Недавно удаленные».</string>
+    <string name="safety_job_vault_adding">Добавление в сейф</string>
+    <string name="safety_job_vault_stopped">Добавление в сейф остановлено</string>
+    <string name="safety_job_vault_problem">Не удалось добавить в сейф</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">%1$d элемент добавлен в сейф</item>
+        <item quantity="few">%1$d элемента добавлено в сейф</item>
+        <item quantity="many">%1$d элементов добавлено в сейф</item>
+        <item quantity="other">%1$d элемента добавлено в сейф</item>
+    </plurals>
+    <string name="safety_notice_vault">Добавление в сейф не завершено</string>
+    <string name="safety_notice_vault_waiting">Добавление в сейф не началось</string>
+    <string name="safety_notice_vault_detail">Добавленное уже в сейфе. Элемент убирается с прежнего места, только когда он надежно перенесен, поэтому все остальное осталось на месте.</string>
+    <string name="safety_job_organized">Файлы упорядочены</string>
+    <string name="safety_job_organize_stopped">Сортировка остановлена</string>
+    <string name="safety_job_organize_problem">Ошибка при сортировке</string>
+    <string name="safety_job_compressed">Создано: %1$s</string>
+    <string name="safety_job_compress_stopped">Создание %1$s остановлено</string>
+    <string name="safety_job_compress_problem">Не удалось создать %1$s</string>
+    <string name="safety_job_no_archive">Архив не создан, ваши файлы не изменены.</string>
+    <string name="safety_job_extracted">Извлечено: %1$s</string>
+    <string name="safety_job_extract_stopped">Извлечение %1$s остановлено</string>
+    <string name="safety_job_extract_stopped_detail">Уже распакованное удалено. Архив не изменен.</string>
+    <string name="safety_job_extract_problem">Не удалось извлечь %1$s</string>
+    <string name="safety_job_extract_needs_password">Для %1$s нужен пароль</string>
+    <string name="safety_job_extract_prepare_failed">Не удалось подготовить архив к извлечению.</string>
+    <string name="safety_notice_open_folder">Открыть папку</string>
+    <string name="safety_notice_closed">Kobblo был закрыт до завершения операции.</string>
+    <string name="safety_notice_never_started">Kobblo был закрыт, пока операция ждала очереди. Ничего не изменено.</string>
+    <string name="safety_notice_originals_safe">Оригиналы не изменены.</string>
+    <string name="safety_notice_copy_removed">Незавершенная копия удалена.</string>
+    <string name="safety_notice_original_left">«%1$s» перенесено целиком, но оригинал частично или полностью остался в %2$s. Оставшееся можно удалить.</string>
+    <string name="safety_notice_partial_kept">В %1$s остались незавершенные данные.</string>
+    <string name="safety_notice_copy">Копирование в %1$s не завершено</string>
+    <string name="safety_notice_copy_waiting">Копирование в %1$s не началось</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">Целиком скопировано %1$d из %2$d элемента.</item>
+        <item quantity="few">Целиком скопировано %1$d из %2$d элементов.</item>
+        <item quantity="many">Целиком скопировано %1$d из %2$d элементов.</item>
+        <item quantity="other">Целиком скопировано %1$d из %2$d элемента.</item>
+    </plurals>
+    <string name="safety_notice_move">Перемещение в %1$s не завершено</string>
+    <string name="safety_notice_move_waiting">Перемещение в %1$s не началось</string>
+    <string name="safety_notice_move_none">Все осталось на месте.</string>
+    <string name="safety_notice_organize">Сортировка загрузок не завершена</string>
+    <string name="safety_notice_organize_waiting">Сортировка загрузок не началась</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">Перемещено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+        <item quantity="few">Перемещено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="many">Перемещено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="other">Перемещено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+    </plurals>
+    <string name="safety_notice_delete">Удаление не завершено</string>
+    <string name="safety_notice_delete_waiting">Удаление не началось</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">В «Недавно удаленные» перемещено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+        <item quantity="few">В «Недавно удаленные» перемещено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="many">В «Недавно удаленные» перемещено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="other">В «Недавно удаленные» перемещено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">Удалено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+        <item quantity="few">Удалено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="many">Удалено %1$d из %2$d элементов. Все остальное осталось на месте.</item>
+        <item quantity="other">Удалено %1$d из %2$d элемента. Все остальное осталось на месте.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">Удалено %1$d из %2$d элемента. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="few">Удалено %1$d из %2$d элементов. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="many">Удалено %1$d из %2$d элементов. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="other">Удалено %1$d из %2$d элемента. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+    </plurals>
+    <string name="safety_notice_restore">Восстановление не завершено</string>
+    <string name="safety_notice_restore_waiting">Восстановление не началось</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">Восстановлено %1$d из %2$d элемента. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="few">Восстановлено %1$d из %2$d элементов. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="many">Восстановлено %1$d из %2$d элементов. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+        <item quantity="other">Восстановлено %1$d из %2$d элемента. Все остальное по-прежнему в разделе «Недавно удаленные».</item>
+    </plurals>
+    <string name="safety_notice_compress">Создание %1$s не завершено</string>
+    <string name="safety_notice_compress_waiting">Создание %1$s не началось</string>
+    <string name="safety_notice_compress_detail">Архив не создан, ваши файлы не изменены.</string>
+    <string name="safety_notice_archive_made">Архив успел создаться до закрытия Kobblo и не поврежден.</string>
+    <string name="safety_notice_extract">Извлечение %1$s не завершено</string>
+    <string name="safety_notice_extract_waiting">Извлечение %1$s не началось</string>
+    <string name="safety_notice_extract_detail">Уже распакованное удалено. Архив не изменен.</string>
+    <string name="safety_lock_what_it_is">Элемент будет скрыт только в Kobblo. Другие приложения по-прежнему смогут его читать. Сейф защищает файлы и от них.</string>
+    <string name="safety_lock_confirm_title">Нужен пароль</string>
+    <string name="safety_lock_done">Заблокировано. Элемент скрыт в Kobblo, но другие приложения по-прежнему могут его читать.</string>
+    <string name="safety_lock_in_folder">Элемент находится в заблокированной папке. Разблокируйте папку, чтобы разблокировать его.</string>
+    <string name="safety_lock_delete_elsewhere">Элемент заблокирован. Удалите его из папки, где можно ввести пароль.</string>
+    <string name="safety_lock_no_app">Другие приложения не могут открыть этот файл, поэтому он открыт здесь.</string>
+</resources>

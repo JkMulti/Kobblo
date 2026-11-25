@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">ضروری</string>
+    <string name="polish_optional">اختیاری</string>
+    <string name="polish_field_name">نام</string>
+    <string name="polish_field_domain">ڈومین</string>
+    <string name="polish_field_server">سرور</string>
+    <string name="polish_one_saved">1 محفوظ کردہ کنکشن</string>
+    <string name="polish_many_saved">%1$d محفوظ کردہ کنکشنز</string>
+    <string name="polish_delete_connection">“%1$s” حذف کریں؟</string>
+    <string name="polish_delete_connection_note">اس کا محفوظ کردہ پاس ورڈ بھی ہٹ جائے گا۔ سرور پر موجود فائلوں کو کچھ نہیں ہوگا۔</string>
+    <string name="polish_smb_subtitle">Windows شیئر یا NAS</string>
+    <string name="polish_smb_missing">ہوسٹ، شیئر کا نام اور صارف نام درج کریں۔</string>
+    <string name="polish_server_missing">ہوسٹ اور صارف نام درج کریں۔</string>
+    <string name="polish_all_required">منسلک ہونے کے لیے تمام فیلڈز پُر کریں۔</string>
+    <string name="polish_ftp_subtitle">آپ کے نیٹ ورک یا انٹرنیٹ پر موجود سرور</string>
+    <string name="polish_sftp_subtitle">ایسا سرور جس تک آپ SSH کے ذریعے پہنچتے ہیں</string>
+    <string name="polish_webdav_title">WebDAV کنکشنز</string>
+    <string name="polish_webdav_add">WebDAV کنکشن شامل کریں</string>
+    <string name="polish_webdav_subtitle">ایک WebDAV سرور</string>
+    <string name="polish_allow_self_signed">خود دستخط شدہ سرٹیفکیٹ کی اجازت دیں</string>
+    <string name="polish_nextcloud_title">Nextcloud کنکشنز</string>
+    <string name="polish_nextcloud_add">Nextcloud شامل کریں</string>
+    <string name="polish_nextcloud_subtitle">آپ کا اپنا Nextcloud سرور</string>
+    <string name="polish_nextcloud_tip">اگر آپ کا اکاؤنٹ دو مرحلہ سائن اِن استعمال کرتا ہے تو ایپ پاس ورڈ استعمال کریں۔ اسے Nextcloud میں سیٹنگز، سیکیورٹی، آلات اور سیشنز کے تحت بنائیں۔</string>
+    <string name="polish_log_in_to">%1$s میں لاگ ان کریں</string>
+    <string name="polish_compressing">کمپریس ہو رہا ہے</string>
+    <string name="polish_archive_created">آرکائیو بن گیا</string>
+    <string name="polish_choose_from_other_app">کسی اور ایپ سے منتخب کریں</string>
+    <string name="polish_cant_open_app_package">یہ ایپ پیکیج نہیں کھولا جا سکتا۔</string>
+    <string name="polish_google_login_failed">Google Drive میں لاگ ان نہیں ہو سکا۔ دوبارہ کوشش کریں۔</string>
+    <string name="polish_unlocked">ان لاک ہو گیا</string>
+    <string name="polish_files_not_saved">فائلیں محفوظ نہیں ہو سکیں۔</string>
+    <string name="polish_organize_failed">آپ کے ڈاؤن لوڈز ترتیب نہیں دیے جا سکے۔</string>
+    <string name="polish_extract_failed">ہو سکتا ہے آرکائیو خراب ہو، یا جگہ کافی نہ ہو۔</string>
+    <string name="polish_extract_failed_names">%1$s کو نکالا نہیں جا سکا۔</string>
+    <string name="polish_archive_unreadable">یہ آرکائیو پڑھا نہیں جا سکتا۔ ہو سکتا ہے یہ خراب ہو۔</string>
+    <string name="polish_current_sort">موجودہ ترتیب</string>
+    <string name="polish_sheet_handle">گھسیٹنے کا ہینڈل</string>
+</resources>

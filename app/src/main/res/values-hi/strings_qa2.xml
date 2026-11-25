@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">फ़ोल्डरों में व्यवस्थित किया जाएगा</string>
+    <string name="organize_pill_action">व्यवस्थित करें</string>
+    <string name="extract_pill_running">निकाला जा रहा है</string>
+    <string name="extract_pill_done">निकाला गया</string>
+    <string name="extract_pill_done_detail">सभी फ़ाइलें निकाल ली गईं</string>
+    <string name="op_resume">फिर से शुरू करें</string>
+    <string name="archive_kind">आर्काइव</string>
+    <string name="archive_kind_rar">RAR आर्काइव</string>
+    <string name="archive_extract_here">यहाँ निकालें</string>
+    <string name="archive_extract_here_subtitle">फ़ाइलों को मौजूदा फ़ोल्डर में निकालें</string>
+    <string name="archive_extract_here_downloads">फ़ाइलों को Download में निकालें</string>
+    <string name="archive_extract_to">इसमें निकालें…</string>
+    <string name="archive_extract_to_subtitle">कोई फ़ोल्डर चुनें</string>
+    <string name="archive_view_contents">सामग्री देखें</string>
+    <string name="archive_view_contents_subtitle">इस आर्काइव के अंदर की फ़ाइलें देखें</string>
+    <string name="archive_delete">आर्काइव हटाएँ</string>
+    <string name="archive_create_title">आर्काइव बनाएँ</string>
+    <string name="archive_create_name">आर्काइव का नाम</string>
+    <string name="archive_create_lock">पासवर्ड से लॉक करें</string>
+    <string name="archive_create_lock_desc">AES-256 से एन्क्रिप्ट किया गया</string>
+    <string name="archive_create_action">बनाएँ</string>
+    <string name="archive_extract_out_toast">Download/%1$s में निकाला जा रहा है</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d आइटम</item>
+        <item quantity="other">%1$d आइटम</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d आइटम, %2$s</item>
+        <item quantity="other">%1$d आइटम, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">पासवर्ड ज़रूरी है</string>
+    <string name="archive_password_placeholder">पासवर्ड</string>
+    <string name="archive_password_wrong">गलत पासवर्ड</string>
+    <string name="archive_encrypted_name">यह आर्काइव एन्क्रिप्ट किया गया है।</string>
+    <string name="archive_failed_title">निकाला नहीं जा सका</string>
+    <string name="archive_failed_dismiss">ठीक है</string>
+    <string name="dialog_new_folder">नया फ़ोल्डर</string>
+    <string name="dialog_new_file">नई फ़ाइल</string>
+    <string name="dialog_rename">नाम बदलें</string>
+    <string name="dialog_rename_placeholder">नया नाम</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d आइटम छिपाया गया</item>
+        <item quantity="other">%1$d आइटम छिपाए गए</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d आइटम फिर से दिखने लगा</item>
+        <item quantity="other">%1$d आइटम फिर से दिखने लगे</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d आइटम छिपाया नहीं जा सका</item>
+        <item quantity="other">%1$d आइटम छिपाए नहीं जा सके</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d आइटम फिर से दिखाया नहीं जा सका</item>
+        <item quantity="other">%1$d आइटम फिर से दिखाए नहीं जा सके</item>
+    </plurals>
+    <string name="settings_grid_columns">फ़ोल्डर कॉलम</string>
+    <string name="settings_grid_columns_desc">आइकन व्यू में</string>
+    <string name="settings_lock_password_changed">पासवर्ड बदल दिया गया</string>
+    <string name="settings_show_vault">टूल में वॉल्ट दिखाएँ</string>
+    <string name="settings_show_vault_desc">बंद होने पर, इसे खोलने के लिए ब्राउज़ में ⋯ या + को दबाकर रखें</string>
+    <string name="settings_open_with">इसके साथ खोलें</string>
+    <string name="settings_open_text">दस्तावेज़</string>
+    <string name="settings_open_music">संगीत</string>
+    <string name="settings_open_images">चित्र</string>
+    <string name="settings_open_videos">वीडियो</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">दूसरा ऐप</string>
+    <string name="settings_organizer_footer">\'डाउनलोड व्यवस्थित करें\' हर तरह की फ़ाइल को कहाँ ले जाता है।</string>
+    <string name="settings_choose_folder">चुनें</string>
+    <string name="settings_send_name">डिवाइस का नाम</string>
+    <string name="settings_send_name_desc">इस डिवाइस को खोजते समय दूसरे डिवाइस पर यही नाम दिखता है।</string>
+    <string name="settings_send_folder">प्राप्त फ़ाइलें</string>
+    <string name="settings_send_ask">प्राप्त करने से पहले पूछें</string>
+    <string name="settings_send_ask_on">हर आने वाले ट्रांसफ़र को स्वीकार या अस्वीकार करें</string>
+    <string name="settings_send_ask_off">आपके नेटवर्क पर कोई भी बिना पूछे यहाँ फ़ाइलें सहेज सकता है</string>
+    <string name="crash_title">Kobblo बंद हो गया</string>
+    <string name="crash_subtitle">इसमें बताया गया है कि क्या गड़बड़ हुई। जब तक आप इसे साझा नहीं करते, यह इसी फ़ोन पर रहता है।</string>
+    <string name="crash_last_title">पिछला क्रैश</string>
+    <string name="crash_last_subtitle">पिछली बार Kobblo बंद होने पर क्या गड़बड़ हुई थी</string>
+    <string name="crash_copy">कॉपी करें</string>
+    <string name="crash_share">साझा करें</string>
+    <string name="crash_delete">हटाएँ</string>
+    <string name="crash_close">बंद करें</string>
+    <string name="crash_copied">क्रैश लॉग कॉपी किया गया</string>
+    <string name="crash_share_subject">Kobblo क्रैश लॉग</string>
+    <string name="crash_none">कोई क्रैश दर्ज नहीं है</string>
+</resources>

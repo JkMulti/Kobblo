@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">Cifrado</string>
+    <string name="view_archive_enter_password">Introduce la contraseña.</string>
+    <string name="view_archive_contents_unreadable">No se pudo leer el contenido.</string>
+    <string name="view_archive_password_check_failed">No se pudo comprobar esa contraseña.</string>
+    <string name="view_archive_password_prompt">Introduce la contraseña para ver lo que contiene.</string>
+    <string name="view_archive_checking_password">Comprobando contraseña…</string>
+    <plurals name="view_file_count">
+        <item quantity="one">%1$d archivo</item>
+        <item quantity="many">%1$d de archivos</item>
+        <item quantity="other">%1$d archivos</item>
+    </plurals>
+    <string name="view_archive_empty">Este archivo comprimido está vacío</string>
+    <string name="view_extract_all">Extraer todo</string>
+    <string name="view_archive_invalid_zip">Archivo ZIP no válido</string>
+    <string name="view_archive_extracting">Extrayendo…</string>
+    <string name="view_archive_storage_full">Se detuvo porque el almacenamiento está casi lleno. Al descomprimirse, este archivo ocupa más espacio del disponible.</string>
+    <string name="view_archive_extraction_cancelled">Extracción cancelada</string>
+    <string name="view_archive_nothing_extracted">No se extrajo ningún archivo</string>
+    <string name="view_archive_encrypted_entry">(archivo comprimido cifrado)</string>
+    <string name="view_archive_done">Listo</string>
+    <string name="view_zip_entry_size">Tamaño: %1$s</string>
+    <string name="view_zip_entry_size_unknown">Tamaño desconocido</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="one">%1$d elemento para mover</item>
+        <item quantity="many">%1$d de elementos para mover</item>
+        <item quantity="other">%1$d elementos para mover</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="one">%1$d elemento para copiar</item>
+        <item quantity="many">%1$d de elementos para copiar</item>
+        <item quantity="other">%1$d elementos para copiar</item>
+    </plurals>
+    <string name="view_hide_items">Ocultar elementos</string>
+    <string name="view_show_items">Mostrar elementos</string>
+    <string name="view_move_here">Mover aquí</string>
+    <string name="view_picker_storage">Almacenamiento</string>
+    <string name="view_picker_downloads">Descargas</string>
+    <string name="view_picker_documents">Documentos</string>
+    <string name="view_picker_pictures">Imágenes</string>
+    <string name="view_picker_music">Música</string>
+    <string name="view_picker_tap_to_select">Toca los archivos para seleccionarlos</string>
+    <plurals name="view_selected_count">
+        <item quantity="one">%1$d seleccionado</item>
+        <item quantity="many">%1$d seleccionados</item>
+        <item quantity="other">%1$d seleccionados</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+    <string name="view_trash_subtitle_kept">%1$s · Se conservan durante %2$s</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · No se conservan los archivos eliminados</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="one">%1$d segundo</item>
+        <item quantity="many">%1$d de segundos</item>
+        <item quantity="other">%1$d segundos</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="one">%1$d minuto</item>
+        <item quantity="many">%1$d de minutos</item>
+        <item quantity="other">%1$d minutos</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="one">%1$d hora</item>
+        <item quantity="many">%1$d de horas</item>
+        <item quantity="other">%1$d horas</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="one">%1$d día</item>
+        <item quantity="many">%1$d de días</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="one">%1$d semana</item>
+        <item quantity="many">%1$d de semanas</item>
+        <item quantity="other">%1$d semanas</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="one">%1$d mes</item>
+        <item quantity="many">%1$d de meses</item>
+        <item quantity="other">%1$d meses</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="one">%1$d año</item>
+        <item quantity="many">%1$d de años</item>
+        <item quantity="other">%1$d años</item>
+    </plurals>
+    <string name="view_show_as_icons">Mostrar como iconos</string>
+    <string name="view_show_as_list">Mostrar como lista</string>
+    <string name="view_trash_settings">Ajustes de la papelera</string>
+    <string name="view_restore_all">Restaurar todo</string>
+    <string name="view_delete_all">Eliminar todo</string>
+    <string name="view_delete_named_title">¿Eliminar “%1$s”?</string>
+    <string name="view_trash_delete_body">No se podrá restaurar después.</string>
+    <string name="view_trash_delete_everything_title">¿Eliminar todo?</string>
+    <string name="view_trash_delete_everything_body">Después no se podrá restaurar nada de lo que hay en la papelera.</string>
+    <string name="view_trash_days_to_keep">Días que se conservan los archivos</string>
+    <string name="view_cat_duplicates">Duplicados</string>
+    <string name="view_manage_storage">Gestionar almacenamiento</string>
+    <string name="view_manage_storage_subtitle">%1$s libres, en los ajustes del teléfono</string>
+    <string name="view_delete_image_title">¿Eliminar la imagen?</string>
+    <string name="view_delete_moves_to_bin">Se moverá a la papelera.</string>
+    <string name="view_edit_image">Editar imagen</string>
+    <string name="view_document_unreadable">Este documento no se puede mostrar. Puede que esté dañado.</string>
+    <string name="view_document_reading">Leyendo documento…</string>
+    <string name="view_open_in_external_app">Abrir en una aplicación externa</string>
+    <string name="view_copy_text">Copiar texto</string>
+    <string name="view_text_copied">Texto copiado en el portapapeles</string>
+    <string name="view_loading_page">Cargando página…</string>
+    <string name="view_share_document">Compartir documento</string>
+    <string name="view_open_with_chooser">Abrir con</string>
+    <string name="view_doc_error_reading">Error al leer el documento: %1$s</string>
+    <string name="view_doc_unable_to_read_content">No se puede leer el contenido</string>
+    <string name="view_doc_empty">(Documento vacío)</string>
+    <string name="view_doc_truncated_pages">... [Contenido truncado. Se muestran las primeras 250 páginas.]</string>
+    <string name="view_doc_empty_file">(Archivo vacío)</string>
+    <string name="view_doc_truncated_size">... [Contenido truncado a 4 MB]</string>
+    <string name="view_docx_empty_no_text">(Este documento de Word parece estar vacío o no tiene texto legible)</string>
+    <string name="view_docx_error_reading_damaged">Error al leer el archivo DOCX: %1$s\n\nPuede que el archivo esté dañado o protegido con contraseña.</string>
+    <string name="view_docx_unable_to_read">No se puede leer el documento</string>
+    <string name="view_docx_empty">(Este documento de Word parece estar vacío)</string>
+    <string name="view_docx_error_reading">Error al leer el archivo DOCX: %1$s</string>
+    <string name="view_file_error_reading">Error al leer el archivo: %1$s</string>
+    <string name="view_apk_not_installed">Esta aplicación no está instalada.</string>
+    <string name="view_apk_not_older">Esta no es una versión anterior de la aplicación.</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku no está conectado. Toca para configurarlo.</string>
+    <string name="view_apk_normal_install">Instalación normal</string>
+    <string name="view_apk_normal_install_subtitle">Usa el instalador de paquetes del sistema</string>
+    <string name="view_apk_downgrade">Bajar de versión</string>
+    <string name="view_apk_downgrade_subtitle">Forzar la instalación de una versión anterior</string>
+    <string name="view_apk_downgrade_install">Instalar versión anterior</string>
+    <string name="view_apk_silent_install">Instalación silenciosa</string>
+    <string name="view_apk_silent_install_subtitle">Instalación en segundo plano sin avisos</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="one">Instalar %1$d aplicación</item>
+        <item quantity="many">Instalar %1$d de aplicaciones</item>
+        <item quantity="other">Instalar %1$d aplicaciones</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku está conectado</string>
+    <string name="view_apk_install_count">Instalar %1$d</string>
+    <string name="view_remove">Quitar</string>
+    <string name="view_connected_account">Cuenta conectada</string>
+    <string name="view_unknown">Desconocido</string>
+    <string name="view_unknown_version">Versión desconocida</string>
+    <plurals name="view_app_count">
+        <item quantity="one">%1$d aplicación</item>
+        <item quantity="many">%1$d de aplicaciones</item>
+        <item quantity="other">%1$d aplicaciones</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">¿Instalar una versión anterior de esta aplicación?</string>
+    <string name="view_apk_downgrade_one_body">Android no permite volver a una versión anterior de la mayoría de las aplicaciones. Para instalar esta, primero hay que desinstalar la aplicación actual, y eso borra todos sus datos.</string>
+    <string name="view_apk_downgrade_many_title">¿Instalar versiones anteriores de estas aplicaciones?</string>
+    <string name="view_apk_downgrade_many_body">Android no permite volver a una versión anterior de la mayoría de las aplicaciones. Para instalar estas, primero hay que desinstalar las aplicaciones actuales, y eso borra todos sus datos.</string>
+    <string name="view_apk_erase_and_downgrade">Borrar datos y bajar de versión</string>
+    <string name="view_apk_try_keeping_data">Intentar conservar los datos</string>
+    <string name="view_share_files">Compartir archivos</string>
+    <string name="view_current_folder">Carpeta actual</string>
+    <string name="view_delete_selected_item">¿Eliminar el elemento seleccionado?</string>
+    <string name="view_delete_selected_items">¿Eliminar los elementos seleccionados?</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="one">¿Eliminar %1$d elemento?</item>
+        <item quantity="many">¿Eliminar %1$d de elementos?</item>
+        <item quantity="other">¿Eliminar %1$d elementos?</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">Las carpetas vacías se eliminan para siempre, ya que no hay nada en ellas que restaurar.</string>
+    <string name="view_delete_they_move_to_bin">Se moverán a la papelera.</string>
+    <string name="view_extracted_folder_name">Extraído</string>
+    <string name="view_share_archive">Compartir archivo comprimido</string>
+    <string name="view_share_named">Compartir %1$s</string>
+    <string name="view_no_app_to_open">No hay ninguna aplicación disponible para abrir este archivo</string>
+    <string name="view_hiding_files_title">Ocultar archivos</string>
+    <string name="view_hiding_files_body">Al ocultar se añade un punto delante del nombre, así que las galerías y la mayoría de las aplicaciones lo ignoran. Para recuperarlo, activa Mostrar archivos ocultos en Ajustes y mantenlo pulsado.</string>
+    <string name="view_got_it">Entendido</string>
+    <string name="view_item_exists_title">El elemento ya existe</string>
+    <string name="view_item_exists_body">Ya existe un elemento llamado “%1$s” en este destino.</string>
+    <string name="view_item_exists_question">¿Quieres sobrescribirlo, cambiarle el nombre a “%1$s” u omitirlo?</string>
+    <string name="view_overwrite">Sobrescribir</string>
+    <string name="view_skip">Omitir</string>
+    <string name="view_numbering_none">Ninguna</string>
+</resources>

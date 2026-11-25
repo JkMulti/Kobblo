@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Obligatorio</string>
+    <string name="polish_optional">Opcional</string>
+    <string name="polish_field_name">Nombre</string>
+    <string name="polish_field_domain">Dominio</string>
+    <string name="polish_field_server">Servidor</string>
+    <string name="polish_one_saved">1 conexión guardada</string>
+    <string name="polish_many_saved">%1$d conexiones guardadas</string>
+    <string name="polish_delete_connection">¿Eliminar “%1$s”?</string>
+    <string name="polish_delete_connection_note">También se eliminará su contraseña guardada. Los archivos del servidor no se tocan.</string>
+    <string name="polish_smb_subtitle">Una carpeta compartida de Windows o un NAS</string>
+    <string name="polish_smb_missing">Introduce un host, un nombre de recurso compartido y un nombre de usuario.</string>
+    <string name="polish_server_missing">Introduce un host y un nombre de usuario.</string>
+    <string name="polish_all_required">Rellena todos los campos para conectarte.</string>
+    <string name="polish_ftp_subtitle">Un servidor en tu red o en internet</string>
+    <string name="polish_sftp_subtitle">Un servidor al que accedes por SSH</string>
+    <string name="polish_webdav_title">Conexiones WebDAV</string>
+    <string name="polish_webdav_add">Añadir conexión WebDAV</string>
+    <string name="polish_webdav_subtitle">Un servidor WebDAV</string>
+    <string name="polish_allow_self_signed">Permitir certificado autofirmado</string>
+    <string name="polish_nextcloud_title">Conexiones Nextcloud</string>
+    <string name="polish_nextcloud_add">Añadir Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Tu propio servidor Nextcloud</string>
+    <string name="polish_nextcloud_tip">Si tu cuenta usa verificación en dos pasos, usa una contraseña de aplicación. Créala en Nextcloud, en Configuración, Seguridad, Dispositivos y sesiones.</string>
+    <string name="polish_log_in_to">Iniciar sesión en %1$s</string>
+    <string name="polish_compressing">Comprimiendo</string>
+    <string name="polish_archive_created">Archivo comprimido creado</string>
+    <string name="polish_choose_from_other_app">Elegir desde otra aplicación</string>
+    <string name="polish_cant_open_app_package">No se puede abrir este paquete de aplicación.</string>
+    <string name="polish_google_login_failed">No se pudo iniciar sesión en Google Drive. Inténtalo de nuevo.</string>
+    <string name="polish_unlocked">Desbloqueado</string>
+    <string name="polish_files_not_saved">No se pudieron guardar los archivos.</string>
+    <string name="polish_organize_failed">No se pudieron organizar tus descargas.</string>
+    <string name="polish_extract_failed">Puede que el archivo comprimido esté dañado o que no haya espacio suficiente.</string>
+    <string name="polish_extract_failed_names">No se pudo extraer %1$s.</string>
+    <string name="polish_archive_unreadable">No se puede leer este archivo comprimido. Puede que esté dañado.</string>
+    <string name="polish_current_sort">Orden actual</string>
+    <string name="polish_sheet_handle">Controlador de arrastre</string>
+</resources>

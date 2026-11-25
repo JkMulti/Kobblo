@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Сейф</string>
+    <string name="settings_general">Общие</string>
+    <string name="settings_keep_for">Хранить</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Удаленные файлы хранятся в разделе «Недавно удаленные» указанное время, а затем удаляются навсегда.</string>
+    <string name="settings_trash_footer_off">Удаленные файлы исчезают сразу, и восстановить их будет нельзя.</string>
+    <string name="settings_about_app">Об Kobblo</string>
+    <string name="settings_version">Версия %1$s</string>
+</resources>

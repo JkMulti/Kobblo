@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Kobblo에 오신 것을 환영합니다</string>
+    <string name="welcome_photos_title">모든 사진과 동영상</string>
+    <string name="welcome_photos_body">앨범, 장소, 감상에 최적화된 뷰어로 전체 라이브러리를 한곳에서 볼 수 있습니다.</string>
+    <string name="welcome_files_title">모든 파일</string>
+    <string name="welcome_files_body">폴더, 클라우드 드라이브, 서버를 탐색하고 필요 없는 항목을 정리하세요.</string>
+    <string name="welcome_send_title">주변 기기로 보내기</string>
+    <string name="welcome_send_body">같은 Wi-Fi에 연결된 휴대전화 및 컴퓨터와 파일을 주고받으세요.</string>
+    <string name="welcome_private_title">휴대전화에만 저장</string>
+    <string name="welcome_private_body">계정도 추적도 없습니다. 스마트 기능은 휴대전화 안에서 작동합니다.</string>
+    <string name="welcome_continue">계속</string>
+    <string name="welcome_not_now">나중에</string>
+    <string name="access_title">접근 허용</string>
+    <string name="access_subtitle">파일을 표시하려면 Kobblo가 파일을 볼 수 있어야 합니다. 찾은 내용은 휴대전화 밖으로 나가지 않습니다.</string>
+    <string name="access_needed">필수</string>
+    <string name="access_optional">선택</string>
+    <string name="access_files">파일 및 폴더</string>
+    <string name="access_files_body">휴대전화의 모든 항목을 탐색하고 열고 정리하는 데 필요합니다.</string>
+    <string name="access_notifications">알림</string>
+    <string name="access_notifications_body">복사 및 전송 진행 상황, 받은 파일 알림</string>
+    <string name="access_notifications_blocked">꺼져 있습니다. 탭하여 설정에서 허용하세요.</string>
+    <string name="access_locations">사진 위치</string>
+    <string name="access_locations_body">장소 및 사진 상세 정보에 표시할 사진 촬영 위치</string>
+    <string name="access_locations_blocked">꺼져 있습니다. 앱 정보의 권한에서 허용하세요.</string>
+    <string name="access_footer">나중에 설정의 권한에서 언제든지 변경할 수 있습니다.</string>
+    <string name="access_allow">접근 허용</string>
+    <string name="access_settings_row">권한</string>
+    <string name="access_settings_row_body">파일, 알림, 사진 위치</string>
+    <string name="welcome_ready_title">모든 준비가 완료되었습니다</string>
+    <string name="welcome_ready_body">이제 사진을 둘러볼 수 있습니다.</string>
+    <string name="welcome_ready_downloading">스마트 기능을 다운로드하는 중이며, 다운로드가 끝나는 대로 사진 분석을 시작합니다.</string>
+    <string name="welcome_ready_no_access">준비되면 언제든 접근을 허용하세요. 사진과 파일이 여기에 표시됩니다.</string>
+    <string name="welcome_lets_go">시작하기</string>
+</resources>

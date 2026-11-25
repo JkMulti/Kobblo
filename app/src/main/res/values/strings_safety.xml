@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Deleting</string>
+    <string name="safety_restoring">Restoring</string>
+    <string name="safety_progress_count">%1$s of %2$s</string>
+
+    <string name="safety_reason_missing">it\'s no longer there</string>
+    <string name="safety_reason_no_space">there isn\'t enough storage space</string>
+    <string name="safety_reason_into_itself">a folder can\'t go inside itself</string>
+    <string name="safety_reason_denied">the app isn\'t allowed to change it</string>
+    <string name="safety_reason_name_too_long">the name or path is too long</string>
+    <string name="safety_reason_check_failed">the copy didn\'t match the original, so the original was kept</string>
+    <string name="safety_reason_not_possible">this can\'t be done with this item</string>
+    <string name="safety_reason_unknown">something went wrong</string>
+
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%1$d of %2$d wasn\'t deleted, because %3$s.</item>
+        <item quantity="other">%1$d of %2$d weren\'t deleted, mostly because %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%1$d of %2$d didn\'t transfer and is unchanged, because %3$s.</item>
+        <item quantity="other">%1$d of %2$d didn\'t transfer and are unchanged, mostly because %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d item got a new name because the name was taken.</item>
+        <item quantity="other">%1$d items got new names because the names were taken.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">%1$d link inside a folder couldn\'t be copied here.</item>
+        <item quantity="other">%1$d links inside a folder couldn\'t be copied here.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Stopped. %1$d item had already moved, and the rest are where they were.</item>
+        <item quantity="other">Stopped. %1$d items had already moved, and the rest are where they were.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Stopped. Nothing was copied.</item>
+        <item quantity="other">Stopped. Nothing was copied.</item>
+    </plurals>
+
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d item restored.</item>
+        <item quantity="other">%1$d items restored.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d got a new name, because something else is now at its old one.</item>
+        <item quantity="other">%1$d got new names, because something else is now at their old ones.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d went to Downloads, because where it came from isn\'t known.</item>
+        <item quantity="other">%1$d went to Downloads, because where they came from isn\'t known.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d stayed in Recently Deleted, because %2$s.</item>
+        <item quantity="other">%1$d stayed in Recently Deleted, mostly because %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">%1$d item couldn\'t be deleted and is still in Recently Deleted.</item>
+        <item quantity="other">%1$d items couldn\'t be deleted and are still in Recently Deleted.</item>
+    </plurals>
+
+    <string name="safety_rename_taken">\"%1$s\" already exists here, so nothing was renamed.</string>
+    <string name="safety_rename_bad_name">That name can\'t be used for a file.</string>
+    <string name="safety_rename_failed">Couldn\'t rename that.</string>
+    <string name="safety_create_failed">Couldn\'t create \"%1$s\". The name may already be in use.</string>
+
+    <string name="safety_similar_look_first">Only exact copies are marked. The rest just look alike, so tap any you want removed, and hold to see it first.</string>
+    <string name="safety_similar_some_failed">%1$d couldn\'t be moved to Recently Deleted.</string>
+
+    <!-- Long jobs: what the notification, the bar and the pills say -->
+    <string name="safety_job_channel">File operations</string>
+    <string name="safety_job_copying_to">Copying to %1$s</string>
+    <string name="safety_job_moving_to">Moving to %1$s</string>
+    <string name="safety_job_compressing">Creating %1$s</string>
+    <string name="safety_job_extracting">Extracting %1$s</string>
+    <string name="safety_job_organizing">Organizing Downloads</string>
+    <string name="safety_job_finishing">Finishing up</string>
+    <string name="safety_job_stopping">Stopping</string>
+    <string name="safety_job_cancel_all">Cancel All</string>
+    <string name="safety_job_waiting">This will start when the current one finishes.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">%1$d more waiting</item>
+        <item quantity="other">%1$d more waiting</item>
+    </plurals>
+    <string name="safety_job_in_use">That\'s being used by a copy or a move right now. Try again when it finishes.</string>
+    <string name="safety_job_internal_storage">Internal storage</string>
+    <string name="safety_job_cloud">the cloud</string>
+    <string name="safety_job_nothing_changed">Nothing was changed.</string>
+    <string name="safety_job_failed_names">Affected: %1$s.</string>
+    <string name="safety_job_failed_names_more">Affected: %1$s and %2$d more.</string>
+    <string name="safety_job_time_limit">Android limits how long this kind of work can run in the background each day. It stopped cleanly. Open Kobblo and start it again to finish.</string>
+
+    <plurals name="safety_job_copied">
+        <item quantity="one">Copied %1$d item to %2$s</item>
+        <item quantity="other">Copied %1$d items to %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">Moved %1$d item to %2$s</item>
+        <item quantity="other">Moved %1$d items to %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Copy to %1$s stopped</string>
+    <string name="safety_job_move_stopped">Move to %1$s stopped</string>
+    <string name="safety_job_copy_problem">Copy to %1$s had a problem</string>
+    <string name="safety_job_move_problem">Move to %1$s had a problem</string>
+
+    <plurals name="safety_job_trashed">
+        <item quantity="one">Moved %1$d item to Recently Deleted</item>
+        <item quantity="other">Moved %1$d items to Recently Deleted</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">Deleted %1$d item</item>
+        <item quantity="other">Deleted %1$d items</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Delete stopped</string>
+    <string name="safety_job_delete_problem">Delete had a problem</string>
+    <string name="safety_job_delete_partly">%1$d of %2$d went. The rest are where they were.</string>
+    <string name="safety_job_empty_partly">%1$d of %2$d deleted. The rest are still in Recently Deleted.</string>
+
+    <string name="safety_job_restore_done">Restored</string>
+    <string name="safety_job_restore_stopped">Restore stopped</string>
+    <string name="safety_job_restore_problem">Restore had a problem</string>
+    <string name="safety_job_restore_partly">%1$d of %2$d restored. The rest are still in Recently Deleted.</string>
+
+    <string name="safety_job_vault_adding">Adding to the Vault</string>
+    <string name="safety_job_vault_stopped">Adding to the Vault stopped</string>
+    <string name="safety_job_vault_problem">Couldn\'t add to the Vault</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">Added %1$d item to the Vault</item>
+        <item quantity="other">Added %1$d items to the Vault</item>
+    </plurals>
+    <string name="safety_notice_vault">Adding to the Vault didn\'t finish</string>
+    <string name="safety_notice_vault_waiting">Adding to the Vault didn\'t start</string>
+    <string name="safety_notice_vault_detail">What was added is in the Vault. An item is only removed from where it was once it\'s safely in, so anything else is still there.</string>
+
+    <string name="safety_job_organized">Files organized</string>
+    <string name="safety_job_organize_stopped">Organizing stopped</string>
+    <string name="safety_job_organize_problem">Organizing had a problem</string>
+
+    <string name="safety_job_compressed">Created %1$s</string>
+    <string name="safety_job_compress_stopped">Creating %1$s stopped</string>
+    <string name="safety_job_compress_problem">Couldn\'t create %1$s</string>
+    <string name="safety_job_no_archive">No archive was made, and your files weren\'t changed.</string>
+
+    <string name="safety_job_extracted">Extracted %1$s</string>
+    <string name="safety_job_extract_stopped">Extracting %1$s stopped</string>
+    <string name="safety_job_extract_stopped_detail">What had been unpacked was removed. The archive wasn\'t changed.</string>
+    <string name="safety_job_extract_problem">Couldn\'t extract %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s needs a password</string>
+    <string name="safety_job_extract_prepare_failed">Couldn\'t get this archive ready to extract.</string>
+
+    <!-- Said on the next launch, about a job that was killed partway -->
+    <string name="safety_notice_open_folder">Open Folder</string>
+    <string name="safety_notice_closed">Kobblo was closed before this finished.</string>
+    <string name="safety_notice_never_started">Kobblo was closed while this was waiting its turn. Nothing was changed.</string>
+    <string name="safety_notice_originals_safe">Your originals weren\'t changed.</string>
+    <string name="safety_notice_copy_removed">The unfinished one was removed.</string>
+    <string name="safety_notice_original_left">\"%1$s\" arrived whole, but some or all of the original is still at %2$s. You can delete what\'s left.</string>
+    <string name="safety_notice_partial_kept">Something unfinished is still at %1$s.</string>
+    <string name="safety_notice_copy">Copy to %1$s didn\'t finish</string>
+    <string name="safety_notice_copy_waiting">Copy to %1$s didn\'t start</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">%1$d of %2$d item arrived whole.</item>
+        <item quantity="other">%1$d of %2$d items arrived whole.</item>
+    </plurals>
+    <string name="safety_notice_move">Move to %1$s didn\'t finish</string>
+    <string name="safety_notice_move_waiting">Move to %1$s didn\'t start</string>
+    <string name="safety_notice_move_none">It\'s still where it was.</string>
+    <string name="safety_notice_organize">Organizing Downloads didn\'t finish</string>
+    <string name="safety_notice_organize_waiting">Organizing Downloads didn\'t start</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">%1$d of %2$d item moved. If it didn\'t, it\'s where it was.</item>
+        <item quantity="other">%1$d of %2$d items moved. The rest are where they were.</item>
+    </plurals>
+    <string name="safety_notice_delete">Delete didn\'t finish</string>
+    <string name="safety_notice_delete_waiting">Delete didn\'t start</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">%1$d of %2$d item went to Recently Deleted. If it didn\'t, it\'s where it was.</item>
+        <item quantity="other">%1$d of %2$d items went to Recently Deleted. The rest are where they were.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">%1$d of %2$d item was deleted. If it wasn\'t, it\'s where it was.</item>
+        <item quantity="other">%1$d of %2$d items were deleted. The rest are where they were.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">%1$d of %2$d item was deleted. If it wasn\'t, it\'s still in Recently Deleted.</item>
+        <item quantity="other">%1$d of %2$d items were deleted. The rest are still in Recently Deleted.</item>
+    </plurals>
+    <string name="safety_notice_restore">Restore didn\'t finish</string>
+    <string name="safety_notice_restore_waiting">Restore didn\'t start</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">%1$d of %2$d item was restored. If it wasn\'t, it\'s still in Recently Deleted.</item>
+        <item quantity="other">%1$d of %2$d items were restored. The rest are still in Recently Deleted.</item>
+    </plurals>
+    <string name="safety_notice_compress">Creating %1$s didn\'t finish</string>
+    <string name="safety_notice_compress_waiting">Creating %1$s didn\'t start</string>
+    <string name="safety_notice_compress_detail">No archive was made, and your files weren\'t changed.</string>
+    <string name="safety_notice_archive_made">The archive was finished just before Kobblo was closed, and it\'s whole.</string>
+    <string name="safety_notice_extract">Extracting %1$s didn\'t finish</string>
+    <string name="safety_notice_extract_waiting">Extracting %1$s didn\'t start</string>
+    <string name="safety_notice_extract_detail">What had been unpacked was removed. The archive wasn\'t changed.</string>
+
+    <!-- Lock: what it is, and isn't -->
+    <string name="safety_lock_what_it_is">This hides it inside Kobblo. Other apps can still read it. The Vault keeps files from them too.</string>
+    <string name="safety_lock_confirm_title">Password Needed</string>
+    <string name="safety_lock_done">Locked. It\'s hidden in Kobblo, but other apps can still read it.</string>
+    <string name="safety_lock_in_folder">This is inside a locked folder. Unlock the folder to unlock it.</string>
+    <string name="safety_lock_delete_elsewhere">This is locked. Delete it from its folder, where you can give the password.</string>
+    <string name="safety_lock_no_app">No other app can open this, so it opened here.</string>
+</resources>

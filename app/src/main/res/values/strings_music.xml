@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="music_channel_name">Music playback</string>
+    <string name="music_tile_label">Music</string>
+    <string name="music_tile_playing">Playing</string>
+    <string name="music_tile_paused">Paused</string>
+
+    <string name="music_shuffle">Shuffle</string>
+    <string name="music_shuffle_all">Shuffle All</string>
+    <string name="music_play">Play</string>
+    <string name="music_repeat">Repeat</string>
+    <string name="music_repeat_all">Repeat All</string>
+    <string name="music_repeat_one">Repeat One</string>
+    <string name="music_now_playing_mark">Now playing</string>
+
+    <!-- Library -->
+    <string name="music_songs">Songs</string>
+    <string name="music_albums">Albums</string>
+    <string name="music_artists">Artists</string>
+    <string name="music_folders">Folders</string>
+    <string name="music_playlists">Playlists</string>
+    <string name="music_favorites">Favorites</string>
+    <string name="music_recently_played">Recently Played</string>
+    <string name="music_most_played">Most Played</string>
+    <string name="music_search_hint">Search your music</string>
+    <string name="music_sort">Sort</string>
+    <string name="music_letter_index">Jump to a letter</string>
+    <string name="music_sort_title">Title</string>
+    <string name="music_sort_artist">Artist</string>
+    <string name="music_sort_album">Album</string>
+    <string name="music_sort_added">Recently Added</string>
+    <string name="music_no_results">No results</string>
+    <string name="music_empty_title">No music yet</string>
+    <string name="music_empty_body">Songs on this device will show up here as soon as there are any.</string>
+    <string name="music_unknown_artist">Unknown Artist</string>
+    <string name="music_various_artists">Various Artists</string>
+    <string name="music_back_label_library">Audio</string>
+    <plurals name="music_song_count">
+        <item quantity="one">%d Song</item>
+        <item quantity="other">%,d Songs</item>
+    </plurals>
+    <plurals name="music_album_count">
+        <item quantity="one">%d Album</item>
+        <item quantity="other">%,d Albums</item>
+    </plurals>
+    <plurals name="music_play_count">
+        <item quantity="one">%d play</item>
+        <item quantity="other">%,d plays</item>
+    </plurals>
+    <string name="music_listening_time">%1$s listened in all, on this device only</string>
+    <string name="music_favorites_empty">Hold a song and choose Favorite to keep it here.</string>
+    <string name="music_recent_empty">Songs you listen to will show up here.</string>
+    <string name="music_most_played_empty">Your most played songs will show up here.</string>
+
+    <!-- Song menu -->
+    <string name="music_play_next">Play Next</string>
+    <string name="music_add_to_queue">Add to Queue</string>
+    <string name="music_add_to_playlist">Add to Playlist</string>
+    <string name="music_favorite">Favorite</string>
+    <string name="music_unfavorite">Remove from Favorites</string>
+    <string name="music_go_to_album">Go to Album</string>
+    <string name="music_go_to_artist">Go to Artist</string>
+    <string name="music_share">Share</string>
+    <string name="music_delete">Delete</string>
+    <string name="music_show_in_folder">Show in Folder</string>
+    <string name="music_remove_from_playlist">Remove from Playlist</string>
+    <string name="music_delete_title">Delete this song?</string>
+    <string name="music_delete_body">“%1$s” moves to Recently Deleted. You can restore it from there.</string>
+    <string name="music_queued_next">Playing next</string>
+    <string name="music_queued">Added to queue</string>
+    <string name="music_added_to_playlist">Added to %1$s</string>
+    <string name="music_more">More</string>
+    <string name="music_stop_playback">Stop Playback</string>
+
+    <!-- Playlists -->
+    <string name="music_new_playlist">New Playlist</string>
+    <string name="music_playlist_name">Playlist name</string>
+    <string name="music_rename">Rename</string>
+    <string name="music_rename_playlist">Rename Playlist</string>
+    <string name="music_delete_playlist">Delete Playlist</string>
+    <string name="music_delete_playlist_body">“%1$s” is removed. The songs in it stay on your device.</string>
+    <string name="music_reorder">Reorder</string>
+    <string name="music_done">Done</string>
+    <string name="music_create">Create</string>
+    <string name="music_save">Save</string>
+    <string name="music_cancel">Cancel</string>
+    <string name="music_import_m3u">Import .m3u</string>
+    <string name="music_export_m3u">Export .m3u</string>
+    <string name="music_exported">Saved to %1$s</string>
+    <string name="music_export_failed">Couldn’t save the playlist</string>
+    <string name="music_imported">Imported “%1$s”: %2$d of %3$d songs</string>
+    <string name="music_import_failed">Couldn’t read that playlist</string>
+    <string name="music_playlist_empty">Hold any song and choose Add to Playlist.</string>
+
+    <!-- Up Next -->
+    <string name="music_up_next">Up Next</string>
+    <string name="music_clear">Clear</string>
+    <string name="music_up_next_empty">Nothing else is queued.</string>
+    <string name="music_remove">Remove</string>
+    <string name="music_drag_to_reorder">Drag to reorder</string>
+
+    <!-- Lyrics -->
+    <string name="music_lyrics">Lyrics</string>
+    <string name="music_no_lyrics">No lyrics</string>
+    <string name="music_no_lyrics_body">Put an .lrc file beside the song, with the same name, to follow along.</string>
+    <string name="music_lyrics_earlier">Lyrics earlier</string>
+    <string name="music_lyrics_later">Lyrics later</string>
+    <string name="music_back_10">Back 10 seconds</string>
+    <string name="music_forward_10">Forward 10 seconds</string>
+
+    <!-- Sound -->
+    <string name="music_sound">Sound</string>
+    <string name="music_speed">Speed</string>
+    <string name="music_pitch">Pitch</string>
+    <string name="music_pitch_value">%+d</string>
+    <string name="music_pitch_down">Lower pitch</string>
+    <string name="music_pitch_up">Raise pitch</string>
+    <string name="music_skip_silence">Skip Silence</string>
+    <string name="music_crossfade">Crossfade</string>
+    <string name="music_crossfade_off">Off</string>
+    <string name="music_crossfade_seconds">%d s</string>
+    <string name="music_sleep_timer">Sleep Timer</string>
+    <string name="music_sleep_minutes">%d min</string>
+    <string name="music_sleep_left">%1$s left</string>
+    <string name="music_sleep_cancel">Turn Off Timer</string>
+    <string name="music_sleep_start">Start, %d min</string>
+    <string name="music_equalizer">Equalizer</string>
+    <string name="music_bass_boost">Bass Boost</string>
+    <string name="music_preset_custom">Custom</string>
+    <string name="music_reset">Reset</string>
+    <string name="music_eq_unavailable">This device doesn’t offer an equalizer. Speed, pitch and everything else still work.</string>
+    <string name="music_band_hz">%d Hz</string>
+    <string name="music_band_khz">%.1f kHz</string>
+
+    <!-- Problems -->
+    <string name="music_problem_title">Can’t play this song</string>
+    <string name="music_problem_missing">“%1$s” isn’t there any more. It may have been moved or deleted.</string>
+    <string name="music_problem_permission">Kobblo doesn’t have permission to read “%1$s”.</string>
+    <string name="music_problem_unsupported">This device can’t play the format of “%1$s”. Another app might.</string>
+    <string name="music_problem_damaged">“%1$s” looks damaged, so it can’t be played. Another app might manage.</string>
+    <string name="music_problem_other">Something went wrong playing “%1$s”.</string>
+    <string name="music_open_with">Open With</string>
+    <string name="music_ok">OK</string>
+</resources>

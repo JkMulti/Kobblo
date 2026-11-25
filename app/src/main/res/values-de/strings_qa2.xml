@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Wird in Ordner sortiert</string>
+    <string name="organize_pill_action">Organisieren</string>
+    <string name="extract_pill_running">Wird extrahiert</string>
+    <string name="extract_pill_done">Extrahiert</string>
+    <string name="extract_pill_done_detail">Alle Dateien extrahiert</string>
+    <string name="op_resume">Fortsetzen</string>
+    <string name="archive_kind">Archiv</string>
+    <string name="archive_kind_rar">RAR-Archiv</string>
+    <string name="archive_extract_here">Hier extrahieren</string>
+    <string name="archive_extract_here_subtitle">Dateien in den aktuellen Ordner extrahieren</string>
+    <string name="archive_extract_here_downloads">Dateien in den Ordner „Download“ extrahieren</string>
+    <string name="archive_extract_to">Extrahieren nach…</string>
+    <string name="archive_extract_to_subtitle">Ordner wählen</string>
+    <string name="archive_view_contents">Inhalt anzeigen</string>
+    <string name="archive_view_contents_subtitle">Dateien in diesem Archiv ansehen</string>
+    <string name="archive_delete">Archiv löschen</string>
+    <string name="archive_create_title">Archiv erstellen</string>
+    <string name="archive_create_name">Archivname</string>
+    <string name="archive_create_lock">Mit Passwort schützen</string>
+    <string name="archive_create_lock_desc">Mit AES-256 verschlüsselt</string>
+    <string name="archive_create_action">Erstellen</string>
+    <string name="archive_extract_out_toast">Wird nach Download/%1$s extrahiert</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d Element</item>
+        <item quantity="other">%1$d Elemente</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d Element, %2$s</item>
+        <item quantity="other">%1$d Elemente, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Passwort erforderlich</string>
+    <string name="archive_password_placeholder">Passwort</string>
+    <string name="archive_password_wrong">Falsches Passwort</string>
+    <string name="archive_encrypted_name">Dieses Archiv ist verschlüsselt.</string>
+    <string name="archive_failed_title">Extrahieren fehlgeschlagen</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">Neuer Ordner</string>
+    <string name="dialog_new_file">Neue Datei</string>
+    <string name="dialog_rename">Umbenennen</string>
+    <string name="dialog_rename_placeholder">Neuer Name</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d Element versteckt</item>
+        <item quantity="other">%1$d Elemente versteckt</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d Element wieder sichtbar</item>
+        <item quantity="other">%1$d Elemente wieder sichtbar</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d Element konnte nicht versteckt werden</item>
+        <item quantity="other">%1$d Elemente konnten nicht versteckt werden</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d Element konnte nicht sichtbar gemacht werden</item>
+        <item quantity="other">%1$d Elemente konnten nicht sichtbar gemacht werden</item>
+    </plurals>
+    <string name="settings_grid_columns">Ordnerspalten</string>
+    <string name="settings_grid_columns_desc">In der Symbolansicht</string>
+    <string name="settings_lock_password_changed">Passwort geändert</string>
+    <string name="settings_show_vault">Tresor in Tools anzeigen</string>
+    <string name="settings_show_vault_desc">Wenn aus, halte in Durchsuchen ⋯ oder + gedrückt, um ihn zu öffnen</string>
+    <string name="settings_open_with">Öffnen mit</string>
+    <string name="settings_open_text">Dokumente</string>
+    <string name="settings_open_music">Musik</string>
+    <string name="settings_open_images">Bilder</string>
+    <string name="settings_open_videos">Videos</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Andere App</string>
+    <string name="settings_organizer_footer">Wohin „Downloads organisieren“ die einzelnen Dateiarten verschiebt.</string>
+    <string name="settings_choose_folder">Wählen</string>
+    <string name="settings_send_name">Gerätename</string>
+    <string name="settings_send_name_desc">Das sehen andere Geräte, wenn sie nach diesem Gerät suchen.</string>
+    <string name="settings_send_folder">Empfangene Dateien</string>
+    <string name="settings_send_ask">Vor dem Empfangen fragen</string>
+    <string name="settings_send_ask_on">Jede eingehende Übertragung annehmen oder ablehnen</string>
+    <string name="settings_send_ask_off">Jeder in deinem Netzwerk kann ohne Nachfrage Dateien hier speichern</string>
+    <string name="crash_title">Kobblo wurde beendet</string>
+    <string name="crash_subtitle">Das ist schiefgelaufen. Die Info bleibt auf diesem Gerät, außer du teilst sie.</string>
+    <string name="crash_last_title">Letzter Absturz</string>
+    <string name="crash_last_subtitle">Was beim letzten Beenden von Kobblo schiefgelaufen ist</string>
+    <string name="crash_copy">Kopieren</string>
+    <string name="crash_share">Teilen</string>
+    <string name="crash_delete">Löschen</string>
+    <string name="crash_close">Schließen</string>
+    <string name="crash_copied">Absturzprotokoll kopiert</string>
+    <string name="crash_share_subject">Kobblo-Absturzprotokoll</string>
+    <string name="crash_none">Kein Absturz aufgezeichnet</string>
+</resources>

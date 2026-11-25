@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">العودة إلى %1$s</string>
+    <string name="screen_clear_search">مسح البحث</string>
+    <string name="screen_show_section">إظهار %1$s</string>
+    <string name="screen_hide_section">إخفاء %1$s</string>
+    <string name="screen_hide">إخفاء</string>
+    <string name="screen_unhide">إظهار</string>
+    <string name="screen_paste">لصق</string>
+    <string name="screen_batch_install">تثبيت مجمّع</string>
+    <string name="screen_favorite">تفضيل</string>
+    <string name="screen_loading_details">جارٍ تحميل التفاصيل…</string>
+    <string name="screen_detail_items">العناصر</string>
+    <string name="screen_detail_format">التنسيق</string>
+    <string name="screen_detail_resolution">الدقة</string>
+    <string name="screen_detail_duration">المدة</string>
+    <string name="screen_save_to">حفظ في %1$s</string>
+    <string name="screen_pictures">الصور</string>
+    <string name="screen_storage">وحدة التخزين</string>
+    <string name="screen_saving">جارٍ الحفظ</string>
+    <string name="screen_about_description">%1$s مدير ملفات عصري ومعبّر مصمَّم لنظام Android. يجمع بين التنقل السهل بين الملفات، والتصنيف الذكي، وعارضات الوسائط المدمجة، والتكامل مع التخزين السحابي.</string>
+    <string name="screen_about_links">الروابط والدعم</string>
+    <string name="screen_about_website">الموقع الإلكتروني</string>
+    <string name="screen_about_privacy_subtitle">كيف نحمي بياناتك</string>
+    <string name="screen_about_feedback">الملاحظات والدعم</string>
+    <string name="screen_about_made_with">صُنع بـ ❤️ في باكستان</string>
+    <string name="screen_show_as_icons">عرض كأيقونات</string>
+    <string name="screen_show_as_list">عرض كقائمة</string>
+    <string name="screen_view_options">خيارات العرض</string>
+    <string name="screen_current_sort">الترتيب الحالي</string>
+    <string name="screen_category_duplicates">الملفات المكررة</string>
+    <string name="screen_category_empty_folders">المجلدات الفارغة</string>
+    <string name="screen_empty_images">لم يتم العثور على صور</string>
+    <string name="screen_empty_videos">لم يتم العثور على فيديوهات</string>
+    <string name="screen_empty_audio">لم يتم العثور على ملفات صوتية</string>
+    <string name="screen_empty_documents">لم يتم العثور على مستندات</string>
+    <string name="screen_empty_apps">لم يتم العثور على تطبيقات</string>
+    <string name="screen_empty_downloads">لم يتم العثور على تنزيلات</string>
+    <string name="screen_empty_archives">لم يتم العثور على أرشيفات</string>
+    <string name="screen_empty_large">لم يتم العثور على ملفات كبيرة</string>
+    <string name="screen_empty_duplicates">لم يتم العثور على ملفات مكررة</string>
+    <string name="screen_empty_empty_folders">لم يتم العثور على مجلدات فارغة</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="zero">لا عناصر · %2$s</item>
+        <item quantity="one">عنصر واحد · %2$s</item>
+        <item quantity="two">عنصران · %2$s</item>
+        <item quantity="few">%1$d عناصر · %2$s</item>
+        <item quantity="many">%1$d عنصراً · %2$s</item>
+        <item quantity="other">%1$d عنصر · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="zero">لا عناصر، %2$s غيغابايت متاحة</item>
+        <item quantity="one">عنصر واحد، %2$s غيغابايت متاحة</item>
+        <item quantity="two">عنصران، %2$s غيغابايت متاحة</item>
+        <item quantity="few">%1$d عناصر، %2$s غيغابايت متاحة</item>
+        <item quantity="many">%1$d عنصراً، %2$s غيغابايت متاحة</item>
+        <item quantity="other">%1$d عنصر، %2$s غيغابايت متاحة</item>
+    </plurals>
+    <string name="screen_connected">متصل</string>
+    <string name="screen_disconnect_named">قطع الاتصال بـ %1$s</string>
+    <string name="screen_active">نشط</string>
+    <string name="screen_destructive_words">حذف,احذف,إزالة,أزل,إفراغ,أفرغ,تفريغ,مسح,امسح,محو,قطع الاتصال,تسجيل الخروج,تجاهل,إلغاء التثبيت,إلغاء تثبيت</string>
+    <string name="screen_toast_problem_words">تعذّر,تعذر,يتعذّر,يتعذر,لا يمكن,فشل,خطأ,رُفض,رفض,مرفوض,غير مسموح</string>
+    <string name="screen_toast_done_words">تم النسخ,تم نسخ,تم النقل,تم نقل,تم الحفظ,تم حفظ,تم التثبيت,تم تثبيت,تم التحديث,تم تحديث</string>
+</resources>

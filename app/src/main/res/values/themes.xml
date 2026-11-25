@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- AppCompat underneath even though the app draws with Compose: on Android 8 the fingerprint prompt is an
+         AppCompat dialog inside this theme, and it crashes under any other. -->
+    <style name="Base.Theme.Kobblo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#F2F2F7</item>
+        <item name="android:navigationBarColor">#F2F2F7</item>
+        <item name="android:windowBackground">#F2F2F7</item>
+        <item name="android:colorAccent">#007AFF</item>
+    </style>
+
+    <style name="Theme.Kobblo" parent="Base.Theme.Kobblo" />
+</resources>

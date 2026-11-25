@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Vurgu rengi</string>
+    <string name="tint_blue">Mavi</string>
+    <string name="tint_indigo">Çivit mavisi</string>
+    <string name="tint_purple">Mor</string>
+    <string name="tint_pink">Pembe</string>
+    <string name="tint_orange">Turuncu</string>
+    <string name="tint_green">Yeşil</string>
+    <string name="tint_teal">Deniz yeşili</string>
+</resources>

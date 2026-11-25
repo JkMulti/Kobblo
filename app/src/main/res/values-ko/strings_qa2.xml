@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">폴더별로 분류됩니다</string>
+    <string name="organize_pill_action">정리</string>
+    <string name="extract_pill_running">압축 푸는 중</string>
+    <string name="extract_pill_done">압축 풀기 완료</string>
+    <string name="extract_pill_done_detail">모든 파일의 압축을 풀었습니다</string>
+    <string name="op_resume">재개</string>
+    <string name="archive_kind">압축 파일</string>
+    <string name="archive_kind_rar">RAR 압축 파일</string>
+    <string name="archive_extract_here">여기에 압축 풀기</string>
+    <string name="archive_extract_here_subtitle">현재 폴더에 압축 풀기</string>
+    <string name="archive_extract_here_downloads">Download 폴더에 압축 풀기</string>
+    <string name="archive_extract_to">다른 위치에 압축 풀기…</string>
+    <string name="archive_extract_to_subtitle">폴더 선택</string>
+    <string name="archive_view_contents">내용 보기</string>
+    <string name="archive_view_contents_subtitle">압축 파일 안의 파일 보기</string>
+    <string name="archive_delete">압축 파일 삭제</string>
+    <string name="archive_create_title">압축 파일 만들기</string>
+    <string name="archive_create_name">압축 파일 이름</string>
+    <string name="archive_create_lock">비밀번호로 잠그기</string>
+    <string name="archive_create_lock_desc">AES-256으로 암호화</string>
+    <string name="archive_create_action">만들기</string>
+    <string name="archive_extract_out_toast">Download/%1$s에 압축 푸는 중</string>
+    <plurals name="archive_create_count">
+        <item quantity="other">항목 %1$d개</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="other">항목 %1$d개, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">비밀번호 필요</string>
+    <string name="archive_password_placeholder">비밀번호</string>
+    <string name="archive_password_wrong">비밀번호가 올바르지 않습니다</string>
+    <string name="archive_encrypted_name">암호화된 압축 파일입니다.</string>
+    <string name="archive_failed_title">압축을 풀 수 없음</string>
+    <string name="archive_failed_dismiss">확인</string>
+    <string name="dialog_new_folder">새 폴더</string>
+    <string name="dialog_new_file">새 파일</string>
+    <string name="dialog_rename">이름 변경</string>
+    <string name="dialog_rename_placeholder">새 이름</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="other">항목 %1$d개를 숨겼습니다</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="other">항목 %1$d개를 숨김 해제했습니다</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="other">%1$d개를 숨길 수 없습니다</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="other">%1$d개를 숨김 해제할 수 없습니다</item>
+    </plurals>
+    <string name="settings_grid_columns">폴더 열 수</string>
+    <string name="settings_grid_columns_desc">아이콘 보기에서</string>
+    <string name="settings_lock_password_changed">비밀번호가 변경되었습니다</string>
+    <string name="settings_show_vault">도구에 금고 표시</string>
+    <string name="settings_show_vault_desc">끄면 탐색에서 ⋯ 또는 +를 길게 눌러 열 수 있습니다</string>
+    <string name="settings_open_with">다음으로 열기</string>
+    <string name="settings_open_text">문서</string>
+    <string name="settings_open_music">음악</string>
+    <string name="settings_open_images">이미지</string>
+    <string name="settings_open_videos">동영상</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">다른 앱</string>
+    <string name="settings_organizer_footer">다운로드 정리 시 파일 종류별로 이동할 폴더입니다.</string>
+    <string name="settings_choose_folder">선택</string>
+    <string name="settings_send_name">기기 이름</string>
+    <string name="settings_send_name_desc">다른 기기에서 이 기기를 찾을 때 표시되는 이름입니다.</string>
+    <string name="settings_send_folder">받은 파일</string>
+    <string name="settings_send_ask">받기 전에 묻기</string>
+    <string name="settings_send_ask_on">들어오는 전송을 하나씩 수락하거나 거절합니다</string>
+    <string name="settings_send_ask_off">같은 네트워크의 누구나 묻지 않고 이 기기에 파일을 저장할 수 있습니다</string>
+    <string name="crash_title">Kobblo가 중지되었습니다</string>
+    <string name="crash_subtitle">발생한 오류 내용입니다. 공유하지 않으면 이 휴대전화에만 남습니다.</string>
+    <string name="crash_last_title">마지막 비정상 종료</string>
+    <string name="crash_last_subtitle">Kobblo가 마지막으로 중지되었을 때 발생한 문제</string>
+    <string name="crash_copy">복사</string>
+    <string name="crash_share">공유</string>
+    <string name="crash_delete">삭제</string>
+    <string name="crash_close">닫기</string>
+    <string name="crash_copied">오류 로그를 복사했습니다</string>
+    <string name="crash_share_subject">Kobblo 오류 로그</string>
+    <string name="crash_none">기록된 오류 없음</string>
+</resources>

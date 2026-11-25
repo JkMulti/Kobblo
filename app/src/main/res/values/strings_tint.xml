@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Tint Color</string>
+    <string name="tint_blue">Blue</string>
+    <string name="tint_indigo">Indigo</string>
+    <string name="tint_purple">Purple</string>
+    <string name="tint_pink">Pink</string>
+    <string name="tint_orange">Orange</string>
+    <string name="tint_green">Green</string>
+    <string name="tint_teal">Teal</string>
+</resources>

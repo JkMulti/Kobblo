@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Cor de destaque</string>
+    <string name="tint_blue">Azul</string>
+    <string name="tint_indigo">Índigo</string>
+    <string name="tint_purple">Roxo</string>
+    <string name="tint_pink">Rosa</string>
+    <string name="tint_orange">Laranja</string>
+    <string name="tint_green">Verde</string>
+    <string name="tint_teal">Verde-azulado</string>
+</resources>

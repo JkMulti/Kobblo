@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Gerekli</string>
+    <string name="polish_optional">İsteğe bağlı</string>
+    <string name="polish_field_name">Ad</string>
+    <string name="polish_field_domain">Alan adı</string>
+    <string name="polish_field_server">Sunucu</string>
+    <string name="polish_one_saved">1 kayıtlı bağlantı</string>
+    <string name="polish_many_saved">%1$d kayıtlı bağlantı</string>
+    <string name="polish_delete_connection">\"%1$s\" silinsin mi?</string>
+    <string name="polish_delete_connection_note">Kayıtlı şifresi de silinir. Sunucudaki dosyalara dokunulmaz.</string>
+    <string name="polish_smb_subtitle">Windows paylaşımı veya NAS</string>
+    <string name="polish_smb_missing">Ana bilgisayar, paylaşım adı ve kullanıcı adı girin.</string>
+    <string name="polish_server_missing">Ana bilgisayar ve kullanıcı adı girin.</string>
+    <string name="polish_all_required">Bağlanmak için tüm alanları doldurun.</string>
+    <string name="polish_ftp_subtitle">Ağınızdaki veya internetteki bir sunucu</string>
+    <string name="polish_sftp_subtitle">SSH ile eriştiğiniz bir sunucu</string>
+    <string name="polish_webdav_title">WebDAV bağlantıları</string>
+    <string name="polish_webdav_add">WebDAV bağlantısı ekle</string>
+    <string name="polish_webdav_subtitle">WebDAV sunucusu</string>
+    <string name="polish_allow_self_signed">Kendinden imzalı sertifikaya izin ver</string>
+    <string name="polish_nextcloud_title">Nextcloud bağlantıları</string>
+    <string name="polish_nextcloud_add">Nextcloud ekle</string>
+    <string name="polish_nextcloud_subtitle">Kendi Nextcloud sunucunuz</string>
+    <string name="polish_nextcloud_tip">Hesabınız iki adımlı giriş kullanıyorsa bir uygulama şifresi kullanın. Bunu Nextcloud\'da Ayarlar, Güvenlik, Cihazlar ve oturumlar bölümünden oluşturabilirsiniz.</string>
+    <string name="polish_log_in_to">%1$s hesabına giriş yap</string>
+    <string name="polish_compressing">Sıkıştırılıyor</string>
+    <string name="polish_archive_created">Arşiv oluşturuldu</string>
+    <string name="polish_choose_from_other_app">Başka uygulamadan seç</string>
+    <string name="polish_cant_open_app_package">Bu uygulama paketi açılamıyor.</string>
+    <string name="polish_google_login_failed">Google Drive\'a giriş yapılamadı. Tekrar deneyin.</string>
+    <string name="polish_unlocked">Kilit açıldı</string>
+    <string name="polish_files_not_saved">Dosyalar kaydedilemedi.</string>
+    <string name="polish_organize_failed">İndirilenleriniz düzenlenemedi.</string>
+    <string name="polish_extract_failed">Arşiv hasarlı olabilir veya yeterli alan olmayabilir.</string>
+    <string name="polish_extract_failed_names">%1$s çıkartılamadı.</string>
+    <string name="polish_archive_unreadable">Bu arşiv okunamıyor. Hasarlı olabilir.</string>
+    <string name="polish_current_sort">Geçerli sıralama</string>
+    <string name="polish_sheet_handle">Sürükleme tutamacı</string>
+</resources>

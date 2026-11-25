@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Menghapus</string>
+    <string name="safety_restoring">Memulihkan</string>
+    <string name="safety_progress_count">%1$s dari %2$s</string>
+    <string name="safety_reason_missing">item itu sudah tidak ada</string>
+    <string name="safety_reason_no_space">ruang penyimpanan tidak cukup</string>
+    <string name="safety_reason_into_itself">folder tidak dapat dimasukkan ke dalam dirinya sendiri</string>
+    <string name="safety_reason_denied">aplikasi tidak diizinkan mengubahnya</string>
+    <string name="safety_reason_name_too_long">nama atau jalurnya terlalu panjang</string>
+    <string name="safety_reason_check_failed">salinannya tidak cocok dengan aslinya, jadi yang asli dipertahankan</string>
+    <string name="safety_reason_not_possible">tindakan ini tidak dapat dilakukan pada item ini</string>
+    <string name="safety_reason_unknown">terjadi kesalahan</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="other">%1$d dari %2$d tidak dihapus, sebagian besar karena %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="other">%1$d dari %2$d tidak ditransfer dan tidak berubah, sebagian besar karena %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="other">%1$d item diberi nama baru karena namanya sudah dipakai.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="other">%1$d tautan di dalam folder tidak dapat disalin ke sini.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="other">Dihentikan. %1$d item sudah dipindahkan, dan sisanya tetap di tempat semula.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="other">Dihentikan. Tidak ada yang disalin.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="other">%1$d item dipulihkan.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="other">%1$d diberi nama baru, karena kini ada item lain dengan nama lamanya.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="other">%1$d dipindahkan ke Download, karena asalnya tidak diketahui.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="other">%1$d tetap di Baru dihapus, sebagian besar karena %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="other">%1$d item tidak dapat dihapus dan masih ada di Baru dihapus.</item>
+    </plurals>
+    <string name="safety_rename_taken">\"%1$s\" sudah ada di sini, jadi tidak ada yang diganti namanya.</string>
+    <string name="safety_rename_bad_name">Nama itu tidak dapat digunakan untuk berkas.</string>
+    <string name="safety_rename_failed">Tidak dapat mengganti nama item itu.</string>
+    <string name="safety_create_failed">Tidak dapat membuat \"%1$s\". Nama itu mungkin sudah dipakai.</string>
+    <string name="safety_similar_look_first">Hanya salinan persis yang ditandai. Sisanya hanya terlihat mirip, jadi ketuk yang ingin dihapus, dan tahan untuk melihatnya dulu.</string>
+    <string name="safety_similar_some_failed">%1$d tidak dapat dipindahkan ke Baru dihapus.</string>
+    <string name="safety_job_channel">Operasi berkas</string>
+    <string name="safety_job_copying_to">Menyalin ke %1$s</string>
+    <string name="safety_job_moving_to">Memindahkan ke %1$s</string>
+    <string name="safety_job_compressing">Membuat %1$s</string>
+    <string name="safety_job_extracting">Mengekstrak %1$s</string>
+    <string name="safety_job_organizing">Mengatur unduhan</string>
+    <string name="safety_job_finishing">Menyelesaikan</string>
+    <string name="safety_job_stopping">Menghentikan</string>
+    <string name="safety_job_cancel_all">Batalkan semua</string>
+    <string name="safety_job_waiting">Ini akan dimulai setelah proses saat ini selesai.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="other">%1$d lagi menunggu</item>
+    </plurals>
+    <string name="safety_job_in_use">Item itu sedang digunakan oleh proses salin atau pindah. Coba lagi setelah selesai.</string>
+    <string name="safety_job_internal_storage">Penyimpanan internal</string>
+    <string name="safety_job_cloud">cloud</string>
+    <string name="safety_job_nothing_changed">Tidak ada yang diubah.</string>
+    <string name="safety_job_failed_names">Terdampak: %1$s.</string>
+    <string name="safety_job_failed_names_more">Terdampak: %1$s dan %2$d lainnya.</string>
+    <string name="safety_job_time_limit">Android membatasi berapa lama pekerjaan seperti ini dapat berjalan di latar belakang setiap hari. Proses dihentikan dengan aman. Buka Kobblo dan mulai lagi untuk menyelesaikannya.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="other">%1$d item disalin ke %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="other">%1$d item dipindahkan ke %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Penyalinan ke %1$s dihentikan</string>
+    <string name="safety_job_move_stopped">Pemindahan ke %1$s dihentikan</string>
+    <string name="safety_job_copy_problem">Penyalinan ke %1$s mengalami masalah</string>
+    <string name="safety_job_move_problem">Pemindahan ke %1$s mengalami masalah</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="other">%1$d item dipindahkan ke Baru dihapus</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="other">%1$d item dihapus</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Penghapusan dihentikan</string>
+    <string name="safety_job_delete_problem">Penghapusan mengalami masalah</string>
+    <string name="safety_job_delete_partly">%1$d dari %2$d terhapus. Sisanya tetap di tempat semula.</string>
+    <string name="safety_job_empty_partly">%1$d dari %2$d dihapus. Sisanya masih ada di Baru dihapus.</string>
+    <string name="safety_job_restore_done">Dipulihkan</string>
+    <string name="safety_job_restore_stopped">Pemulihan dihentikan</string>
+    <string name="safety_job_restore_problem">Pemulihan mengalami masalah</string>
+    <string name="safety_job_restore_partly">%1$d dari %2$d dipulihkan. Sisanya masih ada di Baru dihapus.</string>
+    <string name="safety_job_vault_adding">Menambahkan ke Brankas</string>
+    <string name="safety_job_vault_stopped">Penambahan ke Brankas dihentikan</string>
+    <string name="safety_job_vault_problem">Tidak dapat menambahkan ke Brankas</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="other">%1$d item ditambahkan ke Brankas</item>
+    </plurals>
+    <string name="safety_notice_vault">Penambahan ke Brankas tidak selesai</string>
+    <string name="safety_notice_vault_waiting">Penambahan ke Brankas tidak dimulai</string>
+    <string name="safety_notice_vault_detail">Yang sudah ditambahkan ada di Brankas. Item baru dihapus dari tempat asalnya setelah aman di Brankas, jadi sisanya masih ada di sana.</string>
+    <string name="safety_job_organized">Berkas sudah ditata</string>
+    <string name="safety_job_organize_stopped">Penataan dihentikan</string>
+    <string name="safety_job_organize_problem">Penataan mengalami masalah</string>
+    <string name="safety_job_compressed">%1$s dibuat</string>
+    <string name="safety_job_compress_stopped">Pembuatan %1$s dihentikan</string>
+    <string name="safety_job_compress_problem">Tidak dapat membuat %1$s</string>
+    <string name="safety_job_no_archive">Arsip tidak dibuat, dan berkas Anda tidak diubah.</string>
+    <string name="safety_job_extracted">%1$s diekstrak</string>
+    <string name="safety_job_extract_stopped">Ekstraksi %1$s dihentikan</string>
+    <string name="safety_job_extract_stopped_detail">Yang sudah diekstrak telah dihapus. Arsip tidak diubah.</string>
+    <string name="safety_job_extract_problem">Tidak dapat mengekstrak %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s memerlukan kata sandi</string>
+    <string name="safety_job_extract_prepare_failed">Tidak dapat menyiapkan arsip ini untuk diekstrak.</string>
+    <string name="safety_notice_open_folder">Buka folder</string>
+    <string name="safety_notice_closed">Kobblo ditutup sebelum proses ini selesai.</string>
+    <string name="safety_notice_never_started">Kobblo ditutup saat proses ini menunggu giliran. Tidak ada yang diubah.</string>
+    <string name="safety_notice_originals_safe">Berkas asli Anda tidak diubah.</string>
+    <string name="safety_notice_copy_removed">Salinan yang belum selesai telah dihapus.</string>
+    <string name="safety_notice_original_left">\"%1$s\" tiba dengan utuh, tetapi sebagian atau seluruh aslinya masih ada di %2$s. Anda dapat menghapus sisanya.</string>
+    <string name="safety_notice_partial_kept">Ada sesuatu yang belum selesai di %1$s.</string>
+    <string name="safety_notice_copy">Penyalinan ke %1$s tidak selesai</string>
+    <string name="safety_notice_copy_waiting">Penyalinan ke %1$s tidak dimulai</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="other">%1$d dari %2$d item tiba dengan utuh.</item>
+    </plurals>
+    <string name="safety_notice_move">Pemindahan ke %1$s tidak selesai</string>
+    <string name="safety_notice_move_waiting">Pemindahan ke %1$s tidak dimulai</string>
+    <string name="safety_notice_move_none">Item masih di tempat semula.</string>
+    <string name="safety_notice_organize">Penataan unduhan tidak selesai</string>
+    <string name="safety_notice_organize_waiting">Penataan unduhan tidak dimulai</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="other">%1$d dari %2$d item dipindahkan. Sisanya tetap di tempat semula.</item>
+    </plurals>
+    <string name="safety_notice_delete">Penghapusan tidak selesai</string>
+    <string name="safety_notice_delete_waiting">Penghapusan tidak dimulai</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="other">%1$d dari %2$d item dipindahkan ke Baru dihapus. Sisanya tetap di tempat semula.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="other">%1$d dari %2$d item dihapus. Sisanya tetap di tempat semula.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="other">%1$d dari %2$d item dihapus. Sisanya masih ada di Baru dihapus.</item>
+    </plurals>
+    <string name="safety_notice_restore">Pemulihan tidak selesai</string>
+    <string name="safety_notice_restore_waiting">Pemulihan tidak dimulai</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="other">%1$d dari %2$d item dipulihkan. Sisanya masih ada di Baru dihapus.</item>
+    </plurals>
+    <string name="safety_notice_compress">Pembuatan %1$s tidak selesai</string>
+    <string name="safety_notice_compress_waiting">Pembuatan %1$s tidak dimulai</string>
+    <string name="safety_notice_compress_detail">Arsip tidak dibuat, dan berkas Anda tidak diubah.</string>
+    <string name="safety_notice_archive_made">Arsip selesai dibuat tepat sebelum Kobblo ditutup, dan arsipnya utuh.</string>
+    <string name="safety_notice_extract">Ekstraksi %1$s tidak selesai</string>
+    <string name="safety_notice_extract_waiting">Ekstraksi %1$s tidak dimulai</string>
+    <string name="safety_notice_extract_detail">Yang sudah diekstrak telah dihapus. Arsip tidak diubah.</string>
+    <string name="safety_lock_what_it_is">Ini menyembunyikannya di dalam Kobblo. Aplikasi lain tetap dapat membacanya. Brankas juga melindungi berkas dari aplikasi lain.</string>
+    <string name="safety_lock_confirm_title">Kata sandi diperlukan</string>
+    <string name="safety_lock_done">Terkunci. Item disembunyikan di Kobblo, tetapi aplikasi lain tetap dapat membacanya.</string>
+    <string name="safety_lock_in_folder">Item ini ada di dalam folder terkunci. Buka kunci folder untuk membuka kuncinya.</string>
+    <string name="safety_lock_delete_elsewhere">Item ini terkunci. Hapus dari foldernya, tempat Anda dapat memasukkan kata sandi.</string>
+    <string name="safety_lock_no_app">Tidak ada aplikasi lain yang dapat membukanya, jadi dibuka di sini.</string>
+</resources>

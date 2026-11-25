@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">%1$s に戻る</string>
+    <string name="screen_clear_search">検索をクリア</string>
+    <string name="screen_show_section">%1$s を表示</string>
+    <string name="screen_hide_section">%1$s を非表示</string>
+    <string name="screen_hide">非表示</string>
+    <string name="screen_unhide">再表示</string>
+    <string name="screen_paste">貼り付け</string>
+    <string name="screen_batch_install">一括インストール</string>
+    <string name="screen_favorite">お気に入り</string>
+    <string name="screen_loading_details">詳細を読み込み中…</string>
+    <string name="screen_detail_items">項目数</string>
+    <string name="screen_detail_format">形式</string>
+    <string name="screen_detail_resolution">解像度</string>
+    <string name="screen_detail_duration">再生時間</string>
+    <string name="screen_save_to">%1$s に保存</string>
+    <string name="screen_pictures">画像</string>
+    <string name="screen_storage">ストレージ</string>
+    <string name="screen_saving">保存中</string>
+    <string name="screen_about_description">%1$sは、Android向けに作られたモダンで表現力豊かなファイルマネージャーです。直感的なファイル操作、スマートな分類、内蔵のメディアビューアー、クラウドストレージとの連携を備えています。</string>
+    <string name="screen_about_links">リンクとサポート</string>
+    <string name="screen_about_website">ウェブサイト</string>
+    <string name="screen_about_privacy_subtitle">データの保護について</string>
+    <string name="screen_about_feedback">フィードバックとサポート</string>
+    <string name="screen_about_made_with">パキスタンで❤️を込めて開発</string>
+    <string name="screen_show_as_icons">アイコン表示</string>
+    <string name="screen_show_as_list">リスト表示</string>
+    <string name="screen_view_options">表示オプション</string>
+    <string name="screen_current_sort">現在の並べ替え</string>
+    <string name="screen_category_duplicates">重複ファイル</string>
+    <string name="screen_category_empty_folders">空のフォルダー</string>
+    <string name="screen_empty_images">画像が見つかりません</string>
+    <string name="screen_empty_videos">動画が見つかりません</string>
+    <string name="screen_empty_audio">音声ファイルが見つかりません</string>
+    <string name="screen_empty_documents">ドキュメントが見つかりません</string>
+    <string name="screen_empty_apps">アプリが見つかりません</string>
+    <string name="screen_empty_downloads">ダウンロードしたファイルが見つかりません</string>
+    <string name="screen_empty_archives">圧縮ファイルが見つかりません</string>
+    <string name="screen_empty_large">大容量ファイルが見つかりません</string>
+    <string name="screen_empty_duplicates">重複ファイルが見つかりません</string>
+    <string name="screen_empty_empty_folders">空のフォルダーが見つかりません</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="other">%1$d 個の項目 · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="other">%1$d 個の項目、空き容量 %2$s GB</item>
+    </plurals>
+    <string name="screen_connected">接続済み</string>
+    <string name="screen_disconnect_named">%1$s から切断</string>
+    <string name="screen_active">アクティブ</string>
+    <string name="screen_destructive_words">削除,消去,除去,取り除く,空にする,クリア,切断,ログアウト,サインアウト,破棄,アンインストール,ワイプ,初期化</string>
+    <string name="screen_toast_problem_words">できません,ませんでした,開けません,読み込めません,失敗,エラー,拒否</string>
+    <string name="screen_toast_done_words">コピーしました,移動しました,保存しました,インストールしました,更新しました,インストール完了</string>
+</resources>

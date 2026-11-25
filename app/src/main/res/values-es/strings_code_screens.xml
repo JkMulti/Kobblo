@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Volver a %1$s</string>
+    <string name="screen_clear_search">Borrar búsqueda</string>
+    <string name="screen_show_section">Mostrar %1$s</string>
+    <string name="screen_hide_section">Ocultar %1$s</string>
+    <string name="screen_hide">Ocultar</string>
+    <string name="screen_unhide">Mostrar</string>
+    <string name="screen_paste">Pegar</string>
+    <string name="screen_batch_install">Instalar por lotes</string>
+    <string name="screen_favorite">Favorito</string>
+    <string name="screen_loading_details">Cargando detalles…</string>
+    <string name="screen_detail_items">Elementos</string>
+    <string name="screen_detail_format">Formato</string>
+    <string name="screen_detail_resolution">Resolución</string>
+    <string name="screen_detail_duration">Duración</string>
+    <string name="screen_save_to">Guardar en %1$s</string>
+    <string name="screen_pictures">Imágenes</string>
+    <string name="screen_storage">Almacenamiento</string>
+    <string name="screen_saving">Guardando</string>
+    <string name="screen_about_description">%1$s es un gestor de archivos moderno y expresivo creado para Android. Combina una navegación de archivos intuitiva, clasificación inteligente, visores multimedia integrados e integración con el almacenamiento en la nube.</string>
+    <string name="screen_about_links">Enlaces y asistencia</string>
+    <string name="screen_about_website">Sitio web</string>
+    <string name="screen_about_privacy_subtitle">Cómo protegemos tus datos</string>
+    <string name="screen_about_feedback">Comentarios y asistencia</string>
+    <string name="screen_about_made_with">Hecho con ❤️ en Pakistán</string>
+    <string name="screen_show_as_icons">Mostrar como iconos</string>
+    <string name="screen_show_as_list">Mostrar como lista</string>
+    <string name="screen_view_options">Opciones de vista</string>
+    <string name="screen_current_sort">Orden actual</string>
+    <string name="screen_category_duplicates">Duplicados</string>
+    <string name="screen_category_empty_folders">Carpetas vacías</string>
+    <string name="screen_empty_images">No se encontraron imágenes</string>
+    <string name="screen_empty_videos">No se encontraron vídeos</string>
+    <string name="screen_empty_audio">No se encontraron archivos de audio</string>
+    <string name="screen_empty_documents">No se encontraron documentos</string>
+    <string name="screen_empty_apps">No se encontraron aplicaciones</string>
+    <string name="screen_empty_downloads">No se encontraron descargas</string>
+    <string name="screen_empty_archives">No se encontraron archivos comprimidos</string>
+    <string name="screen_empty_large">No se encontraron archivos grandes</string>
+    <string name="screen_empty_duplicates">No se encontraron duplicados</string>
+    <string name="screen_empty_empty_folders">No se encontraron carpetas vacías</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d elemento · %2$s</item>
+        <item quantity="many">%1$d de elementos · %2$s</item>
+        <item quantity="other">%1$d elementos · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d elemento, %2$s GB disponibles</item>
+        <item quantity="many">%1$d de elementos, %2$s GB disponibles</item>
+        <item quantity="other">%1$d elementos, %2$s GB disponibles</item>
+    </plurals>
+    <string name="screen_connected">Conectado</string>
+    <string name="screen_disconnect_named">Desconectar %1$s</string>
+    <string name="screen_active">Activo</string>
+    <string name="screen_destructive_words">elimin,borr,quita,vaci,vacía,desconect,cerrar sesión,descart,desinstal,limpi,formate</string>
+    <string name="screen_toast_problem_words">no se pud,no se pued,no se ha podido,no puede,error,fall,deneg,imposible</string>
+    <string name="screen_toast_done_words">copiad,copió,copiaron,movid,movió,movieron,guardad,guardó,guardaron,instalad,instaló,instalaron,actualizad,actualizó,actualizaron</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_pin">PIN</string>
+    <string name="lock_pattern">Pola</string>
+    <string name="lock_password">Kata sandi</string>
+    <string name="lock_pin_hint">4 hingga 12 digit</string>
+    <string name="lock_pattern_hint">Hubungkan minimal 4 titik</string>
+    <string name="lock_password_hint">Minimal 4 karakter</string>
+    <string name="lock_choose">Pilih kunci</string>
+    <string name="lock_choose_new">Pilih kunci baru</string>
+    <string name="lock_choose_body">Ini kunci khusus Kobblo, terpisah dari kunci layar ponsel Anda.</string>
+    <string name="lock_create_pin">Buat PIN</string>
+    <string name="lock_create_pattern">Gambar pola</string>
+    <string name="lock_create_password">Buat kata sandi</string>
+    <string name="lock_confirm_pin">Konfirmasi PIN Anda</string>
+    <string name="lock_confirm_pattern">Konfirmasi pola Anda</string>
+    <string name="lock_confirm_password">Konfirmasi kata sandi Anda</string>
+    <string name="lock_enter_again">Masukkan lagi</string>
+    <string name="lock_draw_again">Gambar lagi</string>
+    <string name="lock_mismatch">Tidak cocok. Coba lagi.</string>
+    <string name="lock_save_failed">Kunci tidak dapat disimpan. Coba lagi.</string>
+    <string name="lock_pin_rule">Gunakan 4 hingga 12 digit</string>
+    <string name="lock_pattern_rule">Hubungkan minimal 4 titik</string>
+    <string name="lock_password_rule">Gunakan minimal 4 karakter</string>
+    <string name="lock_retired_default">0000 adalah default lama. Pilih yang lain.</string>
+    <string name="lock_enter_pin">Masukkan PIN Anda</string>
+    <string name="lock_draw_pattern">Gambar pola Anda</string>
+    <string name="lock_enter_password">Masukkan kata sandi Anda</string>
+    <string name="lock_is_locked">%1$s terkunci</string>
+    <string name="lock_enter_current">Masukkan kunci Anda saat ini terlebih dahulu</string>
+    <string name="lock_confirm_you">Konfirmasi bahwa ini Anda</string>
+    <string name="lock_wrong_pin">PIN salah</string>
+    <string name="lock_wrong_pattern">Pola salah</string>
+    <string name="lock_wrong_password">Kata sandi salah</string>
+    <plurals name="lock_too_many_seconds_count">
+        <item quantity="other">Terlalu banyak percobaan. Coba lagi dalam %1$d detik.</item>
+    </plurals>
+    <plurals name="lock_too_many_minutes_count">
+        <item quantity="other">Terlalu banyak percobaan. Coba lagi dalam %1$d menit.</item>
+    </plurals>
+    <string name="lock_unlock">Buka kunci</string>
+    <string name="lock_unlock_named">Buka kunci %1$s</string>
+    <string name="lock_next">Berikutnya</string>
+    <string name="lock_delete">Hapus</string>
+    <string name="lock_not_now">Lain kali</string>
+    <string name="lock_use_type">Gunakan %1$s</string>
+    <string name="lock_use_fingerprint">Gunakan sidik jari</string>
+    <string name="lock_biometrics_title">Gunakan sidik jari juga?</string>
+    <string name="lock_biometrics_body">Sidik jari atau wajah Anda dapat membuka Kobblo sebagai pengganti kunci.</string>
+    <string name="lock_fingerprint_gate_title">Konfirmasi dengan sidik jari</string>
+    <string name="lock_fingerprint_gate_body">Item terkunci dibuka dengan sidik jari Anda. Gunakan sidik jari untuk memilih kunci.</string>
+    <string name="lock_forgot_pin">Lupa PIN?</string>
+    <string name="lock_forgot_pattern">Lupa pola?</string>
+    <string name="lock_forgot_password">Lupa kata sandi?</string>
+    <string name="lock_reset_title">Setel ulang kunci Kobblo</string>
+    <string name="lock_reset_subtitle">Kunci layar ponsel Anda dapat memverifikasi identitas Anda</string>
+    <string name="lock_reset_none">Tanpa kunci layar di ponsel ini, kunci yang terlupa tidak dapat disetel ulang.</string>
+    <string name="lock_reason_lock">Kunci item</string>
+    <string name="lock_reason_unlock">Buka kunci item</string>
+    <string name="lock_reason_open">Buka kunci untuk membuka</string>
+    <string name="settings_privacy">Privasi &amp; keamanan</string>
+    <string name="settings_lock_set_up">Siapkan kunci Kobblo</string>
+    <string name="settings_lock_change">Ubah kunci Kobblo</string>
+    <string name="settings_lock_footer">Kunci Kobblo melindungi item terkunci dan Kunci aplikasi. Brankas punya kata sandi sendiri, dan terkunci setiap kali layar mati.</string>
+    <string name="settings_biometrics_desc">Sidik jari atau wajah sebagai pengganti kunci</string>
+    <string name="settings_app_lock">Kunci aplikasi</string>
+    <string name="settings_app_lock_desc">Minta kunci saat membuka Kobblo</string>
+    <string name="settings_lock_after">Kunci setelah</string>
+    <string name="settings_lock_immediately">Segera</string>
+    <plurals name="settings_lock_minutes">
+        <item quantity="other">%d menit</item>
+    </plurals>
+    <string name="settings_allow_screenshots">Izinkan screenshot</string>
+    <string name="settings_vault_lock_after">Kunci Brankas setelah</string>
+    <string name="settings_vault_lock_after_desc">Lama waktu sebelum diminta lagi</string>
+    <string name="settings_allow_screenshots_desc">Untuk Brankas dan item terkunci. Jika nonaktif, keduanya juga tidak muncul di aplikasi terbaru.</string>
+</resources>

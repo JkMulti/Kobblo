@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The Settings tab, which took the Vault's place in the tab bar. -->
+    <string name="vault_title">Vault</string>
+    <string name="settings_general">General</string>
+    <string name="settings_keep_for">Keep For</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d Day</item>
+        <item quantity="other">%d Days</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Deleted files wait in Recently Deleted for this long, then they\'re gone for good.</string>
+    <string name="settings_trash_footer_off">Deleted files are gone at once, with nowhere to get them back from.</string>
+    <string name="settings_about_app">About Kobblo</string>
+    <string name="settings_version">Version %1$s</string>
+</resources>

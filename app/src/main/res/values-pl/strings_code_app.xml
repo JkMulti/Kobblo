@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">Nie wykryto Shizuku lub nie jest uruchomione</string>
+    <string name="app_auth_required">Wymagane uwierzytelnienie. Przyznaj uprawnienia.</string>
+    <string name="app_folder_open_failed">Nie udało się otworzyć tego folderu.</string>
+    <string name="app_cloud">Chmura</string>
+    <string name="app_open_failed_named">Nie udało się otworzyć: %1$s</string>
+    <string name="app_open_failed">Nie udało się otworzyć tego pliku.</string>
+    <string name="app_open_access_denied">Druga aplikacja nie zezwoliła na dostęp do tego pliku.</string>
+    <string name="app_rename_some_failed">Nie zmieniono nazw niektórych plików, bo nazwa była zajęta lub nie można jej było użyć</string>
+    <string name="app_drive_delete_failed">Nie udało się usunąć niektórych plików z Google Drive.</string>
+    <string name="app_organize_nothing">Brak plików do uporządkowania</string>
+    <string name="app_unknown">Nieznany</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">Przeniesiono do Ostatnio usuniętych na %1$d dzień</item>
+        <item quantity="few">Przeniesiono do Ostatnio usuniętych na %1$d dni</item>
+        <item quantity="many">Przeniesiono do Ostatnio usuniętych na %1$d dni</item>
+        <item quantity="other">Przeniesiono do Ostatnio usuniętych na %1$d dnia</item>
+    </plurals>
+    <string name="app_bin_moved_for">Przeniesiono do Ostatnio usuniętych na %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">Odinstalowywanie poprzedniej wersji…</string>
+    <string name="app_install_done">Zainstalowano aplikację</string>
+    <string name="app_install_failed">Nie udało się zainstalować tej aplikacji.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">Zainstalowano %1$d z %2$d aplikacji</item>
+        <item quantity="few">Zainstalowano %1$d z %2$d aplikacji</item>
+        <item quantity="many">Zainstalowano %1$d z %2$d aplikacji</item>
+        <item quantity="other">Zainstalowano %1$d z %2$d aplikacji</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">Instalacja zbiorcza wymaga Shizuku do automatyzacji — użyj zamiast tego cichej instalacji.</string>
+    <string name="app_mega_wrong_login">Nieprawidłowy e-mail lub hasło.</string>
+    <string name="app_mega_login_failed">Nie udało się zalogować. Sprawdź e-mail i hasło.</string>
+    <string name="app_connect_failed">Nie udało się połączyć. Sprawdź adres i dane logowania.</string>
+    <string name="app_share_unreadable">Nie udało się niczego tu odczytać.</string>
+    <string name="app_share_storage">Pamięć</string>
+    <string name="app_share_saved_one">Zapisano %1$s w: %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">Zapisano %1$d z %2$d pliku w: %3$s</item>
+        <item quantity="few">Zapisano %1$d z %2$d plików w: %3$s</item>
+        <item quantity="many">Zapisano %1$d z %2$d plików w: %3$s</item>
+        <item quantity="other">Zapisano %1$d z %2$d pliku w: %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">Zapisano %1$d plik w: %2$s</item>
+        <item quantity="few">Zapisano %1$d pliki w: %2$s</item>
+        <item quantity="many">Zapisano %1$d plików w: %2$s</item>
+        <item quantity="other">Zapisano %1$d pliku w: %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">Przed chwilą</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d min temu</item>
+        <item quantity="few">%1$d min temu</item>
+        <item quantity="many">%1$d min temu</item>
+        <item quantity="other">%1$d min temu</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d godzinę temu</item>
+        <item quantity="few">%1$d godziny temu</item>
+        <item quantity="many">%1$d godzin temu</item>
+        <item quantity="other">%1$d godziny temu</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d dzień temu</item>
+        <item quantity="few">%1$d dni temu</item>
+        <item quantity="many">%1$d dni temu</item>
+        <item quantity="other">%1$d dnia temu</item>
+    </plurals>
+    <string name="app_recent_visited">Odwiedzono</string>
+    <string name="app_recent_opened">Otwarto</string>
+    <string name="app_recent_renamed_from">Zmieniono nazwę z: %1$s</string>
+    <string name="app_extract_needs_space">Potrzeba %1$s miejsca, a wolne jest %2$s</string>
+    <string name="app_extract_storage_full">Zatrzymano, bo pamięć jest prawie pełna. Po rozpakowaniu to archiwum zajmie więcej, niż jest miejsca</string>
+</resources>

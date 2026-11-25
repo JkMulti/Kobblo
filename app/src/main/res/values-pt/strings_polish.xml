@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Obrigatório</string>
+    <string name="polish_optional">Opcional</string>
+    <string name="polish_field_name">Nome</string>
+    <string name="polish_field_domain">Domínio</string>
+    <string name="polish_field_server">Servidor</string>
+    <string name="polish_one_saved">1 conexão salva</string>
+    <string name="polish_many_saved">%1$d conexões salvas</string>
+    <string name="polish_delete_connection">Excluir “%1$s”?</string>
+    <string name="polish_delete_connection_note">A senha salva também será apagada. Os arquivos no servidor não são afetados.</string>
+    <string name="polish_smb_subtitle">Um compartilhamento do Windows ou um NAS</string>
+    <string name="polish_smb_missing">Insira um host, um nome de compartilhamento e um nome de usuário.</string>
+    <string name="polish_server_missing">Insira um host e um nome de usuário.</string>
+    <string name="polish_all_required">Preencha todos os campos para conectar.</string>
+    <string name="polish_ftp_subtitle">Um servidor na sua rede ou na internet</string>
+    <string name="polish_sftp_subtitle">Um servidor acessado por SSH</string>
+    <string name="polish_webdav_title">Conexões WebDAV</string>
+    <string name="polish_webdav_add">Adicionar conexão WebDAV</string>
+    <string name="polish_webdav_subtitle">Um servidor WebDAV</string>
+    <string name="polish_allow_self_signed">Permitir certificado autoassinado</string>
+    <string name="polish_nextcloud_title">Conexões Nextcloud</string>
+    <string name="polish_nextcloud_add">Adicionar Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Seu próprio servidor Nextcloud</string>
+    <string name="polish_nextcloud_tip">Se sua conta usa login em duas etapas, use uma senha de app. Crie uma no Nextcloud em Configurações, Segurança, Dispositivos e sessões.</string>
+    <string name="polish_log_in_to">Fazer login em %1$s</string>
+    <string name="polish_compressing">Compactando</string>
+    <string name="polish_archive_created">Arquivo compactado criado</string>
+    <string name="polish_choose_from_other_app">Escolher em outro app</string>
+    <string name="polish_cant_open_app_package">Não é possível abrir este pacote de app.</string>
+    <string name="polish_google_login_failed">Não foi possível fazer login no Google Drive. Tente de novo.</string>
+    <string name="polish_unlocked">Desbloqueado</string>
+    <string name="polish_files_not_saved">Não foi possível salvar os arquivos.</string>
+    <string name="polish_organize_failed">Não foi possível organizar seus downloads.</string>
+    <string name="polish_extract_failed">O arquivo compactado pode estar danificado ou pode não haver espaço suficiente.</string>
+    <string name="polish_extract_failed_names">Não foi possível extrair %1$s.</string>
+    <string name="polish_archive_unreadable">Não é possível ler este arquivo compactado. Ele pode estar danificado.</string>
+    <string name="polish_current_sort">Ordem atual</string>
+    <string name="polish_sheet_handle">Alça de arrastar</string>
+</resources>

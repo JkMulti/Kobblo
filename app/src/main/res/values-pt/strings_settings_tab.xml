@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Cofre</string>
+    <string name="settings_general">Geral</string>
+    <string name="settings_keep_for">Manter por</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d dia</item>
+        <item quantity="many">%d de dias</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Os arquivos excluídos ficam em Excluídos recentemente por esse tempo e depois são apagados definitivamente.</string>
+    <string name="settings_trash_footer_off">Os arquivos excluídos são apagados na hora, sem como recuperá-los.</string>
+    <string name="settings_about_app">Sobre o Kobblo</string>
+    <string name="settings_version">Versão %1$s</string>
+</resources>

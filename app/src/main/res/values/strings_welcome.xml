@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to Kobblo</string>
+    <string name="welcome_photos_title">Every Photo and Video</string>
+    <string name="welcome_photos_body">Your whole library in one feed, with albums, places and a viewer made for looking.</string>
+    <string name="welcome_files_title">All Your Files</string>
+    <string name="welcome_files_body">Browse folders, cloud drives and servers, and clear out what you don\'t need.</string>
+    <string name="welcome_send_title">Send to Nearby Devices</string>
+    <string name="welcome_send_body">Share files with phones and computers on the same Wi-Fi.</string>
+    <string name="welcome_private_title">Stays on Your Phone</string>
+    <string name="welcome_private_body">No account and no tracking. Smart features do their work on the phone.</string>
+    <string name="welcome_continue">Continue</string>
+    <string name="welcome_not_now">Not Now</string>
+
+    <!-- Access -->
+    <string name="access_title">Allow Access</string>
+    <string name="access_subtitle">Kobblo needs to see your files to show them. What it finds never leaves your phone.</string>
+    <string name="access_needed">Needed</string>
+    <string name="access_optional">Optional</string>
+    <string name="access_files">Files and Folders</string>
+    <string name="access_files_body">To browse, open and organize everything on your phone.</string>
+    <string name="access_notifications">Notifications</string>
+    <string name="access_notifications_body">The progress of copies and transfers, and files sent to you.</string>
+    <string name="access_notifications_blocked">Turned off. Tap to allow them in Settings.</string>
+    <string name="access_locations">Photo Locations</string>
+    <string name="access_locations_body">Where your photos were taken, for Places and a photo\'s details.</string>
+    <string name="access_locations_blocked">Turned off. Allow it in App Info, under Permissions.</string>
+    <string name="access_footer">Change any of these later in Settings, under Permissions.</string>
+    <string name="access_allow">Allow Access</string>
+    <string name="access_settings_row">Permissions</string>
+    <string name="access_settings_row_body">Files, notifications and photo locations</string>
+
+    <!-- Ready -->
+    <string name="welcome_ready_title">You\'re All Set</string>
+    <string name="welcome_ready_body">Your photos are ready to explore.</string>
+    <string name="welcome_ready_downloading">Smart features are downloading, and get to work on your photos as they arrive.</string>
+    <string name="welcome_ready_no_access">Allow access whenever you\'re ready, and your photos and files will be here.</string>
+    <string name="welcome_lets_go">Let\'s Go</string>
+</resources>

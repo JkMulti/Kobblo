@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">%1$s پر واپس جائیں</string>
+    <string name="screen_clear_search">تلاش صاف کریں</string>
+    <string name="screen_show_section">%1$s دکھائیں</string>
+    <string name="screen_hide_section">%1$s چھپائیں</string>
+    <string name="screen_hide">چھپائیں</string>
+    <string name="screen_unhide">ظاہر کریں</string>
+    <string name="screen_paste">پیسٹ کریں</string>
+    <string name="screen_batch_install">ایک ساتھ انسٹال کریں</string>
+    <string name="screen_favorite">پسندیدہ</string>
+    <string name="screen_loading_details">تفصیلات لوڈ ہو رہی ہیں…</string>
+    <string name="screen_detail_items">آئٹمز</string>
+    <string name="screen_detail_format">فارمیٹ</string>
+    <string name="screen_detail_resolution">ریزولوشن</string>
+    <string name="screen_detail_duration">دورانیہ</string>
+    <string name="screen_save_to">%1$s میں محفوظ کریں</string>
+    <string name="screen_pictures">تصاویر</string>
+    <string name="screen_storage">اسٹوریج</string>
+    <string name="screen_saving">محفوظ ہو رہا ہے</string>
+    <string name="screen_about_description">%1$s ایک جدید اور جاندار فائل مینیجر ہے جو Android کے لیے بنایا گیا ہے۔ اس میں فائلوں تک آسان رسائی، اسمارٹ درجہ بندی، بلٹ اِن میڈیا ویوورز اور کلاؤڈ اسٹوریج کی سہولت یکجا ہیں۔</string>
+    <string name="screen_about_links">لنکس اور سپورٹ</string>
+    <string name="screen_about_website">ویب سائٹ</string>
+    <string name="screen_about_privacy_subtitle">ہم آپ کا ڈیٹا کیسے محفوظ رکھتے ہیں</string>
+    <string name="screen_about_feedback">فیڈ بیک اور سپورٹ</string>
+    <string name="screen_about_made_with">پاکستان میں ❤️ کے ساتھ تیار کیا گیا</string>
+    <string name="screen_show_as_icons">آئیکنز کی صورت میں دکھائیں</string>
+    <string name="screen_show_as_list">فہرست کی صورت میں دکھائیں</string>
+    <string name="screen_view_options">ویو کے اختیارات</string>
+    <string name="screen_current_sort">موجودہ ترتیب</string>
+    <string name="screen_category_duplicates">ڈپلیکیٹس</string>
+    <string name="screen_category_empty_folders">خالی فولڈرز</string>
+    <string name="screen_empty_images">کوئی تصویر نہیں ملی</string>
+    <string name="screen_empty_videos">کوئی ویڈیو نہیں ملی</string>
+    <string name="screen_empty_audio">کوئی آڈیو فائل نہیں ملی</string>
+    <string name="screen_empty_documents">کوئی دستاویز نہیں ملی</string>
+    <string name="screen_empty_apps">کوئی ایپ نہیں ملی</string>
+    <string name="screen_empty_downloads">کوئی ڈاؤن لوڈ نہیں ملا</string>
+    <string name="screen_empty_archives">کوئی آرکائیو نہیں ملا</string>
+    <string name="screen_empty_large">کوئی بڑی فائل نہیں ملی</string>
+    <string name="screen_empty_duplicates">کوئی ڈپلیکیٹ نہیں ملا</string>
+    <string name="screen_empty_empty_folders">کوئی خالی فولڈر نہیں ملا</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d آئٹم · %2$s</item>
+        <item quantity="other">%1$d آئٹمز · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d آئٹم، %2$s GB دستیاب</item>
+        <item quantity="other">%1$d آئٹمز، %2$s GB دستیاب</item>
+    </plurals>
+    <string name="screen_connected">منسلک</string>
+    <string name="screen_disconnect_named">%1$s منقطع کریں</string>
+    <string name="screen_active">فعال</string>
+    <string name="screen_destructive_words">حذف,ہٹا,خالی,صاف,مٹا,منقطع,لاگ آؤٹ,سائن آؤٹ,رد کریں,ضائع,ان انسٹال</string>
+    <string name="screen_toast_problem_words">نہیں ہو سکا,نہیں ہو سکی,نہیں ہو سکے,نہیں ہو سکتا,نہیں ہو سکتی,نہیں جا سکا,نہیں جا سکی,نہیں جا سکے,نہیں جا سکتا,نہیں کھل سکا,نہیں کھل سکی,نہیں کر سکا,نہیں کر سکتا,نہیں کر سکتی,ناکام,خرابی,غلطی,مسترد,انکار</string>
+    <string name="screen_toast_done_words">کاپی ہو گیا,کاپی ہو گئی,کاپی ہو گئے,کاپی کر دی,منتقل ہو گیا,منتقل ہو گئی,منتقل ہو گئے,منتقل کر دی,محفوظ ہو گیا,محفوظ ہو گئی,محفوظ ہو گئے,محفوظ کر دی,محفوظ کی گئی,محفوظ کیا گیا,انسٹال ہو گیا,انسٹال ہو گئی,انسٹال ہو گئے,اپ ڈیٹ ہو گیا,اپ ڈیٹ ہو گئی,اپ ڈیٹ ہو گئے,اپ ڈیٹ کر دی</string>
+</resources>

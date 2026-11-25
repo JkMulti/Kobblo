@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">والٹ</string>
+    <string name="settings_general">عمومی</string>
+    <string name="settings_keep_for">کتنی دیر رکھیں</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d دن</item>
+        <item quantity="other">%d دن</item>
+    </plurals>
+    <string name="settings_trash_footer_on">حذف شدہ فائلیں اتنی دیر حال ہی میں حذف شدہ میں رہتی ہیں، پھر ہمیشہ کے لیے ختم ہو جاتی ہیں۔</string>
+    <string name="settings_trash_footer_off">حذف شدہ فائلیں فوراً ختم ہو جاتی ہیں، اور انہیں واپس لانے کی کوئی جگہ نہیں ہوتی۔</string>
+    <string name="settings_about_app">Kobblo کا تعارف</string>
+    <string name="settings_version">ورژن %1$s</string>
+</resources>

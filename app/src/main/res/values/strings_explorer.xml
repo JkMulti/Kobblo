@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search -->
+    <string name="explorer_scope_folder">This Folder</string>
+    <string name="explorer_scope_everywhere">Everywhere</string>
+    <string name="explorer_filter_kind">Kind</string>
+    <string name="explorer_filter_size">Size</string>
+    <string name="explorer_filter_date">Date</string>
+    <string name="explorer_filter_any">Any</string>
+    <string name="explorer_kind_photos">Photos</string>
+    <string name="explorer_kind_videos">Videos</string>
+    <string name="explorer_kind_audio">Audio</string>
+    <string name="explorer_kind_documents">Documents</string>
+    <string name="explorer_kind_archives">Archives</string>
+    <string name="explorer_kind_apps">Apps</string>
+    <string name="explorer_kind_folders">Folders</string>
+    <string name="explorer_kind_other">Other Files</string>
+    <string name="explorer_size_under_1mb">Under 1 MB</string>
+    <string name="explorer_size_to_100mb">1 to 100 MB</string>
+    <string name="explorer_size_to_1gb">100 MB to 1 GB</string>
+    <string name="explorer_size_over_1gb">Over 1 GB</string>
+    <string name="explorer_date_today">Today</string>
+    <string name="explorer_date_week">Past 7 Days</string>
+    <string name="explorer_date_month">Past 30 Days</string>
+    <string name="explorer_date_year">Past Year</string>
+    <string name="explorer_recent_searches">Recent Searches</string>
+    <string name="explorer_clear">Clear</string>
+    <string name="explorer_no_matches">Nothing matches these filters</string>
+    <string name="explorer_search_inside">Search inside files for “%1$s”</string>
+    <string name="explorer_searching_more">%1$d found, still looking</string>
+    <string name="explorer_results_capped">First %1$,d results. Type more to narrow them down.</string>
+    <plurals name="explorer_results">
+        <item quantity="one">%1$d result</item>
+        <item quantity="other">%1$,d results</item>
+    </plurals>
+    <string name="explorer_back_to_search">Search</string>
+    <string name="explorer_menu">Menu</string>
+
+    <!-- Going places -->
+    <string name="explorer_path">Path</string>
+    <string name="explorer_path_copied">Path copied</string>
+    <string name="explorer_copy_path">Copy Path</string>
+    <string name="explorer_go_to_path">Go to Path</string>
+    <string name="explorer_go">Go</string>
+    <string name="explorer_path_missing">Nothing is at that path.</string>
+    <string name="explorer_path_denied">That folder can\'t be opened.</string>
+    <string name="explorer_show_in_folder">Show in Folder</string>
+
+    <!-- Sorting -->
+    <string name="explorer_sort_name_up">A to Z</string>
+    <string name="explorer_sort_name_down">Z to A</string>
+    <string name="explorer_sort_date_new">Newest First</string>
+    <string name="explorer_sort_date_old">Oldest First</string>
+    <string name="explorer_sort_size_big">Largest First</string>
+    <string name="explorer_sort_size_small">Smallest First</string>
+
+    <!-- Selecting -->
+    <string name="explorer_select_title">Select</string>
+    <string name="explorer_selected_size">%1$s in the chosen files</string>
+    <string name="explorer_select_none">Select None</string>
+    <string name="explorer_select_invert">Invert Selection</string>
+    <string name="explorer_select_by_kind">Add by Kind</string>
+
+    <!-- A file's menu -->
+    <string name="explorer_copy">Copy</string>
+    <string name="explorer_move">Move</string>
+    <string name="explorer_compress">Compress</string>
+    <string name="explorer_extract">Extract</string>
+
+    <!-- Copy and move -->
+    <string name="explorer_paste_open_folder">Open a folder to paste here</string>
+    <string name="explorer_paste_into">Into %1$s</string>
+    <string name="explorer_choose_folder">Choose Folder</string>
+
+    <!-- Open With -->
+    <string name="explorer_open_with">Open With</string>
+    <string name="explorer_opens_always">%1$s files open with %2$s</string>
+    <string name="explorer_stop">Stop</string>
+    <string name="explorer_always_for">Always Use for %1$s Files</string>
+    <string name="explorer_no_apps">No app on this phone says it can open this file.</string>
+    <!-- Carrying a selection -->
+    <string name="explorer_drag_into_itself">A folder can\'t go inside itself.</string>
+    <string name="explorer_drag_undo">Undo</string>
+</resources>

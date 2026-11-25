@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Retour à %1$s</string>
+    <string name="screen_clear_search">Effacer la recherche</string>
+    <string name="screen_show_section">Afficher %1$s</string>
+    <string name="screen_hide_section">Masquer %1$s</string>
+    <string name="screen_hide">Masquer</string>
+    <string name="screen_unhide">Réafficher</string>
+    <string name="screen_paste">Coller</string>
+    <string name="screen_batch_install">Installer en lot</string>
+    <string name="screen_favorite">Favori</string>
+    <string name="screen_loading_details">Chargement des détails…</string>
+    <string name="screen_detail_items">Éléments</string>
+    <string name="screen_detail_format">Format</string>
+    <string name="screen_detail_resolution">Résolution</string>
+    <string name="screen_detail_duration">Durée</string>
+    <string name="screen_save_to">Enregistrer dans %1$s</string>
+    <string name="screen_pictures">Images</string>
+    <string name="screen_storage">Stockage</string>
+    <string name="screen_saving">Enregistrement</string>
+    <string name="screen_about_description">%1$s est un gestionnaire de fichiers moderne et expressif conçu pour Android. Il associe une navigation intuitive, un classement intelligent, des visionneuses multimédias intégrées et l\'accès au stockage cloud.</string>
+    <string name="screen_about_links">Liens et assistance</string>
+    <string name="screen_about_website">Site web</string>
+    <string name="screen_about_privacy_subtitle">Comment nous protégeons vos données</string>
+    <string name="screen_about_feedback">Commentaires et assistance</string>
+    <string name="screen_about_made_with">Conçu avec ❤️ au Pakistan</string>
+    <string name="screen_show_as_icons">Afficher en icônes</string>
+    <string name="screen_show_as_list">Afficher en liste</string>
+    <string name="screen_view_options">Options d\'affichage</string>
+    <string name="screen_current_sort">Tri actuel</string>
+    <string name="screen_category_duplicates">Doublons</string>
+    <string name="screen_category_empty_folders">Dossiers vides</string>
+    <string name="screen_empty_images">Aucune image trouvée</string>
+    <string name="screen_empty_videos">Aucune vidéo trouvée</string>
+    <string name="screen_empty_audio">Aucun fichier audio trouvé</string>
+    <string name="screen_empty_documents">Aucun document trouvé</string>
+    <string name="screen_empty_apps">Aucune application trouvée</string>
+    <string name="screen_empty_downloads">Aucun téléchargement trouvé</string>
+    <string name="screen_empty_archives">Aucune archive trouvée</string>
+    <string name="screen_empty_large">Aucun fichier volumineux trouvé</string>
+    <string name="screen_empty_duplicates">Aucun doublon trouvé</string>
+    <string name="screen_empty_empty_folders">Aucun dossier vide trouvé</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d élément · %2$s</item>
+        <item quantity="many">%1$d d\'éléments · %2$s</item>
+        <item quantity="other">%1$d éléments · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d élément, %2$s Go disponibles</item>
+        <item quantity="many">%1$d d\'éléments, %2$s Go disponibles</item>
+        <item quantity="other">%1$d éléments, %2$s Go disponibles</item>
+    </plurals>
+    <string name="screen_connected">Connecté</string>
+    <string name="screen_disconnect_named">Déconnecter %1$s</string>
+    <string name="screen_active">Actif</string>
+    <string name="screen_destructive_words">supprim,retir,vide,effac,déconnect,désinstall,abandon</string>
+    <string name="screen_toast_problem_words">impossible,échec,erreur,refusé,n\'a pas pu,n\'ont pas pu,ne peut pas,ne peuvent pas</string>
+    <string name="screen_toast_done_words">copié,placé,enregistré,installé,mis à jour,mise à jour</string>
+</resources>

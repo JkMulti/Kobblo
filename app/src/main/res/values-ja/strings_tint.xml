@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">アクセントカラー</string>
+    <string name="tint_blue">ブルー</string>
+    <string name="tint_indigo">インディゴ</string>
+    <string name="tint_purple">パープル</string>
+    <string name="tint_pink">ピンク</string>
+    <string name="tint_orange">オレンジ</string>
+    <string name="tint_green">グリーン</string>
+    <string name="tint_teal">ティール</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Warna aksen</string>
+    <string name="tint_blue">Biru</string>
+    <string name="tint_indigo">Nila</string>
+    <string name="tint_purple">Ungu</string>
+    <string name="tint_pink">Merah muda</string>
+    <string name="tint_orange">Oranye</string>
+    <string name="tint_green">Hijau</string>
+    <string name="tint_teal">Hijau kebiruan</string>
+</resources>

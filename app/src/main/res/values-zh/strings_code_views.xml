@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">已加密</string>
+    <string name="view_archive_enter_password">请输入密码。</string>
+    <string name="view_archive_contents_unreadable">无法读取内容。</string>
+    <string name="view_archive_password_check_failed">无法验证该密码。</string>
+    <string name="view_archive_password_prompt">输入密码以查看其中的内容。</string>
+    <string name="view_archive_checking_password">正在验证密码…</string>
+    <plurals name="view_file_count">
+        <item quantity="other">%1$d 个文件</item>
+    </plurals>
+    <string name="view_archive_empty">此压缩包为空</string>
+    <string name="view_extract_all">全部解压</string>
+    <string name="view_archive_invalid_zip">无效的 ZIP 文件</string>
+    <string name="view_archive_extracting">正在解压…</string>
+    <string name="view_archive_storage_full">存储空间即将用尽，已停止。此压缩包解压后所需空间超过剩余空间。</string>
+    <string name="view_archive_extraction_cancelled">已取消解压</string>
+    <string name="view_archive_nothing_extracted">未解压任何文件</string>
+    <string name="view_archive_encrypted_entry">（加密压缩包）</string>
+    <string name="view_archive_done">完成</string>
+    <string name="view_zip_entry_size">大小：%1$s</string>
+    <string name="view_zip_entry_size_unknown">大小未知</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="other">%1$d 个项目待移动</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="other">%1$d 个项目待复制</item>
+    </plurals>
+    <string name="view_hide_items">隐藏项目</string>
+    <string name="view_show_items">显示项目</string>
+    <string name="view_move_here">移动到此处</string>
+    <string name="view_picker_storage">存储</string>
+    <string name="view_picker_downloads">下载</string>
+    <string name="view_picker_documents">文档</string>
+    <string name="view_picker_pictures">图片</string>
+    <string name="view_picker_music">音乐</string>
+    <string name="view_picker_tap_to_select">点按文件以选择</string>
+    <plurals name="view_selected_count">
+        <item quantity="other">已选择 %1$d 项</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s（%2$d）</string>
+    <string name="view_trash_subtitle_kept">%1$s · 保留 %2$s</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · 不保留已删除的文件</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="other">%1$d 分钟</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="other">%1$d 小时</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="other">%1$d 周</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="other">%1$d 个月</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="other">%1$d 年</item>
+    </plurals>
+    <string name="view_show_as_icons">以图标显示</string>
+    <string name="view_show_as_list">以列表显示</string>
+    <string name="view_trash_settings">回收站设置</string>
+    <string name="view_restore_all">全部恢复</string>
+    <string name="view_delete_all">全部删除</string>
+    <string name="view_delete_named_title">删除“%1$s”？</string>
+    <string name="view_trash_delete_body">删除后将无法恢复。</string>
+    <string name="view_trash_delete_everything_title">删除全部内容？</string>
+    <string name="view_trash_delete_everything_body">删除后，回收站中的所有内容都将无法恢复。</string>
+    <string name="view_trash_days_to_keep">文件保留天数</string>
+    <string name="view_cat_duplicates">重复文件</string>
+    <string name="view_manage_storage">管理存储空间</string>
+    <string name="view_manage_storage_subtitle">%1$s 可用，前往手机设置管理</string>
+    <string name="view_delete_image_title">删除图片？</string>
+    <string name="view_delete_moves_to_bin">图片将移至回收站。</string>
+    <string name="view_edit_image">编辑图片</string>
+    <string name="view_document_unreadable">无法显示此文档，文件可能已损坏。</string>
+    <string name="view_document_reading">正在读取文档…</string>
+    <string name="view_open_in_external_app">在外部应用中打开</string>
+    <string name="view_copy_text">复制文本</string>
+    <string name="view_text_copied">文本已复制到剪贴板</string>
+    <string name="view_loading_page">正在加载页面…</string>
+    <string name="view_share_document">分享文档</string>
+    <string name="view_open_with_chooser">打开方式</string>
+    <string name="view_doc_error_reading">读取文档时出错：%1$s</string>
+    <string name="view_doc_unable_to_read_content">无法读取内容</string>
+    <string name="view_doc_empty">（空文档）</string>
+    <string name="view_doc_truncated_pages">…［内容已截断，仅显示前 250 页。］</string>
+    <string name="view_doc_empty_file">（空文件）</string>
+    <string name="view_doc_truncated_size">…［内容超过 4 MB，已截断］</string>
+    <string name="view_docx_empty_no_text">（此 Word 文档似乎为空，或没有可读取的文本）</string>
+    <string name="view_docx_error_reading_damaged">读取 DOCX 文件时出错：%1$s\n\n文件可能已损坏或受密码保护。</string>
+    <string name="view_docx_unable_to_read">无法读取文档</string>
+    <string name="view_docx_empty">（此 Word 文档似乎为空）</string>
+    <string name="view_docx_error_reading">读取 DOCX 文件时出错：%1$s</string>
+    <string name="view_file_error_reading">读取文件时出错：%1$s</string>
+    <string name="view_apk_not_installed">此应用未安装。</string>
+    <string name="view_apk_not_older">这不是此应用的旧版本。</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku 未连接，点按即可设置。</string>
+    <string name="view_apk_normal_install">普通安装</string>
+    <string name="view_apk_normal_install_subtitle">使用系统软件包安装程序</string>
+    <string name="view_apk_downgrade">降级</string>
+    <string name="view_apk_downgrade_subtitle">强制安装旧版本</string>
+    <string name="view_apk_downgrade_install">降级安装</string>
+    <string name="view_apk_silent_install">静默安装</string>
+    <string name="view_apk_silent_install_subtitle">在后台安装，不显示提示</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="other">安装 %1$d 个应用</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku 已连接</string>
+    <string name="view_apk_install_count">安装 %1$d 个</string>
+    <string name="view_remove">移除</string>
+    <string name="view_connected_account">已连接的账号</string>
+    <string name="view_unknown">未知</string>
+    <string name="view_unknown_version">未知版本</string>
+    <plurals name="view_app_count">
+        <item quantity="other">%1$d 个应用</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">降级此应用？</string>
+    <string name="view_apk_downgrade_one_body">Android 不允许将大多数应用回退到旧版本。要安装此版本，必须先卸载当前应用，这会清除其所有数据。</string>
+    <string name="view_apk_downgrade_many_title">降级这些应用？</string>
+    <string name="view_apk_downgrade_many_body">Android 不允许将大多数应用回退到旧版本。要安装这些版本，必须先卸载当前应用，这会清除它们的所有数据。</string>
+    <string name="view_apk_erase_and_downgrade">清除数据并降级</string>
+    <string name="view_apk_try_keeping_data">尝试保留数据</string>
+    <string name="view_share_files">分享文件</string>
+    <string name="view_current_folder">当前文件夹</string>
+    <string name="view_delete_selected_item">删除所选项目？</string>
+    <string name="view_delete_selected_items">删除所选的这些项目？</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="other">删除 %1$d 个项目？</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">空文件夹将被永久删除，因为其中没有可恢复的内容。</string>
+    <string name="view_delete_they_move_to_bin">它们将被移至回收站。</string>
+    <string name="view_extracted_folder_name">解压文件</string>
+    <string name="view_share_archive">分享压缩包</string>
+    <string name="view_share_named">分享 %1$s</string>
+    <string name="view_no_app_to_open">没有可打开此文件的应用</string>
+    <string name="view_hiding_files_title">隐藏文件</string>
+    <string name="view_hiding_files_body">隐藏会在名称前加一个点，这样图库和大多数应用都会跳过它。要恢复显示，请在“设置”中开启“显示隐藏文件”，然后长按该项目。</string>
+    <string name="view_got_it">知道了</string>
+    <string name="view_item_exists_title">项目已存在</string>
+    <string name="view_item_exists_body">目标位置已存在名为“%1$s”的项目。</string>
+    <string name="view_item_exists_question">要覆盖它、重命名为“%1$s”，还是跳过？</string>
+    <string name="view_overwrite">覆盖</string>
+    <string name="view_skip">跳过</string>
+    <string name="view_numbering_none">无</string>
+</resources>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tools_options">Options</string>
+    <string name="tools_selected">Selected</string>
+    <plurals name="tools_selected_count">
+        <item quantity="one">%1$d Selected</item>
+        <item quantity="other">%1$d Selected</item>
+    </plurals>
+    <string name="tools_internal_storage">Internal storage</string>
+    <string name="tools_sd_card">SD Card</string>
+    <string name="tools_font_sample">The quick brown fox jumps over the lazy dog</string>
+
+    <!-- App Manager -->
+    <string name="tools_apps_title">App Manager</string>
+    <string name="tools_apps_search">Search apps</string>
+    <string name="tools_apps_user">Installed</string>
+    <string name="tools_apps_system">System</string>
+    <string name="tools_apps_empty">No apps here</string>
+    <string name="tools_apps_no_match">No matching apps</string>
+    <string name="tools_apps_sort_date">Last updated</string>
+    <string name="tools_apps_backup">Back Up</string>
+    <string name="tools_apps_backup_apk">Back Up APK</string>
+    <string name="tools_apps_share_apk">Share APK</string>
+    <string name="tools_apps_share_title">Share APK</string>
+    <string name="tools_apps_share_failed">Couldn\'t prepare the APK to share</string>
+    <string name="tools_apps_uninstall">Uninstall</string>
+    <string name="tools_apps_open">Open</string>
+    <string name="tools_apps_info">App Info</string>
+    <string name="tools_apps_version">Version</string>
+    <string name="tools_apps_installed">Installed</string>
+    <string name="tools_apps_updated">Updated</string>
+    <string name="tools_apps_target_sdk">Target SDK</string>
+    <string name="tools_apps_package">Package</string>
+    <string name="tools_apps_split">Split</string>
+    <string name="tools_apps_exporting">Copying APKs</string>
+    <string name="tools_apps_no_launcher">This app has nothing to open</string>
+    <string name="tools_apps_system_kept">System apps can\'t be uninstalled, so they were skipped</string>
+    <string name="tools_apps_backup_partial">Saved %1$d, %2$d failed</string>
+    <plurals name="tools_apps_backup_done">
+        <item quantity="one">Saved %1$d app to %2$s</item>
+        <item quantity="other">Saved %1$d apps to %2$s</item>
+    </plurals>
+    <plurals name="tools_apps_backup_done_bundle">
+        <item quantity="one">Saved %1$d app to %2$s as a bundle of its split APKs</item>
+        <item quantity="other">Saved %1$d apps to %2$s. Split apps were saved as .apks bundles</item>
+    </plurals>
+    <plurals name="tools_apps_footer">
+        <item quantity="one">%1$d app, %2$s of APKs. App data isn\'t counted.</item>
+        <item quantity="other">%1$d apps, %2$s of APKs. App data isn\'t counted.</item>
+    </plurals>
+    <plurals name="tools_apps_split_note">
+        <item quantity="one">This app is split into %1$d APK. Backing it up or sharing it makes one .apks bundle, which Kobblo can install again.</item>
+        <item quantity="other">This app is split into %1$d APKs. Backing it up or sharing it makes one .apks bundle, which Kobblo can install again.</item>
+    </plurals>
+
+    <!-- Folder picker -->
+    <string name="tools_no_subfolders">No folders here</string>
+    <string name="tools_choose_folder">Choose Folder</string>
+    <string name="tools_save_here">Save Here</string>
+
+    <!-- Volumes -->
+    <string name="tools_volume_removed">%1$s was removed</string>
+
+    <!-- File picker for other apps -->
+    <string name="tools_picker_label">Choose with Kobblo</string>
+    <string name="tools_picker_root_title">Kobblo</string>
+    <string name="tools_picker_title_one">Choose a File</string>
+    <string name="tools_picker_title_many">Choose Files</string>
+    <string name="tools_picker_for">For %1$s</string>
+    <string name="tools_picker_recent">Recent</string>
+    <string name="tools_picker_locations">Locations</string>
+    <string name="tools_picker_folders">Folders</string>
+    <string name="tools_picker_empty">Nothing here</string>
+    <string name="tools_picker_open_count">Open %1$d</string>
+    <string name="tools_picker_access_title">Kobblo can\'t see your files yet</string>
+    <string name="tools_picker_access_body">Allow files access, then come back to choose a file.</string>
+    <string name="tools_picker_access_action">Allow Access</string>
+
+    <!-- Shared by the file tools -->
+    <string name="tools_edit">Edit</string>
+    <string name="tools_inspect">Inspect</string>
+    <string name="tools_open_with">Open With</string>
+    <string name="tools_open_as_text">Open as Text</string>
+    <string name="tools_view_hex">View as Hex</string>
+    <string name="tools_details">Details</string>
+    <string name="tools_done">Done</string>
+    <string name="tools_copied">Copied</string>
+    <string name="tools_calculating">Calculating…</string>
+    <string name="tools_preview_too_big">This file is too big to preview here</string>
+
+    <!-- Text editor -->
+    <string name="tools_editor_open_failed">Couldn\'t open this file</string>
+    <string name="tools_editor_binary_title">This doesn\'t look like text</string>
+    <string name="tools_editor_binary_body">Opening it as text shows mostly noise, but it can\'t harm the file.</string>
+    <string name="tools_editor_read_only">Read only</string>
+    <string name="tools_editor_edited">Edited</string>
+    <string name="tools_editor_saved">Saved</string>
+    <string name="tools_save">Save</string>
+    <string name="tools_editor_loading">Loading…</string>
+    <string name="tools_editor_save_failed">Couldn\'t save this file.</string>
+    <string name="tools_editor_too_large">%1$s, %2$d lines. Too large to edit, so it opens read-only.</string>
+    <string name="tools_editor_mixed_endings">This file mixes line endings. Saving writes them all as %1$s.</string>
+    <string name="tools_editor_ro_not_writable">This location doesn\'t allow changes.</string>
+    <string name="tools_editor_ro_temporary">This is a temporary copy, so changes wouldn\'t reach the original.</string>
+    <string name="tools_editor_ro_encoding">This encoding can\'t reproduce the file exactly, so editing is off to protect it. Try another under Options.</string>
+    <string name="tools_editor_find">Find</string>
+    <string name="tools_editor_go_to_line">Go to Line</string>
+    <string name="tools_editor_wrap">Word Wrap</string>
+    <string name="tools_editor_line_numbers">Line Numbers</string>
+    <string name="tools_editor_encoding">Encoding</string>
+    <string name="tools_editor_encoding_note">This reads the file again in the chosen encoding, and saving keeps it.</string>
+    <string name="tools_editor_line_ending">%1$s Line Endings</string>
+    <string name="tools_editor_undo">Undo</string>
+    <string name="tools_editor_redo">Redo</string>
+    <string name="tools_editor_previous">Previous match</string>
+    <string name="tools_editor_next">Next match</string>
+    <string name="tools_editor_close_find">Close find</string>
+    <string name="tools_editor_match_case">Match case</string>
+    <string name="tools_editor_regex">Regular Expression</string>
+    <string name="tools_editor_replace_with">Replace with</string>
+    <string name="tools_editor_replace">Replace</string>
+    <string name="tools_editor_replace_all">All</string>
+    <string name="tools_editor_no_match">No match</string>
+    <string name="tools_editor_line_number_hint">Line number</string>
+    <string name="tools_editor_go">Go</string>
+    <string name="tools_editor_leave_title">Save changes to %1$s?</string>
+    <string name="tools_editor_leave_body">Your changes are lost if you don\'t save them.</string>
+    <string name="tools_editor_dont_save">Don\'t Save</string>
+    <string name="tools_editor_changed_title">This file changed</string>
+    <string name="tools_editor_changed_body">Something else changed it after you opened it. Saving replaces that version with yours.</string>
+    <string name="tools_editor_overwrite">Replace It</string>
+    <string name="tools_editor_reload">Discard Mine and Reload</string>
+    <string name="tools_editor_reopen_title">Reopen as %1$s?</string>
+    <string name="tools_editor_reopen_body">This reads the file again from storage, and your unsaved changes are lost.</string>
+    <string name="tools_editor_reopen_action">Discard Changes and Reopen</string>
+    <string name="tools_editor_convert_title">%1$s can\'t store some of this text</string>
+    <string name="tools_editor_convert_body">Save the file as UTF-8 instead? Every character survives, though older programs may expect the original encoding.</string>
+    <string name="tools_editor_convert_action">Save as UTF-8</string>
+
+    <!-- Hex -->
+    <string name="tools_hex_subtitle">%1$s, shown as hex</string>
+    <string name="tools_hex_empty">This file is empty</string>
+    <string name="tools_hex_go_to">Go to Offset</string>
+    <string name="tools_hex_offset_hint">Offset</string>
+    <string name="tools_hex_offset_note">In hex, or start with # for decimal.</string>
+
+    <!-- Font preview -->
+    <string name="tools_font_failed">This font couldn\'t be loaded</string>
+    <string name="tools_font_type_here">Type to preview</string>
+    <string name="tools_font_characters">Characters</string>
+    <string name="tools_font_family">Family</string>
+    <string name="tools_font_style">Style</string>
+    <string name="tools_font_format">Format</string>
+    <string name="tools_font_in_collection">Fonts in File</string>
+    <string name="tools_font_glyphs">Glyphs</string>
+    <string name="tools_font_copyright">Copyright</string>
+
+    <!-- Tables, contacts, calendars -->
+    <string name="tools_table_size">%1$d rows, %2$d columns</string>
+    <string name="tools_table_empty">This table is empty</string>
+    <string name="tools_table_truncated">Showing the first %1$d rows.</string>
+    <plurals name="tools_contacts_count">
+        <item quantity="one">%1$d contact</item>
+        <item quantity="other">%1$d contacts</item>
+    </plurals>
+    <string name="tools_contacts_empty">No contacts in this file</string>
+    <string name="tools_contacts_no_name">No Name</string>
+    <string name="tools_contacts_phone">Phone</string>
+    <string name="tools_contacts_email">Email</string>
+    <string name="tools_contacts_address">Address</string>
+    <string name="tools_contacts_website">Website</string>
+    <string name="tools_contacts_birthday">Birthday</string>
+    <string name="tools_contacts_note">Notes</string>
+    <plurals name="tools_calendar_count">
+        <item quantity="one">%1$d event</item>
+        <item quantity="other">%1$d events</item>
+    </plurals>
+    <string name="tools_calendar_empty">No events in this file</string>
+    <string name="tools_calendar_no_title">No Title</string>
+    <string name="tools_calendar_where">Where</string>
+
+    <!-- Inspect -->
+    <string name="tools_inspect_folder">Folder</string>
+    <string name="tools_inspect_unknown_kind">Unknown kind of file</string>
+    <string name="tools_inspect_empty">Empty file</string>
+    <string name="tools_inspect_type">Type</string>
+    <string name="tools_inspect_modified">Modified</string>
+    <string name="tools_inspect_created">Created</string>
+    <string name="tools_inspect_access">Access</string>
+    <string name="tools_inspect_read_write">Read and write</string>
+    <string name="tools_inspect_read_only">Read only</string>
+    <string name="tools_inspect_no_access">None</string>
+    <string name="tools_inspect_location">Location</string>
+    <string name="tools_inspect_contains">Contains</string>
+    <plurals name="tools_files_and_folders">
+        <item quantity="one">%1$d file, %2$d folders</item>
+        <item quantity="other">%1$d files, %2$d folders</item>
+    </plurals>
+    <string name="tools_checksums">Checksums</string>
+    <string name="tools_checksums_calculate">Calculate</string>
+    <string name="tools_checksums_running">Reading the file, %1$d%%</string>
+    <string name="tools_checksums_failed">Couldn\'t read the file. Tap to try again.</string>
+    <string name="tools_bundle_install">Install App</string>
+    <string name="tools_bundle_installing">Installing…</string>
+    <string name="tools_bundle_installed">Installed</string>
+    <string name="tools_add_to_home">Add to Home Screen</string>
+    <string name="tools_shortcut_unsupported">This launcher doesn\'t allow adding shortcuts</string>
+    <string name="tools_compare_with">Compare With…</string>
+    <string name="tools_search_in_files">Search in Files</string>
+
+    <!-- Storage Analyzer -->
+    <string name="tools_storage_analyzer">Storage Analyzer</string>
+    <string name="tools_analyzer_used">%1$s used of %2$s</string>
+    <string name="tools_analyzer_empty">This folder is empty</string>
+    <string name="tools_analyzer_system">System and app data</string>
+    <string name="tools_analyzer_system_note">Android keeps this out of reach of every file manager, so it can\'t be broken down here.</string>
+    <string name="tools_analyzer_show_in_browse">Show in Browse</string>
+    <string name="tools_analyzer_move_to_trash">Move to Recently Deleted</string>
+    <string name="tools_analyzer_delete_title">Delete %1$s?</string>
+    <string name="tools_analyzer_delete_body">It goes to Recently Deleted, where you can still restore it.</string>
+    <string name="tools_analyzer_moved">%1$s moved to Recently Deleted</string>
+
+    <!-- Batch rename -->
+    <string name="tools_rename_title">Rename</string>
+    <string name="tools_rename_count">%1$d items</string>
+    <string name="tools_rename_pattern">Name</string>
+    <string name="tools_rename_token_name">Original Name</string>
+    <string name="tools_rename_token_number">Number</string>
+    <string name="tools_rename_token_number_padded">Number 001</string>
+    <string name="tools_rename_token_date">Date</string>
+    <string name="tools_rename_token_folder">Folder</string>
+    <string name="tools_rename_find">Find</string>
+    <string name="tools_rename_replace">Replace</string>
+    <string name="tools_rename_start">First Number</string>
+    <string name="tools_rename_case_keep">Same</string>
+    <string name="tools_rename_preview">Preview</string>
+    <string name="tools_rename_apply">Rename %1$d</string>
+    <string name="tools_rename_done">Renamed %1$d items</string>
+    <string name="tools_rename_failed">Couldn\'t rename everything, so nothing was changed</string>
+    <string name="tools_rename_problem_note">Fix the names in red to continue.</string>
+    <string name="tools_rename_problem_empty">The name would be empty</string>
+    <string name="tools_rename_problem_invalid">Names can\'t contain / \\ : * ? \" &lt; &gt; |</string>
+    <string name="tools_rename_problem_duplicate">Another file here would get this name too</string>
+    <string name="tools_rename_problem_exists">A file with this name is already here</string>
+    <string name="tools_rename_problem_long">This name is too long</string>
+
+    <!-- Search in files -->
+    <string name="tools_search_hint">Text to find</string>
+    <string name="tools_search_searching">Searching… %1$d files read</string>
+    <plurals name="tools_search_done">
+        <item quantity="one">%1$d match in %2$d of %3$d files read</item>
+        <item quantity="other">%1$d matches in %2$d of %3$d files read</item>
+    </plurals>
+    <string name="tools_search_empty">Nothing found</string>
+    <string name="tools_search_line">Line %1$d</string>
+    <string name="tools_search_start">Search the text files in %1$s and every folder inside it.</string>
+
+    <!-- Compare -->
+    <string name="tools_compare_title">Compare</string>
+    <string name="tools_compare_choose">Choose a File to Compare</string>
+    <string name="tools_compare_identical">These files are identical</string>
+    <string name="tools_compare_different">These files are different</string>
+    <string name="tools_compare_checking">Comparing…</string>
+    <string name="tools_compare_binary_note">Only text files can show which lines changed.</string>
+    <string name="tools_compare_too_big_note">These files are too large to show which lines changed.</string>
+    <string name="tools_compare_changes">Changes</string>
+    <string name="tools_compare_no_line_changes">The text is the same, but its encoding or line endings differ.</string>
+    <string name="tools_sort_kind">Kind</string>
+
+    <!-- Documents -->
+    <string name="tools_slide_number">Slide %1$d</string>
+    <plurals name="tools_doc_slides">
+        <item quantity="one">%1$d slide</item>
+        <item quantity="other">%1$d slides</item>
+    </plurals>
+    <string name="tools_slide_empty">No text on this slide</string>
+    <string name="tools_doc_no_text">No text to show</string>
+    <string name="tools_doc_no_text_body">This preview found no words in the file. Another app may show more.</string>
+    <string name="tools_doc_failed">Couldn’t read this file</string>
+    <string name="tools_doc_failed_body">It may be damaged, or a version this preview can’t read. Another app may still open it.</string>
+    <string name="tools_doc_locked">Protected with a password</string>
+    <string name="tools_doc_locked_body">This preview can’t ask for a password, but an app made for this format can.</string>
+    <string name="tools_doc_truncated">This is a long file, so only the first part is shown here.</string>
+    <string name="tools_doc_more_rows">The rest of this table isn’t shown.</string>
+    <string name="tools_doc_files">Files</string>
+    <string name="tools_doc_comment">Comment</string>
+    <string name="tools_doc_created_by">Created by</string>
+    <string name="tools_doc_trackers">Trackers</string>
+    <string name="tools_doc_from">From</string>
+    <string name="tools_doc_to">To</string>
+    <string name="tools_doc_cc">Cc</string>
+    <string name="tools_doc_date">Date</string>
+    <string name="tools_doc_attachments">Attachments</string>
+    <string name="tools_doc_unnamed">Unnamed</string>
+    <string name="tools_doc_value">Value</string>
+    <string name="tools_epub_position">Chapter %1$d of %2$d</string>
+    <string name="tools_epub_contents">Contents</string>
+    <string name="tools_epub_no_words">This chapter has no words</string>
+    <string name="tools_epub_previous">Previous</string>
+    <string name="tools_epub_next">Next</string>
+    <string name="tools_epub_chapter">Chapter %1$d</string>
+    <plurals name="tools_sqlite_rows">
+        <item quantity="one">%1$d row</item>
+        <item quantity="other">%1$d rows</item>
+    </plurals>
+    <plurals name="tools_sqlite_tables">
+        <item quantity="one">%1$d table</item>
+        <item quantity="other">%1$d tables</item>
+    </plurals>
+    <string name="tools_sqlite_view">View</string>
+    <string name="tools_sqlite_table_failed">Couldn’t read this table</string>
+    <string name="tools_sqlite_first_rows">Showing the first %1$d rows.</string>
+    <string name="tools_sqlite_empty">This database has no tables</string>
+    <string name="tools_sqlite_read_only">Read from a private copy, so the file itself is never changed.</string>
+    <plurals name="tools_playlist_entries">
+        <item quantity="one">%1$d entry</item>
+        <item quantity="other">%1$d entries</item>
+    </plurals>
+    <string name="tools_playlist_add">Add to Playlists</string>
+    <string name="tools_playlist_empty">This playlist is empty</string>
+    <string name="tools_playlist_play">Play</string>
+    <string name="tools_playlist_remote">On the internet, so it can’t play here</string>
+    <string name="tools_playlist_missing">Not found on this device</string>
+</resources>

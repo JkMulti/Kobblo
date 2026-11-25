@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">Terenkripsi</string>
+    <string name="view_archive_enter_password">Masukkan kata sandi.</string>
+    <string name="view_archive_contents_unreadable">Isinya tidak dapat dibaca.</string>
+    <string name="view_archive_password_check_failed">Kata sandi itu tidak dapat diperiksa.</string>
+    <string name="view_archive_password_prompt">Masukkan kata sandi untuk melihat isinya.</string>
+    <string name="view_archive_checking_password">Memeriksa kata sandi…</string>
+    <plurals name="view_file_count">
+        <item quantity="other">%1$d berkas</item>
+    </plurals>
+    <string name="view_archive_empty">Arsip ini kosong</string>
+    <string name="view_extract_all">Ekstrak semua</string>
+    <string name="view_archive_invalid_zip">Berkas ZIP tidak valid</string>
+    <string name="view_archive_extracting">Mengekstrak...</string>
+    <string name="view_archive_storage_full">Dihentikan karena penyimpanan hampir penuh. Isi arsip ini lebih besar dari ruang yang tersedia.</string>
+    <string name="view_archive_extraction_cancelled">Ekstraksi dibatalkan</string>
+    <string name="view_archive_nothing_extracted">Tidak ada berkas yang diekstrak</string>
+    <string name="view_archive_encrypted_entry">(arsip terenkripsi)</string>
+    <string name="view_archive_done">Selesai</string>
+    <string name="view_zip_entry_size">Ukuran: %1$s</string>
+    <string name="view_zip_entry_size_unknown">Ukuran tidak diketahui</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="other">%1$d item untuk dipindahkan</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="other">%1$d item untuk disalin</item>
+    </plurals>
+    <string name="view_hide_items">Sembunyikan item</string>
+    <string name="view_show_items">Tampilkan item</string>
+    <string name="view_move_here">Pindahkan ke sini</string>
+    <string name="view_picker_storage">Penyimpanan</string>
+    <string name="view_picker_downloads">Unduhan</string>
+    <string name="view_picker_documents">Dokumen</string>
+    <string name="view_picker_pictures">Gambar</string>
+    <string name="view_picker_music">Musik</string>
+    <string name="view_picker_tap_to_select">Ketuk berkas untuk memilih</string>
+    <plurals name="view_selected_count">
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+    <string name="view_trash_subtitle_kept">%1$s · Disimpan selama %2$s</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · Berkas yang dihapus tidak disimpan</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="other">%1$d detik</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="other">%1$d menit</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="other">%1$d jam</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="other">%1$d minggu</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="other">%1$d bulan</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="other">%1$d tahun</item>
+    </plurals>
+    <string name="view_show_as_icons">Tampilkan sebagai ikon</string>
+    <string name="view_show_as_list">Tampilkan sebagai daftar</string>
+    <string name="view_trash_settings">Pengaturan Baru dihapus</string>
+    <string name="view_restore_all">Pulihkan semua</string>
+    <string name="view_delete_all">Hapus semua</string>
+    <string name="view_delete_named_title">Hapus \"%1$s\"?</string>
+    <string name="view_trash_delete_body">Item ini tidak dapat dipulihkan setelahnya.</string>
+    <string name="view_trash_delete_everything_title">Hapus semuanya?</string>
+    <string name="view_trash_delete_everything_body">Semua yang ada di Baru dihapus tidak dapat dipulihkan setelahnya.</string>
+    <string name="view_trash_days_to_keep">Simpan berkas selama (hari)</string>
+    <string name="view_cat_duplicates">Duplikat</string>
+    <string name="view_manage_storage">Kelola penyimpanan</string>
+    <string name="view_manage_storage_subtitle">%1$s kosong, di pengaturan ponsel Anda</string>
+    <string name="view_delete_image_title">Hapus gambar?</string>
+    <string name="view_delete_moves_to_bin">Item akan dipindahkan ke Baru dihapus.</string>
+    <string name="view_edit_image">Edit gambar</string>
+    <string name="view_document_unreadable">Dokumen ini tidak dapat ditampilkan. Mungkin rusak.</string>
+    <string name="view_document_reading">Membaca dokumen…</string>
+    <string name="view_open_in_external_app">Buka di aplikasi lain</string>
+    <string name="view_copy_text">Salin teks</string>
+    <string name="view_text_copied">Teks disalin ke papan klip</string>
+    <string name="view_loading_page">Memuat halaman…</string>
+    <string name="view_share_document">Bagikan dokumen</string>
+    <string name="view_open_with_chooser">Buka dengan</string>
+    <string name="view_doc_error_reading">Gagal membaca dokumen: %1$s</string>
+    <string name="view_doc_unable_to_read_content">Tidak dapat membaca konten</string>
+    <string name="view_doc_empty">(Dokumen kosong)</string>
+    <string name="view_doc_truncated_pages">... [Konten dipotong. Menampilkan 250 halaman pertama.]</string>
+    <string name="view_doc_empty_file">(Berkas kosong)</string>
+    <string name="view_doc_truncated_size">... [Konten dipotong pada 4 MB]</string>
+    <string name="view_docx_empty_no_text">(Dokumen Word ini tampaknya kosong atau tidak memiliki teks yang dapat dibaca)</string>
+    <string name="view_docx_error_reading_damaged">Gagal membaca berkas DOCX: %1$s\n\nBerkas mungkin rusak atau dilindungi kata sandi.</string>
+    <string name="view_docx_unable_to_read">Tidak dapat membaca dokumen</string>
+    <string name="view_docx_empty">(Dokumen Word ini tampaknya kosong)</string>
+    <string name="view_docx_error_reading">Gagal membaca berkas DOCX: %1$s</string>
+    <string name="view_file_error_reading">Gagal membaca berkas: %1$s</string>
+    <string name="view_apk_not_installed">Aplikasi ini tidak terpasang.</string>
+    <string name="view_apk_not_older">Ini bukan versi lama dari aplikasi tersebut.</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku tidak terhubung. Ketuk untuk menyiapkannya.</string>
+    <string name="view_apk_normal_install">Pemasangan normal</string>
+    <string name="view_apk_normal_install_subtitle">Menggunakan pemasang paket sistem</string>
+    <string name="view_apk_downgrade">Turunkan versi</string>
+    <string name="view_apk_downgrade_subtitle">Paksa pasang versi lama</string>
+    <string name="view_apk_downgrade_install">Pasang versi lama</string>
+    <string name="view_apk_silent_install">Pemasangan senyap</string>
+    <string name="view_apk_silent_install_subtitle">Pasang di latar belakang tanpa konfirmasi</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="other">Pasang %1$d aplikasi</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku terhubung</string>
+    <string name="view_apk_install_count">Pasang %1$d</string>
+    <string name="view_remove">Hapus</string>
+    <string name="view_connected_account">Akun terhubung</string>
+    <string name="view_unknown">Tidak dikenal</string>
+    <string name="view_unknown_version">Versi tidak dikenal</string>
+    <plurals name="view_app_count">
+        <item quantity="other">%1$d aplikasi</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">Turunkan versi aplikasi ini?</string>
+    <string name="view_apk_downgrade_one_body">Android tidak mengizinkan sebagian besar aplikasi kembali ke versi lama. Untuk memasang yang ini, aplikasi saat ini harus dicopot dulu, dan itu akan menghapus semua datanya.</string>
+    <string name="view_apk_downgrade_many_title">Turunkan versi semua aplikasi ini?</string>
+    <string name="view_apk_downgrade_many_body">Android tidak mengizinkan sebagian besar aplikasi kembali ke versi lama. Untuk memasang semuanya, aplikasi saat ini harus dicopot dulu, dan itu akan menghapus semua datanya.</string>
+    <string name="view_apk_erase_and_downgrade">Hapus data dan turunkan versi</string>
+    <string name="view_apk_try_keeping_data">Coba pertahankan data</string>
+    <string name="view_share_files">Bagikan berkas</string>
+    <string name="view_current_folder">Folder saat ini</string>
+    <string name="view_delete_selected_item">Hapus item yang dipilih?</string>
+    <string name="view_delete_selected_items">Hapus semua item yang dipilih?</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="other">Hapus %1$d item?</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">Folder kosong dihapus selamanya, karena tidak ada isinya yang perlu dipulihkan.</string>
+    <string name="view_delete_they_move_to_bin">Semuanya akan dipindahkan ke Baru dihapus.</string>
+    <string name="view_extracted_folder_name">Diekstrak</string>
+    <string name="view_share_archive">Bagikan arsip</string>
+    <string name="view_share_named">Bagikan %1$s</string>
+    <string name="view_no_app_to_open">Tidak ada aplikasi untuk membuka berkas ini</string>
+    <string name="view_hiding_files_title">Menyembunyikan berkas</string>
+    <string name="view_hiding_files_body">Menyembunyikan berarti menambahkan titik di depan nama, sehingga galeri dan sebagian besar aplikasi melewatinya. Untuk mengembalikannya, aktifkan Tampilkan berkas tersembunyi di Pengaturan, lalu tekan lama item tersebut.</string>
+    <string name="view_got_it">Mengerti</string>
+    <string name="view_item_exists_title">Item sudah ada</string>
+    <string name="view_item_exists_body">Item bernama \"%1$s\" sudah ada di tujuan ini.</string>
+    <string name="view_item_exists_question">Timpa item tersebut, ganti nama menjadi \"%1$s\", atau lewati?</string>
+    <string name="view_overwrite">Timpa</string>
+    <string name="view_skip">Lewati</string>
+    <string name="view_numbering_none">Tidak ada</string>
+</resources>

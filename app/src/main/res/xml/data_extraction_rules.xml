@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12 and later. What's in the Vault, and the crash log's file paths, stay on this phone. The
+     Vault's files are encrypted, but still worth keeping out of a backup: a copy of them with the sealed
+     vault key lets someone guess the password offline, with no limit on attempts. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="vault_files/" />
+        <exclude domain="file" path="vault_metadata.json" />
+        <exclude domain="file" path="crash_log.txt" />
+        <!-- This phone's identity for sending: a key that left the phone would let something else be it. -->
+        <exclude domain="file" path="localsend_key.der" />
+        <exclude domain="file" path="localsend_cert.der" />
+        <exclude domain="file" path="saved_devices.json" />
+        <exclude domain="sharedpref" path="kobblo_vault_prefs.xml" />
+        <exclude domain="sharedpref" path="file_jobs.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="vault_files/" />
+        <exclude domain="file" path="vault_metadata.json" />
+        <exclude domain="file" path="crash_log.txt" />
+        <!-- This phone's identity for sending: a key that left the phone would let something else be it. -->
+        <exclude domain="file" path="localsend_key.der" />
+        <exclude domain="file" path="localsend_cert.der" />
+        <exclude domain="file" path="saved_devices.json" />
+        <exclude domain="sharedpref" path="kobblo_vault_prefs.xml" />
+        <exclude domain="sharedpref" path="file_jobs.xml" />
+    </device-transfer>
+</data-extraction-rules>

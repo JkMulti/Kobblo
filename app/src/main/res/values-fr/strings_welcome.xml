@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Bienvenue dans Kobblo</string>
+    <string name="welcome_photos_title">Toutes vos photos et vidéos</string>
+    <string name="welcome_photos_body">Toute votre bibliothèque dans un seul flux, avec des albums, des lieux et une visionneuse pensée pour le plaisir des yeux.</string>
+    <string name="welcome_files_title">Tous vos fichiers</string>
+    <string name="welcome_files_body">Parcourez dossiers, stockages cloud et serveurs, et supprimez ce dont vous n\'avez plus besoin.</string>
+    <string name="welcome_send_title">Envoyer aux appareils à proximité</string>
+    <string name="welcome_send_body">Partagez des fichiers avec les téléphones et ordinateurs connectés au même Wi-Fi.</string>
+    <string name="welcome_private_title">Tout reste sur votre téléphone</string>
+    <string name="welcome_private_body">Aucun compte, aucun suivi. Les fonctions intelligentes s\'exécutent sur le téléphone.</string>
+    <string name="welcome_continue">Continuer</string>
+    <string name="welcome_not_now">Plus tard</string>
+    <string name="access_title">Autoriser l\'accès</string>
+    <string name="access_subtitle">Kobblo doit voir vos fichiers pour les afficher. Ce qu\'il trouve ne quitte jamais votre téléphone.</string>
+    <string name="access_needed">Requis</string>
+    <string name="access_optional">Facultatif</string>
+    <string name="access_files">Fichiers et dossiers</string>
+    <string name="access_files_body">Pour parcourir, ouvrir et organiser tout le contenu de votre téléphone.</string>
+    <string name="access_notifications">Notifications</string>
+    <string name="access_notifications_body">La progression des copies et des transferts, et les fichiers qui vous sont envoyés.</string>
+    <string name="access_notifications_blocked">Désactivées. Appuyez pour les autoriser dans les paramètres.</string>
+    <string name="access_locations">Localisation des photos</string>
+    <string name="access_locations_body">Le lieu de prise de vue de vos photos, pour Lieux et les détails de chaque photo.</string>
+    <string name="access_locations_blocked">Désactivée. Autorisez-la dans les infos de l\'application, sous Autorisations.</string>
+    <string name="access_footer">Vous pourrez modifier ces choix plus tard dans Paramètres, sous Autorisations.</string>
+    <string name="access_allow">Autoriser l\'accès</string>
+    <string name="access_settings_row">Autorisations</string>
+    <string name="access_settings_row_body">Fichiers, notifications et localisation des photos</string>
+    <string name="welcome_ready_title">Tout est prêt</string>
+    <string name="welcome_ready_body">Vos photos sont prêtes à être explorées.</string>
+    <string name="welcome_ready_downloading">Les fonctions intelligentes sont en cours de téléchargement et traiteront vos photos dès leur arrivée.</string>
+    <string name="welcome_ready_no_access">Autorisez l\'accès quand vous le souhaitez, et vos photos et fichiers apparaîtront ici.</string>
+    <string name="welcome_lets_go">C\'est parti</string>
+</resources>

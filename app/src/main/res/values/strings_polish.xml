@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Required</string>
+    <string name="polish_optional">Optional</string>
+    <string name="polish_field_name">Name</string>
+    <string name="polish_field_domain">Domain</string>
+    <string name="polish_field_server">Server</string>
+    <string name="polish_one_saved">1 saved connection</string>
+    <string name="polish_many_saved">%1$d saved connections</string>
+    <string name="polish_delete_connection">Delete \"%1$s\"?</string>
+    <string name="polish_delete_connection_note">Its saved password goes too. The files on the server aren\'t touched.</string>
+    <string name="polish_smb_subtitle">A Windows share or a NAS</string>
+    <string name="polish_smb_missing">Enter a host, a share name and a username.</string>
+    <string name="polish_server_missing">Enter a host and a username.</string>
+    <string name="polish_all_required">Fill in all the fields to connect.</string>
+    <string name="polish_ftp_subtitle">A server on your network or the internet</string>
+    <string name="polish_sftp_subtitle">A server you reach over SSH</string>
+    <string name="polish_webdav_title">WebDAV Connections</string>
+    <string name="polish_webdav_add">Add WebDAV Connection</string>
+    <string name="polish_webdav_subtitle">A WebDAV server</string>
+    <string name="polish_allow_self_signed">Allow Self-Signed Certificate</string>
+    <string name="polish_nextcloud_title">Nextcloud Connections</string>
+    <string name="polish_nextcloud_add">Add Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Your own Nextcloud server</string>
+    <string name="polish_nextcloud_tip">If your account uses two-step sign-in, use an app password. Make one in Nextcloud under Settings, Security, Devices &amp; Sessions.</string>
+    <string name="polish_log_in_to">Log In to %1$s</string>
+    <string name="polish_compressing">Compressing</string>
+    <string name="polish_archive_created">Archive Created</string>
+    <string name="polish_choose_from_other_app">Choose from Another App</string>
+    <string name="polish_cant_open_app_package">This app package can\'t be opened.</string>
+    <string name="polish_google_login_failed">Couldn\'t log in to Google Drive. Try again.</string>
+    <string name="polish_unlocked">Unlocked</string>
+    <string name="polish_files_not_saved">The files couldn\'t be saved.</string>
+    <string name="polish_organize_failed">Your downloads couldn\'t be organized.</string>
+    <string name="polish_extract_failed">The archive may be damaged, or there may not be enough space.</string>
+    <string name="polish_extract_failed_names">Couldn\'t extract %1$s.</string>
+    <string name="polish_archive_unreadable">This archive can\'t be read. It may be damaged.</string>
+    <string name="polish_current_sort">Current Sort</string>
+    <string name="polish_sheet_handle">Drag Handle</string>
+</resources>

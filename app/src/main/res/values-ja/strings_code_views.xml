@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">暗号化済み</string>
+    <string name="view_archive_enter_password">パスワードを入力してください。</string>
+    <string name="view_archive_contents_unreadable">内容を読み込めませんでした。</string>
+    <string name="view_archive_password_check_failed">パスワードを確認できませんでした。</string>
+    <string name="view_archive_password_prompt">中身を表示するには、パスワードを入力してください。</string>
+    <string name="view_archive_checking_password">パスワードを確認中…</string>
+    <plurals name="view_file_count">
+        <item quantity="other">%1$d 個のファイル</item>
+    </plurals>
+    <string name="view_archive_empty">この圧縮ファイルは空です</string>
+    <string name="view_extract_all">すべて解凍</string>
+    <string name="view_archive_invalid_zip">無効なZIPファイルです</string>
+    <string name="view_archive_extracting">解凍中…</string>
+    <string name="view_archive_storage_full">ストレージの空き容量がほとんどないため、停止しました。この圧縮ファイルを解凍すると、空き容量を超えてしまいます。</string>
+    <string name="view_archive_extraction_cancelled">解凍をキャンセルしました</string>
+    <string name="view_archive_nothing_extracted">解凍されたファイルはありません</string>
+    <string name="view_archive_encrypted_entry">（暗号化された圧縮ファイル）</string>
+    <string name="view_archive_done">完了</string>
+    <string name="view_zip_entry_size">サイズ: %1$s</string>
+    <string name="view_zip_entry_size_unknown">サイズ不明</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="other">移動する項目: %1$d 個</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="other">コピーする項目: %1$d 個</item>
+    </plurals>
+    <string name="view_hide_items">項目を非表示</string>
+    <string name="view_show_items">項目を表示</string>
+    <string name="view_move_here">ここに移動</string>
+    <string name="view_picker_storage">ストレージ</string>
+    <string name="view_picker_downloads">ダウンロード</string>
+    <string name="view_picker_documents">ドキュメント</string>
+    <string name="view_picker_pictures">画像</string>
+    <string name="view_picker_music">音楽</string>
+    <string name="view_picker_tap_to_select">タップしてファイルを選択</string>
+    <plurals name="view_selected_count">
+        <item quantity="other">%1$d 件選択</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+    <string name="view_trash_subtitle_kept">%1$s · 保管期間: %2$s</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · 削除したファイルは保管されません</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="other">%1$d 秒</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="other">%1$d 分</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="other">%1$d 時間</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="other">%1$d 日</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="other">%1$d 週間</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="other">%1$d か月</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="other">%1$d 年</item>
+    </plurals>
+    <string name="view_show_as_icons">アイコン表示</string>
+    <string name="view_show_as_list">リスト表示</string>
+    <string name="view_trash_settings">ゴミ箱の設定</string>
+    <string name="view_restore_all">すべて復元</string>
+    <string name="view_delete_all">すべて削除</string>
+    <string name="view_delete_named_title">「%1$s」を削除しますか？</string>
+    <string name="view_trash_delete_body">削除すると復元できません。</string>
+    <string name="view_trash_delete_everything_title">すべて削除しますか？</string>
+    <string name="view_trash_delete_everything_body">削除すると、ゴミ箱内のファイルはどれも復元できなくなります。</string>
+    <string name="view_trash_days_to_keep">ファイルを保管する日数</string>
+    <string name="view_cat_duplicates">重複ファイル</string>
+    <string name="view_manage_storage">ストレージを管理</string>
+    <string name="view_manage_storage_subtitle">空き容量 %1$s（端末の設定で管理）</string>
+    <string name="view_delete_image_title">画像を削除しますか？</string>
+    <string name="view_delete_moves_to_bin">ゴミ箱に移動します。</string>
+    <string name="view_edit_image">画像を編集</string>
+    <string name="view_document_unreadable">このドキュメントを表示できません。破損している可能性があります。</string>
+    <string name="view_document_reading">ドキュメントを読み込み中…</string>
+    <string name="view_open_in_external_app">外部アプリで開く</string>
+    <string name="view_copy_text">テキストをコピー</string>
+    <string name="view_text_copied">テキストをクリップボードにコピーしました</string>
+    <string name="view_loading_page">ページを読み込み中…</string>
+    <string name="view_share_document">ドキュメントを共有</string>
+    <string name="view_open_with_chooser">アプリで開く</string>
+    <string name="view_doc_error_reading">ドキュメントの読み込みエラー: %1$s</string>
+    <string name="view_doc_unable_to_read_content">内容を読み込めません</string>
+    <string name="view_doc_empty">（空のドキュメント）</string>
+    <string name="view_doc_truncated_pages">… [内容を省略しました。最初の250ページを表示しています。]</string>
+    <string name="view_doc_empty_file">（空のファイル）</string>
+    <string name="view_doc_truncated_size">… [4 MBを超える内容は省略しました]</string>
+    <string name="view_docx_empty_no_text">（このWord文書は空か、読み取れるテキストがありません）</string>
+    <string name="view_docx_error_reading_damaged">DOCXファイルの読み込みエラー: %1$s\n\nファイルが破損しているか、パスワードで保護されている可能性があります。</string>
+    <string name="view_docx_unable_to_read">ドキュメントを読み込めません</string>
+    <string name="view_docx_empty">（このWord文書は空のようです）</string>
+    <string name="view_docx_error_reading">DOCXファイルの読み込みエラー: %1$s</string>
+    <string name="view_file_error_reading">ファイルの読み込みエラー: %1$s</string>
+    <string name="view_apk_not_installed">このアプリはインストールされていません。</string>
+    <string name="view_apk_not_older">これはこのアプリの古いバージョンではありません。</string>
+    <string name="view_apk_shizuku_not_connected">Shizukuが接続されていません。タップして設定してください。</string>
+    <string name="view_apk_normal_install">通常インストール</string>
+    <string name="view_apk_normal_install_subtitle">システムのパッケージインストーラーを使用</string>
+    <string name="view_apk_downgrade">ダウングレード</string>
+    <string name="view_apk_downgrade_subtitle">古いバージョンを強制的にインストール</string>
+    <string name="view_apk_downgrade_install">ダウングレードインストール</string>
+    <string name="view_apk_silent_install">サイレントインストール</string>
+    <string name="view_apk_silent_install_subtitle">確認なしでバックグラウンドでインストール</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="other">%1$d 個のアプリをインストール</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizukuに接続しています</string>
+    <string name="view_apk_install_count">%1$d 個をインストール</string>
+    <string name="view_remove">削除</string>
+    <string name="view_connected_account">接続済みのアカウント</string>
+    <string name="view_unknown">不明</string>
+    <string name="view_unknown_version">不明なバージョン</string>
+    <plurals name="view_app_count">
+        <item quantity="other">%1$d 個のアプリ</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">このアプリをダウングレードしますか？</string>
+    <string name="view_apk_downgrade_one_body">Androidでは、ほとんどのアプリで古いバージョンに戻すことはできません。このアプリをインストールするには、先に現在のアプリをアンインストールする必要があり、そのデータはすべて消去されます。</string>
+    <string name="view_apk_downgrade_many_title">これらのアプリをダウングレードしますか？</string>
+    <string name="view_apk_downgrade_many_body">Androidでは、ほとんどのアプリで古いバージョンに戻すことはできません。これらをインストールするには、先に現在のアプリをアンインストールする必要があり、それらのデータはすべて消去されます。</string>
+    <string name="view_apk_erase_and_downgrade">データを消去してダウングレード</string>
+    <string name="view_apk_try_keeping_data">データの保持を試す</string>
+    <string name="view_share_files">ファイルを共有</string>
+    <string name="view_current_folder">現在のフォルダー</string>
+    <string name="view_delete_selected_item">選択した項目を削除しますか？</string>
+    <string name="view_delete_selected_items">選択した項目を削除しますか？</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="other">%1$d 個の項目を削除しますか？</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">空のフォルダーは中に復元するものがないため、完全に削除されます。</string>
+    <string name="view_delete_they_move_to_bin">ゴミ箱に移動します。</string>
+    <string name="view_extracted_folder_name">解凍済み</string>
+    <string name="view_share_archive">圧縮ファイルを共有</string>
+    <string name="view_share_named">%1$s を共有</string>
+    <string name="view_no_app_to_open">このファイルを開けるアプリがありません</string>
+    <string name="view_hiding_files_title">ファイルを非表示にする</string>
+    <string name="view_hiding_files_body">非表示にすると名前の先頭にドットが付き、ギャラリーやほとんどのアプリで表示されなくなります。元に戻すには、設定で「隠しファイルを表示」をオンにして、その項目を長押ししてください。</string>
+    <string name="view_got_it">OK</string>
+    <string name="view_item_exists_title">同じ名前の項目があります</string>
+    <string name="view_item_exists_body">「%1$s」という名前の項目が移動先にすでにあります。</string>
+    <string name="view_item_exists_question">上書きするか、「%1$s」に名前を変更するか、スキップするかを選んでください。</string>
+    <string name="view_overwrite">上書き</string>
+    <string name="view_skip">スキップ</string>
+    <string name="view_numbering_none">なし</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Назад: %1$s</string>
+    <string name="screen_clear_search">Очистить поиск</string>
+    <string name="screen_show_section">Показать раздел «%1$s»</string>
+    <string name="screen_hide_section">Скрыть раздел «%1$s»</string>
+    <string name="screen_hide">Скрыть</string>
+    <string name="screen_unhide">Показать</string>
+    <string name="screen_paste">Вставить</string>
+    <string name="screen_batch_install">Пакетная установка</string>
+    <string name="screen_favorite">В избранное</string>
+    <string name="screen_loading_details">Загрузка сведений…</string>
+    <string name="screen_detail_items">Элементы</string>
+    <string name="screen_detail_format">Формат</string>
+    <string name="screen_detail_resolution">Разрешение</string>
+    <string name="screen_detail_duration">Длительность</string>
+    <string name="screen_save_to">Сохранить в %1$s</string>
+    <string name="screen_pictures">Изображения</string>
+    <string name="screen_storage">Память</string>
+    <string name="screen_saving">Сохранение</string>
+    <string name="screen_about_description">%1$s — современный и выразительный файловый менеджер для Android. Он сочетает удобную навигацию по файлам, умную сортировку по категориям, встроенные медиапросмотрщики и работу с облачными хранилищами.</string>
+    <string name="screen_about_links">Ссылки и поддержка</string>
+    <string name="screen_about_website">Сайт</string>
+    <string name="screen_about_privacy_subtitle">Как мы защищаем ваши данные</string>
+    <string name="screen_about_feedback">Отзывы и поддержка</string>
+    <string name="screen_about_made_with">Создано с ❤️ в Пакистане</string>
+    <string name="screen_show_as_icons">Показать значками</string>
+    <string name="screen_show_as_list">Показать списком</string>
+    <string name="screen_view_options">Параметры вида</string>
+    <string name="screen_current_sort">Текущая сортировка</string>
+    <string name="screen_category_duplicates">Дубликаты</string>
+    <string name="screen_category_empty_folders">Пустые папки</string>
+    <string name="screen_empty_images">Изображения не найдены</string>
+    <string name="screen_empty_videos">Видео не найдены</string>
+    <string name="screen_empty_audio">Аудиофайлы не найдены</string>
+    <string name="screen_empty_documents">Документы не найдены</string>
+    <string name="screen_empty_apps">Приложения не найдены</string>
+    <string name="screen_empty_downloads">Загрузки не найдены</string>
+    <string name="screen_empty_archives">Архивы не найдены</string>
+    <string name="screen_empty_large">Большие файлы не найдены</string>
+    <string name="screen_empty_duplicates">Дубликаты не найдены</string>
+    <string name="screen_empty_empty_folders">Пустые папки не найдены</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d элемент · %2$s</item>
+        <item quantity="few">%1$d элемента · %2$s</item>
+        <item quantity="many">%1$d элементов · %2$s</item>
+        <item quantity="other">%1$d элемента · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d элемент, доступно %2$s ГБ</item>
+        <item quantity="few">%1$d элемента, доступно %2$s ГБ</item>
+        <item quantity="many">%1$d элементов, доступно %2$s ГБ</item>
+        <item quantity="other">%1$d элемента, доступно %2$s ГБ</item>
+    </plurals>
+    <string name="screen_connected">Подключено</string>
+    <string name="screen_disconnect_named">Отключить %1$s</string>
+    <string name="screen_active">Активно</string>
+    <string name="screen_destructive_words">удал,очист,стереть,стирани,отключ,выйти,выход,отброс,уничтож</string>
+    <string name="screen_toast_problem_words">не удалось,не удается,не получилось,нельзя,невозможно,ошибк,сбой,отказ,запрещ</string>
+    <string name="screen_toast_done_words">скопирован,перемещен,сохранен,установлен,обновлен</string>
+</resources>

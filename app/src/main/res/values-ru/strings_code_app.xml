@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">Shizuku не обнаружено или не запущено</string>
+    <string name="app_auth_required">Требуется аутентификация. Предоставьте разрешение.</string>
+    <string name="app_folder_open_failed">Не удалось открыть эту папку.</string>
+    <string name="app_cloud">Облако</string>
+    <string name="app_open_failed_named">Не удалось открыть %1$s</string>
+    <string name="app_open_failed">Не удалось открыть этот файл.</string>
+    <string name="app_open_access_denied">Другое приложение не разрешило доступ к этому файлу.</string>
+    <string name="app_rename_some_failed">Некоторые файлы не переименованы: имя уже занято или недопустимо</string>
+    <string name="app_drive_delete_failed">Не удалось удалить некоторые файлы в Google Drive.</string>
+    <string name="app_organize_nothing">Нет файлов для сортировки</string>
+    <string name="app_unknown">Неизвестно</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">Перемещено в «Недавно удаленные» на %1$d день</item>
+        <item quantity="few">Перемещено в «Недавно удаленные» на %1$d дня</item>
+        <item quantity="many">Перемещено в «Недавно удаленные» на %1$d дней</item>
+        <item quantity="other">Перемещено в «Недавно удаленные» на %1$d дня</item>
+    </plurals>
+    <string name="app_bin_moved_for">Перемещено в «Недавно удаленные» на %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">Удаление предыдущей версии…</string>
+    <string name="app_install_done">Приложение установлено</string>
+    <string name="app_install_failed">Не удалось установить это приложение.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">Установлено приложений: %1$d из %2$d</item>
+        <item quantity="few">Установлено приложений: %1$d из %2$d</item>
+        <item quantity="many">Установлено приложений: %1$d из %2$d</item>
+        <item quantity="other">Установлено приложений: %1$d из %2$d</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">Для автоматической пакетной установки требуется Shizuku — используйте тихую установку.</string>
+    <string name="app_mega_wrong_login">Неверный адрес электронной почты или пароль.</string>
+    <string name="app_mega_login_failed">Не удалось войти. Проверьте адрес электронной почты и пароль.</string>
+    <string name="app_connect_failed">Не удалось подключиться. Проверьте адрес и данные для входа.</string>
+    <string name="app_share_unreadable">Здесь ничего не удалось прочитать.</string>
+    <string name="app_share_storage">Память</string>
+    <string name="app_share_saved_one">Файл %1$s сохранен в %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">Сохранено файлов: %1$d из %2$d в %3$s</item>
+        <item quantity="few">Сохранено файлов: %1$d из %2$d в %3$s</item>
+        <item quantity="many">Сохранено файлов: %1$d из %2$d в %3$s</item>
+        <item quantity="other">Сохранено файлов: %1$d из %2$d в %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">Сохранен %1$d файл в %2$s</item>
+        <item quantity="few">Сохранено %1$d файла в %2$s</item>
+        <item quantity="many">Сохранено %1$d файлов в %2$s</item>
+        <item quantity="other">Сохранено %1$d файла в %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">Только что</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d мин назад</item>
+        <item quantity="few">%1$d мин назад</item>
+        <item quantity="many">%1$d мин назад</item>
+        <item quantity="other">%1$d мин назад</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d час назад</item>
+        <item quantity="few">%1$d часа назад</item>
+        <item quantity="many">%1$d часов назад</item>
+        <item quantity="other">%1$d часа назад</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d день назад</item>
+        <item quantity="few">%1$d дня назад</item>
+        <item quantity="many">%1$d дней назад</item>
+        <item quantity="other">%1$d дня назад</item>
+    </plurals>
+    <string name="app_recent_visited">Посещено</string>
+    <string name="app_recent_opened">Открыто</string>
+    <string name="app_recent_renamed_from">Прежнее имя: %1$s</string>
+    <string name="app_extract_needs_space">Нужно %1$s свободного места, а доступно %2$s</string>
+    <string name="app_extract_storage_full">Остановлено: память почти заполнена. Распакованный архив займет больше места, чем есть</string>
+</resources>

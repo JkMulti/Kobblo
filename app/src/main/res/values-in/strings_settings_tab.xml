@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Brankas</string>
+    <string name="settings_general">Umum</string>
+    <string name="settings_keep_for">Simpan selama</string>
+    <plurals name="settings_keep_days">
+        <item quantity="other">%d hari</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Berkas yang dihapus disimpan di Baru dihapus selama ini, lalu dihapus selamanya.</string>
+    <string name="settings_trash_footer_off">Berkas yang dihapus langsung hilang, tanpa cara untuk memulihkannya.</string>
+    <string name="settings_about_app">Tentang Kobblo</string>
+    <string name="settings_version">Versi %1$s</string>
+</resources>

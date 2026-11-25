@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kobblo Design components -->
+    <string name="screen_back_to">Back to %1$s</string>
+    <string name="screen_clear_search">Clear search</string>
+    <string name="screen_show_section">Show %1$s</string>
+    <string name="screen_hide_section">Hide %1$s</string>
+
+    <!-- File actions -->
+    <string name="screen_hide">Hide</string>
+    <string name="screen_unhide">Unhide</string>
+    <string name="screen_paste">Paste</string>
+    <string name="screen_batch_install">Batch Install</string>
+    <string name="screen_favorite">Favorite</string>
+
+    <!-- File details -->
+    <string name="screen_loading_details">Loading details…</string>
+    <string name="screen_detail_items">Items</string>
+    <string name="screen_detail_format">Format</string>
+    <string name="screen_detail_resolution">Resolution</string>
+    <string name="screen_detail_duration">Duration</string>
+
+    <!-- Save shared files -->
+    <string name="screen_save_to">Save to %1$s</string>
+    <string name="screen_pictures">Pictures</string>
+    <string name="screen_storage">Storage</string>
+    <string name="screen_saving">Saving</string>
+
+    <!-- About -->
+    <string name="screen_about_description">%1$s is a modern, expressive file manager built for Android. It combines intuitive file navigation, smart categorization, built-in media viewers, and cloud storage integration.</string>
+    <string name="screen_about_links">Links &amp; Support</string>
+    <string name="screen_about_website">Website</string>
+    <string name="screen_about_privacy_subtitle">How we protect your data</string>
+    <string name="screen_about_feedback">Feedback &amp; Support</string>
+    <string name="screen_about_made_with">Crafted with ❤️ in Pakistan</string>
+
+    <!-- Views and categories -->
+    <string name="screen_show_as_icons">Show as icons</string>
+    <string name="screen_show_as_list">Show as list</string>
+    <string name="screen_view_options">View options</string>
+    <string name="screen_current_sort">Current sort</string>
+    <string name="screen_category_duplicates">Duplicates</string>
+    <string name="screen_category_empty_folders">Empty Folders</string>
+    <string name="screen_empty_images">No images found</string>
+    <string name="screen_empty_videos">No videos found</string>
+    <string name="screen_empty_audio">No audio files found</string>
+    <string name="screen_empty_documents">No documents found</string>
+    <string name="screen_empty_apps">No apps found</string>
+    <string name="screen_empty_downloads">No downloads found</string>
+    <string name="screen_empty_archives">No archives found</string>
+    <string name="screen_empty_large">No large files found</string>
+    <string name="screen_empty_duplicates">No duplicates found</string>
+    <string name="screen_empty_empty_folders">No empty folders found</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d item · %2$s</item>
+        <item quantity="other">%1$d items · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d item, %2$s GB available</item>
+        <item quantity="other">%1$d items, %2$s GB available</item>
+    </plurals>
+
+    <!-- Storage locations -->
+    <string name="screen_connected">Connected</string>
+    <string name="screen_disconnect_named">Disconnect %1$s</string>
+    <string name="screen_active">Active</string>
+    <!-- Comma-separated lowercase words or word stems in this language, matched anywhere in a message. English is always matched as well. -->
+    <!-- A confirm button containing one of these turns red, because it destroys something. -->
+    <string name="screen_destructive_words">delete,remove,empty,clear,erase,disconnect,log out,sign out,discard,uninstall,wipe</string>
+    <!-- A message containing one of these gets the warning mark. -->
+    <string name="screen_toast_problem_words">couldn\'t,can\'t,failed,error,denied</string>
+    <!-- A message containing one of these gets the tick. -->
+    <string name="screen_toast_done_words">copied,moved,saved,installed,updated</string>
+</resources>

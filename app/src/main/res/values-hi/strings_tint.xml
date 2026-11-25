@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">टिंट रंग</string>
+    <string name="tint_blue">नीला</string>
+    <string name="tint_indigo">इंडिगो</string>
+    <string name="tint_purple">बैंगनी</string>
+    <string name="tint_pink">गुलाबी</string>
+    <string name="tint_orange">नारंगी</string>
+    <string name="tint_green">हरा</string>
+    <string name="tint_teal">टील</string>
+</resources>

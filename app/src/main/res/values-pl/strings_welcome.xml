@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Witamy w Kobblo</string>
+    <string name="welcome_photos_title">Wszystkie zdjęcia i filmy</string>
+    <string name="welcome_photos_body">Cała biblioteka w jednym miejscu – z albumami, miejscami i przeglądarką stworzoną do oglądania.</string>
+    <string name="welcome_files_title">Wszystkie Twoje pliki</string>
+    <string name="welcome_files_body">Przeglądaj foldery, dyski w chmurze i serwery, a także usuwaj to, czego nie potrzebujesz.</string>
+    <string name="welcome_send_title">Wysyłaj na urządzenia w pobliżu</string>
+    <string name="welcome_send_body">Udostępniaj pliki telefonom i komputerom w tej samej sieci Wi-Fi.</string>
+    <string name="welcome_private_title">Zostaje na Twoim telefonie</string>
+    <string name="welcome_private_body">Bez konta i bez śledzenia. Funkcje inteligentne działają na telefonie.</string>
+    <string name="welcome_continue">Dalej</string>
+    <string name="welcome_not_now">Nie teraz</string>
+    <string name="access_title">Zezwól na dostęp</string>
+    <string name="access_subtitle">Kobblo musi widzieć Twoje pliki, aby je pokazać. To, co znajdzie, nigdy nie opuszcza telefonu.</string>
+    <string name="access_needed">Wymagane</string>
+    <string name="access_optional">Opcjonalne</string>
+    <string name="access_files">Pliki i foldery</string>
+    <string name="access_files_body">Aby przeglądać, otwierać i porządkować wszystko na telefonie.</string>
+    <string name="access_notifications">Powiadomienia</string>
+    <string name="access_notifications_body">Postęp kopiowania i przesyłania oraz pliki wysłane do Ciebie.</string>
+    <string name="access_notifications_blocked">Wyłączone. Dotknij, aby zezwolić w Ustawieniach.</string>
+    <string name="access_locations">Lokalizacje zdjęć</string>
+    <string name="access_locations_body">Gdzie zrobiono Twoje zdjęcia – dla Miejsc i szczegółów zdjęcia.</string>
+    <string name="access_locations_blocked">Wyłączone. Zezwól w Informacjach o aplikacji, w sekcji Uprawnienia.</string>
+    <string name="access_footer">Możesz to później zmienić w Ustawieniach, w sekcji Uprawnienia.</string>
+    <string name="access_allow">Zezwól na dostęp</string>
+    <string name="access_settings_row">Uprawnienia</string>
+    <string name="access_settings_row_body">Pliki, powiadomienia i lokalizacje zdjęć</string>
+    <string name="welcome_ready_title">Wszystko gotowe</string>
+    <string name="welcome_ready_body">Możesz już przeglądać swoje zdjęcia.</string>
+    <string name="welcome_ready_downloading">Funkcje inteligentne są pobierane i zajmą się zdjęciami, gdy tylko będą gotowe.</string>
+    <string name="welcome_ready_no_access">Zezwól na dostęp, kiedy zechcesz, a Twoje zdjęcia i pliki pojawią się tutaj.</string>
+    <string name="welcome_lets_go">Zaczynamy</string>
+</resources>

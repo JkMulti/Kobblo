@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Akan dikelompokkan ke dalam folder</string>
+    <string name="organize_pill_action">Atur</string>
+    <string name="extract_pill_running">Mengekstrak</string>
+    <string name="extract_pill_done">Diekstrak</string>
+    <string name="extract_pill_done_detail">Semua berkas diekstrak</string>
+    <string name="op_resume">Lanjutkan</string>
+    <string name="archive_kind">Arsip</string>
+    <string name="archive_kind_rar">Arsip RAR</string>
+    <string name="archive_extract_here">Ekstrak di sini</string>
+    <string name="archive_extract_here_subtitle">Ekstrak berkas ke folder saat ini</string>
+    <string name="archive_extract_here_downloads">Ekstrak berkas ke Download</string>
+    <string name="archive_extract_to">Ekstrak ke…</string>
+    <string name="archive_extract_to_subtitle">Pilih folder</string>
+    <string name="archive_view_contents">Lihat isi</string>
+    <string name="archive_view_contents_subtitle">Lihat berkas di dalam arsip ini</string>
+    <string name="archive_delete">Hapus arsip</string>
+    <string name="archive_create_title">Buat arsip</string>
+    <string name="archive_create_name">Nama arsip</string>
+    <string name="archive_create_lock">Kunci dengan kata sandi</string>
+    <string name="archive_create_lock_desc">Dienkripsi dengan AES-256</string>
+    <string name="archive_create_action">Buat</string>
+    <string name="archive_extract_out_toast">Mengekstrak ke Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="other">%1$d item</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="other">%1$d item, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Kata sandi diperlukan</string>
+    <string name="archive_password_placeholder">Kata sandi</string>
+    <string name="archive_password_wrong">Kata sandi salah</string>
+    <string name="archive_encrypted_name">Arsip ini dienkripsi.</string>
+    <string name="archive_failed_title">Tidak dapat mengekstrak</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">Folder baru</string>
+    <string name="dialog_new_file">Berkas baru</string>
+    <string name="dialog_rename">Ganti nama</string>
+    <string name="dialog_rename_placeholder">Nama baru</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="other">%1$d item disembunyikan</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="other">%1$d item ditampilkan kembali</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="other">%1$d tidak dapat disembunyikan</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="other">%1$d tidak dapat ditampilkan kembali</item>
+    </plurals>
+    <string name="settings_grid_columns">Kolom folder</string>
+    <string name="settings_grid_columns_desc">Dalam tampilan ikon</string>
+    <string name="settings_lock_password_changed">Kata sandi diubah</string>
+    <string name="settings_show_vault">Tampilkan Brankas di Alat</string>
+    <string name="settings_show_vault_desc">Jika nonaktif, tahan ⋯ atau + di Jelajahi untuk membukanya</string>
+    <string name="settings_open_with">Buka dengan</string>
+    <string name="settings_open_text">Dokumen</string>
+    <string name="settings_open_music">Musik</string>
+    <string name="settings_open_images">Gambar</string>
+    <string name="settings_open_videos">Video</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Aplikasi lain</string>
+    <string name="settings_organizer_footer">Tempat Atur unduhan memindahkan setiap jenis berkas.</string>
+    <string name="settings_choose_folder">Pilih</string>
+    <string name="settings_send_name">Nama perangkat</string>
+    <string name="settings_send_name_desc">Nama yang dilihat perangkat lain saat mencari perangkat ini.</string>
+    <string name="settings_send_folder">Berkas yang diterima</string>
+    <string name="settings_send_ask">Tanya sebelum menerima</string>
+    <string name="settings_send_ask_on">Terima atau tolak setiap transfer masuk</string>
+    <string name="settings_send_ask_off">Siapa pun di jaringan Anda dapat menyimpan berkas di sini tanpa bertanya</string>
+    <string name="crash_title">Kobblo berhenti</string>
+    <string name="crash_subtitle">Inilah yang salah. Info ini tetap di ponsel ini kecuali Anda membagikannya.</string>
+    <string name="crash_last_title">Crash terakhir</string>
+    <string name="crash_last_subtitle">Apa yang salah saat terakhir kali Kobblo berhenti</string>
+    <string name="crash_copy">Salin</string>
+    <string name="crash_share">Bagikan</string>
+    <string name="crash_delete">Hapus</string>
+    <string name="crash_close">Tutup</string>
+    <string name="crash_copied">Log crash disalin</string>
+    <string name="crash_share_subject">Log crash Kobblo</string>
+    <string name="crash_none">Tidak ada crash yang tercatat</string>
+</resources>

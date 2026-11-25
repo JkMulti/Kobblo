@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">हटाया जा रहा है</string>
+    <string name="safety_restoring">पुनर्स्थापित किया जा रहा है</string>
+    <string name="safety_progress_count">%2$s में से %1$s</string>
+    <string name="safety_reason_missing">वह अब वहाँ नहीं है</string>
+    <string name="safety_reason_no_space">स्टोरेज में पर्याप्त जगह नहीं है</string>
+    <string name="safety_reason_into_itself">कोई फ़ोल्डर अपने ही अंदर नहीं जा सकता</string>
+    <string name="safety_reason_denied">ऐप को इसे बदलने की अनुमति नहीं है</string>
+    <string name="safety_reason_name_too_long">नाम या पथ बहुत लंबा है</string>
+    <string name="safety_reason_check_failed">कॉपी मूल से मेल नहीं खाई, इसलिए मूल को रखा गया</string>
+    <string name="safety_reason_not_possible">इस आइटम के साथ ऐसा नहीं किया जा सकता</string>
+    <string name="safety_reason_unknown">कुछ गड़बड़ हो गई</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%2$d में से %1$d नहीं हटाया गया, क्योंकि %3$s।</item>
+        <item quantity="other">%2$d में से %1$d नहीं हटाए गए, ज़्यादातर इसलिए क्योंकि %3$s।</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%2$d में से %1$d ट्रांसफ़र नहीं हुआ और उसमें कोई बदलाव नहीं हुआ, क्योंकि %3$s।</item>
+        <item quantity="other">%2$d में से %1$d ट्रांसफ़र नहीं हुए और उनमें कोई बदलाव नहीं हुआ, ज़्यादातर इसलिए क्योंकि %3$s।</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d आइटम का नाम पहले से मौजूद था, इसलिए उसे नया नाम दिया गया।</item>
+        <item quantity="other">%1$d आइटम के नाम पहले से मौजूद थे, इसलिए उन्हें नए नाम दिए गए।</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">फ़ोल्डर के अंदर का %1$d लिंक यहाँ कॉपी नहीं किया जा सका।</item>
+        <item quantity="other">फ़ोल्डर के अंदर के %1$d लिंक यहाँ कॉपी नहीं किए जा सके।</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">रोक दिया गया। %1$d आइटम पहले ही ले जाया जा चुका था, और बाकी अपनी जगह पर हैं।</item>
+        <item quantity="other">रोक दिया गया। %1$d आइटम पहले ही ले जाए जा चुके थे, और बाकी अपनी जगह पर हैं।</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">रोक दिया गया। कुछ भी कॉपी नहीं हुआ।</item>
+        <item quantity="other">रोक दिया गया। कुछ भी कॉपी नहीं हुआ।</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d आइटम पुनर्स्थापित किया गया।</item>
+        <item quantity="other">%1$d आइटम पुनर्स्थापित किए गए।</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d को नया नाम दिया गया, क्योंकि उसके पुराने नाम पर अब कुछ और है।</item>
+        <item quantity="other">%1$d को नए नाम दिए गए, क्योंकि उनके पुराने नामों पर अब कुछ और है।</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d को डाउनलोड में रखा गया, क्योंकि यह पता नहीं है कि वह कहाँ से आया था।</item>
+        <item quantity="other">%1$d को डाउनलोड में रखा गया, क्योंकि यह पता नहीं है कि वे कहाँ से आए थे।</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d \'हाल ही में हटाए गए\' में ही रहा, क्योंकि %2$s।</item>
+        <item quantity="other">%1$d \'हाल ही में हटाए गए\' में ही रहे, ज़्यादातर इसलिए क्योंकि %2$s।</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">%1$d आइटम हटाया नहीं जा सका और अब भी \'हाल ही में हटाए गए\' में है।</item>
+        <item quantity="other">%1$d आइटम हटाए नहीं जा सके और अब भी \'हाल ही में हटाए गए\' में हैं।</item>
+    </plurals>
+    <string name="safety_rename_taken">\"%1$s\" यहाँ पहले से मौजूद है, इसलिए नाम नहीं बदला गया।</string>
+    <string name="safety_rename_bad_name">यह नाम किसी फ़ाइल के लिए इस्तेमाल नहीं किया जा सकता।</string>
+    <string name="safety_rename_failed">नाम नहीं बदला जा सका।</string>
+    <string name="safety_create_failed">\"%1$s\" नहीं बनाया जा सका। हो सकता है यह नाम पहले से इस्तेमाल में हो।</string>
+    <string name="safety_similar_look_first">सिर्फ़ हूबहू कॉपी चिह्नित हैं। बाकी सिर्फ़ मिलती-जुलती दिखती हैं, इसलिए जिन्हें हटाना है उन पर टैप करें, और पहले देखने के लिए दबाकर रखें।</string>
+    <string name="safety_similar_some_failed">%1$d को \'हाल ही में हटाए गए\' में नहीं ले जाया जा सका।</string>
+    <string name="safety_job_channel">फ़ाइल ऑपरेशन</string>
+    <string name="safety_job_copying_to">%1$s में कॉपी किया जा रहा है</string>
+    <string name="safety_job_moving_to">%1$s में ले जाया जा रहा है</string>
+    <string name="safety_job_compressing">%1$s बनाया जा रहा है</string>
+    <string name="safety_job_extracting">%1$s निकाला जा रहा है</string>
+    <string name="safety_job_organizing">डाउनलोड व्यवस्थित किए जा रहे हैं</string>
+    <string name="safety_job_finishing">पूरा किया जा रहा है</string>
+    <string name="safety_job_stopping">रोका जा रहा है</string>
+    <string name="safety_job_cancel_all">सभी रद्द करें</string>
+    <string name="safety_job_waiting">मौजूदा काम पूरा होने पर यह शुरू होगा।</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">%1$d और इंतज़ार में</item>
+        <item quantity="other">%1$d और इंतज़ार में</item>
+    </plurals>
+    <string name="safety_job_in_use">अभी इसका इस्तेमाल किसी कॉपी या मूव में हो रहा है। उसके पूरा होने पर फिर से कोशिश करें।</string>
+    <string name="safety_job_internal_storage">आंतरिक मेमोरी</string>
+    <string name="safety_job_cloud">क्लाउड</string>
+    <string name="safety_job_nothing_changed">कुछ भी नहीं बदला गया।</string>
+    <string name="safety_job_failed_names">प्रभावित: %1$s।</string>
+    <string name="safety_job_failed_names_more">प्रभावित: %1$s और %2$d अन्य।</string>
+    <string name="safety_job_time_limit">Android हर दिन यह सीमित करता है कि इस तरह का काम बैकग्राउंड में कितनी देर चल सकता है। यह ठीक से रुक गया है। पूरा करने के लिए Kobblo खोलें और इसे फिर से शुरू करें।</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">%1$d आइटम %2$s में कॉपी किया गया</item>
+        <item quantity="other">%1$d आइटम %2$s में कॉपी किए गए</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">%1$d आइटम %2$s में ले जाया गया</item>
+        <item quantity="other">%1$d आइटम %2$s में ले जाए गए</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">%1$s में कॉपी करना रुक गया</string>
+    <string name="safety_job_move_stopped">%1$s में ले जाना रुक गया</string>
+    <string name="safety_job_copy_problem">%1$s में कॉपी करते समय समस्या आई</string>
+    <string name="safety_job_move_problem">%1$s में ले जाते समय समस्या आई</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">%1$d आइटम \'हाल ही में हटाए गए\' में ले जाया गया</item>
+        <item quantity="other">%1$d आइटम \'हाल ही में हटाए गए\' में ले जाए गए</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">%1$d आइटम हटाया गया</item>
+        <item quantity="other">%1$d आइटम हटाए गए</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">हटाना रुक गया</string>
+    <string name="safety_job_delete_problem">हटाते समय समस्या आई</string>
+    <string name="safety_job_delete_partly">%2$d में से %1$d हटाए गए। बाकी अपनी जगह पर हैं।</string>
+    <string name="safety_job_empty_partly">%2$d में से %1$d हटाए गए। बाकी अब भी \'हाल ही में हटाए गए\' में हैं।</string>
+    <string name="safety_job_restore_done">पुनर्स्थापित किया गया</string>
+    <string name="safety_job_restore_stopped">पुनर्स्थापित करना रुक गया</string>
+    <string name="safety_job_restore_problem">पुनर्स्थापित करते समय समस्या आई</string>
+    <string name="safety_job_restore_partly">%2$d में से %1$d पुनर्स्थापित किए गए। बाकी अब भी \'हाल ही में हटाए गए\' में हैं।</string>
+    <string name="safety_job_vault_adding">वॉल्ट में जोड़ा जा रहा है</string>
+    <string name="safety_job_vault_stopped">वॉल्ट में जोड़ना रुक गया</string>
+    <string name="safety_job_vault_problem">वॉल्ट में नहीं जोड़ा जा सका</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">%1$d आइटम वॉल्ट में जोड़ा गया</item>
+        <item quantity="other">%1$d आइटम वॉल्ट में जोड़े गए</item>
+    </plurals>
+    <string name="safety_notice_vault">वॉल्ट में जोड़ना पूरा नहीं हुआ</string>
+    <string name="safety_notice_vault_waiting">वॉल्ट में जोड़ना शुरू नहीं हुआ</string>
+    <string name="safety_notice_vault_detail">जो जोड़ा गया, वह वॉल्ट में है। कोई आइटम सुरक्षित रूप से वॉल्ट में पहुँचने के बाद ही अपनी पुरानी जगह से हटाया जाता है, इसलिए बाकी सब अब भी वहीं है।</string>
+    <string name="safety_job_organized">फ़ाइलें व्यवस्थित की गईं</string>
+    <string name="safety_job_organize_stopped">व्यवस्थित करना रुक गया</string>
+    <string name="safety_job_organize_problem">व्यवस्थित करते समय समस्या आई</string>
+    <string name="safety_job_compressed">%1$s बनाया गया</string>
+    <string name="safety_job_compress_stopped">%1$s बनाना रुक गया</string>
+    <string name="safety_job_compress_problem">%1$s नहीं बनाया जा सका</string>
+    <string name="safety_job_no_archive">कोई आर्काइव नहीं बना, और आपकी फ़ाइलों में कोई बदलाव नहीं हुआ।</string>
+    <string name="safety_job_extracted">%1$s निकाला गया</string>
+    <string name="safety_job_extract_stopped">%1$s निकालना रुक गया</string>
+    <string name="safety_job_extract_stopped_detail">जितना निकाला जा चुका था, उसे हटा दिया गया। आर्काइव में कोई बदलाव नहीं हुआ।</string>
+    <string name="safety_job_extract_problem">%1$s नहीं निकाला जा सका</string>
+    <string name="safety_job_extract_needs_password">%1$s के लिए पासवर्ड चाहिए</string>
+    <string name="safety_job_extract_prepare_failed">इस आर्काइव को निकालने के लिए तैयार नहीं किया जा सका।</string>
+    <string name="safety_notice_open_folder">फ़ोल्डर खोलें</string>
+    <string name="safety_notice_closed">यह पूरा होने से पहले Kobblo बंद हो गया।</string>
+    <string name="safety_notice_never_started">अपनी बारी का इंतज़ार करते समय Kobblo बंद हो गया। कुछ भी नहीं बदला गया।</string>
+    <string name="safety_notice_originals_safe">आपकी मूल फ़ाइलों में कोई बदलाव नहीं हुआ।</string>
+    <string name="safety_notice_copy_removed">अधूरी फ़ाइल हटा दी गई।</string>
+    <string name="safety_notice_original_left">\"%1$s\" पूरी पहुँच गई, लेकिन मूल का कुछ या पूरा हिस्सा अब भी %2$s में है। जो बचा है, उसे आप हटा सकते हैं।</string>
+    <string name="safety_notice_partial_kept">कुछ अधूरा हिस्सा अब भी %1$s में है।</string>
+    <string name="safety_notice_copy">%1$s में कॉपी करना पूरा नहीं हुआ</string>
+    <string name="safety_notice_copy_waiting">%1$s में कॉपी करना शुरू नहीं हुआ</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">%2$d में से %1$d आइटम पूरा पहुँचा।</item>
+        <item quantity="other">%2$d में से %1$d आइटम पूरे पहुँचे।</item>
+    </plurals>
+    <string name="safety_notice_move">%1$s में ले जाना पूरा नहीं हुआ</string>
+    <string name="safety_notice_move_waiting">%1$s में ले जाना शुरू नहीं हुआ</string>
+    <string name="safety_notice_move_none">यह अब भी अपनी जगह पर है।</string>
+    <string name="safety_notice_organize">डाउनलोड व्यवस्थित करना पूरा नहीं हुआ</string>
+    <string name="safety_notice_organize_waiting">डाउनलोड व्यवस्थित करना शुरू नहीं हुआ</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">%2$d में से %1$d आइटम ले जाया गया। अगर नहीं ले जाया गया, तो वह अपनी जगह पर है।</item>
+        <item quantity="other">%2$d में से %1$d आइटम ले जाए गए। बाकी अपनी जगह पर हैं।</item>
+    </plurals>
+    <string name="safety_notice_delete">हटाना पूरा नहीं हुआ</string>
+    <string name="safety_notice_delete_waiting">हटाना शुरू नहीं हुआ</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">%2$d में से %1$d आइटम \'हाल ही में हटाए गए\' में गया। अगर नहीं गया, तो वह अपनी जगह पर है।</item>
+        <item quantity="other">%2$d में से %1$d आइटम \'हाल ही में हटाए गए\' में गए। बाकी अपनी जगह पर हैं।</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">%2$d में से %1$d आइटम हटाया गया। अगर नहीं हटाया गया, तो वह अपनी जगह पर है।</item>
+        <item quantity="other">%2$d में से %1$d आइटम हटाए गए। बाकी अपनी जगह पर हैं।</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">%2$d में से %1$d आइटम हटाया गया। अगर नहीं हटाया गया, तो वह अब भी \'हाल ही में हटाए गए\' में है।</item>
+        <item quantity="other">%2$d में से %1$d आइटम हटाए गए। बाकी अब भी \'हाल ही में हटाए गए\' में हैं।</item>
+    </plurals>
+    <string name="safety_notice_restore">पुनर्स्थापित करना पूरा नहीं हुआ</string>
+    <string name="safety_notice_restore_waiting">पुनर्स्थापित करना शुरू नहीं हुआ</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">%2$d में से %1$d आइटम पुनर्स्थापित किया गया। अगर नहीं किया गया, तो वह अब भी \'हाल ही में हटाए गए\' में है।</item>
+        <item quantity="other">%2$d में से %1$d आइटम पुनर्स्थापित किए गए। बाकी अब भी \'हाल ही में हटाए गए\' में हैं।</item>
+    </plurals>
+    <string name="safety_notice_compress">%1$s बनाना पूरा नहीं हुआ</string>
+    <string name="safety_notice_compress_waiting">%1$s बनाना शुरू नहीं हुआ</string>
+    <string name="safety_notice_compress_detail">कोई आर्काइव नहीं बना, और आपकी फ़ाइलों में कोई बदलाव नहीं हुआ।</string>
+    <string name="safety_notice_archive_made">Kobblo बंद होने से ठीक पहले आर्काइव पूरा हो गया था, और वह सही-सलामत है।</string>
+    <string name="safety_notice_extract">%1$s निकालना पूरा नहीं हुआ</string>
+    <string name="safety_notice_extract_waiting">%1$s निकालना शुरू नहीं हुआ</string>
+    <string name="safety_notice_extract_detail">जितना निकाला जा चुका था, उसे हटा दिया गया। आर्काइव में कोई बदलाव नहीं हुआ।</string>
+    <string name="safety_lock_what_it_is">इससे यह Kobblo के अंदर छिप जाता है। दूसरे ऐप्स इसे अब भी पढ़ सकते हैं। वॉल्ट फ़ाइलों को उनसे भी सुरक्षित रखता है।</string>
+    <string name="safety_lock_confirm_title">पासवर्ड चाहिए</string>
+    <string name="safety_lock_done">लॉक हो गया। यह Kobblo में छिपा है, लेकिन दूसरे ऐप्स इसे अब भी पढ़ सकते हैं।</string>
+    <string name="safety_lock_in_folder">यह एक लॉक किए गए फ़ोल्डर के अंदर है। इसे अनलॉक करने के लिए फ़ोल्डर को अनलॉक करें।</string>
+    <string name="safety_lock_delete_elsewhere">यह लॉक है। इसे इसके फ़ोल्डर से हटाएँ, जहाँ आप पासवर्ड दे सकते हैं।</string>
+    <string name="safety_lock_no_app">कोई दूसरा ऐप इसे नहीं खोल सकता, इसलिए यह यहीं खुला।</string>
+</resources>

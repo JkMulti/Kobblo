@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">必須</string>
+    <string name="polish_optional">省略可</string>
+    <string name="polish_field_name">名前</string>
+    <string name="polish_field_domain">ドメイン</string>
+    <string name="polish_field_server">サーバー</string>
+    <string name="polish_one_saved">1 件の保存済み接続</string>
+    <string name="polish_many_saved">%1$d 件の保存済み接続</string>
+    <string name="polish_delete_connection">「%1$s」を削除しますか？</string>
+    <string name="polish_delete_connection_note">保存されたパスワードも削除されます。サーバー上のファイルには影響しません。</string>
+    <string name="polish_smb_subtitle">Windowsの共有フォルダーまたはNAS</string>
+    <string name="polish_smb_missing">ホスト、共有名、ユーザー名を入力してください。</string>
+    <string name="polish_server_missing">ホストとユーザー名を入力してください。</string>
+    <string name="polish_all_required">接続するには、すべての項目を入力してください。</string>
+    <string name="polish_ftp_subtitle">ネットワークまたはインターネット上のサーバー</string>
+    <string name="polish_sftp_subtitle">SSHで接続するサーバー</string>
+    <string name="polish_webdav_title">WebDAV接続</string>
+    <string name="polish_webdav_add">WebDAV接続を追加</string>
+    <string name="polish_webdav_subtitle">WebDAVサーバー</string>
+    <string name="polish_allow_self_signed">自己署名証明書を許可</string>
+    <string name="polish_nextcloud_title">Nextcloud接続</string>
+    <string name="polish_nextcloud_add">Nextcloudを追加</string>
+    <string name="polish_nextcloud_subtitle">自分のNextcloudサーバー</string>
+    <string name="polish_nextcloud_tip">アカウントで2段階認証を使用している場合は、アプリパスワードを使用してください。アプリパスワードはNextcloudの [設定] &gt; [セキュリティ] &gt; [デバイスとセッション] で作成できます。</string>
+    <string name="polish_log_in_to">%1$s にログイン</string>
+    <string name="polish_compressing">圧縮中</string>
+    <string name="polish_archive_created">圧縮ファイルを作成しました</string>
+    <string name="polish_choose_from_other_app">他のアプリから選択</string>
+    <string name="polish_cant_open_app_package">このアプリパッケージは開けません。</string>
+    <string name="polish_google_login_failed">Google ドライブにログインできませんでした。もう一度お試しください。</string>
+    <string name="polish_unlocked">ロックを解除しました</string>
+    <string name="polish_files_not_saved">ファイルを保存できませんでした。</string>
+    <string name="polish_organize_failed">ダウンロードを整理できませんでした。</string>
+    <string name="polish_extract_failed">圧縮ファイルが破損しているか、空き容量が不足している可能性があります。</string>
+    <string name="polish_extract_failed_names">%1$s を解凍できませんでした。</string>
+    <string name="polish_archive_unreadable">この圧縮ファイルは読み込めません。破損している可能性があります。</string>
+    <string name="polish_current_sort">現在の並べ替え</string>
+    <string name="polish_sheet_handle">ドラッグハンドル</string>
+</resources>

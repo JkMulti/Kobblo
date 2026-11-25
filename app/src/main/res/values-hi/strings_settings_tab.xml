@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">वॉल्ट</string>
+    <string name="settings_general">सामान्य</string>
+    <string name="settings_keep_for">कितने समय तक रखें</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d दिन</item>
+        <item quantity="other">%d दिन</item>
+    </plurals>
+    <string name="settings_trash_footer_on">हटाई गई फ़ाइलें इतने समय तक \'हाल ही में हटाए गए\' में रहती हैं, फिर हमेशा के लिए हट जाती हैं।</string>
+    <string name="settings_trash_footer_off">हटाई गई फ़ाइलें तुरंत हट जाती हैं, और उन्हें वापस पाने का कोई तरीका नहीं होता।</string>
+    <string name="settings_about_app">Kobblo के बारे में</string>
+    <string name="settings_version">संस्करण %1$s</string>
+</resources>

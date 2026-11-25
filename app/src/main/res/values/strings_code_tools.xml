@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- What a file really is, judged from its first bytes (Inspect) -->
+    <string name="tool_kind_png">PNG image</string>
+    <string name="tool_kind_jpeg">JPEG image</string>
+    <string name="tool_kind_gif">GIF image</string>
+    <string name="tool_kind_bmp">BMP image</string>
+    <string name="tool_kind_tiff">TIFF image</string>
+    <string name="tool_kind_webp">WebP image</string>
+    <string name="tool_kind_heif">HEIF image</string>
+    <string name="tool_kind_avif">AVIF image</string>
+    <string name="tool_kind_photoshop">Photoshop document</string>
+    <string name="tool_kind_pdf">PDF document</string>
+    <string name="tool_kind_office_legacy">Microsoft Office document (older format)</string>
+    <string name="tool_kind_rtf">Rich Text document</string>
+    <string name="tool_kind_plist">Apple property list (binary)</string>
+    <string name="tool_kind_deb">Debian package</string>
+    <string name="tool_kind_ar">Unix archive</string>
+    <string name="tool_kind_rpm">RPM package</string>
+    <string name="tool_kind_iso">Disc image (ISO)</string>
+    <string name="tool_kind_7z">7-Zip archive</string>
+    <string name="tool_kind_gzip">Gzip archive</string>
+    <string name="tool_kind_bzip2">Bzip2 archive</string>
+    <string name="tool_kind_xz">XZ archive</string>
+    <string name="tool_kind_zstd">Zstandard archive</string>
+    <string name="tool_kind_tar">Tar archive</string>
+    <string name="tool_kind_zip">ZIP archive</string>
+    <string name="tool_kind_jar">Java archive (JAR)</string>
+    <string name="tool_kind_elf">Linux or Android program (ELF)</string>
+    <string name="tool_kind_class">Java class file</string>
+    <string name="tool_kind_dex">Android bytecode (DEX)</string>
+    <string name="tool_kind_exe">Windows program</string>
+    <string name="tool_kind_apk">Android app (APK)</string>
+    <string name="tool_kind_sqlite">SQLite database</string>
+    <string name="tool_kind_mp3">MP3 audio</string>
+    <string name="tool_kind_flac">FLAC audio</string>
+    <string name="tool_kind_wav">WAV audio</string>
+    <string name="tool_kind_m4a">MPEG-4 audio</string>
+    <string name="tool_kind_ogg">Ogg media</string>
+    <string name="tool_kind_mp4">MPEG-4 video</string>
+    <string name="tool_kind_mkv">Matroska or WebM video</string>
+    <string name="tool_kind_avi">AVI video</string>
+    <string name="tool_kind_riff">RIFF container</string>
+    <string name="tool_kind_wasm">WebAssembly module</string>
+    <string name="tool_kind_otf">OpenType font</string>
+    <string name="tool_kind_ttf">TrueType font</string>
+    <string name="tool_kind_ttc">Font collection</string>
+    <string name="tool_kind_woff">Web font (WOFF)</string>
+    <string name="tool_kind_woff2">Web font (WOFF2)</string>
+    <string name="tool_kind_docx">Word document</string>
+    <string name="tool_kind_xlsx">Excel workbook</string>
+    <string name="tool_kind_pptx">PowerPoint presentation</string>
+    <string name="tool_kind_epub">EPUB book</string>
+    <string name="tool_kind_odt">OpenDocument text</string>
+    <string name="tool_kind_ods">OpenDocument spreadsheet</string>
+    <string name="tool_kind_odp">OpenDocument presentation</string>
+    <string name="tool_kind_text">Text</string>
+    <string name="tool_kind_dmg">Apple disk image</string>
+    <string name="tool_kind_img">Disk image</string>
+    <string name="tool_kind_bin">Binary data</string>
+    <string name="tool_kind_dat">Data file</string>
+
+    <!-- Inspect: a readable size with the exact byte count beside it -->
+    <plurals name="tool_size_exact">
+        <item quantity="one">%1$s (%2$,d byte)</item>
+        <item quantity="other">%1$s (%2$,d bytes)</item>
+    </plurals>
+
+    <!-- Installing a .apks bundle -->
+    <string name="tool_bundle_no_apks">This bundle holds no APKs.</string>
+    <string name="tool_bundle_refused">The system refused the install.</string>
+
+    <!-- Text editor encodings -->
+    <string name="tool_encoding_western">Western (1252)</string>
+    <string name="tool_encoding_cyrillic">Cyrillic (1251)</string>
+
+    <!-- Font preview -->
+    <string name="tool_font_collection">Font Collection</string>
+
+    <!-- Spreadsheets: a sheet the file gives no name -->
+    <string name="tool_sheet_number">Sheet %1$d</string>
+
+    <!-- Binary property list: a value that is raw bytes -->
+    <string name="tool_plist_data">Data</string>
+
+    <!-- SQLite: a cell holding binary data, shown as its size -->
+    <plurals name="tool_sqlite_blob">
+        <item quantity="one">[%1$d byte]</item>
+        <item quantity="other">[%1$d bytes]</item>
+    </plurals>
+</resources>

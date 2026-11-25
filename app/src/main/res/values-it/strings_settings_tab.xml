@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Cassaforte</string>
+    <string name="settings_general">Generali</string>
+    <string name="settings_keep_for">Conserva per</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d giorno</item>
+        <item quantity="many">%d di giorni</item>
+        <item quantity="other">%d giorni</item>
+    </plurals>
+    <string name="settings_trash_footer_on">I file eliminati restano nel cestino per questo periodo, poi vengono rimossi definitivamente.</string>
+    <string name="settings_trash_footer_off">I file eliminati vengono rimossi subito, senza possibilità di recuperarli.</string>
+    <string name="settings_about_app">Informazioni su Kobblo</string>
+    <string name="settings_version">Versione %1$s</string>
+</resources>

@@ -1,0 +1,1 @@
+The first release of Kobblo: a private gallery and file manager in one app. Browse photos and files, reach your FTP, SFTP, SMB, WebDAV and Nextcloud servers and your Google Drive, Dropbox and MEGA storage, send files over Wi-Fi, play music, and keep private files in an encrypted Vault. Smart Search, text in photos and People run on your phone. 16 languages.

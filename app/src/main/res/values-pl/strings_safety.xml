@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Usuwanie</string>
+    <string name="safety_restoring">Przywracanie</string>
+    <string name="safety_progress_count">%1$s z %2$s</string>
+    <string name="safety_reason_missing">element już nie istnieje</string>
+    <string name="safety_reason_no_space">brakuje miejsca w pamięci</string>
+    <string name="safety_reason_into_itself">folderu nie można umieścić w nim samym</string>
+    <string name="safety_reason_denied">aplikacja nie ma uprawnień do jego zmiany</string>
+    <string name="safety_reason_name_too_long">nazwa lub ścieżka jest za długa</string>
+    <string name="safety_reason_check_failed">kopia nie zgadzała się z oryginałem, więc oryginał został zachowany</string>
+    <string name="safety_reason_not_possible">nie da się tego zrobić z tym elementem</string>
+    <string name="safety_reason_unknown">coś poszło nie tak</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">Nie usunięto %1$d z %2$d, ponieważ %3$s.</item>
+        <item quantity="few">Nie usunięto %1$d z %2$d, głównie dlatego, że %3$s.</item>
+        <item quantity="many">Nie usunięto %1$d z %2$d, głównie dlatego, że %3$s.</item>
+        <item quantity="other">Nie usunięto %1$d z %2$d, głównie dlatego, że %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">Operacja nie powiodła się dla %1$d z %2$d – element pozostał bez zmian, ponieważ %3$s.</item>
+        <item quantity="few">Operacja nie powiodła się dla %1$d z %2$d – elementy pozostały bez zmian, głównie dlatego, że %3$s.</item>
+        <item quantity="many">Operacja nie powiodła się dla %1$d z %2$d – elementy pozostały bez zmian, głównie dlatego, że %3$s.</item>
+        <item quantity="other">Operacja nie powiodła się dla %1$d z %2$d – elementy pozostały bez zmian, głównie dlatego, że %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d element otrzymał nową nazwę, bo nazwa była zajęta.</item>
+        <item quantity="few">%1$d elementy otrzymały nowe nazwy, bo nazwy były zajęte.</item>
+        <item quantity="many">%1$d elementów otrzymało nowe nazwy, bo nazwy były zajęte.</item>
+        <item quantity="other">%1$d elementu otrzymało nowe nazwy, bo nazwy były zajęte.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">Nie udało się skopiować tutaj %1$d linku z folderu.</item>
+        <item quantity="few">Nie udało się skopiować tutaj %1$d linków z folderu.</item>
+        <item quantity="many">Nie udało się skopiować tutaj %1$d linków z folderu.</item>
+        <item quantity="other">Nie udało się skopiować tutaj %1$d linku z folderu.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Zatrzymano. %1$d element został już przeniesiony, a pozostałe są tam, gdzie były.</item>
+        <item quantity="few">Zatrzymano. %1$d elementy zostały już przeniesione, a pozostałe są tam, gdzie były.</item>
+        <item quantity="many">Zatrzymano. %1$d elementów zostało już przeniesionych, a pozostałe są tam, gdzie były.</item>
+        <item quantity="other">Zatrzymano. %1$d elementu zostało już przeniesione, a pozostałe są tam, gdzie były.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Zatrzymano. Niczego nie skopiowano.</item>
+        <item quantity="few">Zatrzymano. Niczego nie skopiowano.</item>
+        <item quantity="many">Zatrzymano. Niczego nie skopiowano.</item>
+        <item quantity="other">Zatrzymano. Niczego nie skopiowano.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">Przywrócono %1$d element.</item>
+        <item quantity="few">Przywrócono %1$d elementy.</item>
+        <item quantity="many">Przywrócono %1$d elementów.</item>
+        <item quantity="other">Przywrócono %1$d elementu.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d element otrzymał nową nazwę, bo pod starą jest teraz coś innego.</item>
+        <item quantity="few">%1$d elementy otrzymały nowe nazwy, bo pod starymi są teraz inne elementy.</item>
+        <item quantity="many">%1$d elementów otrzymało nowe nazwy, bo pod starymi są teraz inne elementy.</item>
+        <item quantity="other">%1$d elementu otrzymało nowe nazwy, bo pod starymi są teraz inne elementy.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d element trafił do folderu Pobrane, bo nie wiadomo, skąd pochodził.</item>
+        <item quantity="few">%1$d elementy trafiły do folderu Pobrane, bo nie wiadomo, skąd pochodziły.</item>
+        <item quantity="many">%1$d elementów trafiło do folderu Pobrane, bo nie wiadomo, skąd pochodziły.</item>
+        <item quantity="other">%1$d elementu trafiło do folderu Pobrane, bo nie wiadomo, skąd pochodziły.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d element pozostał w Ostatnio usuniętych, ponieważ %2$s.</item>
+        <item quantity="few">%1$d elementy pozostały w Ostatnio usuniętych, głównie dlatego, że %2$s.</item>
+        <item quantity="many">%1$d elementów pozostało w Ostatnio usuniętych, głównie dlatego, że %2$s.</item>
+        <item quantity="other">%1$d elementu pozostało w Ostatnio usuniętych, głównie dlatego, że %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">Nie udało się usunąć %1$d elementu – nadal jest w Ostatnio usuniętych.</item>
+        <item quantity="few">Nie udało się usunąć %1$d elementów – nadal są w Ostatnio usuniętych.</item>
+        <item quantity="many">Nie udało się usunąć %1$d elementów – nadal są w Ostatnio usuniętych.</item>
+        <item quantity="other">Nie udało się usunąć %1$d elementu – nadal jest w Ostatnio usuniętych.</item>
+    </plurals>
+    <string name="safety_rename_taken">„%1$s” już tu istnieje, więc nie zmieniono nazwy.</string>
+    <string name="safety_rename_bad_name">Tej nazwy nie można użyć dla pliku.</string>
+    <string name="safety_rename_failed">Nie udało się zmienić nazwy.</string>
+    <string name="safety_create_failed">Nie udało się utworzyć „%1$s”. Ta nazwa może być już zajęta.</string>
+    <string name="safety_similar_look_first">Zaznaczono tylko dokładne kopie. Pozostałe są tylko podobne – dotknij tych, które chcesz usunąć, lub przytrzymaj, aby najpierw je obejrzeć.</string>
+    <string name="safety_similar_some_failed">Nie udało się przenieść do Ostatnio usuniętych: %1$d.</string>
+    <string name="safety_job_channel">Operacje na plikach</string>
+    <string name="safety_job_copying_to">Kopiowanie do: %1$s</string>
+    <string name="safety_job_moving_to">Przenoszenie do: %1$s</string>
+    <string name="safety_job_compressing">Tworzenie %1$s</string>
+    <string name="safety_job_extracting">Wypakowywanie %1$s</string>
+    <string name="safety_job_organizing">Organizowanie pobranych</string>
+    <string name="safety_job_finishing">Kończenie</string>
+    <string name="safety_job_stopping">Zatrzymywanie</string>
+    <string name="safety_job_cancel_all">Anuluj wszystko</string>
+    <string name="safety_job_waiting">Rozpocznie się po zakończeniu bieżącej operacji.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">Jeszcze %1$d w kolejce</item>
+        <item quantity="few">Jeszcze %1$d w kolejce</item>
+        <item quantity="many">Jeszcze %1$d w kolejce</item>
+        <item quantity="other">Jeszcze %1$d w kolejce</item>
+    </plurals>
+    <string name="safety_job_in_use">Ten element jest teraz kopiowany lub przenoszony. Spróbuj ponownie po zakończeniu.</string>
+    <string name="safety_job_internal_storage">Pamięć wewnętrzna</string>
+    <string name="safety_job_cloud">chmura</string>
+    <string name="safety_job_nothing_changed">Niczego nie zmieniono.</string>
+    <string name="safety_job_failed_names">Dotyczy: %1$s.</string>
+    <string name="safety_job_failed_names_more">Dotyczy: %1$s i %2$d innych.</string>
+    <string name="safety_job_time_limit">Android ogranicza, jak długo tego typu zadania mogą codziennie działać w tle. Operacja została bezpiecznie zatrzymana. Otwórz Kobblo i uruchom ją ponownie, aby ją dokończyć.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">Skopiowano %1$d element do: %2$s</item>
+        <item quantity="few">Skopiowano %1$d elementy do: %2$s</item>
+        <item quantity="many">Skopiowano %1$d elementów do: %2$s</item>
+        <item quantity="other">Skopiowano %1$d elementu do: %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">Przeniesiono %1$d element do: %2$s</item>
+        <item quantity="few">Przeniesiono %1$d elementy do: %2$s</item>
+        <item quantity="many">Przeniesiono %1$d elementów do: %2$s</item>
+        <item quantity="other">Przeniesiono %1$d elementu do: %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Zatrzymano kopiowanie do: %1$s</string>
+    <string name="safety_job_move_stopped">Zatrzymano przenoszenie do: %1$s</string>
+    <string name="safety_job_copy_problem">Wystąpił problem podczas kopiowania do: %1$s</string>
+    <string name="safety_job_move_problem">Wystąpił problem podczas przenoszenia do: %1$s</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">Przeniesiono %1$d element do Ostatnio usuniętych</item>
+        <item quantity="few">Przeniesiono %1$d elementy do Ostatnio usuniętych</item>
+        <item quantity="many">Przeniesiono %1$d elementów do Ostatnio usuniętych</item>
+        <item quantity="other">Przeniesiono %1$d elementu do Ostatnio usuniętych</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">Usunięto %1$d element</item>
+        <item quantity="few">Usunięto %1$d elementy</item>
+        <item quantity="many">Usunięto %1$d elementów</item>
+        <item quantity="other">Usunięto %1$d elementu</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Zatrzymano usuwanie</string>
+    <string name="safety_job_delete_problem">Wystąpił problem podczas usuwania</string>
+    <string name="safety_job_delete_partly">Usunięto %1$d z %2$d. Pozostałe są tam, gdzie były.</string>
+    <string name="safety_job_empty_partly">Usunięto %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</string>
+    <string name="safety_job_restore_done">Przywrócono</string>
+    <string name="safety_job_restore_stopped">Zatrzymano przywracanie</string>
+    <string name="safety_job_restore_problem">Wystąpił problem podczas przywracania</string>
+    <string name="safety_job_restore_partly">Przywrócono %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</string>
+    <string name="safety_job_vault_adding">Dodawanie do sejfu</string>
+    <string name="safety_job_vault_stopped">Zatrzymano dodawanie do sejfu</string>
+    <string name="safety_job_vault_problem">Nie udało się dodać do sejfu</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">Dodano %1$d element do sejfu</item>
+        <item quantity="few">Dodano %1$d elementy do sejfu</item>
+        <item quantity="many">Dodano %1$d elementów do sejfu</item>
+        <item quantity="other">Dodano %1$d elementu do sejfu</item>
+    </plurals>
+    <string name="safety_notice_vault">Nie zakończono dodawania do sejfu</string>
+    <string name="safety_notice_vault_waiting">Nie rozpoczęto dodawania do sejfu</string>
+    <string name="safety_notice_vault_detail">To, co zostało dodane, jest w sejfie. Element jest usuwany z pierwotnego miejsca dopiero wtedy, gdy bezpiecznie trafi do sejfu, więc cała reszta nadal tam jest.</string>
+    <string name="safety_job_organized">Uporządkowano pliki</string>
+    <string name="safety_job_organize_stopped">Zatrzymano porządkowanie</string>
+    <string name="safety_job_organize_problem">Wystąpił problem podczas porządkowania</string>
+    <string name="safety_job_compressed">Utworzono %1$s</string>
+    <string name="safety_job_compress_stopped">Zatrzymano tworzenie %1$s</string>
+    <string name="safety_job_compress_problem">Nie udało się utworzyć %1$s</string>
+    <string name="safety_job_no_archive">Nie utworzono archiwum, a Twoje pliki nie zostały zmienione.</string>
+    <string name="safety_job_extracted">Wypakowano %1$s</string>
+    <string name="safety_job_extract_stopped">Zatrzymano wypakowywanie %1$s</string>
+    <string name="safety_job_extract_stopped_detail">Wypakowane dotąd pliki zostały usunięte. Archiwum nie zostało zmienione.</string>
+    <string name="safety_job_extract_problem">Nie udało się wypakować %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s wymaga hasła</string>
+    <string name="safety_job_extract_prepare_failed">Nie udało się przygotować tego archiwum do wypakowania.</string>
+    <string name="safety_notice_open_folder">Otwórz folder</string>
+    <string name="safety_notice_closed">Kobblo został zamknięty przed zakończeniem tej operacji.</string>
+    <string name="safety_notice_never_started">Kobblo został zamknięty, gdy ta operacja czekała w kolejce. Niczego nie zmieniono.</string>
+    <string name="safety_notice_originals_safe">Twoje oryginały nie zostały zmienione.</string>
+    <string name="safety_notice_copy_removed">Niedokończona kopia została usunięta.</string>
+    <string name="safety_notice_original_left">Element „%1$s” dotarł w całości, ale oryginał jest nadal częściowo lub w całości w: %2$s. Możesz usunąć to, co zostało.</string>
+    <string name="safety_notice_partial_kept">Coś niedokończonego nadal jest w: %1$s.</string>
+    <string name="safety_notice_copy">Nie zakończono kopiowania do: %1$s</string>
+    <string name="safety_notice_copy_waiting">Nie rozpoczęto kopiowania do: %1$s</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">Skopiowano w całości: %1$d z %2$d.</item>
+        <item quantity="few">Skopiowano w całości: %1$d z %2$d.</item>
+        <item quantity="many">Skopiowano w całości: %1$d z %2$d.</item>
+        <item quantity="other">Skopiowano w całości: %1$d z %2$d.</item>
+    </plurals>
+    <string name="safety_notice_move">Nie zakończono przenoszenia do: %1$s</string>
+    <string name="safety_notice_move_waiting">Nie rozpoczęto przenoszenia do: %1$s</string>
+    <string name="safety_notice_move_none">Nadal jest w pierwotnym miejscu.</string>
+    <string name="safety_notice_organize">Nie zakończono organizowania pobranych</string>
+    <string name="safety_notice_organize_waiting">Nie rozpoczęto organizowania pobranych</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">Przeniesiono %1$d z %2$d. Jeśli element nie został przeniesiony, jest w pierwotnym miejscu.</item>
+        <item quantity="few">Przeniesiono %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="many">Przeniesiono %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="other">Przeniesiono %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+    </plurals>
+    <string name="safety_notice_delete">Nie zakończono usuwania</string>
+    <string name="safety_notice_delete_waiting">Nie rozpoczęto usuwania</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">Przeniesiono do Ostatnio usuniętych: %1$d z %2$d. Jeśli element tam nie trafił, jest w pierwotnym miejscu.</item>
+        <item quantity="few">Przeniesiono do Ostatnio usuniętych: %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="many">Przeniesiono do Ostatnio usuniętych: %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="other">Przeniesiono do Ostatnio usuniętych: %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">Usunięto %1$d z %2$d. Jeśli element nie został usunięty, jest w pierwotnym miejscu.</item>
+        <item quantity="few">Usunięto %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="many">Usunięto %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+        <item quantity="other">Usunięto %1$d z %2$d. Pozostałe są tam, gdzie były.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">Usunięto %1$d z %2$d. Jeśli element nie został usunięty, nadal jest w Ostatnio usuniętych.</item>
+        <item quantity="few">Usunięto %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+        <item quantity="many">Usunięto %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+        <item quantity="other">Usunięto %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+    </plurals>
+    <string name="safety_notice_restore">Nie zakończono przywracania</string>
+    <string name="safety_notice_restore_waiting">Nie rozpoczęto przywracania</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">Przywrócono %1$d z %2$d. Jeśli element nie został przywrócony, nadal jest w Ostatnio usuniętych.</item>
+        <item quantity="few">Przywrócono %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+        <item quantity="many">Przywrócono %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+        <item quantity="other">Przywrócono %1$d z %2$d. Pozostałe nadal są w Ostatnio usuniętych.</item>
+    </plurals>
+    <string name="safety_notice_compress">Nie zakończono tworzenia %1$s</string>
+    <string name="safety_notice_compress_waiting">Nie rozpoczęto tworzenia %1$s</string>
+    <string name="safety_notice_compress_detail">Nie utworzono archiwum, a Twoje pliki nie zostały zmienione.</string>
+    <string name="safety_notice_archive_made">Archiwum zostało ukończone tuż przed zamknięciem Kobblo i jest kompletne.</string>
+    <string name="safety_notice_extract">Nie zakończono wypakowywania %1$s</string>
+    <string name="safety_notice_extract_waiting">Nie rozpoczęto wypakowywania %1$s</string>
+    <string name="safety_notice_extract_detail">Wypakowane dotąd pliki zostały usunięte. Archiwum nie zostało zmienione.</string>
+    <string name="safety_lock_what_it_is">To ukrywa element w Kobblo. Inne aplikacje nadal mogą go odczytać. Sejf chroni pliki także przed nimi.</string>
+    <string name="safety_lock_confirm_title">Wymagane hasło</string>
+    <string name="safety_lock_done">Zablokowano. Element jest ukryty w Kobblo, ale inne aplikacje nadal mogą go odczytać.</string>
+    <string name="safety_lock_in_folder">Ten element jest w zablokowanym folderze. Odblokuj folder, aby go odblokować.</string>
+    <string name="safety_lock_delete_elsewhere">Ten element jest zablokowany. Usuń go z jego folderu, gdzie możesz podać hasło.</string>
+    <string name="safety_lock_no_app">Żadna inna aplikacja nie może otworzyć tego pliku, więc otwarto go tutaj.</string>
+</resources>

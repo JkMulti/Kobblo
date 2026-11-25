@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Willkommen bei Kobblo</string>
+    <string name="welcome_photos_title">Alle Fotos und Videos</string>
+    <string name="welcome_photos_body">Deine ganze Mediathek in einem Feed, mit Alben, Orten und einer Ansicht, die fürs Betrachten gemacht ist.</string>
+    <string name="welcome_files_title">Alle deine Dateien</string>
+    <string name="welcome_files_body">Durchsuche Ordner, Cloud-Speicher und Server und räume auf, was du nicht brauchst.</string>
+    <string name="welcome_send_title">An Geräte in der Nähe senden</string>
+    <string name="welcome_send_body">Teile Dateien mit Smartphones und Computern im selben WLAN-Netz.</string>
+    <string name="welcome_private_title">Bleibt auf deinem Gerät</string>
+    <string name="welcome_private_body">Kein Konto und kein Tracking. Intelligente Funktionen arbeiten direkt auf dem Gerät.</string>
+    <string name="welcome_continue">Weiter</string>
+    <string name="welcome_not_now">Nicht jetzt</string>
+    <string name="access_title">Zugriff erlauben</string>
+    <string name="access_subtitle">Kobblo muss deine Dateien sehen, um sie anzuzeigen. Was es findet, verlässt nie dein Gerät.</string>
+    <string name="access_needed">Erforderlich</string>
+    <string name="access_optional">Optional</string>
+    <string name="access_files">Dateien und Ordner</string>
+    <string name="access_files_body">Um alles auf deinem Gerät zu durchsuchen, zu öffnen und zu organisieren.</string>
+    <string name="access_notifications">Benachrichtigungen</string>
+    <string name="access_notifications_body">Der Fortschritt von Kopiervorgängen und Übertragungen sowie an dich gesendete Dateien.</string>
+    <string name="access_notifications_blocked">Deaktiviert. Tippe, um sie in den Einstellungen zu erlauben.</string>
+    <string name="access_locations">Fotostandorte</string>
+    <string name="access_locations_body">Wo deine Fotos aufgenommen wurden, für „Orte“ und die Fotodetails.</string>
+    <string name="access_locations_blocked">Deaktiviert. Erlaube es in der App-Info unter „Berechtigungen“.</string>
+    <string name="access_footer">Du kannst all das später in den Einstellungen unter „Berechtigungen“ ändern.</string>
+    <string name="access_allow">Zugriff erlauben</string>
+    <string name="access_settings_row">Berechtigungen</string>
+    <string name="access_settings_row_body">Dateien, Benachrichtigungen und Fotostandorte</string>
+    <string name="welcome_ready_title">Alles bereit</string>
+    <string name="welcome_ready_body">Deine Fotos warten darauf, entdeckt zu werden.</string>
+    <string name="welcome_ready_downloading">Intelligente Funktionen werden heruntergeladen und beginnen mit deinen Fotos, sobald sie da sind.</string>
+    <string name="welcome_ready_no_access">Erlaube den Zugriff, wann immer du bereit bist, dann erscheinen hier deine Fotos und Dateien.</string>
+    <string name="welcome_lets_go">Los geht’s</string>
+</resources>

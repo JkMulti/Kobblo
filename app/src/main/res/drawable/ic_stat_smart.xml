@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- The app's own sparkles glyph from AppIcons, for Smart Features' download and indexing notifications. -->
+    <path
+        android:pathData="M10.75 4.5l1.45 3.85a3.5 3.5 0 0 0 2.05 2.05l3.85 1.45-3.85 1.45a3.5 3.5 0 0 0-2.05 2.05l-1.45 3.85-1.45-3.85a3.5 3.5 0 0 0-2.05-2.05L3.4 11.85l3.85-1.45A3.5 3.5 0 0 0 9.3 8.35ZM18.25 3.5v3.75M16.4 5.4h3.7M18.5 17.25v3M17 18.75h3"
+        android:strokeWidth="1.7"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

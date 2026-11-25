@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Selamat datang di Kobblo</string>
+    <string name="welcome_photos_title">Semua foto dan video</string>
+    <string name="welcome_photos_body">Seluruh pustaka Anda dalam satu linimasa, dengan album, tempat, dan penampil yang dibuat untuk dinikmati.</string>
+    <string name="welcome_files_title">Semua berkas Anda</string>
+    <string name="welcome_files_body">Jelajahi folder, drive cloud, dan server, serta bersihkan yang tidak Anda perlukan.</string>
+    <string name="welcome_send_title">Kirim ke perangkat di sekitar</string>
+    <string name="welcome_send_body">Bagikan berkas dengan ponsel dan komputer di Wi-Fi yang sama.</string>
+    <string name="welcome_private_title">Tetap di ponsel Anda</string>
+    <string name="welcome_private_body">Tanpa akun dan tanpa pelacakan. Fitur pintar bekerja di ponsel.</string>
+    <string name="welcome_continue">Lanjutkan</string>
+    <string name="welcome_not_now">Lain kali</string>
+    <string name="access_title">Izinkan akses</string>
+    <string name="access_subtitle">Kobblo perlu melihat berkas Anda untuk menampilkannya. Apa yang ditemukan tidak pernah keluar dari ponsel Anda.</string>
+    <string name="access_needed">Diperlukan</string>
+    <string name="access_optional">Opsional</string>
+    <string name="access_files">Berkas dan folder</string>
+    <string name="access_files_body">Untuk menjelajahi, membuka, dan mengatur semua yang ada di ponsel Anda.</string>
+    <string name="access_notifications">Notifikasi</string>
+    <string name="access_notifications_body">Progres penyalinan dan transfer, serta berkas yang dikirim kepada Anda.</string>
+    <string name="access_notifications_blocked">Nonaktif. Ketuk untuk mengizinkannya di Pengaturan.</string>
+    <string name="access_locations">Lokasi foto</string>
+    <string name="access_locations_body">Tempat foto Anda diambil, untuk Tempat dan detail foto.</string>
+    <string name="access_locations_blocked">Nonaktif. Izinkan di Info aplikasi, pada bagian Izin.</string>
+    <string name="access_footer">Ubah semua ini nanti di Pengaturan, pada bagian Izin.</string>
+    <string name="access_allow">Izinkan akses</string>
+    <string name="access_settings_row">Izin</string>
+    <string name="access_settings_row_body">Berkas, notifikasi, dan lokasi foto</string>
+    <string name="welcome_ready_title">Semua sudah siap</string>
+    <string name="welcome_ready_body">Foto Anda siap dijelajahi.</string>
+    <string name="welcome_ready_downloading">Fitur pintar sedang diunduh, dan akan mulai memproses foto Anda begitu tersedia.</string>
+    <string name="welcome_ready_no_access">Izinkan akses kapan pun Anda siap, dan foto serta berkas Anda akan muncul di sini.</string>
+    <string name="welcome_lets_go">Ayo mulai</string>
+</resources>

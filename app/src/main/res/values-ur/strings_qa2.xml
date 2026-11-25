@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">فولڈرز میں ترتیب دی جائیں گی</string>
+    <string name="organize_pill_action">ترتیب دیں</string>
+    <string name="extract_pill_running">نکالا جا رہا ہے</string>
+    <string name="extract_pill_done">نکال لیا گیا</string>
+    <string name="extract_pill_done_detail">تمام فائلیں نکال لی گئیں</string>
+    <string name="op_resume">دوبارہ شروع کریں</string>
+    <string name="archive_kind">آرکائیو</string>
+    <string name="archive_kind_rar">RAR آرکائیو</string>
+    <string name="archive_extract_here">یہیں نکالیں</string>
+    <string name="archive_extract_here_subtitle">فائلیں موجودہ فولڈر میں نکالیں</string>
+    <string name="archive_extract_here_downloads">فائلیں Download میں نکالیں</string>
+    <string name="archive_extract_to">دوسری جگہ نکالیں…</string>
+    <string name="archive_extract_to_subtitle">فولڈر منتخب کریں</string>
+    <string name="archive_view_contents">مواد دیکھیں</string>
+    <string name="archive_view_contents_subtitle">اس آرکائیو کے اندر موجود فائلیں دیکھیں</string>
+    <string name="archive_delete">آرکائیو حذف کریں</string>
+    <string name="archive_create_title">آرکائیو بنائیں</string>
+    <string name="archive_create_name">آرکائیو کا نام</string>
+    <string name="archive_create_lock">پاس ورڈ سے لاک کریں</string>
+    <string name="archive_create_lock_desc">AES-256 سے انکرپٹڈ</string>
+    <string name="archive_create_action">بنائیں</string>
+    <string name="archive_extract_out_toast">Download/%1$s میں نکالا جا رہا ہے</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d آئٹم</item>
+        <item quantity="other">%1$d آئٹمز</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d آئٹم، %2$s</item>
+        <item quantity="other">%1$d آئٹمز، %2$s</item>
+    </plurals>
+    <string name="archive_password_title">پاس ورڈ درکار ہے</string>
+    <string name="archive_password_placeholder">پاس ورڈ</string>
+    <string name="archive_password_wrong">غلط پاس ورڈ</string>
+    <string name="archive_encrypted_name">یہ آرکائیو انکرپٹڈ ہے۔</string>
+    <string name="archive_failed_title">نکالا نہیں جا سکا</string>
+    <string name="archive_failed_dismiss">ٹھیک ہے</string>
+    <string name="dialog_new_folder">نیا فولڈر</string>
+    <string name="dialog_new_file">نئی فائل</string>
+    <string name="dialog_rename">نام تبدیل کریں</string>
+    <string name="dialog_rename_placeholder">نیا نام</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d آئٹم چھپا دیا گیا</item>
+        <item quantity="other">%1$d آئٹمز چھپا دیے گئے</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d آئٹم ظاہر کر دیا گیا</item>
+        <item quantity="other">%1$d آئٹمز ظاہر کر دیے گئے</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d چھپایا نہیں جا سکا</item>
+        <item quantity="other">%1$d چھپائے نہیں جا سکے</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d ظاہر نہیں کیا جا سکا</item>
+        <item quantity="other">%1$d ظاہر نہیں کیے جا سکے</item>
+    </plurals>
+    <string name="settings_grid_columns">فولڈر کالمز</string>
+    <string name="settings_grid_columns_desc">آئیکن منظر میں</string>
+    <string name="settings_lock_password_changed">پاس ورڈ تبدیل ہو گیا</string>
+    <string name="settings_show_vault">ٹولز میں والٹ دکھائیں</string>
+    <string name="settings_show_vault_desc">آف ہونے پر، اسے کھولنے کے لیے براؤز میں ⋯ یا + کو دبائے رکھیں</string>
+    <string name="settings_open_with">اس کے ذریعے کھولیں</string>
+    <string name="settings_open_text">دستاویزات</string>
+    <string name="settings_open_music">موسیقی</string>
+    <string name="settings_open_images">تصاویر</string>
+    <string name="settings_open_videos">ویڈیوز</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">دوسری ایپ</string>
+    <string name="settings_organizer_footer">ڈاؤن لوڈز ترتیب دینے پر ہر قسم کی فائل کہاں منتقل ہوتی ہے۔</string>
+    <string name="settings_choose_folder">منتخب کریں</string>
+    <string name="settings_send_name">آلے کا نام</string>
+    <string name="settings_send_name_desc">دوسرے آلات اسے تلاش کرتے وقت یہی نام دیکھتے ہیں۔</string>
+    <string name="settings_send_folder">موصول شدہ فائلیں</string>
+    <string name="settings_send_ask">وصول کرنے سے پہلے پوچھیں</string>
+    <string name="settings_send_ask_on">ہر آنے والی ٹرانسفر کو قبول یا مسترد کریں</string>
+    <string name="settings_send_ask_off">آپ کے نیٹ ورک پر کوئی بھی پوچھے بغیر یہاں فائلیں محفوظ کر سکتا ہے</string>
+    <string name="crash_title">Kobblo بند ہو گیا</string>
+    <string name="crash_subtitle">یہ وہ خرابی ہے جو پیش آئی۔ جب تک آپ اسے شیئر نہ کریں، یہ اسی فون پر رہتی ہے۔</string>
+    <string name="crash_last_title">آخری کریش</string>
+    <string name="crash_last_subtitle">پچھلی بار Kobblo بند ہونے کی وجہ</string>
+    <string name="crash_copy">کاپی کریں</string>
+    <string name="crash_share">شیئر کریں</string>
+    <string name="crash_delete">حذف کریں</string>
+    <string name="crash_close">بند کریں</string>
+    <string name="crash_copied">کریش لاگ کاپی ہو گیا</string>
+    <string name="crash_share_subject">Kobblo کریش لاگ</string>
+    <string name="crash_none">کوئی کریش ریکارڈ نہیں</string>
+</resources>

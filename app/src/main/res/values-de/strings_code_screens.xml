@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Zurück zu %1$s</string>
+    <string name="screen_clear_search">Suche löschen</string>
+    <string name="screen_show_section">%1$s anzeigen</string>
+    <string name="screen_hide_section">%1$s ausblenden</string>
+    <string name="screen_hide">Verstecken</string>
+    <string name="screen_unhide">Sichtbar machen</string>
+    <string name="screen_paste">Einfügen</string>
+    <string name="screen_batch_install">Sammelinstallation</string>
+    <string name="screen_favorite">Favorit</string>
+    <string name="screen_loading_details">Details werden geladen…</string>
+    <string name="screen_detail_items">Elemente</string>
+    <string name="screen_detail_format">Format</string>
+    <string name="screen_detail_resolution">Auflösung</string>
+    <string name="screen_detail_duration">Dauer</string>
+    <string name="screen_save_to">In %1$s speichern</string>
+    <string name="screen_pictures">Bilder</string>
+    <string name="screen_storage">Speicher</string>
+    <string name="screen_saving">Wird gespeichert</string>
+    <string name="screen_about_description">%1$s ist ein moderner, ausdrucksstarker Dateimanager für Android. Er vereint intuitive Dateinavigation, intelligente Kategorisierung, integrierte Medienbetrachter und die Anbindung von Cloud-Speicher.</string>
+    <string name="screen_about_links">Links &amp; Support</string>
+    <string name="screen_about_website">Website</string>
+    <string name="screen_about_privacy_subtitle">Wie wir deine Daten schützen</string>
+    <string name="screen_about_feedback">Feedback &amp; Support</string>
+    <string name="screen_about_made_with">Mit ❤️ in Pakistan entwickelt</string>
+    <string name="screen_show_as_icons">Als Symbole anzeigen</string>
+    <string name="screen_show_as_list">Als Liste anzeigen</string>
+    <string name="screen_view_options">Ansichtsoptionen</string>
+    <string name="screen_current_sort">Aktuelle Sortierung</string>
+    <string name="screen_category_duplicates">Duplikate</string>
+    <string name="screen_category_empty_folders">Leere Ordner</string>
+    <string name="screen_empty_images">Keine Bilder gefunden</string>
+    <string name="screen_empty_videos">Keine Videos gefunden</string>
+    <string name="screen_empty_audio">Keine Audiodateien gefunden</string>
+    <string name="screen_empty_documents">Keine Dokumente gefunden</string>
+    <string name="screen_empty_apps">Keine Apps gefunden</string>
+    <string name="screen_empty_downloads">Keine Downloads gefunden</string>
+    <string name="screen_empty_archives">Keine Archive gefunden</string>
+    <string name="screen_empty_large">Keine großen Dateien gefunden</string>
+    <string name="screen_empty_duplicates">Keine Duplikate gefunden</string>
+    <string name="screen_empty_empty_folders">Keine leeren Ordner gefunden</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d Element · %2$s</item>
+        <item quantity="other">%1$d Elemente · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d Element, %2$s GB verfügbar</item>
+        <item quantity="other">%1$d Elemente, %2$s GB verfügbar</item>
+    </plurals>
+    <string name="screen_connected">Verbunden</string>
+    <string name="screen_disconnect_named">%1$s trennen</string>
+    <string name="screen_active">Aktiv</string>
+    <string name="screen_destructive_words">lösch,entfern,leer,trenn,abmeld,auslogg,verwerf,deinstall</string>
+    <string name="screen_toast_problem_words">konnte nicht,konnten nicht,kann nicht,können nicht,fehlgeschlag,fehler,verweigert</string>
+    <string name="screen_toast_done_words">kopiert,verschoben,gespeichert,installiert,aktualisiert</string>
+</resources>

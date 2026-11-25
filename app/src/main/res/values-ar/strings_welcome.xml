@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">مرحباً بك في Kobblo</string>
+    <string name="welcome_photos_title">كل الصور والفيديوهات</string>
+    <string name="welcome_photos_body">مكتبتك كاملة في موجز واحد، مع ألبومات وأماكن وعارض مصمم للمشاهدة.</string>
+    <string name="welcome_files_title">جميع ملفاتك</string>
+    <string name="welcome_files_body">تصفّح المجلدات ومساحات التخزين السحابية والخوادم، وتخلّص مما لا تحتاج إليه.</string>
+    <string name="welcome_send_title">الإرسال إلى الأجهزة القريبة</string>
+    <string name="welcome_send_body">شارك الملفات مع الهواتف وأجهزة الكمبيوتر على شبكة Wi-Fi نفسها.</string>
+    <string name="welcome_private_title">تبقى على هاتفك</string>
+    <string name="welcome_private_body">لا حساب ولا تتبع. تعمل الميزات الذكية على الهاتف نفسه.</string>
+    <string name="welcome_continue">متابعة</string>
+    <string name="welcome_not_now">ليس الآن</string>
+    <string name="access_title">السماح بالوصول</string>
+    <string name="access_subtitle">يحتاج Kobblo إلى رؤية ملفاتك لعرضها. ما يعثر عليه لا يغادر هاتفك أبداً.</string>
+    <string name="access_needed">مطلوب</string>
+    <string name="access_optional">اختياري</string>
+    <string name="access_files">الملفات والمجلدات</string>
+    <string name="access_files_body">لتصفّح كل ما على هاتفك وفتحه وتنظيمه.</string>
+    <string name="access_notifications">الإشعارات</string>
+    <string name="access_notifications_body">تقدّم عمليات النسخ والنقل، والملفات المرسلة إليك.</string>
+    <string name="access_notifications_blocked">متوقفة. اضغط للسماح بها في الإعدادات.</string>
+    <string name="access_locations">مواقع الصور</string>
+    <string name="access_locations_body">أماكن التقاط صورك، لعرضها في «الأماكن» وتفاصيل الصورة.</string>
+    <string name="access_locations_blocked">متوقف. اسمح به من «معلومات التطبيق»، ضمن «الأذونات».</string>
+    <string name="access_footer">يمكنك تغيير أي من هذه لاحقاً من الإعدادات، ضمن «الأذونات».</string>
+    <string name="access_allow">السماح بالوصول</string>
+    <string name="access_settings_row">الأذونات</string>
+    <string name="access_settings_row_body">الملفات والإشعارات ومواقع الصور</string>
+    <string name="welcome_ready_title">كل شيء جاهز</string>
+    <string name="welcome_ready_body">صورك جاهزة للاستكشاف.</string>
+    <string name="welcome_ready_downloading">يجري تنزيل الميزات الذكية، وستبدأ العمل على صورك فور وصولها.</string>
+    <string name="welcome_ready_no_access">اسمح بالوصول متى كنت مستعداً، وستظهر صورك وملفاتك هنا.</string>
+    <string name="welcome_lets_go">لنبدأ</string>
+</resources>

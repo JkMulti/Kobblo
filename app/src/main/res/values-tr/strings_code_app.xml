@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">Shizuku algılanmadı veya çalışmıyor</string>
+    <string name="app_auth_required">Kimlik doğrulama gerekli. Lütfen izin verin.</string>
+    <string name="app_folder_open_failed">Bu klasör açılamadı.</string>
+    <string name="app_cloud">Bulut</string>
+    <string name="app_open_failed_named">%1$s açılamadı</string>
+    <string name="app_open_failed">Bu dosya açılamadı.</string>
+    <string name="app_open_access_denied">Diğer uygulama bu dosyaya erişime izin vermedi.</string>
+    <string name="app_rename_some_failed">Bazı dosyalar, ad zaten kullanıldığı veya kullanılamadığı için yeniden adlandırılmadı</string>
+    <string name="app_drive_delete_failed">Bazı Google Drive dosyaları silinemedi.</string>
+    <string name="app_organize_nothing">Düzenlenecek dosya yok</string>
+    <string name="app_unknown">Bilinmiyor</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">%1$d gün saklanmak üzere Son Silinenler\'e taşındı</item>
+        <item quantity="other">%1$d gün saklanmak üzere Son Silinenler\'e taşındı</item>
+    </plurals>
+    <string name="app_bin_moved_for">%1$d %2$s saklanmak üzere Son Silinenler\'e taşındı</string>
+    <string name="app_install_uninstalling_old">Önceki sürüm kaldırılıyor…</string>
+    <string name="app_install_done">Uygulama yüklendi</string>
+    <string name="app_install_failed">Bu uygulama yüklenemedi.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">%2$d uygulamadan %1$d tanesi yüklendi</item>
+        <item quantity="other">%2$d uygulamadan %1$d tanesi yüklendi</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">Toplu yükleme, otomasyon için Shizuku gerektirir — bunun yerine Sessiz yükleme modunu kullanın.</string>
+    <string name="app_mega_wrong_login">Geçersiz e-posta veya şifre.</string>
+    <string name="app_mega_login_failed">Giriş yapılamadı. E-posta adresinizi ve şifrenizi kontrol edin.</string>
+    <string name="app_connect_failed">Bağlanılamadı. Adresi ve giriş bilgilerinizi kontrol edin.</string>
+    <string name="app_share_unreadable">Buradaki hiçbir şey okunamadı.</string>
+    <string name="app_share_storage">Depolama</string>
+    <string name="app_share_saved_one">%1$s, %2$s konumuna kaydedildi</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">%2$d dosyadan %1$d tanesi %3$s konumuna kaydedildi</item>
+        <item quantity="other">%2$d dosyadan %1$d tanesi %3$s konumuna kaydedildi</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">%1$d dosya %2$s konumuna kaydedildi</item>
+        <item quantity="other">%1$d dosya %2$s konumuna kaydedildi</item>
+    </plurals>
+    <string name="app_recent_just_now">Az önce</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d dk önce</item>
+        <item quantity="other">%1$d dk önce</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d saat önce</item>
+        <item quantity="other">%1$d saat önce</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d gün önce</item>
+        <item quantity="other">%1$d gün önce</item>
+    </plurals>
+    <string name="app_recent_visited">Ziyaret edildi</string>
+    <string name="app_recent_opened">Açıldı</string>
+    <string name="app_recent_renamed_from">Eski adı: %1$s</string>
+    <string name="app_extract_needs_space">Bunun için %1$s alan gerekiyor, boş alan ise %2$s</string>
+    <string name="app_extract_storage_full">Depolama neredeyse dolu olduğu için durduruldu. Bu arşiv açıldığında mevcut boş alandan daha fazla yer kaplıyor</string>
+</resources>

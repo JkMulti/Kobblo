@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Sejf</string>
+    <string name="settings_general">Ogólne</string>
+    <string name="settings_keep_for">Przechowuj przez</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+        <item quantity="other">%d dnia</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Usunięte pliki czekają w Ostatnio usuniętych przez ten czas, a potem znikają na dobre.</string>
+    <string name="settings_trash_footer_off">Usunięte pliki znikają od razu i nie da się ich odzyskać.</string>
+    <string name="settings_about_app">O Kobblo</string>
+    <string name="settings_version">Wersja %1$s</string>
+</resources>

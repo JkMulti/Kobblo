@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">欢迎使用 Kobblo</string>
+    <string name="welcome_photos_title">所有照片和视频</string>
+    <string name="welcome_photos_body">整个图库汇聚于一处，配有相册、地点和专为欣赏打造的查看器。</string>
+    <string name="welcome_files_title">您的所有文件</string>
+    <string name="welcome_files_body">浏览文件夹、云盘和服务器，并清理不需要的内容。</string>
+    <string name="welcome_send_title">发送到附近设备</string>
+    <string name="welcome_send_body">与同一 Wi-Fi 下的手机和电脑分享文件。</string>
+    <string name="welcome_private_title">数据留在手机上</string>
+    <string name="welcome_private_body">无需账户，没有跟踪。智能功能全部在手机上运行。</string>
+    <string name="welcome_continue">继续</string>
+    <string name="welcome_not_now">以后再说</string>
+    <string name="access_title">允许访问</string>
+    <string name="access_subtitle">Kobblo 需要查看您的文件才能显示它们。找到的内容绝不会离开您的手机。</string>
+    <string name="access_needed">必需</string>
+    <string name="access_optional">可选</string>
+    <string name="access_files">文件和文件夹</string>
+    <string name="access_files_body">用于浏览、打开和整理手机上的所有内容。</string>
+    <string name="access_notifications">通知</string>
+    <string name="access_notifications_body">显示复制和传输进度，以及别人发给您的文件。</string>
+    <string name="access_notifications_blocked">已关闭。点按即可在“设置”中允许。</string>
+    <string name="access_locations">照片位置</string>
+    <string name="access_locations_body">照片的拍摄地点，用于“地点”和照片详情。</string>
+    <string name="access_locations_blocked">已关闭。请在“应用信息”的“权限”中允许。</string>
+    <string name="access_footer">您之后可以在“设置”的“权限”中更改这些选项。</string>
+    <string name="access_allow">允许访问</string>
+    <string name="access_settings_row">权限</string>
+    <string name="access_settings_row_body">文件、通知和照片位置</string>
+    <string name="welcome_ready_title">一切就绪</string>
+    <string name="welcome_ready_body">您的照片已准备就绪，尽情探索吧。</string>
+    <string name="welcome_ready_downloading">智能功能正在下载，下载完成后将开始处理您的照片。</string>
+    <string name="welcome_ready_no_access">随时允许访问后，您的照片和文件就会显示在这里。</string>
+    <string name="welcome_lets_go">开始使用</string>
+</resources>

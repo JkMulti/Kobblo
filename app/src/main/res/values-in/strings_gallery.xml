@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gallery_albums">Album</string>
+    <string name="gallery_albums_search">Cari album</string>
+    <string name="gallery_albums_smart">Album pintar</string>
+    <string name="gallery_albums_empty">Album tidak ditemukan</string>
+    <string name="gallery_album_new">Album baru</string>
+    <string name="gallery_album_name_hint">Nama album</string>
+    <string name="gallery_album_create">Buat</string>
+    <string name="gallery_album_rename">Ganti nama album</string>
+    <string name="gallery_album_rename_action">Ganti nama</string>
+    <string name="gallery_album_pin">Sematkan album</string>
+    <string name="gallery_album_unpin">Lepas sematan album</string>
+    <string name="gallery_album_delete">Hapus album</string>
+    <string name="gallery_album_delete_title">Hapus \"%1$s\"?</string>
+    <string name="gallery_album_delete_body">Foto dan videonya akan dipindahkan ke Baru dihapus.</string>
+    <string name="gallery_album_name_taken">Album dengan nama itu sudah ada</string>
+    <string name="gallery_album_create_failed">Tidak dapat membuat album</string>
+    <string name="gallery_album_rename_failed">Tidak dapat mengganti nama album</string>
+    <string name="gallery_album_empty">Tidak ada foto atau video</string>
+    <string name="gallery_album_empty_body">Pilih foto di Beranda, lalu pilih Album untuk menambahkannya ke sini.</string>
+    <string name="gallery_album_root">Penyimpanan internal</string>
+    <string name="gallery_select_all">Pilih semua</string>
+    <string name="gallery_sort">Urutkan</string>
+    <string name="gallery_sort_newest">Terbaru dulu</string>
+    <string name="gallery_sort_oldest">Terlama dulu</string>
+    <string name="gallery_sort_size">Ukuran</string>
+    <string name="gallery_sort_by">Urutkan menurut</string>
+    <string name="gallery_sort_name">Nama</string>
+    <string name="gallery_sort_date">Tanggal</string>
+    <string name="gallery_sort_count">Jumlah</string>
+    <string name="gallery_library_stats">Statistik pustaka</string>
+    <string name="gallery_options">Opsi album</string>
+    <string name="gallery_smart_favorites">Favorit</string>
+    <string name="gallery_smart_recent">Baru ditambahkan</string>
+    <string name="gallery_smart_on_this_day">Pada hari ini</string>
+    <string name="gallery_smart_camera">Kamera</string>
+    <string name="gallery_smart_screenshots">Screenshot</string>
+    <string name="gallery_smart_videos">Video</string>
+    <string name="gallery_smart_gifs">GIF</string>
+    <string name="gallery_smart_raw">RAW</string>
+    <string name="gallery_smart_panoramas">Panorama</string>
+    <string name="gallery_smart_motion">Foto bergerak</string>
+    <plurals name="gallery_item_count">
+        <item quantity="other">%1$,d item</item>
+    </plurals>
+    <string name="gallery_add_to_album">Tambahkan ke album</string>
+    <string name="gallery_album_action">Album</string>
+    <string name="gallery_transfer_move">Pindahkan</string>
+    <string name="gallery_transfer_copy">Salin</string>
+    <string name="gallery_transfer_moving">Memindahkan ke %1$s</string>
+    <string name="gallery_transfer_copying">Menyalin ke %1$s</string>
+    <string name="gallery_transfer_count">%1$,d dari %2$,d</string>
+    <plurals name="gallery_moved_to">
+        <item quantity="other">%1$,d item dipindahkan ke %2$s</item>
+    </plurals>
+    <plurals name="gallery_copied_to">
+        <item quantity="other">%1$,d item disalin ke %2$s</item>
+    </plurals>
+    <plurals name="gallery_transfer_failed">
+        <item quantity="other">%1$,d item tidak dapat ditransfer</item>
+    </plurals>
+    <string name="gallery_cancel">Batal</string>
+    <string name="gallery_editor_done">Selesai</string>
+    <string name="gallery_editor_undo">Urungkan</string>
+    <string name="gallery_editor_redo">Ulangi</string>
+    <string name="gallery_editor_more">Lainnya</string>
+    <string name="gallery_editor_reset">Setel ulang semua edit</string>
+    <string name="gallery_editor_other_app">Edit di aplikasi lain</string>
+    <string name="gallery_editor_mode_adjust">Sesuaikan</string>
+    <string name="gallery_editor_mode_filters">Filter</string>
+    <string name="gallery_editor_mode_crop">Pangkas</string>
+    <string name="gallery_editor_mode_brush">Sembunyikan</string>
+    <string name="gallery_editor_exposure">Eksposur</string>
+    <string name="gallery_editor_brightness">Kecerahan</string>
+    <string name="gallery_editor_contrast">Kontras</string>
+    <string name="gallery_editor_saturation">Saturasi</string>
+    <string name="gallery_editor_warmth">Kehangatan</string>
+    <string name="gallery_editor_tint">Rona</string>
+    <string name="gallery_editor_filter_original">Asli</string>
+    <string name="gallery_editor_filter_vivid">Cerah</string>
+    <string name="gallery_editor_filter_warm">Hangat</string>
+    <string name="gallery_editor_filter_cool">Sejuk</string>
+    <string name="gallery_editor_filter_dramatic">Dramatis</string>
+    <string name="gallery_editor_filter_fade">Pudar</string>
+    <string name="gallery_editor_filter_mono">Mono</string>
+    <string name="gallery_editor_filter_noir">Noir</string>
+    <string name="gallery_editor_filter_sepia">Sepia</string>
+    <string name="gallery_editor_rotate">Putar ke kiri</string>
+    <string name="gallery_editor_flip_h">Balik horizontal</string>
+    <string name="gallery_editor_flip_v">Balik vertikal</string>
+    <string name="gallery_editor_aspect_free">Bebas</string>
+    <string name="gallery_editor_aspect_original">Asli</string>
+    <string name="gallery_editor_aspect_square">Persegi</string>
+    <string name="gallery_editor_aspect_4_5">4:5</string>
+    <string name="gallery_editor_aspect_5_4">5:4</string>
+    <string name="gallery_editor_aspect_3_4">3:4</string>
+    <string name="gallery_editor_aspect_4_3">4:3</string>
+    <string name="gallery_editor_aspect_2_3">2:3</string>
+    <string name="gallery_editor_aspect_3_2">3:2</string>
+    <string name="gallery_editor_aspect_9_16">9:16</string>
+    <string name="gallery_editor_aspect_16_9">16:9</string>
+    <string name="gallery_editor_brush_pixelate">Pikselasi</string>
+    <string name="gallery_editor_brush_blur">Buramkan</string>
+    <string name="gallery_editor_brush_hint">Coret bagian yang ingin disembunyikan. Gunakan dua jari untuk memperbesar.</string>
+    <string name="gallery_editor_save_title">Simpan editan</string>
+    <string name="gallery_editor_save_size">%1$d × %2$d</string>
+    <string name="gallery_editor_save_copy">Simpan sebagai salinan</string>
+    <string name="gallery_editor_replace">Ganti yang asli</string>
+    <string name="gallery_editor_replace_title">Ganti yang asli?</string>
+    <string name="gallery_editor_replace_body">Yang asli akan dipindahkan ke Baru dihapus.</string>
+    <string name="gallery_editor_discard_title">Buang editan Anda?</string>
+    <string name="gallery_editor_discard">Buang</string>
+    <string name="gallery_editor_keep_editing">Lanjut edit</string>
+    <string name="gallery_editor_saved_copy">Salinan disimpan</string>
+    <string name="gallery_editor_replaced">Disimpan</string>
+    <string name="gallery_editor_saved_reduced">Terlalu besar untuk memori, jadi disimpan dalam %1$d × %2$d</string>
+    <string name="gallery_editor_failed_decode">Foto ini tidak dapat diedit</string>
+    <string name="gallery_editor_failed_memory">Memori tidak cukup untuk menyimpan foto ini</string>
+    <string name="gallery_editor_failed_write">Tidak dapat menyimpan foto</string>
+    <string name="gallery_similar_title">Foto serupa</string>
+    <string name="gallery_similar_rescan">Pindai lagi</string>
+    <string name="gallery_similar_scanning">Mencari duplikat</string>
+    <string name="gallery_similar_scanning_body">Proses tetap berjalan meski Anda keluar.</string>
+    <string name="gallery_similar_none">Tidak ada duplikat</string>
+    <plurals name="gallery_similar_scanned">
+        <item quantity="other">%1$,d foto telah diperiksa.</item>
+    </plurals>
+    <string name="gallery_similar_exact">Salinan persis</string>
+    <string name="gallery_similar_near">Serupa</string>
+    <string name="gallery_similar_keep">Pertahankan</string>
+    <string name="gallery_similar_none_marked">Tidak ada yang ditandai</string>
+    <plurals name="gallery_similar_delete">
+        <item quantity="other">Hapus %1$,d foto, kosongkan %2$s</item>
+    </plurals>
+    <plurals name="gallery_similar_confirm_title">
+        <item quantity="other">Hapus %1$,d foto?</item>
+    </plurals>
+    <string name="gallery_similar_confirm_body">Yang Anda hapus dipindahkan ke Baru dihapus, dan %1$s akan tersedia kembali setelah itu dikosongkan.</string>
+    <string name="gallery_similar_freed">%1$s dipindahkan ke Baru dihapus</string>
+    <string name="gallery_widget_name">Foto</string>
+    <string name="gallery_widget_description">Foto dari pustaka Anda, berganti sepanjang hari.</string>
+    <string name="gallery_widget_photo">Foto dari pustaka Anda</string>
+    <string name="gallery_widget_empty">Tidak ada foto untuk ditampilkan</string>
+    <string name="gallery_stats_overview">Ringkasan</string>
+    <string name="gallery_stats_types">Menurut jenis</string>
+    <string name="gallery_stats_folders">Album terbesar</string>
+    <string name="gallery_stats_total">Total</string>
+    <string name="gallery_stats_photos">Foto</string>
+    <string name="gallery_stats_videos">Video</string>
+    <string name="gallery_recently_deleted">Baru dihapus</string>
+    <string name="gallery_album_hidden">Disembunyikan dari Beranda</string>
+    <string name="gallery_album_hide_from_home">Sembunyikan dari Beranda</string>
+    <string name="gallery_album_show_on_home">Tampilkan di Beranda</string>
+    <string name="gallery_album_hidden_note">%1$s kini tidak ada di Beranda, tetapi tetap ada di Album</string>
+    <string name="gallery_album_shown">%1$s kembali ditampilkan di Beranda</string>
+    <string name="gallery_search">Cari</string>
+    <string name="gallery_search_hint">Nama, tanggal, tempat, kamera, tag</string>
+    <string name="gallery_search_none">Tidak ada hasil</string>
+    <string name="gallery_search_none_body">Coba nama, tahun, tempat, kamera, atau kata seperti video, screenshot, atau besar.</string>
+    <string name="gallery_search_still_reading">Masih membaca %1$s foto lagi, jadi mungkin ada hasil lain.</string>
+    <string name="gallery_search_kinds">Jenis</string>
+    <string name="gallery_search_years">Tahun</string>
+    <string name="gallery_search_cameras">Kamera</string>
+    <string name="gallery_search_word_favorites">Favorit</string>
+    <string name="gallery_search_word_videos">Video</string>
+    <string name="gallery_search_word_screenshots">Screenshot</string>
+    <string name="gallery_search_word_gifs">GIF</string>
+    <string name="gallery_search_word_raw">RAW</string>
+    <string name="gallery_places">Tempat</string>
+    <string name="gallery_places_empty">Belum ada tempat</string>
+    <string name="gallery_places_empty_body">Foto dengan lokasi akan muncul di sini setelah dibaca. Semuanya diproses di ponsel ini.</string>
+    <string name="gallery_places_credit">Diperkirakan di ponsel ini, dekat kota mana setiap foto diambil. Nama kota dari GeoNames, CC BY 4.0.</string>
+    <string name="gallery_tags">Tag</string>
+    <string name="gallery_tags_empty">Belum ada tag</string>
+    <string name="gallery_more">Lainnya</string>
+    <plurals name="gallery_bulk_title">
+        <item quantity="other">%1$,d item</item>
+    </plurals>
+    <string name="gallery_bulk_rotate_left">Putar ke kiri</string>
+    <string name="gallery_bulk_rotate_right">Putar ke kanan</string>
+    <string name="gallery_bulk_rotating">Memutar foto</string>
+    <string name="gallery_bulk_rotate_stopped">Rotasi dihentikan</string>
+    <plurals name="gallery_bulk_rotated">
+        <item quantity="other">%1$,d foto diputar</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_skipped">
+        <item quantity="other">%1$,d bukan JPEG, jadi dibiarkan apa adanya</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_failed">
+        <item quantity="other">Tidak dapat memutar %1$,d foto</item>
+    </plurals>
+    <string name="gallery_bulk_save_copies">Simpan salinan sebagai</string>
+    <string name="gallery_bulk_format">Format</string>
+    <string name="gallery_bulk_size">Sisi terpanjang</string>
+    <string name="gallery_bulk_size_original">Asli</string>
+    <string name="gallery_bulk_save">Simpan</string>
+    <string name="gallery_bulk_saving">Menyimpan salinan</string>
+    <string name="gallery_bulk_save_stopped">Penyimpanan salinan dihentikan</string>
+    <plurals name="gallery_bulk_save_note">
+        <item quantity="other">Berkas baru disimpan di samping %1$,d berkas asli, yang tidak diubah.</item>
+    </plurals>
+    <plurals name="gallery_bulk_saved">
+        <item quantity="other">%1$,d salinan disimpan</item>
+    </plurals>
+    <plurals name="gallery_bulk_save_failed">
+        <item quantity="other">%1$,d tidak dapat dibaca</item>
+    </plurals>
+    <plurals name="gallery_bulk_share_skipped">
+        <item quantity="other">Metadata %1$,d item tidak dapat dihapus, jadi tidak disertakan</item>
+    </plurals>
+    <string name="gallery_album_newest_cover">Gunakan terbaru sebagai sampul</string>
+    <string name="gallery_bulk_fix_dates">Perbaiki tanggal dari nama</string>
+    <string name="gallery_bulk_fix_dates_action">Perbaiki tanggal</string>
+    <string name="gallery_bulk_fix_date_note">Nama berkas ini memuat tanggal yang tidak cocok dengan tanggal berkasnya, dan tidak ada tanggal di dalamnya. Hanya tanggal pada berkas yang berubah, dan ini dapat diurungkan dari menu ini.</string>
+    <plurals name="gallery_bulk_fix_dates_note">
+        <item quantity="other">%1$,d dari %2$,d berkas ini memiliki tanggal di namanya yang tidak cocok dengan tanggal berkasnya, dan tidak ada tanggal di dalamnya. Hanya tanggal pada setiap berkas yang berubah, dan ini dapat diurungkan dari menu ini.</item>
+    </plurals>
+    <string name="gallery_bulk_undo_dates">Urungkan perbaikan tanggal terakhir</string>
+    <string name="gallery_bulk_fixing_dates">Memperbaiki tanggal</string>
+    <string name="gallery_bulk_undoing_dates">Mengembalikan tanggal</string>
+    <string name="gallery_bulk_dates_stopped">Pengubahan tanggal dihentikan</string>
+    <plurals name="gallery_bulk_dates_fixed">
+        <item quantity="other">Tanggal %1$,d berkas diperbaiki</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_failed">
+        <item quantity="other">%1$,d tidak dapat diubah</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_restored">
+        <item quantity="other">Tanggal %1$,d berkas dikembalikan</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Kolor akcentu</string>
+    <string name="tint_blue">Niebieski</string>
+    <string name="tint_indigo">Indygo</string>
+    <string name="tint_purple">Fioletowy</string>
+    <string name="tint_pink">Różowy</string>
+    <string name="tint_orange">Pomarańczowy</string>
+    <string name="tint_green">Zielony</string>
+    <string name="tint_teal">Morski</string>
+</resources>

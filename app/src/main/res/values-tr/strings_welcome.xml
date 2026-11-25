@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Kobblo\'a hoş geldiniz</string>
+    <string name="welcome_photos_title">Tüm fotoğraf ve videolarınız</string>
+    <string name="welcome_photos_body">Tüm kitaplığınız tek bir akışta; albümler, yerler ve keyifle bakmanız için tasarlanmış bir görüntüleyiciyle.</string>
+    <string name="welcome_files_title">Tüm dosyalarınız</string>
+    <string name="welcome_files_body">Klasörlere, bulut sürücülerine ve sunuculara göz atın, ihtiyacınız olmayanları temizleyin.</string>
+    <string name="welcome_send_title">Yakındaki cihazlara gönderin</string>
+    <string name="welcome_send_body">Aynı Wi-Fi ağındaki telefon ve bilgisayarlarla dosya paylaşın.</string>
+    <string name="welcome_private_title">Telefonunuzda kalır</string>
+    <string name="welcome_private_body">Hesap yok, izleme yok. Akıllı özellikler işini telefonda yapar.</string>
+    <string name="welcome_continue">Devam</string>
+    <string name="welcome_not_now">Şimdi değil</string>
+    <string name="access_title">Erişime izin verin</string>
+    <string name="access_subtitle">Kobblo\'ın dosyalarınızı gösterebilmesi için onları görmesi gerekir. Bulduğu hiçbir şey telefonunuzdan çıkmaz.</string>
+    <string name="access_needed">Gerekli</string>
+    <string name="access_optional">İsteğe bağlı</string>
+    <string name="access_files">Dosyalar ve klasörler</string>
+    <string name="access_files_body">Telefonunuzdaki her şeye göz atmak, açmak ve düzenlemek için.</string>
+    <string name="access_notifications">Bildirimler</string>
+    <string name="access_notifications_body">Kopyalama ve aktarımların ilerleyişi ile size gönderilen dosyalar.</string>
+    <string name="access_notifications_blocked">Kapalı. Ayarlar\'da izin vermek için dokunun.</string>
+    <string name="access_locations">Fotoğraf konumları</string>
+    <string name="access_locations_body">Yerler bölümü ve fotoğraf ayrıntıları için fotoğraflarınızın çekildiği yerler.</string>
+    <string name="access_locations_blocked">Kapalı. Uygulama bilgileri\'nde İzinler bölümünden izin verin.</string>
+    <string name="access_footer">Bunları daha sonra Ayarlar\'da, İzinler bölümünden değiştirebilirsiniz.</string>
+    <string name="access_allow">Erişime izin ver</string>
+    <string name="access_settings_row">İzinler</string>
+    <string name="access_settings_row_body">Dosyalar, bildirimler ve fotoğraf konumları</string>
+    <string name="welcome_ready_title">Her şey hazır</string>
+    <string name="welcome_ready_body">Fotoğraflarınız keşfedilmeye hazır.</string>
+    <string name="welcome_ready_downloading">Akıllı özellikler indiriliyor ve indikçe fotoğraflarınız üzerinde çalışmaya başlayacak.</string>
+    <string name="welcome_ready_no_access">Hazır olduğunuzda erişime izin verin; fotoğraflarınız ve dosyalarınız burada olacak.</string>
+    <string name="welcome_lets_go">Başlayalım</string>
+</resources>

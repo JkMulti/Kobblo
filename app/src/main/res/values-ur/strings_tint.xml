@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">رنگت</string>
+    <string name="tint_blue">نیلا</string>
+    <string name="tint_indigo">انڈیگو</string>
+    <string name="tint_purple">جامنی</string>
+    <string name="tint_pink">گلابی</string>
+    <string name="tint_orange">نارنجی</string>
+    <string name="tint_green">سبز</string>
+    <string name="tint_teal">فیروزی</string>
+</resources>

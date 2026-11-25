@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Photo and video details panel: row labels (MediaDetails.kt, MediaDetailsPanel.kt) -->
+    <string name="media_detail_name">Name</string>
+    <string name="media_detail_folder">Folder</string>
+    <string name="media_detail_type">Type</string>
+    <string name="media_detail_date">Date</string>
+    <string name="media_detail_video">Video</string>
+    <string name="media_detail_lens">Lens</string>
+    <string name="media_detail_software">Software</string>
+    <string name="media_detail_taken">Taken</string>
+    <string name="media_detail_aperture">Aperture</string>
+    <string name="media_detail_shutter">Shutter</string>
+    <string name="media_detail_sensitivity">Sensitivity</string>
+    <string name="media_detail_focal_length">Focal Length</string>
+    <string name="media_detail_focal_length_35mm">Focal Length (35mm)</string>
+    <string name="media_detail_bias">Bias</string>
+    <string name="media_detail_flash">Flash</string>
+    <string name="media_detail_white_balance">White Balance</string>
+    <string name="media_detail_coordinates">Coordinates</string>
+    <string name="media_detail_altitude">Altitude</string>
+    <string name="media_detail_duration">Duration</string>
+    <string name="media_detail_bitrate">Bitrate</string>
+    <string name="media_detail_recorded">Recorded</string>
+    <string name="media_detail_codec">Codec</string>
+    <string name="media_detail_resolution">Resolution</string>
+    <string name="media_detail_frame_rate">Frame Rate</string>
+    <string name="media_detail_channels">Channels</string>
+    <string name="media_detail_sample_rate">Sample Rate</string>
+    <string name="media_detail_language">Language</string>
+
+    <!-- Details panel: values -->
+    <string name="media_detail_flash_fired">Fired</string>
+    <string name="media_detail_flash_not_fired">Did not fire</string>
+    <string name="media_detail_white_balance_manual">Manual</string>
+    <string name="media_detail_white_balance_auto">Auto</string>
+    <string name="media_detail_mono">Mono</string>
+    <string name="media_detail_stereo">Stereo</string>
+    <plurals name="media_detail_channel_count">
+        <item quantity="one">%1$d channel</item>
+        <item quantity="other">%1$d channels</item>
+    </plurals>
+    <!-- One line of the copied details: a label, then its value -->
+    <string name="media_detail_copy_line">%1$s: %2$s</string>
+
+    <!-- Details panel: IPTC press fields -->
+    <string name="media_iptc_keywords">Keywords</string>
+    <string name="media_iptc_instructions">Instructions</string>
+    <string name="media_iptc_date_created">Date Created</string>
+    <string name="media_iptc_time_created">Time Created</string>
+    <string name="media_iptc_author_title">Author Title</string>
+    <string name="media_iptc_city">City</string>
+    <string name="media_iptc_sublocation">Sublocation</string>
+    <string name="media_iptc_state">State</string>
+    <string name="media_iptc_country">Country</string>
+    <string name="media_iptc_reference">Reference</string>
+    <string name="media_iptc_headline">Headline</string>
+    <string name="media_iptc_credit">Credit</string>
+    <string name="media_iptc_source">Source</string>
+    <string name="media_iptc_copyright">Copyright</string>
+    <string name="media_iptc_caption">Caption</string>
+    <string name="media_iptc_writer">Writer</string>
+
+    <!-- Viewer: titles of the system's app choosers (ViewerSupport.kt) -->
+    <string name="media_open_with">Open with</string>
+    <string name="media_set_as">Set as</string>
+    <!-- Video player: stands in for a format's name when the file has no extension -->
+    <string name="media_video_this_format">This format</string>
+
+    <!-- Gallery: accessibility labels -->
+    <string name="media_selected">Selected</string>
+    <string name="media_tile_video">Video</string>
+    <string name="media_tile_favorite">Favorite</string>
+
+    <!-- Gallery: the line under a feed -->
+    <plurals name="media_count_photos">
+        <item quantity="one">%1$s Photo</item>
+        <item quantity="other">%1$s Photos</item>
+    </plurals>
+    <plurals name="media_count_videos">
+        <item quantity="one">%1$s Video</item>
+        <item quantity="other">%1$s Videos</item>
+    </plurals>
+    <!-- How many photos, then how many videos -->
+    <string name="media_count_photos_and_videos">%1$s, %2$s</string>
+
+    <!-- Photo editor: accessibility labels -->
+    <string name="media_editor_photo">Photo</string>
+    <string name="media_editor_adjustment_ruler">Adjustment ruler</string>
+    <string name="media_editor_brush_size">Brush size</string>
+
+    <!-- Music: a total running time, for the foot of a list -->
+    <string name="media_duration_hours_minutes">%1$d hr %2$d min</string>
+    <string name="media_duration_minutes">%1$d min</string>
+    <string name="media_duration_seconds">%1$d sec</string>
+    <!-- How many songs, then how long they run -->
+    <string name="media_songs_and_duration">%1$s, %2$s</string>
+
+    <!-- Music: the equalizer presets most devices offer -->
+    <string name="media_eq_preset_normal">Normal</string>
+    <string name="media_eq_preset_classical">Classical</string>
+    <string name="media_eq_preset_dance">Dance</string>
+    <string name="media_eq_preset_flat">Flat</string>
+    <string name="media_eq_preset_folk">Folk</string>
+    <string name="media_eq_preset_heavy_metal">Heavy Metal</string>
+    <string name="media_eq_preset_hip_hop">Hip Hop</string>
+    <string name="media_eq_preset_jazz">Jazz</string>
+    <string name="media_eq_preset_pop">Pop</string>
+    <string name="media_eq_preset_rock">Rock</string>
+
+    <!--
+        Gallery search words (MediaQuery.kt). Each string is a comma-separated list of lowercase synonyms that
+        someone might type in this language, for one idea. Keep the commas, and don't add other punctuation.
+        A date can be a phrase of several words, such as "last week". English always works as well, so a
+        translation only needs this language's words. The words shown as search suggestions
+        (gallery_search_word_*) should be in these lists, so tapping one finds what it says.
+    -->
+    <string name="media_search_words_photo">photo,photos,picture,pictures,image,images</string>
+    <string name="media_search_words_video">video,videos,movie,movies</string>
+    <string name="media_search_words_gif">gif,gifs</string>
+    <string name="media_search_words_screenshot">screenshot,screenshots</string>
+    <string name="media_search_words_raw">raw</string>
+    <string name="media_search_words_panorama">panorama,panoramas,pano</string>
+    <string name="media_search_words_motion">motion</string>
+    <string name="media_search_words_favorite">favorite,favorites,favourite,favourites,starred</string>
+    <string name="media_search_words_camera">camera</string>
+    <string name="media_search_words_large">large,big</string>
+    <string name="media_search_words_spring">spring</string>
+    <string name="media_search_words_summer">summer</string>
+    <string name="media_search_words_autumn">autumn,fall</string>
+    <string name="media_search_words_winter">winter</string>
+    <string name="media_search_words_today">today</string>
+    <string name="media_search_words_yesterday">yesterday</string>
+    <string name="media_search_words_this_week">this week</string>
+    <string name="media_search_words_last_week">last week</string>
+    <string name="media_search_words_this_month">this month</string>
+    <string name="media_search_words_last_month">last month</string>
+    <string name="media_search_words_this_year">this year</string>
+    <string name="media_search_words_last_year">last year</string>
+    <string name="media_search_words_this_spring">this spring</string>
+    <string name="media_search_words_last_spring">last spring</string>
+    <string name="media_search_words_this_summer">this summer</string>
+    <string name="media_search_words_last_summer">last summer</string>
+    <string name="media_search_words_this_autumn">this autumn,this fall</string>
+    <string name="media_search_words_last_autumn">last autumn,last fall</string>
+    <string name="media_search_words_this_winter">this winter</string>
+    <string name="media_search_words_last_winter">last winter</string>
+</resources>

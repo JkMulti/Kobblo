@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.kotlin
+
+# Signing: the release keystore and its passwords never go in git
+*.jks
+*.keystore
+keystore.properties
+
+# Android Studio keeps each person's own project settings here.
+/.idea/

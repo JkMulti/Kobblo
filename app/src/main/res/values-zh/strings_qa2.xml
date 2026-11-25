@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">将被归类到文件夹中</string>
+    <string name="organize_pill_action">整理</string>
+    <string name="extract_pill_running">正在解压</string>
+    <string name="extract_pill_done">已解压</string>
+    <string name="extract_pill_done_detail">所有文件已解压</string>
+    <string name="op_resume">继续</string>
+    <string name="archive_kind">压缩包</string>
+    <string name="archive_kind_rar">RAR 压缩包</string>
+    <string name="archive_extract_here">解压到此处</string>
+    <string name="archive_extract_here_subtitle">将文件解压到当前文件夹</string>
+    <string name="archive_extract_here_downloads">将文件解压到 Download 文件夹</string>
+    <string name="archive_extract_to">解压到…</string>
+    <string name="archive_extract_to_subtitle">选择文件夹</string>
+    <string name="archive_view_contents">查看内容</string>
+    <string name="archive_view_contents_subtitle">查看此压缩包中的文件</string>
+    <string name="archive_delete">删除压缩包</string>
+    <string name="archive_create_title">创建压缩包</string>
+    <string name="archive_create_name">压缩包名称</string>
+    <string name="archive_create_lock">使用密码加密</string>
+    <string name="archive_create_lock_desc">使用 AES-256 加密</string>
+    <string name="archive_create_action">创建</string>
+    <string name="archive_extract_out_toast">正在解压到 Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="other">%1$d 个项目</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="other">%1$d 个项目，%2$s</item>
+    </plurals>
+    <string name="archive_password_title">需要密码</string>
+    <string name="archive_password_placeholder">密码</string>
+    <string name="archive_password_wrong">密码错误</string>
+    <string name="archive_encrypted_name">此压缩包已加密。</string>
+    <string name="archive_failed_title">无法解压</string>
+    <string name="archive_failed_dismiss">确定</string>
+    <string name="dialog_new_folder">新建文件夹</string>
+    <string name="dialog_new_file">新建文件</string>
+    <string name="dialog_rename">重命名</string>
+    <string name="dialog_rename_placeholder">新名称</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="other">已隐藏 %1$d 个项目</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="other">已取消隐藏 %1$d 个项目</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="other">%1$d 个项目无法隐藏</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="other">%1$d 个项目无法取消隐藏</item>
+    </plurals>
+    <string name="settings_grid_columns">文件夹列数</string>
+    <string name="settings_grid_columns_desc">适用于图标视图</string>
+    <string name="settings_lock_password_changed">密码已更改</string>
+    <string name="settings_show_vault">在“工具”中显示保险箱</string>
+    <string name="settings_show_vault_desc">关闭后，可在“浏览”中长按 ⋯ 或 + 打开保险箱</string>
+    <string name="settings_open_with">打开方式</string>
+    <string name="settings_open_text">文档</string>
+    <string name="settings_open_music">音乐</string>
+    <string name="settings_open_images">图片</string>
+    <string name="settings_open_videos">视频</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">其他应用</string>
+    <string name="settings_organizer_footer">“整理下载文件”会将各类文件分别移到以下位置。</string>
+    <string name="settings_choose_folder">选择</string>
+    <string name="settings_send_name">设备名称</string>
+    <string name="settings_send_name_desc">其他设备搜索时看到的此设备名称。</string>
+    <string name="settings_send_folder">已接收的文件</string>
+    <string name="settings_send_ask">接收前询问</string>
+    <string name="settings_send_ask_on">逐一接受或拒绝传入的文件</string>
+    <string name="settings_send_ask_off">同一网络中的任何人都可以直接将文件保存到这里，无需询问</string>
+    <string name="crash_title">Kobblo 已停止运行</string>
+    <string name="crash_subtitle">以下是出错的详细信息。除非您分享，否则它只会保留在此手机上。</string>
+    <string name="crash_last_title">上次崩溃</string>
+    <string name="crash_last_subtitle">Kobblo 上次停止运行时出现的问题</string>
+    <string name="crash_copy">复制</string>
+    <string name="crash_share">分享</string>
+    <string name="crash_delete">删除</string>
+    <string name="crash_close">关闭</string>
+    <string name="crash_copied">崩溃日志已复制</string>
+    <string name="crash_share_subject">Kobblo 崩溃日志</string>
+    <string name="crash_none">没有崩溃记录</string>
+</resources>

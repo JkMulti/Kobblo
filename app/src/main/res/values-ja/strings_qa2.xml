@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">フォルダーに分類されます</string>
+    <string name="organize_pill_action">整理</string>
+    <string name="extract_pill_running">解凍中</string>
+    <string name="extract_pill_done">解凍完了</string>
+    <string name="extract_pill_done_detail">すべてのファイルを解凍しました</string>
+    <string name="op_resume">再開</string>
+    <string name="archive_kind">圧縮ファイル</string>
+    <string name="archive_kind_rar">RAR圧縮ファイル</string>
+    <string name="archive_extract_here">ここに解凍</string>
+    <string name="archive_extract_here_subtitle">現在のフォルダーにファイルを解凍</string>
+    <string name="archive_extract_here_downloads">Downloadフォルダーにファイルを解凍</string>
+    <string name="archive_extract_to">解凍先を指定…</string>
+    <string name="archive_extract_to_subtitle">フォルダーを選択</string>
+    <string name="archive_view_contents">内容を表示</string>
+    <string name="archive_view_contents_subtitle">この圧縮ファイル内のファイルを表示</string>
+    <string name="archive_delete">圧縮ファイルを削除</string>
+    <string name="archive_create_title">圧縮ファイルを作成</string>
+    <string name="archive_create_name">圧縮ファイル名</string>
+    <string name="archive_create_lock">パスワードで保護</string>
+    <string name="archive_create_lock_desc">AES-256で暗号化</string>
+    <string name="archive_create_action">作成</string>
+    <string name="archive_extract_out_toast">Download/%1$s に解凍中</string>
+    <plurals name="archive_create_count">
+        <item quantity="other">%1$d 個の項目</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="other">%1$d 個の項目、%2$s</item>
+    </plurals>
+    <string name="archive_password_title">パスワードが必要です</string>
+    <string name="archive_password_placeholder">パスワード</string>
+    <string name="archive_password_wrong">パスワードが正しくありません</string>
+    <string name="archive_encrypted_name">この圧縮ファイルは暗号化されています。</string>
+    <string name="archive_failed_title">解凍できませんでした</string>
+    <string name="archive_failed_dismiss">OK</string>
+    <string name="dialog_new_folder">新しいフォルダー</string>
+    <string name="dialog_new_file">新しいファイル</string>
+    <string name="dialog_rename">名前変更</string>
+    <string name="dialog_rename_placeholder">新しい名前</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="other">%1$d 個の項目を非表示にしました</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="other">%1$d 個の項目を再表示しました</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="other">%1$d 個を非表示にできませんでした</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="other">%1$d 個を再表示できませんでした</item>
+    </plurals>
+    <string name="settings_grid_columns">フォルダーの列数</string>
+    <string name="settings_grid_columns_desc">アイコン表示のとき</string>
+    <string name="settings_lock_password_changed">パスワードを変更しました</string>
+    <string name="settings_show_vault">ツールに保管庫を表示</string>
+    <string name="settings_show_vault_desc">オフのときは、「閲覧」で ⋯ または + を長押しすると開けます</string>
+    <string name="settings_open_with">開くアプリ</string>
+    <string name="settings_open_text">ドキュメント</string>
+    <string name="settings_open_music">音楽</string>
+    <string name="settings_open_images">画像</string>
+    <string name="settings_open_videos">動画</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">他のアプリ</string>
+    <string name="settings_organizer_footer">「ダウンロードを整理」でファイルを種類ごとに移動する先です。</string>
+    <string name="settings_choose_folder">選択</string>
+    <string name="settings_send_name">端末名</string>
+    <string name="settings_send_name_desc">他のデバイスがこの端末を探すときに表示される名前です。</string>
+    <string name="settings_send_folder">受信ファイル</string>
+    <string name="settings_send_ask">受信前に確認</string>
+    <string name="settings_send_ask_on">受信のたびに承諾または拒否します</string>
+    <string name="settings_send_ask_off">ネットワーク上の誰でも、確認なしでここにファイルを保存できます</string>
+    <string name="crash_title">Kobbloが停止しました</string>
+    <string name="crash_subtitle">発生した問題の詳細です。共有しない限り、この端末の外に送信されることはありません。</string>
+    <string name="crash_last_title">前回のクラッシュ</string>
+    <string name="crash_last_subtitle">前回Kobbloが停止したときの問題の詳細</string>
+    <string name="crash_copy">コピー</string>
+    <string name="crash_share">共有</string>
+    <string name="crash_delete">削除</string>
+    <string name="crash_close">閉じる</string>
+    <string name="crash_copied">クラッシュログをコピーしました</string>
+    <string name="crash_share_subject">Kobbloのクラッシュログ</string>
+    <string name="crash_none">クラッシュの記録はありません</string>
+</resources>

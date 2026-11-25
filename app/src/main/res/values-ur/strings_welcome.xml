@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Kobblo میں خوش آمدید</string>
+    <string name="welcome_photos_title">ہر تصویر اور ویڈیو</string>
+    <string name="welcome_photos_body">آپ کی پوری لائبریری ایک ہی فیڈ میں، البمز، جگہوں اور دیکھنے کے لیے بنے ویوور کے ساتھ۔</string>
+    <string name="welcome_files_title">آپ کی تمام فائلیں</string>
+    <string name="welcome_files_body">فولڈرز، کلاؤڈ ڈرائیوز اور سرورز براؤز کریں، اور غیر ضروری چیزیں صاف کریں۔</string>
+    <string name="welcome_send_title">قریبی آلات کو بھیجیں</string>
+    <string name="welcome_send_body">ایک ہی Wi-Fi پر موجود فونز اور کمپیوٹرز کے ساتھ فائلیں شیئر کریں۔</string>
+    <string name="welcome_private_title">آپ کے فون پر ہی رہتا ہے</string>
+    <string name="welcome_private_body">نہ کوئی اکاؤنٹ، نہ کوئی ٹریکنگ۔ اسمارٹ فیچرز اپنا کام فون پر ہی کرتے ہیں۔</string>
+    <string name="welcome_continue">جاری رکھیں</string>
+    <string name="welcome_not_now">ابھی نہیں</string>
+    <string name="access_title">رسائی کی اجازت دیں</string>
+    <string name="access_subtitle">آپ کی فائلیں دکھانے کے لیے Kobblo کو انہیں دیکھنا ضروری ہے۔ جو کچھ اسے ملتا ہے وہ کبھی آپ کے فون سے باہر نہیں جاتا۔</string>
+    <string name="access_needed">ضروری</string>
+    <string name="access_optional">اختیاری</string>
+    <string name="access_files">فائلیں اور فولڈرز</string>
+    <string name="access_files_body">آپ کے فون پر موجود ہر چیز کو براؤز کرنے، کھولنے اور ترتیب دینے کے لیے۔</string>
+    <string name="access_notifications">اطلاعات</string>
+    <string name="access_notifications_body">کاپی اور ٹرانسفر کی پیش رفت، اور آپ کو بھیجی گئی فائلیں۔</string>
+    <string name="access_notifications_blocked">بند ہے۔ سیٹنگز میں اجازت دینے کے لیے تھپتھپائیں۔</string>
+    <string name="access_locations">تصاویر کے مقامات</string>
+    <string name="access_locations_body">آپ کی تصاویر کہاں لی گئیں، جگہوں اور تصویر کی تفصیلات کے لیے۔</string>
+    <string name="access_locations_blocked">بند ہے۔ ایپ کی معلومات میں، اجازتوں کے تحت اس کی اجازت دیں۔</string>
+    <string name="access_footer">ان میں سے کسی کو بھی بعد میں سیٹنگز میں، اجازتوں کے تحت تبدیل کریں۔</string>
+    <string name="access_allow">رسائی کی اجازت دیں</string>
+    <string name="access_settings_row">اجازتیں</string>
+    <string name="access_settings_row_body">فائلیں، اطلاعات اور تصاویر کے مقامات</string>
+    <string name="welcome_ready_title">سب تیار ہے</string>
+    <string name="welcome_ready_body">آپ کی تصاویر دیکھنے کے لیے تیار ہیں۔</string>
+    <string name="welcome_ready_downloading">اسمارٹ فیچرز ڈاؤن لوڈ ہو رہے ہیں، اور آتے ہی آپ کی تصاویر پر کام شروع کر دیں گے۔</string>
+    <string name="welcome_ready_no_access">جب آپ تیار ہوں رسائی کی اجازت دیں، اور آپ کی تصاویر اور فائلیں یہاں ہوں گی۔</string>
+    <string name="welcome_lets_go">چلیں شروع کریں</string>
+</resources>

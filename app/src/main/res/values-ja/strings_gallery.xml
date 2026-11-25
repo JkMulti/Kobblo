@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gallery_albums">アルバム</string>
+    <string name="gallery_albums_search">アルバムを検索</string>
+    <string name="gallery_albums_smart">スマートアルバム</string>
+    <string name="gallery_albums_empty">アルバムが見つかりません</string>
+    <string name="gallery_album_new">新規アルバム</string>
+    <string name="gallery_album_name_hint">アルバム名</string>
+    <string name="gallery_album_create">作成</string>
+    <string name="gallery_album_rename">アルバム名を変更</string>
+    <string name="gallery_album_rename_action">名前変更</string>
+    <string name="gallery_album_pin">アルバムを固定</string>
+    <string name="gallery_album_unpin">アルバムの固定を解除</string>
+    <string name="gallery_album_delete">アルバムを削除</string>
+    <string name="gallery_album_delete_title">「%1$s」を削除しますか？</string>
+    <string name="gallery_album_delete_body">アルバム内の写真と動画はゴミ箱に移動します。</string>
+    <string name="gallery_album_name_taken">同じ名前のアルバムがすでにあります</string>
+    <string name="gallery_album_create_failed">アルバムを作成できませんでした</string>
+    <string name="gallery_album_rename_failed">アルバム名を変更できませんでした</string>
+    <string name="gallery_album_empty">写真や動画はありません</string>
+    <string name="gallery_album_empty_body">ホームで写真を選択して「アルバム」を選ぶと、ここに追加されます。</string>
+    <string name="gallery_album_root">内部ストレージ</string>
+    <string name="gallery_select_all">すべて選択</string>
+    <string name="gallery_sort">並べ替え</string>
+    <string name="gallery_sort_newest">新しい順</string>
+    <string name="gallery_sort_oldest">古い順</string>
+    <string name="gallery_sort_size">サイズ</string>
+    <string name="gallery_sort_by">並べ替え順序</string>
+    <string name="gallery_sort_name">名前</string>
+    <string name="gallery_sort_date">日付</string>
+    <string name="gallery_sort_count">項目数</string>
+    <string name="gallery_library_stats">ライブラリの統計</string>
+    <string name="gallery_options">アルバムのオプション</string>
+    <string name="gallery_smart_favorites">お気に入り</string>
+    <string name="gallery_smart_recent">最近追加した項目</string>
+    <string name="gallery_smart_on_this_day">過去の今日</string>
+    <string name="gallery_smart_camera">カメラ</string>
+    <string name="gallery_smart_screenshots">スクリーンショット</string>
+    <string name="gallery_smart_videos">動画</string>
+    <string name="gallery_smart_gifs">GIF画像</string>
+    <string name="gallery_smart_raw">RAW</string>
+    <string name="gallery_smart_panoramas">パノラマ</string>
+    <string name="gallery_smart_motion">モーションフォト</string>
+    <plurals name="gallery_item_count">
+        <item quantity="other">%1$,d 個の項目</item>
+    </plurals>
+    <string name="gallery_add_to_album">アルバムに追加</string>
+    <string name="gallery_album_action">アルバム</string>
+    <string name="gallery_transfer_move">移動</string>
+    <string name="gallery_transfer_copy">コピー</string>
+    <string name="gallery_transfer_moving">%1$s に移動中</string>
+    <string name="gallery_transfer_copying">%1$s にコピー中</string>
+    <string name="gallery_transfer_count">%1$,d / %2$,d</string>
+    <plurals name="gallery_moved_to">
+        <item quantity="other">%1$,d 個の項目を %2$s に移動しました</item>
+    </plurals>
+    <plurals name="gallery_copied_to">
+        <item quantity="other">%1$,d 個の項目を %2$s にコピーしました</item>
+    </plurals>
+    <plurals name="gallery_transfer_failed">
+        <item quantity="other">%1$,d 個の項目を転送できませんでした</item>
+    </plurals>
+    <string name="gallery_cancel">キャンセル</string>
+    <string name="gallery_editor_done">完了</string>
+    <string name="gallery_editor_undo">元に戻す</string>
+    <string name="gallery_editor_redo">やり直す</string>
+    <string name="gallery_editor_more">その他</string>
+    <string name="gallery_editor_reset">すべての編集をリセット</string>
+    <string name="gallery_editor_other_app">他のアプリで編集</string>
+    <string name="gallery_editor_mode_adjust">調整</string>
+    <string name="gallery_editor_mode_filters">フィルター</string>
+    <string name="gallery_editor_mode_crop">トリミング</string>
+    <string name="gallery_editor_mode_brush">隠す</string>
+    <string name="gallery_editor_exposure">露出</string>
+    <string name="gallery_editor_brightness">明るさ</string>
+    <string name="gallery_editor_contrast">コントラスト</string>
+    <string name="gallery_editor_saturation">彩度</string>
+    <string name="gallery_editor_warmth">暖かみ</string>
+    <string name="gallery_editor_tint">色合い</string>
+    <string name="gallery_editor_filter_original">オリジナル</string>
+    <string name="gallery_editor_filter_vivid">ビビッド</string>
+    <string name="gallery_editor_filter_warm">ウォーム</string>
+    <string name="gallery_editor_filter_cool">クール</string>
+    <string name="gallery_editor_filter_dramatic">ドラマチック</string>
+    <string name="gallery_editor_filter_fade">フェード</string>
+    <string name="gallery_editor_filter_mono">モノ</string>
+    <string name="gallery_editor_filter_noir">ノワール</string>
+    <string name="gallery_editor_filter_sepia">セピア</string>
+    <string name="gallery_editor_rotate">左に回転</string>
+    <string name="gallery_editor_flip_h">左右反転</string>
+    <string name="gallery_editor_flip_v">上下反転</string>
+    <string name="gallery_editor_aspect_free">自由</string>
+    <string name="gallery_editor_aspect_original">オリジナル</string>
+    <string name="gallery_editor_aspect_square">正方形</string>
+    <string name="gallery_editor_aspect_4_5">4:5</string>
+    <string name="gallery_editor_aspect_5_4">5:4</string>
+    <string name="gallery_editor_aspect_3_4">3:4</string>
+    <string name="gallery_editor_aspect_4_3">4:3</string>
+    <string name="gallery_editor_aspect_2_3">2:3</string>
+    <string name="gallery_editor_aspect_3_2">3:2</string>
+    <string name="gallery_editor_aspect_9_16">9:16</string>
+    <string name="gallery_editor_aspect_16_9">16:9</string>
+    <string name="gallery_editor_brush_pixelate">モザイク</string>
+    <string name="gallery_editor_brush_blur">ぼかし</string>
+    <string name="gallery_editor_brush_hint">隠したい部分をなぞってください。2本指でズームできます。</string>
+    <string name="gallery_editor_save_title">編集内容を保存</string>
+    <string name="gallery_editor_save_size">%1$d × %2$d</string>
+    <string name="gallery_editor_save_copy">コピーとして保存</string>
+    <string name="gallery_editor_replace">オリジナルを置き換え</string>
+    <string name="gallery_editor_replace_title">オリジナルを置き換えますか？</string>
+    <string name="gallery_editor_replace_body">オリジナルはゴミ箱に移動します。</string>
+    <string name="gallery_editor_discard_title">編集内容を破棄しますか？</string>
+    <string name="gallery_editor_discard">破棄</string>
+    <string name="gallery_editor_keep_editing">編集を続ける</string>
+    <string name="gallery_editor_saved_copy">コピーを保存しました</string>
+    <string name="gallery_editor_replaced">保存しました</string>
+    <string name="gallery_editor_saved_reduced">メモリに収まらないため、%1$d × %2$d で保存しました</string>
+    <string name="gallery_editor_failed_decode">この写真は編集できません</string>
+    <string name="gallery_editor_failed_memory">メモリが不足しているため、この写真を保存できません</string>
+    <string name="gallery_editor_failed_write">写真を保存できませんでした</string>
+    <string name="gallery_similar_title">類似した写真</string>
+    <string name="gallery_similar_rescan">再スキャン</string>
+    <string name="gallery_similar_scanning">重複を検索中</string>
+    <string name="gallery_similar_scanning_body">この画面を離れても検索は続きます。</string>
+    <string name="gallery_similar_none">重複は見つかりませんでした</string>
+    <plurals name="gallery_similar_scanned">
+        <item quantity="other">%1$,d 枚の写真を確認しました。</item>
+    </plurals>
+    <string name="gallery_similar_exact">完全に一致</string>
+    <string name="gallery_similar_near">類似</string>
+    <string name="gallery_similar_keep">残す</string>
+    <string name="gallery_similar_none_marked">削除する写真が選ばれていません</string>
+    <plurals name="gallery_similar_delete">
+        <item quantity="other">%1$,d 枚を削除して %2$s を解放</item>
+    </plurals>
+    <plurals name="gallery_similar_confirm_title">
+        <item quantity="other">%1$,d 枚の写真を削除しますか？</item>
+    </plurals>
+    <string name="gallery_similar_confirm_body">削除した写真はゴミ箱に移動します。ゴミ箱が空になると %1$s が解放されます。</string>
+    <string name="gallery_similar_freed">%1$s をゴミ箱に移動しました</string>
+    <string name="gallery_widget_name">写真</string>
+    <string name="gallery_widget_description">ライブラリの写真を、1日を通して入れ替えながら表示します。</string>
+    <string name="gallery_widget_photo">ライブラリの写真</string>
+    <string name="gallery_widget_empty">表示する写真がありません</string>
+    <string name="gallery_stats_overview">概要</string>
+    <string name="gallery_stats_types">種類別</string>
+    <string name="gallery_stats_folders">容量の大きいアルバム</string>
+    <string name="gallery_stats_total">合計</string>
+    <string name="gallery_stats_photos">写真</string>
+    <string name="gallery_stats_videos">動画</string>
+    <string name="gallery_recently_deleted">ゴミ箱</string>
+    <string name="gallery_album_hidden">ホームで非表示</string>
+    <string name="gallery_album_hide_from_home">ホームで非表示にする</string>
+    <string name="gallery_album_show_on_home">ホームに表示</string>
+    <string name="gallery_album_hidden_note">%1$s はホームに表示されなくなりました。「アルバム」には引き続き表示されます</string>
+    <string name="gallery_album_shown">%1$s をホームに再表示しました</string>
+    <string name="gallery_search">検索</string>
+    <string name="gallery_search_hint">名前、日付、場所、カメラ、タグ</string>
+    <string name="gallery_search_none">結果なし</string>
+    <string name="gallery_search_none_body">名前、年、場所、カメラ、または「動画」「スクリーンショット」「大容量」などの語句で検索してみてください。</string>
+    <string name="gallery_search_still_reading">まだ %1$s 枚の写真を読み込み中のため、結果が増える場合があります。</string>
+    <string name="gallery_search_kinds">種類</string>
+    <string name="gallery_search_years">年</string>
+    <string name="gallery_search_cameras">カメラ</string>
+    <string name="gallery_search_word_favorites">お気に入り</string>
+    <string name="gallery_search_word_videos">動画</string>
+    <string name="gallery_search_word_screenshots">スクリーンショット</string>
+    <string name="gallery_search_word_gifs">GIF画像</string>
+    <string name="gallery_search_word_raw">RAW</string>
+    <string name="gallery_places">撮影地</string>
+    <string name="gallery_places_empty">撮影地はまだありません</string>
+    <string name="gallery_places_empty_body">位置情報のある写真は、読み込まれ次第ここに表示されます。処理はすべてこの端末上で行われます。</string>
+    <string name="gallery_places_credit">各写真がどの町の近くで撮影されたかを、この端末上で判定しています。町名のデータは GeoNames（CC BY 4.0）によるものです。</string>
+    <string name="gallery_tags">タグ</string>
+    <string name="gallery_tags_empty">タグはまだありません</string>
+    <string name="gallery_more">その他</string>
+    <plurals name="gallery_bulk_title">
+        <item quantity="other">%1$,d 個の項目</item>
+    </plurals>
+    <string name="gallery_bulk_rotate_left">左に回転</string>
+    <string name="gallery_bulk_rotate_right">右に回転</string>
+    <string name="gallery_bulk_rotating">写真を回転中</string>
+    <string name="gallery_bulk_rotate_stopped">回転を中止しました</string>
+    <plurals name="gallery_bulk_rotated">
+        <item quantity="other">%1$,d 枚の写真を回転しました</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_skipped">
+        <item quantity="other">%1$,d 枚はJPEGではないため、変更していません</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_failed">
+        <item quantity="other">%1$,d 枚の写真を回転できませんでした</item>
+    </plurals>
+    <string name="gallery_bulk_save_copies">コピーの保存形式</string>
+    <string name="gallery_bulk_format">形式</string>
+    <string name="gallery_bulk_size">長辺</string>
+    <string name="gallery_bulk_size_original">オリジナル</string>
+    <string name="gallery_bulk_save">保存</string>
+    <string name="gallery_bulk_saving">コピーを保存中</string>
+    <string name="gallery_bulk_save_stopped">コピーの保存を中止しました</string>
+    <plurals name="gallery_bulk_save_note">
+        <item quantity="other">新しいファイルは %1$,d 個のオリジナルと同じ場所に保存されます。オリジナルは変更されません。</item>
+    </plurals>
+    <plurals name="gallery_bulk_saved">
+        <item quantity="other">%1$,d 個のコピーを保存しました</item>
+    </plurals>
+    <plurals name="gallery_bulk_save_failed">
+        <item quantity="other">%1$,d 個を読み込めませんでした</item>
+    </plurals>
+    <plurals name="gallery_bulk_share_skipped">
+        <item quantity="other">%1$,d 個はメタデータを削除できないため、除外しました</item>
+    </plurals>
+    <string name="gallery_album_newest_cover">最新の項目をカバーに使用</string>
+    <string name="gallery_bulk_fix_dates">ファイル名から日付を修正</string>
+    <string name="gallery_bulk_fix_dates_action">日付を修正</string>
+    <string name="gallery_bulk_fix_date_note">このファイルは、名前に含まれる日付とファイルの日付が一致せず、ファイル内にも日付情報がありません。変更されるのはファイルの日付だけで、このメニューから元に戻せます。</string>
+    <plurals name="gallery_bulk_fix_dates_note">
+        <item quantity="other">%2$,d 個のうち %1$,d 個は、名前に含まれる日付とファイルの日付が一致せず、ファイル内にも日付情報がありません。変更されるのは各ファイルの日付だけで、このメニューから元に戻せます。</item>
+    </plurals>
+    <string name="gallery_bulk_undo_dates">直前の日付修正を元に戻す</string>
+    <string name="gallery_bulk_fixing_dates">日付を修正中</string>
+    <string name="gallery_bulk_undoing_dates">日付を元に戻しています</string>
+    <string name="gallery_bulk_dates_stopped">日付の変更を中止しました</string>
+    <plurals name="gallery_bulk_dates_fixed">
+        <item quantity="other">%1$,d 個のファイルの日付を修正しました</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_failed">
+        <item quantity="other">%1$,d 個を変更できませんでした</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_restored">
+        <item quantity="other">%1$,d 個のファイルの日付を元に戻しました</item>
+    </plurals>
+</resources>

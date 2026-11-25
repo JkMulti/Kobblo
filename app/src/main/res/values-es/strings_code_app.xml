@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">Shizuku no se detecta o no se está ejecutando</string>
+    <string name="app_auth_required">Se requiere autenticación. Concede el permiso.</string>
+    <string name="app_folder_open_failed">No se pudo abrir esta carpeta.</string>
+    <string name="app_cloud">Nube</string>
+    <string name="app_open_failed_named">No se pudo abrir %1$s</string>
+    <string name="app_open_failed">No se pudo abrir este archivo.</string>
+    <string name="app_open_access_denied">La otra aplicación no permitió el acceso a este archivo.</string>
+    <string name="app_rename_some_failed">Algunos archivos no se renombraron porque el nombre ya existía o no se podía usar</string>
+    <string name="app_drive_delete_failed">No se pudieron eliminar algunos archivos de Google Drive.</string>
+    <string name="app_organize_nothing">No hay archivos que organizar</string>
+    <string name="app_unknown">Desconocido</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">Movido a la papelera durante %1$d día</item>
+        <item quantity="many">Movido a la papelera durante %1$d de días</item>
+        <item quantity="other">Movido a la papelera durante %1$d días</item>
+    </plurals>
+    <string name="app_bin_moved_for">Movido a la papelera durante %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">Desinstalando la versión anterior…</string>
+    <string name="app_install_done">Aplicación instalada</string>
+    <string name="app_install_failed">No se pudo instalar esta aplicación.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">%1$d de %2$d aplicación instalada</item>
+        <item quantity="many">%1$d de %2$d aplicaciones instaladas</item>
+        <item quantity="other">%1$d de %2$d aplicaciones instaladas</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">La instalación por lotes necesita Shizuku para automatizarse — usa el modo silencioso.</string>
+    <string name="app_mega_wrong_login">Correo electrónico o contraseña no válidos.</string>
+    <string name="app_mega_login_failed">No se pudo iniciar sesión. Comprueba tu correo electrónico y tu contraseña.</string>
+    <string name="app_connect_failed">No se pudo conectar. Comprueba la dirección y tus datos de acceso.</string>
+    <string name="app_share_unreadable">No se pudo leer nada de lo compartido.</string>
+    <string name="app_share_storage">Almacenamiento</string>
+    <string name="app_share_saved_one">%1$s guardado en %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">Guardado %1$d de %2$d archivo en %3$s</item>
+        <item quantity="many">Guardados %1$d de %2$d archivos en %3$s</item>
+        <item quantity="other">Guardados %1$d de %2$d archivos en %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">%1$d archivo guardado en %2$s</item>
+        <item quantity="many">%1$d de archivos guardados en %2$s</item>
+        <item quantity="other">%1$d archivos guardados en %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">Hace un momento</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">Hace %1$d min</item>
+        <item quantity="many">Hace %1$d min</item>
+        <item quantity="other">Hace %1$d min</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">Hace %1$d hora</item>
+        <item quantity="many">Hace %1$d de horas</item>
+        <item quantity="other">Hace %1$d horas</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">Hace %1$d día</item>
+        <item quantity="many">Hace %1$d de días</item>
+        <item quantity="other">Hace %1$d días</item>
+    </plurals>
+    <string name="app_recent_visited">Visitado</string>
+    <string name="app_recent_opened">Abierto</string>
+    <string name="app_recent_renamed_from">Antes se llamaba %1$s</string>
+    <string name="app_extract_needs_space">Se necesitan %1$s de espacio y hay %2$s libres</string>
+    <string name="app_extract_storage_full">Se detuvo porque el almacenamiento está casi lleno. Al descomprimirse, este archivo ocupa más espacio del disponible</string>
+</resources>

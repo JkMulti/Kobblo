@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Archive viewer -->
+    <string name="view_archive_encrypted">Encrypted</string>
+    <string name="view_archive_enter_password">Enter the password.</string>
+    <string name="view_archive_contents_unreadable">The contents couldn\'t be read.</string>
+    <string name="view_archive_password_check_failed">That password couldn\'t be checked.</string>
+    <string name="view_archive_password_prompt">Enter the password to see what\'s inside.</string>
+    <string name="view_archive_checking_password">Checking password…</string>
+    <plurals name="view_file_count">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d files</item>
+    </plurals>
+    <string name="view_archive_empty">This archive is empty</string>
+    <string name="view_extract_all">Extract All</string>
+
+    <!-- Archive handlers -->
+    <string name="view_archive_invalid_zip">Invalid ZIP file</string>
+    <string name="view_archive_extracting">Extracting...</string>
+    <string name="view_archive_storage_full">Stopped because storage is nearly full. This archive unpacks to more than there\'s room for.</string>
+    <string name="view_archive_extraction_cancelled">Extraction cancelled</string>
+    <string name="view_archive_nothing_extracted">No files extracted</string>
+    <string name="view_archive_encrypted_entry">(encrypted archive)</string>
+    <string name="view_archive_done">Done</string>
+
+    <!-- File viewer -->
+    <string name="view_zip_entry_size">Size: %1$s</string>
+    <string name="view_zip_entry_size_unknown">Unknown size</string>
+
+    <!-- Clipboard pill -->
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="one">%1$d item to move</item>
+        <item quantity="other">%1$d items to move</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="one">%1$d item to copy</item>
+        <item quantity="other">%1$d items to copy</item>
+    </plurals>
+    <string name="view_hide_items">Hide items</string>
+    <string name="view_show_items">Show items</string>
+    <string name="view_move_here">Move Here</string>
+
+    <!-- File picker -->
+    <string name="view_picker_storage">Storage</string>
+    <string name="view_picker_downloads">Downloads</string>
+    <string name="view_picker_documents">Documents</string>
+    <string name="view_picker_pictures">Pictures</string>
+    <string name="view_picker_music">Music</string>
+    <string name="view_picker_tap_to_select">Tap files to select</string>
+    <plurals name="view_selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <!-- A button label followed by how many things it acts on, such as "Select (3)". -->
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+
+    <!-- Recently Deleted -->
+    <!-- %1$s is how many items there are, such as "3 items"; %2$s how long they're kept, such as "30 days". -->
+    <string name="view_trash_subtitle_kept">%1$s · Kept for %2$s</string>
+    <!-- %1$s is how many items there are, such as "3 items". -->
+    <string name="view_trash_subtitle_not_keeping">%1$s · Not keeping deleted files</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="one">%1$d second</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="one">%1$d hour</item>
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="one">%1$d week</item>
+        <item quantity="other">%1$d weeks</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="one">%1$d month</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="one">%1$d year</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+    <string name="view_show_as_icons">Show as icons</string>
+    <string name="view_show_as_list">Show as list</string>
+    <string name="view_trash_settings">Recently Deleted Settings</string>
+    <string name="view_restore_all">Restore All</string>
+    <string name="view_delete_all">Delete All</string>
+    <string name="view_delete_named_title">Delete \"%1$s\"?</string>
+    <string name="view_trash_delete_body">It can\'t be restored after this.</string>
+    <string name="view_trash_delete_everything_title">Delete Everything?</string>
+    <string name="view_trash_delete_everything_body">Nothing in Recently Deleted can be restored after this.</string>
+    <string name="view_trash_days_to_keep">Days to keep files</string>
+
+    <!-- Storage cleaner -->
+    <string name="view_cat_duplicates">Duplicates</string>
+    <string name="view_manage_storage">Manage Storage</string>
+    <!-- %1$s is the free space, such as "12 GB". -->
+    <string name="view_manage_storage_subtitle">%1$s free, in your phone\'s settings</string>
+
+    <!-- Photo and video viewer -->
+    <string name="view_delete_image_title">Delete image?</string>
+    <string name="view_delete_moves_to_bin">It will move to Recently Deleted.</string>
+    <string name="view_edit_image">Edit Image</string>
+
+    <!-- Document viewer -->
+    <string name="view_document_unreadable">This document can\'t be shown. It may be damaged.</string>
+    <string name="view_document_reading">Reading document…</string>
+    <string name="view_open_in_external_app">Open in external app</string>
+    <string name="view_copy_text">Copy Text</string>
+    <string name="view_text_copied">Text copied to clipboard</string>
+    <string name="view_loading_page">Loading page…</string>
+    <string name="view_share_document">Share Document</string>
+    <string name="view_open_with_chooser">Open with</string>
+
+    <!-- Document text shown in place of a page -->
+    <!-- %1$s is the reason the system gave, which may be in English. -->
+    <string name="view_doc_error_reading">Error reading document: %1$s</string>
+    <string name="view_doc_unable_to_read_content">Unable to read content</string>
+    <string name="view_doc_empty">(Empty document)</string>
+    <string name="view_doc_truncated_pages">... [Content truncated. Displaying first 250 pages.]</string>
+    <string name="view_doc_empty_file">(Empty file)</string>
+    <string name="view_doc_truncated_size">... [Content truncated at 4 MB]</string>
+    <string name="view_docx_empty_no_text">(This Word document appears to be empty or has no readable text)</string>
+    <!-- %1$s is the reason the system gave, which may be in English. -->
+    <string name="view_docx_error_reading_damaged">Error reading DOCX file: %1$s\n\nThe file may be corrupt or password-protected.</string>
+    <string name="view_docx_unable_to_read">Unable to read document</string>
+    <string name="view_docx_empty">(This Word document appears to be empty)</string>
+    <!-- %1$s is the reason the system gave, which may be in English. -->
+    <string name="view_docx_error_reading">Error reading DOCX file: %1$s</string>
+    <!-- %1$s is the reason the system gave, which may be in English. -->
+    <string name="view_file_error_reading">Error reading file: %1$s</string>
+
+    <!-- Installing APKs -->
+    <string name="view_apk_not_installed">This app isn\'t installed.</string>
+    <string name="view_apk_not_older">This isn\'t an older version of the app.</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku isn\'t connected. Tap to set it up.</string>
+    <string name="view_apk_normal_install">Normal Install</string>
+    <string name="view_apk_normal_install_subtitle">Uses system package installer</string>
+    <string name="view_apk_downgrade">Downgrade</string>
+    <string name="view_apk_downgrade_subtitle">Force install older version</string>
+    <string name="view_apk_downgrade_install">Downgrade Install</string>
+    <string name="view_apk_silent_install">Silent Install</string>
+    <string name="view_apk_silent_install_subtitle">Background install without prompts</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="one">Install %1$d App</item>
+        <item quantity="other">Install %1$d Apps</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku is connected</string>
+    <!-- A button that installs this many APK files. -->
+    <string name="view_apk_install_count">Install %1$d</string>
+    <string name="view_remove">Remove</string>
+
+    <!-- Main screen: accounts, APKs and sharing -->
+    <string name="view_connected_account">Connected account</string>
+    <!-- Shown where an app's version name isn't known. -->
+    <string name="view_unknown">Unknown</string>
+    <string name="view_unknown_version">Unknown Version</string>
+    <plurals name="view_app_count">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">Downgrade This App?</string>
+    <string name="view_apk_downgrade_one_body">Android doesn\'t allow going back to an older version of most apps. To install this one, the current app has to be uninstalled first, and that erases all its data.</string>
+    <string name="view_apk_downgrade_many_title">Downgrade These Apps?</string>
+    <string name="view_apk_downgrade_many_body">Android doesn\'t allow going back to an older version of most apps. To install these, the current apps have to be uninstalled first, and that erases all their data.</string>
+    <string name="view_apk_erase_and_downgrade">Erase Data and Downgrade</string>
+    <string name="view_apk_try_keeping_data">Try Keeping Data</string>
+    <string name="view_share_files">Share files</string>
+    <string name="view_current_folder">Current Folder</string>
+    <string name="view_delete_selected_item">Delete selected item?</string>
+    <string name="view_delete_selected_items">Delete selected items?</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="one">Delete %1$d item?</item>
+        <item quantity="other">Delete %1$d items?</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">Empty folders are removed for good, since there\'s nothing in them to restore.</string>
+    <string name="view_delete_they_move_to_bin">They\'ll move to Recently Deleted.</string>
+    <!-- The name of the folder an archive is unpacked into when the archive's own name gives nothing to use. -->
+    <string name="view_extracted_folder_name">Extracted</string>
+    <string name="view_share_archive">Share Archive</string>
+    <!-- The title of the share sheet; %1$s is the file's name. -->
+    <string name="view_share_named">Share %1$s</string>
+    <string name="view_no_app_to_open">No app available to open this file</string>
+    <string name="view_hiding_files_title">Hiding Files</string>
+    <string name="view_hiding_files_body">Hiding puts a dot before the name, so galleries and most apps skip it. To get it back, turn on Show Hidden Files in Settings and hold it.</string>
+    <string name="view_got_it">Got It</string>
+    <string name="view_item_exists_title">Item Already Exists</string>
+    <string name="view_item_exists_body">An item named \"%1$s\" already exists in this destination.</string>
+    <string name="view_item_exists_question">Would you like to overwrite it, rename to \"%1$s\", or skip?</string>
+    <string name="view_overwrite">Overwrite</string>
+    <string name="view_skip">Skip</string>
+    <!-- Batch rename: no number added to the names. -->
+    <string name="view_numbering_none">None</string>
+</resources>

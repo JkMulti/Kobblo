@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Coffre-fort</string>
+    <string name="settings_general">Général</string>
+    <string name="settings_keep_for">Conserver pendant</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d jour</item>
+        <item quantity="many">%d de jours</item>
+        <item quantity="other">%d jours</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Les fichiers supprimés restent dans la corbeille pendant cette durée, puis sont définitivement effacés.</string>
+    <string name="settings_trash_footer_off">Les fichiers supprimés disparaissent immédiatement, sans possibilité de les récupérer.</string>
+    <string name="settings_about_app">À propos d\'Kobblo</string>
+    <string name="settings_version">Version %1$s</string>
+</resources>

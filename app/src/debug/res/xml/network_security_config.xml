@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Same as release, where the manifest allows it: LAN peers can have any address, and some use plain HTTP. -->
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">192.168.1.7</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s。%2$s</string>
+    <string name="app_title_with_reason">%1$s：%2$s</string>
+    <string name="app_sentence_with_reason">%1$s，%2$s。</string>
+    <string name="app_shizuku_not_running">未检测到 Shizuku 或其未在运行</string>
+    <string name="app_auth_required">需要身份验证，请授予权限。</string>
+    <string name="app_folder_open_failed">无法打开此文件夹。</string>
+    <string name="app_cloud">云端</string>
+    <string name="app_open_failed_named">无法打开 %1$s</string>
+    <string name="app_open_failed">无法打开此文件。</string>
+    <string name="app_open_access_denied">另一个应用不允许访问此文件。</string>
+    <string name="app_rename_some_failed">部分文件未重命名，因为名称已被占用或无法使用</string>
+    <string name="app_drive_delete_failed">部分 Google Drive 文件无法删除。</string>
+    <string name="app_organize_nothing">没有需要整理的文件</string>
+    <string name="app_unknown">未知</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="other">已移至回收站，保留 %1$d 天</item>
+    </plurals>
+    <string name="app_bin_moved_for">已移至回收站，保留 %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">正在卸载旧版本…</string>
+    <string name="app_install_done">应用已安装</string>
+    <string name="app_install_failed">无法安装此应用。</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="other">已安装 %1$d 个应用，共 %2$d 个</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">批量自动安装需要 Shizuku，请改用静默模式。</string>
+    <string name="app_mega_wrong_login">邮箱或密码无效。</string>
+    <string name="app_mega_login_failed">无法登录，请检查邮箱和密码。</string>
+    <string name="app_connect_failed">无法连接，请检查地址和登录信息。</string>
+    <string name="app_share_unreadable">没有可读取的内容。</string>
+    <string name="app_share_storage">存储</string>
+    <string name="app_share_saved_one">已将 %1$s 保存到 %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="other">已将 %1$d 个文件保存到 %3$s，共 %2$d 个</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="other">已将 %1$d 个文件保存到 %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">刚刚</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="other">%1$d 分钟前</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="other">%1$d 小时前</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="other">%1$d 天前</item>
+    </plurals>
+    <string name="app_recent_visited">已访问</string>
+    <string name="app_recent_opened">已打开</string>
+    <string name="app_recent_renamed_from">重命名自 %1$s</string>
+    <string name="app_extract_needs_space">需要 %1$s 空间，当前可用 %2$s</string>
+    <string name="app_extract_storage_full">存储空间即将用尽，已停止。此压缩包解压后所需空间超过剩余空间</string>
+</resources>

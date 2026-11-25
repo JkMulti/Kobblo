@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Обязательно</string>
+    <string name="polish_optional">Необязательно</string>
+    <string name="polish_field_name">Название</string>
+    <string name="polish_field_domain">Домен</string>
+    <string name="polish_field_server">Сервер</string>
+    <string name="polish_one_saved">1 сохраненное подключение</string>
+    <string name="polish_many_saved">Сохраненных подключений: %1$d</string>
+    <string name="polish_delete_connection">Удалить «%1$s»?</string>
+    <string name="polish_delete_connection_note">Сохраненный пароль тоже будет удален. Файлы на сервере останутся нетронутыми.</string>
+    <string name="polish_smb_subtitle">Общая папка Windows или NAS</string>
+    <string name="polish_smb_missing">Введите хост, имя общего ресурса и имя пользователя.</string>
+    <string name="polish_server_missing">Введите хост и имя пользователя.</string>
+    <string name="polish_all_required">Чтобы подключиться, заполните все поля.</string>
+    <string name="polish_ftp_subtitle">Сервер в вашей сети или в интернете</string>
+    <string name="polish_sftp_subtitle">Сервер, доступный по SSH</string>
+    <string name="polish_webdav_title">Подключения WebDAV</string>
+    <string name="polish_webdav_add">Добавить подключение WebDAV</string>
+    <string name="polish_webdav_subtitle">Сервер WebDAV</string>
+    <string name="polish_allow_self_signed">Разрешить самоподписанный сертификат</string>
+    <string name="polish_nextcloud_title">Подключения Nextcloud</string>
+    <string name="polish_nextcloud_add">Добавить Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Ваш собственный сервер Nextcloud</string>
+    <string name="polish_nextcloud_tip">Если в аккаунте включен двухэтапный вход, используйте пароль приложения. Создайте его в Nextcloud: Настройки &gt; Безопасность &gt; Устройства и сеансы.</string>
+    <string name="polish_log_in_to">Войти в %1$s</string>
+    <string name="polish_compressing">Сжатие</string>
+    <string name="polish_archive_created">Архив создан</string>
+    <string name="polish_choose_from_other_app">Выбрать в другом приложении</string>
+    <string name="polish_cant_open_app_package">Не удается открыть этот пакет приложения.</string>
+    <string name="polish_google_login_failed">Не удалось войти в Google Drive. Повторите попытку.</string>
+    <string name="polish_unlocked">Разблокировано</string>
+    <string name="polish_files_not_saved">Не удалось сохранить файлы.</string>
+    <string name="polish_organize_failed">Не удалось упорядочить загрузки.</string>
+    <string name="polish_extract_failed">Возможно, архив поврежден или недостаточно места.</string>
+    <string name="polish_extract_failed_names">Не удалось извлечь %1$s.</string>
+    <string name="polish_archive_unreadable">Не удается прочитать архив. Возможно, он поврежден.</string>
+    <string name="polish_current_sort">Текущая сортировка</string>
+    <string name="polish_sheet_handle">Маркер перетаскивания</string>
+</resources>

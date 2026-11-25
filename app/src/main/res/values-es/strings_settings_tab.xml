@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Caja fuerte</string>
+    <string name="settings_general">General</string>
+    <string name="settings_keep_for">Conservar durante</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d de días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Los archivos eliminados esperan en la papelera durante este tiempo y después desaparecen para siempre.</string>
+    <string name="settings_trash_footer_off">Los archivos eliminados desaparecen al instante, sin ningún sitio desde el que recuperarlos.</string>
+    <string name="settings_about_app">Acerca de Kobblo</string>
+    <string name="settings_version">Versión %1$s</string>
+</resources>

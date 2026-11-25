@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">%1$s पर वापस जाएँ</string>
+    <string name="screen_clear_search">खोज साफ़ करें</string>
+    <string name="screen_show_section">%1$s दिखाएँ</string>
+    <string name="screen_hide_section">%1$s छिपाएँ</string>
+    <string name="screen_hide">छिपाएँ</string>
+    <string name="screen_unhide">फिर से दिखाएँ</string>
+    <string name="screen_paste">चिपकाएँ</string>
+    <string name="screen_batch_install">एक साथ इंस्टॉल करें</string>
+    <string name="screen_favorite">पसंदीदा</string>
+    <string name="screen_loading_details">विवरण लोड हो रहा है…</string>
+    <string name="screen_detail_items">आइटम</string>
+    <string name="screen_detail_format">फ़ॉर्मैट</string>
+    <string name="screen_detail_resolution">रिज़ॉल्यूशन</string>
+    <string name="screen_detail_duration">अवधि</string>
+    <string name="screen_save_to">%1$s में सहेजें</string>
+    <string name="screen_pictures">चित्र</string>
+    <string name="screen_storage">स्टोरेज</string>
+    <string name="screen_saving">सहेजा जा रहा है</string>
+    <string name="screen_about_description">%1$s, Android के लिए बना एक आधुनिक और आकर्षक फ़ाइल प्रबंधक है। इसमें आसान फ़ाइल नेविगेशन, स्मार्ट वर्गीकरण, बिल्ट-इन मीडिया व्यूअर और क्लाउड स्टोरेज इंटीग्रेशन, सब एक साथ मिलते हैं।</string>
+    <string name="screen_about_links">लिंक और सहायता</string>
+    <string name="screen_about_website">वेबसाइट</string>
+    <string name="screen_about_privacy_subtitle">हम आपके डेटा की सुरक्षा कैसे करते हैं</string>
+    <string name="screen_about_feedback">फ़ीडबैक और सहायता</string>
+    <string name="screen_about_made_with">पाकिस्तान में ❤️ से बनाया गया</string>
+    <string name="screen_show_as_icons">आइकन के रूप में दिखाएँ</string>
+    <string name="screen_show_as_list">सूची के रूप में दिखाएँ</string>
+    <string name="screen_view_options">व्यू के विकल्प</string>
+    <string name="screen_current_sort">मौजूदा क्रम</string>
+    <string name="screen_category_duplicates">डुप्लिकेट</string>
+    <string name="screen_category_empty_folders">खाली फ़ोल्डर</string>
+    <string name="screen_empty_images">कोई चित्र नहीं मिला</string>
+    <string name="screen_empty_videos">कोई वीडियो नहीं मिला</string>
+    <string name="screen_empty_audio">कोई ऑडियो फ़ाइल नहीं मिली</string>
+    <string name="screen_empty_documents">कोई दस्तावेज़ नहीं मिला</string>
+    <string name="screen_empty_apps">कोई ऐप नहीं मिला</string>
+    <string name="screen_empty_downloads">कोई डाउनलोड नहीं मिला</string>
+    <string name="screen_empty_archives">कोई आर्काइव नहीं मिला</string>
+    <string name="screen_empty_large">कोई बड़ी फ़ाइल नहीं मिली</string>
+    <string name="screen_empty_duplicates">कोई डुप्लिकेट नहीं मिला</string>
+    <string name="screen_empty_empty_folders">कोई खाली फ़ोल्डर नहीं मिला</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d आइटम · %2$s</item>
+        <item quantity="other">%1$d आइटम · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d आइटम, %2$s GB उपलब्ध</item>
+        <item quantity="other">%1$d आइटम, %2$s GB उपलब्ध</item>
+    </plurals>
+    <string name="screen_connected">कनेक्ट है</string>
+    <string name="screen_disconnect_named">%1$s डिस्कनेक्ट करें</string>
+    <string name="screen_active">सक्रिय</string>
+    <string name="screen_destructive_words">हटाएँ,हटाएं,हटा दें,मिटाएँ,मिटाएं,मिटा दें,खाली करें,साफ़ करें,साफ करें,डिस्कनेक्ट,लॉग आउट,साइन आउट,छोड़ दें,अनइंस्टॉल</string>
+    <string name="screen_toast_problem_words">नहीं जा सका,नहीं जा सकी,नहीं जा सके,नहीं हो सका,नहीं हो सकी,नहीं हो सके,नहीं जा सकता,नहीं जा सकती,नहीं जा सकते,नहीं कर सकता,नहीं कर सकती,विफल,त्रुटि,अनुमति नहीं,अस्वीकार,इनकार</string>
+    <string name="screen_toast_done_words">कॉपी किया,कॉपी किए,कॉपी हो गया,ले जाया गया,ले जाए गए,सहेजा गया,सहेजी गई,सहेजे गए,इंस्टॉल हो गया,इंस्टॉल किया गया,इंस्टॉल किए गए,अपडेट हो गया,अपडेट किया गया</string>
+</resources>

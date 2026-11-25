@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Albums -->
+    <string name="gallery_albums">Albums</string>
+    <string name="gallery_albums_search">Search Albums</string>
+    <string name="gallery_albums_smart">Smart Albums</string>
+    <string name="gallery_albums_empty">No Albums Found</string>
+    <string name="gallery_album_new">New Album</string>
+    <string name="gallery_album_name_hint">Album name</string>
+    <string name="gallery_album_create">Create</string>
+    <string name="gallery_album_rename">Rename Album</string>
+    <string name="gallery_album_rename_action">Rename</string>
+    <string name="gallery_album_pin">Pin Album</string>
+    <string name="gallery_album_unpin">Unpin Album</string>
+    <string name="gallery_album_delete">Delete Album</string>
+    <string name="gallery_album_delete_title">Delete \"%1$s\"?</string>
+    <string name="gallery_album_delete_body">Its photos and videos will move to Recently Deleted.</string>
+    <string name="gallery_album_name_taken">An album with that name already exists</string>
+    <string name="gallery_album_create_failed">Couldn\'t create the album</string>
+    <string name="gallery_album_rename_failed">Couldn\'t rename the album</string>
+    <string name="gallery_album_empty">No Photos or Videos</string>
+    <string name="gallery_album_empty_body">Select photos on Home and choose Album to add them here.</string>
+    <string name="gallery_album_root">Internal Storage</string>
+    <string name="gallery_select_all">Select All</string>
+    <string name="gallery_sort">Sort</string>
+    <string name="gallery_sort_newest">Newest First</string>
+    <string name="gallery_sort_oldest">Oldest First</string>
+    <string name="gallery_sort_size">Size</string>
+    <string name="gallery_sort_by">Sort By</string>
+    <string name="gallery_sort_name">Name</string>
+    <string name="gallery_sort_date">Date</string>
+    <string name="gallery_sort_count">Count</string>
+    <string name="gallery_library_stats">Library Stats</string>
+    <string name="gallery_options">Album options</string>
+    <string name="gallery_smart_favorites">Favorites</string>
+    <string name="gallery_smart_recent">Recently Added</string>
+    <string name="gallery_smart_on_this_day">On This Day</string>
+    <string name="gallery_smart_camera">Camera</string>
+    <string name="gallery_smart_screenshots">Screenshots</string>
+    <string name="gallery_smart_videos">Videos</string>
+    <string name="gallery_smart_gifs">GIFs</string>
+    <string name="gallery_smart_raw">RAW</string>
+    <string name="gallery_smart_panoramas">Panoramas</string>
+    <string name="gallery_smart_motion">Motion Photos</string>
+    <plurals name="gallery_item_count">
+        <item quantity="one">%1$,d item</item>
+        <item quantity="other">%1$,d items</item>
+    </plurals>
+
+    <!-- Moving to an album -->
+    <string name="gallery_add_to_album">Add to Album</string>
+    <string name="gallery_album_action">Album</string>
+    <string name="gallery_transfer_move">Move</string>
+    <string name="gallery_transfer_copy">Copy</string>
+    <string name="gallery_transfer_moving">Moving to %1$s</string>
+    <string name="gallery_transfer_copying">Copying to %1$s</string>
+    <string name="gallery_transfer_count">%1$,d of %2$,d</string>
+    <plurals name="gallery_moved_to">
+        <item quantity="one">Moved 1 item to %2$s</item>
+        <item quantity="other">Moved %1$,d items to %2$s</item>
+    </plurals>
+    <plurals name="gallery_copied_to">
+        <item quantity="one">Copied 1 item to %2$s</item>
+        <item quantity="other">Copied %1$,d items to %2$s</item>
+    </plurals>
+    <plurals name="gallery_transfer_failed">
+        <item quantity="one">1 item couldn\'t be transferred</item>
+        <item quantity="other">%1$,d items couldn\'t be transferred</item>
+    </plurals>
+    <string name="gallery_cancel">Cancel</string>
+
+    <!-- Editor -->
+    <string name="gallery_editor_done">Done</string>
+    <string name="gallery_editor_undo">Undo</string>
+    <string name="gallery_editor_redo">Redo</string>
+    <string name="gallery_editor_more">More</string>
+    <string name="gallery_editor_reset">Reset All Edits</string>
+    <string name="gallery_editor_other_app">Edit in Another App</string>
+    <string name="gallery_editor_mode_adjust">Adjust</string>
+    <string name="gallery_editor_mode_filters">Filters</string>
+    <string name="gallery_editor_mode_crop">Crop</string>
+    <string name="gallery_editor_mode_brush">Hide</string>
+    <string name="gallery_editor_exposure">Exposure</string>
+    <string name="gallery_editor_brightness">Brightness</string>
+    <string name="gallery_editor_contrast">Contrast</string>
+    <string name="gallery_editor_saturation">Saturation</string>
+    <string name="gallery_editor_warmth">Warmth</string>
+    <string name="gallery_editor_tint">Tint</string>
+    <string name="gallery_editor_filter_original">Original</string>
+    <string name="gallery_editor_filter_vivid">Vivid</string>
+    <string name="gallery_editor_filter_warm">Warm</string>
+    <string name="gallery_editor_filter_cool">Cool</string>
+    <string name="gallery_editor_filter_dramatic">Dramatic</string>
+    <string name="gallery_editor_filter_fade">Fade</string>
+    <string name="gallery_editor_filter_mono">Mono</string>
+    <string name="gallery_editor_filter_noir">Noir</string>
+    <string name="gallery_editor_filter_sepia">Sepia</string>
+    <string name="gallery_editor_rotate">Rotate left</string>
+    <string name="gallery_editor_flip_h">Flip horizontally</string>
+    <string name="gallery_editor_flip_v">Flip vertically</string>
+    <string name="gallery_editor_aspect_free">Free</string>
+    <string name="gallery_editor_aspect_original">Original</string>
+    <string name="gallery_editor_aspect_square">Square</string>
+    <string name="gallery_editor_aspect_4_5">4:5</string>
+    <string name="gallery_editor_aspect_5_4">5:4</string>
+    <string name="gallery_editor_aspect_3_4">3:4</string>
+    <string name="gallery_editor_aspect_4_3">4:3</string>
+    <string name="gallery_editor_aspect_2_3">2:3</string>
+    <string name="gallery_editor_aspect_3_2">3:2</string>
+    <string name="gallery_editor_aspect_9_16">9:16</string>
+    <string name="gallery_editor_aspect_16_9">16:9</string>
+    <string name="gallery_editor_brush_pixelate">Pixelate</string>
+    <string name="gallery_editor_brush_blur">Blur</string>
+    <string name="gallery_editor_brush_hint">Draw over what to hide. Use two fingers to zoom.</string>
+    <string name="gallery_editor_save_title">Save Edits</string>
+    <string name="gallery_editor_save_size">%1$d × %2$d</string>
+    <string name="gallery_editor_save_copy">Save as Copy</string>
+    <string name="gallery_editor_replace">Replace Original</string>
+    <string name="gallery_editor_replace_title">Replace the Original?</string>
+    <string name="gallery_editor_replace_body">The original moves to Recently Deleted.</string>
+    <string name="gallery_editor_discard_title">Discard Your Edits?</string>
+    <string name="gallery_editor_discard">Discard</string>
+    <string name="gallery_editor_keep_editing">Keep Editing</string>
+    <string name="gallery_editor_saved_copy">Saved a copy</string>
+    <string name="gallery_editor_replaced">Saved</string>
+    <string name="gallery_editor_saved_reduced">Too large for memory, so saved at %1$d × %2$d</string>
+    <string name="gallery_editor_failed_decode">This photo can\'t be edited</string>
+    <string name="gallery_editor_failed_memory">Not enough memory to save this photo</string>
+    <string name="gallery_editor_failed_write">Couldn\'t save the photo</string>
+
+    <!-- Similar photos -->
+    <string name="gallery_similar_title">Similar Photos</string>
+    <string name="gallery_similar_rescan">Scan again</string>
+    <string name="gallery_similar_scanning">Looking for Duplicates</string>
+    <string name="gallery_similar_scanning_body">This keeps going if you leave.</string>
+    <string name="gallery_similar_none">No Duplicates Found</string>
+    <plurals name="gallery_similar_scanned">
+        <item quantity="one">Looked through 1 photo.</item>
+        <item quantity="other">Looked through %1$,d photos.</item>
+    </plurals>
+    <string name="gallery_similar_exact">Exact copies</string>
+    <string name="gallery_similar_near">Similar</string>
+    <string name="gallery_similar_keep">Keep</string>
+    <string name="gallery_similar_none_marked">Nothing Marked</string>
+    <plurals name="gallery_similar_delete">
+        <item quantity="one">Delete 1 Photo, Free %2$s</item>
+        <item quantity="other">Delete %1$,d Photos, Free %2$s</item>
+    </plurals>
+    <plurals name="gallery_similar_confirm_title">
+        <item quantity="one">Delete 1 Photo?</item>
+        <item quantity="other">Delete %1$,d Photos?</item>
+    </plurals>
+    <string name="gallery_similar_confirm_body">What you delete moves to Recently Deleted, and %1$s comes back when that empties.</string>
+    <string name="gallery_similar_freed">%1$s moved to Recently Deleted</string>
+
+    <!-- Widget -->
+    <string name="gallery_widget_name">Photo</string>
+    <string name="gallery_widget_description">A photo from your library, changing through the day.</string>
+    <string name="gallery_widget_photo">A photo from your library</string>
+    <string name="gallery_widget_empty">No photos to show</string>
+
+    <!-- Stats -->
+    <string name="gallery_stats_overview">Overview</string>
+    <string name="gallery_stats_types">By Type</string>
+    <string name="gallery_stats_folders">Largest Albums</string>
+    <string name="gallery_stats_total">Total</string>
+    <string name="gallery_stats_photos">Photos</string>
+    <string name="gallery_stats_videos">Videos</string>
+
+    <!-- Keeping an album off Home -->
+    <string name="gallery_recently_deleted">Recently Deleted</string>
+    <string name="gallery_album_hidden">Hidden from Home</string>
+    <string name="gallery_album_hide_from_home">Hide from Home</string>
+    <string name="gallery_album_show_on_home">Show on Home</string>
+    <string name="gallery_album_hidden_note">%1$s is off Home now, and still here in Albums</string>
+    <string name="gallery_album_shown">%1$s is back on Home</string>
+
+    <!-- Search -->
+    <string name="gallery_search">Search</string>
+    <string name="gallery_search_hint">Name, date, place, camera, tag</string>
+    <string name="gallery_search_none">No Results</string>
+    <string name="gallery_search_none_body">Try a name, a year, a place, a camera, or a word like videos, screenshots or large.</string>
+    <string name="gallery_search_still_reading">Still reading %1$s more photos, so more may turn up.</string>
+    <string name="gallery_search_kinds">Kinds</string>
+    <string name="gallery_search_years">Years</string>
+    <string name="gallery_search_cameras">Cameras</string>
+    <string name="gallery_search_word_favorites">Favorites</string>
+    <string name="gallery_search_word_videos">Videos</string>
+    <string name="gallery_search_word_screenshots">Screenshots</string>
+    <string name="gallery_search_word_gifs">GIFs</string>
+    <string name="gallery_search_word_raw">RAW</string>
+
+    <!-- Places and tags -->
+    <string name="gallery_places">Places</string>
+    <string name="gallery_places_empty">No Places Yet</string>
+    <string name="gallery_places_empty_body">Photos with a location show up here as they\'re read. It all happens on this phone.</string>
+    <string name="gallery_places_credit">Worked out on this phone, near what town each photo was taken. Town names from GeoNames, CC BY 4.0.</string>
+    <string name="gallery_tags">Tags</string>
+    <string name="gallery_tags_empty">No Tags Yet</string>
+
+    <!-- Many photos at once -->
+    <string name="gallery_more">More</string>
+    <plurals name="gallery_bulk_title">
+        <item quantity="one">1 Item</item>
+        <item quantity="other">%1$,d Items</item>
+    </plurals>
+    <string name="gallery_bulk_rotate_left">Rotate Left</string>
+    <string name="gallery_bulk_rotate_right">Rotate Right</string>
+    <string name="gallery_bulk_rotating">Rotating Photos</string>
+    <string name="gallery_bulk_rotate_stopped">Stopped rotating</string>
+    <plurals name="gallery_bulk_rotated">
+        <item quantity="one">Rotated 1 photo</item>
+        <item quantity="other">Rotated %1$,d photos</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_skipped">
+        <item quantity="one">1 isn\'t a JPEG, so it was left as it is</item>
+        <item quantity="other">%1$,d aren\'t JPEGs, so they were left as they are</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_failed">
+        <item quantity="one">Couldn\'t rotate 1 photo</item>
+        <item quantity="other">Couldn\'t rotate %1$,d photos</item>
+    </plurals>
+    <string name="gallery_bulk_save_copies">Save Copies As</string>
+    <string name="gallery_bulk_format">Format</string>
+    <string name="gallery_bulk_size">Longest Side</string>
+    <string name="gallery_bulk_size_original">Original</string>
+    <string name="gallery_bulk_save">Save</string>
+    <string name="gallery_bulk_saving">Saving Copies</string>
+    <string name="gallery_bulk_save_stopped">Stopped saving copies</string>
+    <plurals name="gallery_bulk_save_note">
+        <item quantity="one">A new file goes beside the original, which isn\'t changed.</item>
+        <item quantity="other">New files go beside the %1$,d originals, which aren\'t changed.</item>
+    </plurals>
+    <plurals name="gallery_bulk_saved">
+        <item quantity="one">Saved 1 copy</item>
+        <item quantity="other">Saved %1$,d copies</item>
+    </plurals>
+    <plurals name="gallery_bulk_save_failed">
+        <item quantity="one">1 couldn\'t be read</item>
+        <item quantity="other">%1$,d couldn\'t be read</item>
+    </plurals>
+    <plurals name="gallery_bulk_share_skipped">
+        <item quantity="one">1 can\'t have its metadata removed, so it was left out</item>
+        <item quantity="other">%1$,d can\'t have their metadata removed, so they were left out</item>
+    </plurals>
+    <string name="gallery_album_newest_cover">Use Newest as Cover</string>
+    <string name="gallery_bulk_fix_dates">Fix Dates from Names</string>
+    <string name="gallery_bulk_fix_dates_action">Fix Dates</string>
+    <string name="gallery_bulk_fix_date_note">This has a date in its name that its file date doesn\'t match, and no date inside it. Only the date on the file changes, and it can be undone from this menu.</string>
+    <plurals name="gallery_bulk_fix_dates_note">
+        <item quantity="one">1 of these %2$,d has a date in its name that its file date doesn\'t match, and no date inside it. Only the date on the file changes, and it can be undone from this menu.</item>
+        <item quantity="other">%1$,d of these %2$,d have a date in their name that their file date doesn\'t match, and no date inside them. Only the date on each file changes, and it can be undone from this menu.</item>
+    </plurals>
+    <string name="gallery_bulk_undo_dates">Undo Last Date Fix</string>
+    <string name="gallery_bulk_fixing_dates">Fixing Dates</string>
+    <string name="gallery_bulk_undoing_dates">Putting Dates Back</string>
+    <string name="gallery_bulk_dates_stopped">Stopped changing dates</string>
+    <plurals name="gallery_bulk_dates_fixed">
+        <item quantity="one">Fixed the date of 1 file</item>
+        <item quantity="other">Fixed the dates of %1$,d files</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_failed">
+        <item quantity="one">1 couldn\'t be changed</item>
+        <item quantity="other">%1$,d couldn\'t be changed</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_restored">
+        <item quantity="one">Put back the date of 1 file</item>
+        <item quantity="other">Put back the dates of %1$,d files</item>
+    </plurals>
+</resources>

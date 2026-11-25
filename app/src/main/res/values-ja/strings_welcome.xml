@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Kobbloへようこそ</string>
+    <string name="welcome_photos_title">すべての写真と動画</string>
+    <string name="welcome_photos_body">ライブラリ全体をひとつのフィードに。アルバムや撮影地、写真を見ることにこだわったビューアーも備えています。</string>
+    <string name="welcome_files_title">すべてのファイル</string>
+    <string name="welcome_files_body">フォルダー、クラウドドライブ、サーバーを閲覧し、不要なものを整理できます。</string>
+    <string name="welcome_send_title">近くのデバイスに送信</string>
+    <string name="welcome_send_body">同じWi-Fiに接続しているスマートフォンやパソコンとファイルを共有できます。</string>
+    <string name="welcome_private_title">データは端末の中に</string>
+    <string name="welcome_private_body">アカウント不要、トラッキングなし。スマート機能の処理も端末上で行われます。</string>
+    <string name="welcome_continue">続行</string>
+    <string name="welcome_not_now">後で</string>
+    <string name="access_title">アクセスを許可</string>
+    <string name="access_subtitle">ファイルを表示するには、Kobbloがファイルを読み取れる必要があります。読み取った内容が端末の外に送信されることはありません。</string>
+    <string name="access_needed">必須</string>
+    <string name="access_optional">任意</string>
+    <string name="access_files">ファイルとフォルダー</string>
+    <string name="access_files_body">端末内のすべてを閲覧、表示、整理するために使用します。</string>
+    <string name="access_notifications">通知</string>
+    <string name="access_notifications_body">コピーや転送の進行状況、受信したファイルをお知らせします。</string>
+    <string name="access_notifications_blocked">オフになっています。タップして設定で許可してください。</string>
+    <string name="access_locations">写真の位置情報</string>
+    <string name="access_locations_body">写真の撮影場所を、「撮影地」や写真の詳細に表示するために使用します。</string>
+    <string name="access_locations_blocked">オフになっています。アプリ情報の「権限」で許可してください。</string>
+    <string name="access_footer">これらは後から設定の「権限」で変更できます。</string>
+    <string name="access_allow">アクセスを許可</string>
+    <string name="access_settings_row">権限</string>
+    <string name="access_settings_row_body">ファイル、通知、写真の位置情報</string>
+    <string name="welcome_ready_title">準備が完了しました</string>
+    <string name="welcome_ready_body">写真を見る準備ができました。</string>
+    <string name="welcome_ready_downloading">スマート機能をダウンロード中です。ダウンロードが完了したものから写真の処理を始めます。</string>
+    <string name="welcome_ready_no_access">準備ができたらアクセスを許可してください。写真やファイルがここに表示されます。</string>
+    <string name="welcome_lets_go">始める</string>
+</resources>

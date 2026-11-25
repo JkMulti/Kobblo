@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Wajib</string>
+    <string name="polish_optional">Opsional</string>
+    <string name="polish_field_name">Nama</string>
+    <string name="polish_field_domain">Domain</string>
+    <string name="polish_field_server">Server</string>
+    <string name="polish_one_saved">1 koneksi tersimpan</string>
+    <string name="polish_many_saved">%1$d koneksi tersimpan</string>
+    <string name="polish_delete_connection">Hapus \"%1$s\"?</string>
+    <string name="polish_delete_connection_note">Kata sandi tersimpannya juga akan dihapus. Berkas di server tidak terpengaruh.</string>
+    <string name="polish_smb_subtitle">Folder bersama Windows atau NAS</string>
+    <string name="polish_smb_missing">Masukkan host, nama berbagi, dan nama pengguna.</string>
+    <string name="polish_server_missing">Masukkan host dan nama pengguna.</string>
+    <string name="polish_all_required">Isi semua kolom untuk terhubung.</string>
+    <string name="polish_ftp_subtitle">Server di jaringan Anda atau internet</string>
+    <string name="polish_sftp_subtitle">Server yang Anda akses melalui SSH</string>
+    <string name="polish_webdav_title">Koneksi WebDAV</string>
+    <string name="polish_webdav_add">Tambah koneksi WebDAV</string>
+    <string name="polish_webdav_subtitle">Server WebDAV</string>
+    <string name="polish_allow_self_signed">Izinkan sertifikat yang ditandatangani sendiri</string>
+    <string name="polish_nextcloud_title">Koneksi Nextcloud</string>
+    <string name="polish_nextcloud_add">Tambah Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Server Nextcloud Anda sendiri</string>
+    <string name="polish_nextcloud_tip">Jika akun Anda menggunakan verifikasi dua langkah, gunakan kata sandi aplikasi. Buat di Nextcloud melalui Pengaturan, Keamanan, Perangkat &amp; sesi.</string>
+    <string name="polish_log_in_to">Masuk ke %1$s</string>
+    <string name="polish_compressing">Mengompres</string>
+    <string name="polish_archive_created">Arsip dibuat</string>
+    <string name="polish_choose_from_other_app">Pilih dari aplikasi lain</string>
+    <string name="polish_cant_open_app_package">Paket aplikasi ini tidak dapat dibuka.</string>
+    <string name="polish_google_login_failed">Tidak dapat masuk ke Google Drive. Coba lagi.</string>
+    <string name="polish_unlocked">Kunci dibuka</string>
+    <string name="polish_files_not_saved">Berkas tidak dapat disimpan.</string>
+    <string name="polish_organize_failed">Unduhan Anda tidak dapat diatur.</string>
+    <string name="polish_extract_failed">Arsip mungkin rusak, atau ruang penyimpanan tidak cukup.</string>
+    <string name="polish_extract_failed_names">Tidak dapat mengekstrak %1$s.</string>
+    <string name="polish_archive_unreadable">Arsip ini tidak dapat dibaca. Mungkin rusak.</string>
+    <string name="polish_current_sort">Urutan saat ini</string>
+    <string name="polish_sheet_handle">Tuas seret</string>
+</resources>

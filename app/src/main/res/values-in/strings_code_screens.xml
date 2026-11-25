@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Kembali ke %1$s</string>
+    <string name="screen_clear_search">Hapus pencarian</string>
+    <string name="screen_show_section">Tampilkan %1$s</string>
+    <string name="screen_hide_section">Sembunyikan %1$s</string>
+    <string name="screen_hide">Sembunyikan</string>
+    <string name="screen_unhide">Tampilkan kembali</string>
+    <string name="screen_paste">Tempel</string>
+    <string name="screen_batch_install">Pasang sekaligus</string>
+    <string name="screen_favorite">Favorit</string>
+    <string name="screen_loading_details">Memuat detail…</string>
+    <string name="screen_detail_items">Item</string>
+    <string name="screen_detail_format">Format</string>
+    <string name="screen_detail_resolution">Resolusi</string>
+    <string name="screen_detail_duration">Durasi</string>
+    <string name="screen_save_to">Simpan ke %1$s</string>
+    <string name="screen_pictures">Gambar</string>
+    <string name="screen_storage">Penyimpanan</string>
+    <string name="screen_saving">Menyimpan</string>
+    <string name="screen_about_description">%1$s adalah manajer berkas modern dan ekspresif untuk Android. Aplikasi ini memadukan navigasi berkas yang intuitif, pengelompokan cerdas, penampil media bawaan, dan integrasi penyimpanan cloud.</string>
+    <string name="screen_about_links">Tautan &amp; dukungan</string>
+    <string name="screen_about_website">Situs web</string>
+    <string name="screen_about_privacy_subtitle">Cara kami melindungi data Anda</string>
+    <string name="screen_about_feedback">Masukan &amp; dukungan</string>
+    <string name="screen_about_made_with">Dibuat dengan ❤️ di Pakistan</string>
+    <string name="screen_show_as_icons">Tampilkan sebagai ikon</string>
+    <string name="screen_show_as_list">Tampilkan sebagai daftar</string>
+    <string name="screen_view_options">Opsi tampilan</string>
+    <string name="screen_current_sort">Urutan saat ini</string>
+    <string name="screen_category_duplicates">Duplikat</string>
+    <string name="screen_category_empty_folders">Folder kosong</string>
+    <string name="screen_empty_images">Tidak ada gambar</string>
+    <string name="screen_empty_videos">Tidak ada video</string>
+    <string name="screen_empty_audio">Tidak ada berkas audio</string>
+    <string name="screen_empty_documents">Tidak ada dokumen</string>
+    <string name="screen_empty_apps">Tidak ada aplikasi</string>
+    <string name="screen_empty_downloads">Tidak ada unduhan</string>
+    <string name="screen_empty_archives">Tidak ada arsip</string>
+    <string name="screen_empty_large">Tidak ada berkas besar</string>
+    <string name="screen_empty_duplicates">Tidak ada duplikat</string>
+    <string name="screen_empty_empty_folders">Tidak ada folder kosong</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="other">%1$d item · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="other">%1$d item, %2$s GB tersedia</item>
+    </plurals>
+    <string name="screen_connected">Terhubung</string>
+    <string name="screen_disconnect_named">Putuskan %1$s</string>
+    <string name="screen_active">Aktif</string>
+    <string name="screen_destructive_words">hapus,kosongkan,bersihkan,putuskan,keluar,buang,copot,hilangkan,musnahkan</string>
+    <string name="screen_toast_problem_words">tidak dapat,tidak bisa,gagal,kesalahan,galat,ditolak</string>
+    <string name="screen_toast_done_words">disalin,dipindah,disimpan,tersimpan,dipasang,terpasang,diperbarui</string>
+</resources>

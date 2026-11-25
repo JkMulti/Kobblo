@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Operations that take the tab bar's place -->
+    <string name="organize_pill_subtitle">Will be sorted into folders</string>
+    <string name="organize_pill_action">Organize</string>
+    <string name="extract_pill_running">Extracting</string>
+    <string name="extract_pill_done">Extracted</string>
+    <string name="extract_pill_done_detail">All files extracted</string>
+    <string name="op_resume">Resume</string>
+
+    <!-- Archives -->
+    <string name="archive_kind">Archive</string>
+    <string name="archive_kind_rar">RAR archive</string>
+    <string name="archive_extract_here">Extract Here</string>
+    <string name="archive_extract_here_subtitle">Extract files to the current folder</string>
+    <string name="archive_extract_here_downloads">Extract files to Download</string>
+    <string name="archive_extract_to">Extract To…</string>
+    <string name="archive_extract_to_subtitle">Choose a folder</string>
+    <string name="archive_view_contents">View Contents</string>
+    <string name="archive_view_contents_subtitle">See the files inside this archive</string>
+    <string name="archive_delete">Delete Archive</string>
+    <string name="archive_create_title">Create Archive</string>
+    <string name="archive_create_name">Archive name</string>
+    <string name="archive_create_lock">Lock with Password</string>
+    <string name="archive_create_lock_desc">Encrypted with AES-256</string>
+    <string name="archive_create_action">Create</string>
+    <string name="archive_extract_out_toast">Extracting to Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d item, %2$s</item>
+        <item quantity="other">%1$d items, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Password Required</string>
+    <string name="archive_password_placeholder">Password</string>
+    <string name="archive_password_wrong">Incorrect password</string>
+    <string name="archive_encrypted_name">This archive is encrypted.</string>
+    <string name="archive_failed_title">Couldn\'t Extract</string>
+    <string name="archive_failed_dismiss">OK</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_new_folder">New Folder</string>
+    <string name="dialog_new_file">New File</string>
+    <string name="dialog_rename">Rename</string>
+    <string name="dialog_rename_placeholder">New name</string>
+
+    <!-- Hide -->
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d item hidden</item>
+        <item quantity="other">%1$d items hidden</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d item unhidden</item>
+        <item quantity="other">%1$d items unhidden</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d couldn\'t be hidden</item>
+        <item quantity="other">%1$d couldn\'t be hidden</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d couldn\'t be unhidden</item>
+        <item quantity="other">%1$d couldn\'t be unhidden</item>
+    </plurals>
+
+    <!-- Settings -->
+    <string name="settings_grid_columns">Folder Columns</string>
+    <string name="settings_grid_columns_desc">In icon view</string>
+    <string name="settings_lock_password_changed">Password changed</string>
+    <string name="settings_show_vault">Show Vault in Tools</string>
+    <string name="settings_show_vault_desc">When off, hold ⋯ or + in Browse to open it</string>
+    <string name="settings_open_with">Open With</string>
+    <string name="settings_open_text">Documents</string>
+    <string name="settings_open_music">Music</string>
+    <string name="settings_open_images">Images</string>
+    <string name="settings_open_videos">Videos</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Other App</string>
+    <string name="settings_organizer_footer">Where Organize Downloads moves each kind of file.</string>
+    <string name="settings_choose_folder">Choose</string>
+    <string name="settings_send_name">Device Name</string>
+    <string name="settings_send_name_desc">What other devices see when they look for this one.</string>
+    <string name="settings_send_folder">Received Files</string>
+    <string name="settings_send_ask">Ask Before Receiving</string>
+    <string name="settings_send_ask_on">Accept or reject each incoming transfer</string>
+    <string name="settings_send_ask_off">Anyone on your network can save files here without asking</string>
+
+    <!-- Crash log -->
+    <string name="crash_title">Kobblo stopped</string>
+    <string name="crash_subtitle">This is what went wrong. It stays on this phone unless you share it.</string>
+    <string name="crash_last_title">Last Crash</string>
+    <string name="crash_last_subtitle">What went wrong the last time Kobblo stopped</string>
+    <string name="crash_copy">Copy</string>
+    <string name="crash_share">Share</string>
+    <string name="crash_delete">Delete</string>
+    <string name="crash_close">Close</string>
+    <string name="crash_copied">Crash log copied</string>
+    <string name="crash_share_subject">Kobblo crash log</string>
+    <string name="crash_none">No crash recorded</string>
+</resources>

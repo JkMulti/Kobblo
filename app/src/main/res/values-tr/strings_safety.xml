@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Siliniyor</string>
+    <string name="safety_restoring">Geri yükleniyor</string>
+    <string name="safety_progress_count">%1$s / %2$s</string>
+    <string name="safety_reason_missing">artık orada değil</string>
+    <string name="safety_reason_no_space">yeterli depolama alanı yok</string>
+    <string name="safety_reason_into_itself">bir klasör kendi içine taşınamaz</string>
+    <string name="safety_reason_denied">uygulamanın bunu değiştirme izni yok</string>
+    <string name="safety_reason_name_too_long">ad veya yol çok uzun</string>
+    <string name="safety_reason_check_failed">kopya orijinalle eşleşmedi, bu yüzden orijinal korundu</string>
+    <string name="safety_reason_not_possible">bu işlem bu öğeyle yapılamıyor</string>
+    <string name="safety_reason_unknown">bir sorun oluştu</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%2$d öğeden %1$d tanesi silinemedi, çünkü %3$s.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi silinemedi. Başlıca neden: %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%2$d öğeden %1$d tanesi aktarılamadı ve değişmeden kaldı, çünkü %3$s.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi aktarılamadı ve değişmeden kaldı. Başlıca neden: %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">Ad zaten kullanıldığından %1$d öğeye yeni ad verildi.</item>
+        <item quantity="other">Adlar zaten kullanıldığından %1$d öğeye yeni ad verildi.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">Bir klasörün içindeki %1$d bağlantı buraya kopyalanamadı.</item>
+        <item quantity="other">Bir klasörün içindeki %1$d bağlantı buraya kopyalanamadı.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Durduruldu. %1$d öğe zaten taşınmıştı, geri kalanlar yerinde duruyor.</item>
+        <item quantity="other">Durduruldu. %1$d öğe zaten taşınmıştı, geri kalanlar yerinde duruyor.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Durduruldu. Hiçbir şey kopyalanmadı.</item>
+        <item quantity="other">Durduruldu. Hiçbir şey kopyalanmadı.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d öğe geri yüklendi.</item>
+        <item quantity="other">%1$d öğe geri yüklendi.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">Eski konumunda artık başka bir şey olduğu için %1$d öğeye yeni ad verildi.</item>
+        <item quantity="other">Eski konumlarında artık başka şeyler olduğu için %1$d öğeye yeni ad verildi.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">Nereden geldiği bilinmediği için %1$d öğe İndirilenler\'e gönderildi.</item>
+        <item quantity="other">Nereden geldikleri bilinmediği için %1$d öğe İndirilenler\'e gönderildi.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d öğe Son Silinenler\'de kaldı, çünkü %2$s.</item>
+        <item quantity="other">%1$d öğe Son Silinenler\'de kaldı. Başlıca neden: %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">%1$d öğe silinemedi ve hâlâ Son Silinenler\'de.</item>
+        <item quantity="other">%1$d öğe silinemedi ve hâlâ Son Silinenler\'de.</item>
+    </plurals>
+    <string name="safety_rename_taken">\"%1$s\" burada zaten var, bu yüzden hiçbir şey yeniden adlandırılmadı.</string>
+    <string name="safety_rename_bad_name">Bu ad bir dosya için kullanılamaz.</string>
+    <string name="safety_rename_failed">Yeniden adlandırılamadı.</string>
+    <string name="safety_create_failed">\"%1$s\" oluşturulamadı. Bu ad zaten kullanılıyor olabilir.</string>
+    <string name="safety_similar_look_first">Yalnızca birebir kopyalar işaretlendi. Diğerleri yalnızca birbirine benziyor; kaldırmak istediklerinize dokunun, önce görmek için basılı tutun.</string>
+    <string name="safety_similar_some_failed">%1$d öğe Son Silinenler\'e taşınamadı.</string>
+    <string name="safety_job_channel">Dosya işlemleri</string>
+    <string name="safety_job_copying_to">%1$s konumuna kopyalanıyor</string>
+    <string name="safety_job_moving_to">%1$s konumuna taşınıyor</string>
+    <string name="safety_job_compressing">%1$s oluşturuluyor</string>
+    <string name="safety_job_extracting">%1$s çıkartılıyor</string>
+    <string name="safety_job_organizing">İndirilenler düzenleniyor</string>
+    <string name="safety_job_finishing">Tamamlanıyor</string>
+    <string name="safety_job_stopping">Durduruluyor</string>
+    <string name="safety_job_cancel_all">Tümünü iptal et</string>
+    <string name="safety_job_waiting">Bu işlem, mevcut işlem bitince başlayacak.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">%1$d işlem daha bekliyor</item>
+        <item quantity="other">%1$d işlem daha bekliyor</item>
+    </plurals>
+    <string name="safety_job_in_use">Bu öğe şu anda bir kopyalama veya taşıma işleminde kullanılıyor. İşlem bitince tekrar deneyin.</string>
+    <string name="safety_job_internal_storage">Dahili depolama</string>
+    <string name="safety_job_cloud">bulut</string>
+    <string name="safety_job_nothing_changed">Hiçbir şey değiştirilmedi.</string>
+    <string name="safety_job_failed_names">Etkilenenler: %1$s.</string>
+    <string name="safety_job_failed_names_more">Etkilenenler: %1$s ve %2$d öğe daha.</string>
+    <string name="safety_job_time_limit">Android, bu tür işlerin arka planda her gün ne kadar çalışabileceğini sınırlar. İşlem sorunsuz şekilde durduruldu. Tamamlamak için Kobblo\'ı açıp işlemi yeniden başlatın.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">%1$d öğe %2$s konumuna kopyalandı</item>
+        <item quantity="other">%1$d öğe %2$s konumuna kopyalandı</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">%1$d öğe %2$s konumuna taşındı</item>
+        <item quantity="other">%1$d öğe %2$s konumuna taşındı</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">%1$s konumuna kopyalama durduruldu</string>
+    <string name="safety_job_move_stopped">%1$s konumuna taşıma durduruldu</string>
+    <string name="safety_job_copy_problem">%1$s konumuna kopyalarken sorun oluştu</string>
+    <string name="safety_job_move_problem">%1$s konumuna taşırken sorun oluştu</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">%1$d öğe Son Silinenler\'e taşındı</item>
+        <item quantity="other">%1$d öğe Son Silinenler\'e taşındı</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">%1$d öğe silindi</item>
+        <item quantity="other">%1$d öğe silindi</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Silme durduruldu</string>
+    <string name="safety_job_delete_problem">Silerken sorun oluştu</string>
+    <string name="safety_job_delete_partly">%2$d öğeden %1$d tanesi silindi. Geri kalanlar yerinde duruyor.</string>
+    <string name="safety_job_empty_partly">%2$d öğeden %1$d tanesi silindi. Geri kalanlar hâlâ Son Silinenler\'de.</string>
+    <string name="safety_job_restore_done">Geri yüklendi</string>
+    <string name="safety_job_restore_stopped">Geri yükleme durduruldu</string>
+    <string name="safety_job_restore_problem">Geri yüklerken sorun oluştu</string>
+    <string name="safety_job_restore_partly">%2$d öğeden %1$d tanesi geri yüklendi. Geri kalanlar hâlâ Son Silinenler\'de.</string>
+    <string name="safety_job_vault_adding">Kasa\'ya ekleniyor</string>
+    <string name="safety_job_vault_stopped">Kasa\'ya ekleme durduruldu</string>
+    <string name="safety_job_vault_problem">Kasa\'ya eklenemedi</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">%1$d öğe Kasa\'ya eklendi</item>
+        <item quantity="other">%1$d öğe Kasa\'ya eklendi</item>
+    </plurals>
+    <string name="safety_notice_vault">Kasa\'ya ekleme tamamlanmadı</string>
+    <string name="safety_notice_vault_waiting">Kasa\'ya ekleme başlamadı</string>
+    <string name="safety_notice_vault_detail">Eklenenler Kasa\'da. Bir öğe ancak Kasa\'ya güvenle girdikten sonra eski yerinden kaldırılır; bu yüzden geri kalan her şey hâlâ yerinde.</string>
+    <string name="safety_job_organized">Dosyalar düzenlendi</string>
+    <string name="safety_job_organize_stopped">Düzenleme durduruldu</string>
+    <string name="safety_job_organize_problem">Düzenlerken sorun oluştu</string>
+    <string name="safety_job_compressed">%1$s oluşturuldu</string>
+    <string name="safety_job_compress_stopped">%1$s oluşturma durduruldu</string>
+    <string name="safety_job_compress_problem">%1$s oluşturulamadı</string>
+    <string name="safety_job_no_archive">Arşiv oluşturulmadı ve dosyalarınız değiştirilmedi.</string>
+    <string name="safety_job_extracted">%1$s çıkartıldı</string>
+    <string name="safety_job_extract_stopped">%1$s çıkartma durduruldu</string>
+    <string name="safety_job_extract_stopped_detail">Açılmış olanlar kaldırıldı. Arşiv değiştirilmedi.</string>
+    <string name="safety_job_extract_problem">%1$s çıkartılamadı</string>
+    <string name="safety_job_extract_needs_password">%1$s için şifre gerekiyor</string>
+    <string name="safety_job_extract_prepare_failed">Bu arşiv çıkartmaya hazırlanamadı.</string>
+    <string name="safety_notice_open_folder">Klasörü aç</string>
+    <string name="safety_notice_closed">Kobblo bu işlem bitmeden kapatıldı.</string>
+    <string name="safety_notice_never_started">Kobblo, bu işlem sırasını beklerken kapatıldı. Hiçbir şey değiştirilmedi.</string>
+    <string name="safety_notice_originals_safe">Orijinalleriniz değiştirilmedi.</string>
+    <string name="safety_notice_copy_removed">Tamamlanmamış kopya kaldırıldı.</string>
+    <string name="safety_notice_original_left">\"%1$s\" eksiksiz ulaştı, ancak orijinalin bir kısmı veya tamamı hâlâ %2$s konumunda. Kalanları silebilirsiniz.</string>
+    <string name="safety_notice_partial_kept">%1$s konumunda hâlâ tamamlanmamış bir öğe var.</string>
+    <string name="safety_notice_copy">%1$s konumuna kopyalama tamamlanmadı</string>
+    <string name="safety_notice_copy_waiting">%1$s konumuna kopyalama başlamadı</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi eksiksiz ulaştı.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi eksiksiz ulaştı.</item>
+    </plurals>
+    <string name="safety_notice_move">%1$s konumuna taşıma tamamlanmadı</string>
+    <string name="safety_notice_move_waiting">%1$s konumuna taşıma başlamadı</string>
+    <string name="safety_notice_move_none">Hâlâ eski yerinde.</string>
+    <string name="safety_notice_organize">İndirilenleri düzenleme tamamlanmadı</string>
+    <string name="safety_notice_organize_waiting">İndirilenleri düzenleme başlamadı</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi taşındı. Taşınmadıysa eski yerinde duruyor.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi taşındı. Geri kalanlar eski yerlerinde duruyor.</item>
+    </plurals>
+    <string name="safety_notice_delete">Silme tamamlanmadı</string>
+    <string name="safety_notice_delete_waiting">Silme başlamadı</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi Son Silinenler\'e taşındı. Taşınmadıysa eski yerinde duruyor.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi Son Silinenler\'e taşındı. Geri kalanlar eski yerlerinde duruyor.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi silindi. Silinmediyse eski yerinde duruyor.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi silindi. Geri kalanlar eski yerlerinde duruyor.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi silindi. Silinmediyse hâlâ Son Silinenler\'de.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi silindi. Geri kalanlar hâlâ Son Silinenler\'de.</item>
+    </plurals>
+    <string name="safety_notice_restore">Geri yükleme tamamlanmadı</string>
+    <string name="safety_notice_restore_waiting">Geri yükleme başlamadı</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">%2$d öğeden %1$d tanesi geri yüklendi. Geri yüklenmediyse hâlâ Son Silinenler\'de.</item>
+        <item quantity="other">%2$d öğeden %1$d tanesi geri yüklendi. Geri kalanlar hâlâ Son Silinenler\'de.</item>
+    </plurals>
+    <string name="safety_notice_compress">%1$s oluşturma tamamlanmadı</string>
+    <string name="safety_notice_compress_waiting">%1$s oluşturma başlamadı</string>
+    <string name="safety_notice_compress_detail">Arşiv oluşturulmadı ve dosyalarınız değiştirilmedi.</string>
+    <string name="safety_notice_archive_made">Arşiv, Kobblo kapatılmadan hemen önce tamamlandı ve eksiksiz.</string>
+    <string name="safety_notice_extract">%1$s çıkartma tamamlanmadı</string>
+    <string name="safety_notice_extract_waiting">%1$s çıkartma başlamadı</string>
+    <string name="safety_notice_extract_detail">Açılmış olanlar kaldırıldı. Arşiv değiştirilmedi.</string>
+    <string name="safety_lock_what_it_is">Bu, öğeyi Kobblo içinde gizler. Diğer uygulamalar onu yine de okuyabilir. Kasa ise dosyaları onlardan da korur.</string>
+    <string name="safety_lock_confirm_title">Şifre gerekli</string>
+    <string name="safety_lock_done">Kilitlendi. Kobblo\'da gizli, ancak diğer uygulamalar onu yine de okuyabilir.</string>
+    <string name="safety_lock_in_folder">Bu öğe kilitli bir klasörün içinde. Kilidini açmak için klasörün kilidini açın.</string>
+    <string name="safety_lock_delete_elsewhere">Bu öğe kilitli. Şifreyi girebileceğiniz kendi klasöründen silin.</string>
+    <string name="safety_lock_no_app">Bunu açabilecek başka uygulama olmadığından burada açıldı.</string>
+</resources>

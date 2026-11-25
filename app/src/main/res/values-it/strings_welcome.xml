@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Benvenuto in Kobblo</string>
+    <string name="welcome_photos_title">Tutte le foto e i video</string>
+    <string name="welcome_photos_body">Tutta la tua libreria in un unico feed, con album, luoghi e un visualizzatore fatto per guardare.</string>
+    <string name="welcome_files_title">Tutti i tuoi file</string>
+    <string name="welcome_files_body">Sfoglia cartelle, cloud e server, e fai pulizia di ciò che non ti serve.</string>
+    <string name="welcome_send_title">Invia ai dispositivi vicini</string>
+    <string name="welcome_send_body">Condividi file con telefoni e computer sulla stessa rete Wi-Fi.</string>
+    <string name="welcome_private_title">Resta sul tuo telefono</string>
+    <string name="welcome_private_body">Nessun account e nessun tracciamento. Le funzionalità smart lavorano direttamente sul telefono.</string>
+    <string name="welcome_continue">Continua</string>
+    <string name="welcome_not_now">Non ora</string>
+    <string name="access_title">Consenti accesso</string>
+    <string name="access_subtitle">Kobblo deve poter vedere i tuoi file per mostrarteli. Ciò che trova non lascia mai il telefono.</string>
+    <string name="access_needed">Necessario</string>
+    <string name="access_optional">Facoltativo</string>
+    <string name="access_files">File e cartelle</string>
+    <string name="access_files_body">Per sfogliare, aprire e organizzare tutto ciò che hai sul telefono.</string>
+    <string name="access_notifications">Notifiche</string>
+    <string name="access_notifications_body">L\'avanzamento di copie e trasferimenti, e i file che ti vengono inviati.</string>
+    <string name="access_notifications_blocked">Disattivate. Tocca per consentirle in Impostazioni.</string>
+    <string name="access_locations">Posizioni delle foto</string>
+    <string name="access_locations_body">Dove sono state scattate le tue foto, per Luoghi e i dettagli delle foto.</string>
+    <string name="access_locations_blocked">Disattivato. Consentilo in Informazioni app, sotto Autorizzazioni.</string>
+    <string name="access_footer">Puoi modificare queste scelte in seguito in Impostazioni, sotto Autorizzazioni.</string>
+    <string name="access_allow">Consenti accesso</string>
+    <string name="access_settings_row">Autorizzazioni</string>
+    <string name="access_settings_row_body">File, notifiche e posizioni delle foto</string>
+    <string name="welcome_ready_title">È tutto pronto</string>
+    <string name="welcome_ready_body">Le tue foto sono pronte da esplorare.</string>
+    <string name="welcome_ready_downloading">Le funzionalità smart sono in fase di download e inizieranno a lavorare sulle tue foto man mano che arrivano.</string>
+    <string name="welcome_ready_no_access">Consenti l\'accesso quando vuoi e qui troverai le tue foto e i tuoi file.</string>
+    <string name="welcome_lets_go">Iniziamo</string>
+</resources>

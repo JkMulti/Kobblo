@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VaultScreen.kt: adding files -->
+    <string name="vault_select_files">Select Files</string>
+    <string name="vault_no_picker_app">No app here can pick files</string>
+    <string name="vault_add_files_title">Add Files to Vault</string>
+    <string name="vault_add_to_vault">Add to Vault</string>
+
+    <!-- VaultScreen.kt: setup wizard -->
+    <string name="vault_cancel_setup">Cancel setup</string>
+    <string name="vault_previous_step">Previous step</string>
+    <string name="vault_welcome_title">Welcome to Vault</string>
+    <string name="vault_welcome_subtitle">Encrypted, password-protected storage on this phone</string>
+    <string name="vault_setup_offline_title">Encrypted and Offline</string>
+    <string name="vault_setup_offline_body">Files you add are encrypted on this phone, names included. Opening them takes your password or recovery key. There\'s no account and no server.</string>
+    <string name="vault_setup_no_reset_title">No Reset Email</string>
+    <string name="vault_setup_no_reset_body">There\'s no account to reset your password from. In the last step you\'ll get a recovery key instead: if you forget your password, it\'s the only way back in.</string>
+    <string name="vault_lose_both_title">If You Lose Both</string>
+    <string name="vault_setup_lose_both_body">Your files are encrypted, so without your password or your recovery key, no one can open them. That includes Kobblo.</string>
+    <string name="vault_setup_this_phone_title">Only on This Phone</string>
+    <string name="vault_setup_this_phone_body">Backups and phone transfers leave your vault behind. Move your files out before you switch phones.</string>
+    <string name="vault_setup_password_action">Set Up Vault Password</string>
+    <string name="vault_create_password_title">Create Vault Password</string>
+    <string name="vault_create_password_subtitle">Choose a master password and hint. You will need this to unlock your vault.</string>
+    <string name="vault_password_label">Vault Password</string>
+    <plurals name="vault_password_placeholder">
+        <item quantity="one">At least %1$d character</item>
+        <item quantity="other">At least %1$d characters</item>
+    </plurals>
+    <string name="vault_retype_password">Retype Password</string>
+    <string name="vault_retype_placeholder">Re-enter master password</string>
+    <string name="vault_passwords_mismatch">Passwords do not match</string>
+    <plurals name="vault_password_too_short">
+        <item quantity="one">Password must be at least %1$d character</item>
+        <item quantity="other">Password must be at least %1$d characters</item>
+    </plurals>
+    <string name="vault_hint_label">Password Hint (Recommended)</string>
+    <string name="vault_hint_placeholder">e.g. My first car + hometown</string>
+    <string name="vault_hint_note">This hint will appear on the unlock screen if you ever need a clue.</string>
+    <string name="vault_continue_to_key">Continue to Recovery Key</string>
+
+    <!-- VaultScreen.kt: unlocking -->
+    <string name="vault_wrong_password">Incorrect password. Try again or check your hint.</string>
+    <string name="vault_fingerprints_changed">This phone\'s fingerprints changed, so fingerprint unlock is off. Use your password. You can turn it back on from inside your vault.</string>
+    <string name="vault_unlock">Unlock Vault</string>
+    <string name="vault_unlock_subtitle">Enter your vault password to open your files</string>
+    <string name="vault_hide_hint">Hide Password Hint</string>
+    <string name="vault_view_hint">Need Help? View Hint</string>
+    <string name="vault_hint">Hint</string>
+
+    <!-- VaultScreen.kt: the unlocked Vault -->
+    <string name="vault_category_other">Other</string>
+    <plurals name="vault_files_summary">
+        <item quantity="one">%1$d file · %2$s</item>
+        <item quantity="other">%1$d files · %2$s</item>
+    </plurals>
+    <string name="vault_add_files">Add Files</string>
+    <string name="vault_lock">Lock Vault</string>
+    <string name="vault_adding_files">Adding files</string>
+    <string name="vault_opening_vault">Opening your Vault</string>
+    <string name="vault_empty_title">Your Vault Is Empty</string>
+    <string name="vault_empty_body">Add private photos, videos or documents. They\'re encrypted as soon as they\'re in your Vault.</string>
+    <string name="vault_no_kind_title">Nothing of This Kind</string>
+    <string name="vault_show_all_files">Show All Files</string>
+    <string name="vault_restore_to_internal">Restore to Internal Storage</string>
+    <string name="vault_restored_to_internal">Restored %1$s to Internal Storage</string>
+    <string name="vault_restore_failed">Couldn\'t restore %1$s</string>
+    <string name="vault_export_to_downloads">Export to Downloads</string>
+    <string name="vault_delete_title">Delete \"%1$s\"?</string>
+    <string name="vault_delete_body">It\'s gone for good. What\'s in the Vault doesn\'t go to Recently Deleted.</string>
+    <string name="vault_deleted">Deleted from Vault</string>
+
+    <!-- VaultRecovery.kt: showing a recovery key -->
+    <string name="vault_key_copied">Copied</string>
+    <string name="vault_copy_key">Copy Key</string>
+    <string name="vault_key_guidance">Write it on paper or save it in a password manager, and keep it away from this phone. You won\'t see this key again.</string>
+    <string name="vault_key_screenshots_note">Screenshots are off on this screen so the key stays out of your photos. Copied keys leave the clipboard after a minute, but a keyboard\'s clipboard history may keep its own copy.</string>
+    <string name="vault_key_lose_both_body">Your files are encrypted, so without your password or this key, no one can open them. That includes Kobblo. Deleting the app deletes the files inside.</string>
+    <string name="vault_key_acknowledge">I saved my recovery key. If I lose both it and my password, my vault can\'t be opened.</string>
+    <string name="vault_hint_warning">This hint appears on the unlock screen. Don\'t put your password in it.</string>
+
+    <!-- VaultRecovery.kt: forgot password -->
+    <string name="vault_key_incomplete">That isn\'t a complete recovery key. Check for a mistyped or missing character.</string>
+    <string name="vault_key_wrong">That key doesn\'t open this vault. If you replaced your key, use the newest one.</string>
+    <string name="vault_use_key_title">Use Your Recovery Key</string>
+    <string name="vault_use_key_subtitle">Enter the key you saved when you set up your vault. You\'ll choose a new password next.</string>
+    <string name="vault_recovery_key_label">Recovery Key</string>
+    <string name="vault_key_lost_too">Lost your recovery key too? Then Kobblo can\'t open this vault, and no one can reset it.</string>
+    <string name="vault_new_password_title">Set a New Password</string>
+    <string name="vault_new_password_subtitle">Your recovery key keeps working after this, so keep it safe.</string>
+    <string name="vault_save_and_open">Save and Open Vault</string>
+    <string name="vault_new_password_failed">Couldn\'t save your new password. Free up some storage and try again.</string>
+
+    <!-- VaultRecovery.kt: password and recovery key -->
+    <string name="vault_security_title">Password and Recovery Key</string>
+    <string name="vault_notice_no_key_title">These Files Aren\'t Encrypted Yet</string>
+    <string name="vault_notice_no_key_body">Lock your vault and open it with your password to encrypt them.</string>
+    <string name="vault_notice_no_space_title">Some Files Aren\'t Encrypted Yet</string>
+    <string name="vault_notice_no_space_body">There wasn\'t enough storage. Free up some space, then tap to try again.</string>
+    <string name="vault_notice_short_password_title">Choose a Longer Password</string>
+    <plurals name="vault_notice_short_password_body">
+        <item quantity="one">Your password is what protects your encrypted files. Use at least %1$d character.</item>
+        <item quantity="other">Your password is what protects your encrypted files. Use at least %1$d characters.</item>
+    </plurals>
+    <string name="vault_fingerprint_off_title">Turn Off Fingerprint Unlock</string>
+    <string name="vault_fingerprint_on_title">Turn On Fingerprint Unlock</string>
+    <string name="vault_fingerprint_off_body">Your fingerprint opens this vault. Without it, you\'ll use your password.</string>
+    <string name="vault_fingerprint_on_body">Open this vault with your fingerprint instead of your password.</string>
+    <string name="vault_add_key_title">Add a Recovery Key</string>
+    <string name="vault_add_key_body">Without one, a forgotten password locks this vault for good.</string>
+    <string name="vault_forgot_password">Forgot Password? Use Recovery Key</string>
+    <string name="vault_security_has_key">Either one can get you back into this vault.</string>
+    <string name="vault_security_no_key">Right now, your password is the only way back into this vault.</string>
+    <string name="vault_replace_key">Replace Recovery Key</string>
+    <string name="vault_replace_key_body">Get a new key. Your current key stops working.</string>
+    <string name="vault_change_password">Change Password</string>
+    <string name="vault_change_password_body">Your recovery key keeps working.</string>
+    <string name="vault_change_password_subtitle">Your recovery key keeps working, so you don\'t need to save a new one.</string>
+    <string name="vault_replace_key_title">Replace Your Recovery Key</string>
+    <string name="vault_replace_key_subtitle">Your current key stops working as soon as you finish.</string>
+    <string name="vault_add_key_subtitle">If you forget your password, a recovery key is the only way back into your vault.</string>
+    <string name="vault_backup_file_title">Did you save your password to a file?</string>
+    <!-- %1$s is the backup file's name, which stays as it is. -->
+    <string name="vault_backup_file_body">Earlier versions offered a text file backup, and other apps can read that file. If you made one (%1$s), delete it and change your password.</string>
+    <string name="vault_finish">Finish</string>
+    <string name="vault_key_saved">Recovery key saved</string>
+    <string name="vault_key_save_failed">Couldn\'t save your recovery key. Free up some storage and try again.</string>
+    <string name="vault_finish_and_open">Finish and Open Vault</string>
+    <string name="vault_ready">Your vault is ready</string>
+    <string name="vault_setup_failed">Couldn\'t save your vault. Free up some storage and try again.</string>
+    <string name="vault_save_key_title">Save Your Recovery Key</string>
+    <string name="vault_save_key_subtitle">If you forget your password, this key is the only way back into your vault.</string>
+
+    <!-- VaultSession.kt -->
+    <string name="vault_encrypting_title">Encrypting Your Files</string>
+    <string name="vault_encrypting_subtitle">Files you added before this update are being encrypted. Large ones can take a while.</string>
+    <string name="vault_close">Close vault</string>
+    <string name="vault_getting_ready">Getting ready</string>
+    <!-- Which file is being encrypted, out of how many. -->
+    <string name="vault_encrypting_progress">%1$d of %2$d</string>
+    <string name="vault_encrypting_note">You can close your vault if you need to. Your files stay safe, and this picks up where it stopped the next time you open it.</string>
+    <string name="vault_opening_file">Opening %1$s</string>
+    <string name="vault_preparing_file">Preparing %1$s</string>
+    <string name="vault_share_file">Share %1$s</string>
+    <string name="vault_share_failed">Cannot share: %1$s</string>
+    <string name="vault_exporting_file">Exporting %1$s</string>
+    <string name="vault_exported_file">Exported %1$s to Downloads</string>
+    <string name="vault_export_failed">Failed to export file</string>
+    <string name="vault_open_failed">Couldn\'t open %1$s. If storage is full, free up some space and try again.</string>
+    <plurals name="vault_import_added">
+        <item quantity="one">Added %1$d file to Vault</item>
+        <item quantity="other">Added %1$d files to Vault</item>
+    </plurals>
+    <string name="vault_import_needs_password">Lock and reopen your vault with your password to add files.</string>
+    <string name="vault_import_locked">Your vault locked. Open it and try again.</string>
+    <string name="vault_import_failed">Couldn\'t add those files. Free up some storage and try again.</string>
+
+    <!-- VaultBiometrics.kt -->
+    <string name="vault_fingerprint_prompt_title">Use Fingerprint for Vault?</string>
+    <string name="vault_fingerprint_prompt_body">Your fingerprint will open your vault. Adding a new one to this phone turns this off.</string>
+    <string name="vault_is_locked">Your vault is locked.</string>
+    <string name="vault_fingerprint_save_failed">Couldn\'t turn this on. Free up some storage and try again.</string>
+    <string name="vault_fingerprint_unlock_subtitle">Use your fingerprint to open your files</string>
+    <string name="vault_use_password">Use Password</string>
+    <string name="vault_credential_unlock_subtitle">Use your device credential to verify access</string>
+    <string name="vault_fingerprint_failed">Couldn\'t use your fingerprint. Use your password instead.</string>
+
+    <!-- VaultManager.kt: the name shown for a file that can't be decrypted -->
+    <string name="vault_unreadable_file">Unreadable file</string>
+</resources>

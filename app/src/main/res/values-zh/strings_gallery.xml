@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gallery_albums">相册</string>
+    <string name="gallery_albums_search">搜索相册</string>
+    <string name="gallery_albums_smart">智能相册</string>
+    <string name="gallery_albums_empty">未找到相册</string>
+    <string name="gallery_album_new">新建相册</string>
+    <string name="gallery_album_name_hint">相册名称</string>
+    <string name="gallery_album_create">创建</string>
+    <string name="gallery_album_rename">重命名相册</string>
+    <string name="gallery_album_rename_action">重命名</string>
+    <string name="gallery_album_pin">置顶相册</string>
+    <string name="gallery_album_unpin">取消置顶相册</string>
+    <string name="gallery_album_delete">删除相册</string>
+    <string name="gallery_album_delete_title">删除“%1$s”？</string>
+    <string name="gallery_album_delete_body">其中的照片和视频将移至回收站。</string>
+    <string name="gallery_album_name_taken">已存在同名相册</string>
+    <string name="gallery_album_create_failed">无法创建相册</string>
+    <string name="gallery_album_rename_failed">无法重命名相册</string>
+    <string name="gallery_album_empty">没有照片或视频</string>
+    <string name="gallery_album_empty_body">在首页选择照片，然后选择“相册”，即可将其添加到这里。</string>
+    <string name="gallery_album_root">内部存储</string>
+    <string name="gallery_select_all">全选</string>
+    <string name="gallery_sort">排序</string>
+    <string name="gallery_sort_newest">最新优先</string>
+    <string name="gallery_sort_oldest">最旧优先</string>
+    <string name="gallery_sort_size">大小</string>
+    <string name="gallery_sort_by">排序方式</string>
+    <string name="gallery_sort_name">名称</string>
+    <string name="gallery_sort_date">日期</string>
+    <string name="gallery_sort_count">数量</string>
+    <string name="gallery_library_stats">图库统计</string>
+    <string name="gallery_options">相册选项</string>
+    <string name="gallery_smart_favorites">收藏</string>
+    <string name="gallery_smart_recent">最近添加</string>
+    <string name="gallery_smart_on_this_day">往年今日</string>
+    <string name="gallery_smart_camera">相机</string>
+    <string name="gallery_smart_screenshots">截屏</string>
+    <string name="gallery_smart_videos">视频</string>
+    <string name="gallery_smart_gifs">GIF 动图</string>
+    <string name="gallery_smart_raw">RAW</string>
+    <string name="gallery_smart_panoramas">全景照片</string>
+    <string name="gallery_smart_motion">动态照片</string>
+    <plurals name="gallery_item_count">
+        <item quantity="other">%1$,d 个项目</item>
+    </plurals>
+    <string name="gallery_add_to_album">添加到相册</string>
+    <string name="gallery_album_action">相册</string>
+    <string name="gallery_transfer_move">移动</string>
+    <string name="gallery_transfer_copy">复制</string>
+    <string name="gallery_transfer_moving">正在移动到 %1$s</string>
+    <string name="gallery_transfer_copying">正在复制到 %1$s</string>
+    <string name="gallery_transfer_count">%1$,d / %2$,d</string>
+    <plurals name="gallery_moved_to">
+        <item quantity="other">已将 %1$,d 个项目移动到 %2$s</item>
+    </plurals>
+    <plurals name="gallery_copied_to">
+        <item quantity="other">已将 %1$,d 个项目复制到 %2$s</item>
+    </plurals>
+    <plurals name="gallery_transfer_failed">
+        <item quantity="other">%1$,d 个项目未能转移</item>
+    </plurals>
+    <string name="gallery_cancel">取消</string>
+    <string name="gallery_editor_done">完成</string>
+    <string name="gallery_editor_undo">撤消</string>
+    <string name="gallery_editor_redo">重做</string>
+    <string name="gallery_editor_more">更多</string>
+    <string name="gallery_editor_reset">重置所有编辑</string>
+    <string name="gallery_editor_other_app">在其他应用中编辑</string>
+    <string name="gallery_editor_mode_adjust">调整</string>
+    <string name="gallery_editor_mode_filters">滤镜</string>
+    <string name="gallery_editor_mode_crop">裁剪</string>
+    <string name="gallery_editor_mode_brush">遮盖</string>
+    <string name="gallery_editor_exposure">曝光</string>
+    <string name="gallery_editor_brightness">亮度</string>
+    <string name="gallery_editor_contrast">对比度</string>
+    <string name="gallery_editor_saturation">饱和度</string>
+    <string name="gallery_editor_warmth">色温</string>
+    <string name="gallery_editor_tint">色调</string>
+    <string name="gallery_editor_filter_original">原图</string>
+    <string name="gallery_editor_filter_vivid">鲜艳</string>
+    <string name="gallery_editor_filter_warm">暖色</string>
+    <string name="gallery_editor_filter_cool">冷色</string>
+    <string name="gallery_editor_filter_dramatic">戏剧</string>
+    <string name="gallery_editor_filter_fade">褪色</string>
+    <string name="gallery_editor_filter_mono">单色</string>
+    <string name="gallery_editor_filter_noir">黑色</string>
+    <string name="gallery_editor_filter_sepia">怀旧</string>
+    <string name="gallery_editor_rotate">向左旋转</string>
+    <string name="gallery_editor_flip_h">水平翻转</string>
+    <string name="gallery_editor_flip_v">垂直翻转</string>
+    <string name="gallery_editor_aspect_free">自由</string>
+    <string name="gallery_editor_aspect_original">原始比例</string>
+    <string name="gallery_editor_aspect_square">正方形</string>
+    <string name="gallery_editor_aspect_4_5">4:5</string>
+    <string name="gallery_editor_aspect_5_4">5:4</string>
+    <string name="gallery_editor_aspect_3_4">3:4</string>
+    <string name="gallery_editor_aspect_4_3">4:3</string>
+    <string name="gallery_editor_aspect_2_3">2:3</string>
+    <string name="gallery_editor_aspect_3_2">3:2</string>
+    <string name="gallery_editor_aspect_9_16">9:16</string>
+    <string name="gallery_editor_aspect_16_9">16:9</string>
+    <string name="gallery_editor_brush_pixelate">马赛克</string>
+    <string name="gallery_editor_brush_blur">模糊</string>
+    <string name="gallery_editor_brush_hint">涂抹要隐藏的部分。双指可缩放。</string>
+    <string name="gallery_editor_save_title">保存编辑</string>
+    <string name="gallery_editor_save_size">%1$d × %2$d</string>
+    <string name="gallery_editor_save_copy">另存为副本</string>
+    <string name="gallery_editor_replace">替换原图</string>
+    <string name="gallery_editor_replace_title">替换原图？</string>
+    <string name="gallery_editor_replace_body">原图将移至回收站。</string>
+    <string name="gallery_editor_discard_title">放弃编辑？</string>
+    <string name="gallery_editor_discard">放弃</string>
+    <string name="gallery_editor_keep_editing">继续编辑</string>
+    <string name="gallery_editor_saved_copy">已保存副本</string>
+    <string name="gallery_editor_replaced">已保存</string>
+    <string name="gallery_editor_saved_reduced">图片过大，内存不足，已按 %1$d × %2$d 保存</string>
+    <string name="gallery_editor_failed_decode">无法编辑此照片</string>
+    <string name="gallery_editor_failed_memory">内存不足，无法保存此照片</string>
+    <string name="gallery_editor_failed_write">无法保存照片</string>
+    <string name="gallery_similar_title">相似照片</string>
+    <string name="gallery_similar_rescan">重新扫描</string>
+    <string name="gallery_similar_scanning">正在查找重复项</string>
+    <string name="gallery_similar_scanning_body">离开此页面后，扫描仍会继续。</string>
+    <string name="gallery_similar_none">未找到重复项</string>
+    <plurals name="gallery_similar_scanned">
+        <item quantity="other">已检查 %1$,d 张照片。</item>
+    </plurals>
+    <string name="gallery_similar_exact">完全相同</string>
+    <string name="gallery_similar_near">相似</string>
+    <string name="gallery_similar_keep">保留</string>
+    <string name="gallery_similar_none_marked">未标记任何项</string>
+    <plurals name="gallery_similar_delete">
+        <item quantity="other">删除 %1$,d 张照片，释放 %2$s</item>
+    </plurals>
+    <plurals name="gallery_similar_confirm_title">
+        <item quantity="other">删除 %1$,d 张照片？</item>
+    </plurals>
+    <string name="gallery_similar_confirm_body">删除的内容将移至回收站，回收站清空后即可释放 %1$s。</string>
+    <string name="gallery_similar_freed">已将 %1$s 移至回收站</string>
+    <string name="gallery_widget_name">照片</string>
+    <string name="gallery_widget_description">展示图库中的照片，全天轮换。</string>
+    <string name="gallery_widget_photo">图库中的一张照片</string>
+    <string name="gallery_widget_empty">没有可显示的照片</string>
+    <string name="gallery_stats_overview">概览</string>
+    <string name="gallery_stats_types">按类型</string>
+    <string name="gallery_stats_folders">最大的相册</string>
+    <string name="gallery_stats_total">总计</string>
+    <string name="gallery_stats_photos">照片</string>
+    <string name="gallery_stats_videos">视频</string>
+    <string name="gallery_recently_deleted">回收站</string>
+    <string name="gallery_album_hidden">已从首页隐藏</string>
+    <string name="gallery_album_hide_from_home">从首页隐藏</string>
+    <string name="gallery_album_show_on_home">在首页显示</string>
+    <string name="gallery_album_hidden_note">%1$s 已不在首页显示，仍可在“相册”中找到</string>
+    <string name="gallery_album_shown">%1$s 已重新显示在首页</string>
+    <string name="gallery_search">搜索</string>
+    <string name="gallery_search_hint">名称、日期、地点、相机、标签</string>
+    <string name="gallery_search_none">无结果</string>
+    <string name="gallery_search_none_body">试试名称、年份、地点、相机，或“视频”“截屏”“大文件”等关键词。</string>
+    <string name="gallery_search_still_reading">还有 %1$s 张照片正在读取，可能会出现更多结果。</string>
+    <string name="gallery_search_kinds">类型</string>
+    <string name="gallery_search_years">年份</string>
+    <string name="gallery_search_cameras">相机</string>
+    <string name="gallery_search_word_favorites">收藏</string>
+    <string name="gallery_search_word_videos">视频</string>
+    <string name="gallery_search_word_screenshots">截屏</string>
+    <string name="gallery_search_word_gifs">GIF 动图</string>
+    <string name="gallery_search_word_raw">RAW</string>
+    <string name="gallery_places">地点</string>
+    <string name="gallery_places_empty">暂无地点</string>
+    <string name="gallery_places_empty_body">带有位置信息的照片在读取后会显示在这里。全部处理均在此手机上完成。</string>
+    <string name="gallery_places_credit">每张照片拍摄地附近的城镇均在此手机上推算得出。城镇名称来自 GeoNames，CC BY 4.0。</string>
+    <string name="gallery_tags">标签</string>
+    <string name="gallery_tags_empty">暂无标签</string>
+    <string name="gallery_more">更多</string>
+    <plurals name="gallery_bulk_title">
+        <item quantity="other">%1$,d 个项目</item>
+    </plurals>
+    <string name="gallery_bulk_rotate_left">向左旋转</string>
+    <string name="gallery_bulk_rotate_right">向右旋转</string>
+    <string name="gallery_bulk_rotating">正在旋转照片</string>
+    <string name="gallery_bulk_rotate_stopped">已停止旋转</string>
+    <plurals name="gallery_bulk_rotated">
+        <item quantity="other">已旋转 %1$,d 张照片</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_skipped">
+        <item quantity="other">%1$,d 张不是 JPEG，已保持原样</item>
+    </plurals>
+    <plurals name="gallery_bulk_rotate_failed">
+        <item quantity="other">无法旋转 %1$,d 张照片</item>
+    </plurals>
+    <string name="gallery_bulk_save_copies">将副本另存为</string>
+    <string name="gallery_bulk_format">格式</string>
+    <string name="gallery_bulk_size">最长边</string>
+    <string name="gallery_bulk_size_original">原始尺寸</string>
+    <string name="gallery_bulk_save">保存</string>
+    <string name="gallery_bulk_saving">正在保存副本</string>
+    <string name="gallery_bulk_save_stopped">已停止保存副本</string>
+    <plurals name="gallery_bulk_save_note">
+        <item quantity="other">新文件将保存在这 %1$,d 个原文件旁边，原文件不会被更改。</item>
+    </plurals>
+    <plurals name="gallery_bulk_saved">
+        <item quantity="other">已保存 %1$,d 个副本</item>
+    </plurals>
+    <plurals name="gallery_bulk_save_failed">
+        <item quantity="other">%1$,d 个无法读取</item>
+    </plurals>
+    <plurals name="gallery_bulk_share_skipped">
+        <item quantity="other">%1$,d 个项目无法移除元数据，已被排除</item>
+    </plurals>
+    <string name="gallery_album_newest_cover">使用最新项目作为封面</string>
+    <string name="gallery_bulk_fix_dates">根据文件名修正日期</string>
+    <string name="gallery_bulk_fix_dates_action">修正日期</string>
+    <string name="gallery_bulk_fix_date_note">此文件名中的日期与文件日期不符，且文件内没有日期信息。只会更改文件上的日期，并可在此菜单中撤消。</string>
+    <plurals name="gallery_bulk_fix_dates_note">
+        <item quantity="other">这 %2$,d 个文件中有 %1$,d 个的文件名日期与文件日期不符，且文件内没有日期信息。只会更改各文件上的日期，并可在此菜单中撤消。</item>
+    </plurals>
+    <string name="gallery_bulk_undo_dates">撤消上次日期修正</string>
+    <string name="gallery_bulk_fixing_dates">正在修正日期</string>
+    <string name="gallery_bulk_undoing_dates">正在恢复日期</string>
+    <string name="gallery_bulk_dates_stopped">已停止更改日期</string>
+    <plurals name="gallery_bulk_dates_fixed">
+        <item quantity="other">已修正 %1$,d 个文件的日期</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_failed">
+        <item quantity="other">%1$,d 个无法更改</item>
+    </plurals>
+    <plurals name="gallery_bulk_dates_restored">
+        <item quantity="other">已恢复 %1$,d 个文件的日期</item>
+    </plurals>
+</resources>

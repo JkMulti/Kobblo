@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">مطلوب</string>
+    <string name="polish_optional">اختياري</string>
+    <string name="polish_field_name">الاسم</string>
+    <string name="polish_field_domain">النطاق</string>
+    <string name="polish_field_server">الخادم</string>
+    <string name="polish_one_saved">اتصال محفوظ واحد</string>
+    <string name="polish_many_saved">الاتصالات المحفوظة: %1$d</string>
+    <string name="polish_delete_connection">حذف «%1$s»؟</string>
+    <string name="polish_delete_connection_note">ستُحذف كلمة المرور المحفوظة له أيضاً. لن تتأثر الملفات الموجودة على الخادم.</string>
+    <string name="polish_smb_subtitle">مجلد مشترك في Windows أو جهاز NAS</string>
+    <string name="polish_smb_missing">أدخل المضيف واسم المشاركة واسم المستخدم.</string>
+    <string name="polish_server_missing">أدخل المضيف واسم المستخدم.</string>
+    <string name="polish_all_required">املأ جميع الحقول للاتصال.</string>
+    <string name="polish_ftp_subtitle">خادم على شبكتك أو على الإنترنت</string>
+    <string name="polish_sftp_subtitle">خادم تصل إليه عبر SSH</string>
+    <string name="polish_webdav_title">اتصالات WebDAV</string>
+    <string name="polish_webdav_add">إضافة اتصال WebDAV</string>
+    <string name="polish_webdav_subtitle">خادم WebDAV</string>
+    <string name="polish_allow_self_signed">السماح بشهادة موقّعة ذاتياً</string>
+    <string name="polish_nextcloud_title">اتصالات Nextcloud</string>
+    <string name="polish_nextcloud_add">إضافة Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">خادم Nextcloud الخاص بك</string>
+    <string name="polish_nextcloud_tip">إذا كان حسابك يستخدم تسجيل الدخول بخطوتين، فاستخدم كلمة مرور تطبيق. أنشئها في Nextcloud من الإعدادات &gt; الأمان &gt; الأجهزة والجلسات.</string>
+    <string name="polish_log_in_to">تسجيل الدخول إلى %1$s</string>
+    <string name="polish_compressing">جارٍ الضغط</string>
+    <string name="polish_archive_created">تم إنشاء الأرشيف</string>
+    <string name="polish_choose_from_other_app">الاختيار من تطبيق آخر</string>
+    <string name="polish_cant_open_app_package">لا يمكن فتح حزمة التطبيق هذه.</string>
+    <string name="polish_google_login_failed">تعذّر تسجيل الدخول إلى Google Drive. حاول مرة أخرى.</string>
+    <string name="polish_unlocked">تم إلغاء القفل</string>
+    <string name="polish_files_not_saved">تعذّر حفظ الملفات.</string>
+    <string name="polish_organize_failed">تعذّر تنظيم التنزيلات.</string>
+    <string name="polish_extract_failed">قد يكون الأرشيف تالفاً، أو قد لا تتوفر مساحة كافية.</string>
+    <string name="polish_extract_failed_names">تعذّر استخراج %1$s.</string>
+    <string name="polish_archive_unreadable">لا يمكن قراءة هذا الأرشيف. قد يكون تالفاً.</string>
+    <string name="polish_current_sort">الترتيب الحالي</string>
+    <string name="polish_sheet_handle">مقبض السحب</string>
+</resources>

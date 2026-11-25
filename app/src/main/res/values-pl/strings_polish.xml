@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">Wymagane</string>
+    <string name="polish_optional">Opcjonalne</string>
+    <string name="polish_field_name">Nazwa</string>
+    <string name="polish_field_domain">Domena</string>
+    <string name="polish_field_server">Serwer</string>
+    <string name="polish_one_saved">1 zapisane połączenie</string>
+    <string name="polish_many_saved">Zapisane połączenia: %1$d</string>
+    <string name="polish_delete_connection">Usunąć „%1$s”?</string>
+    <string name="polish_delete_connection_note">Zapisane hasło też zostanie usunięte. Pliki na serwerze pozostaną nietknięte.</string>
+    <string name="polish_smb_subtitle">Udział Windows lub NAS</string>
+    <string name="polish_smb_missing">Wpisz host, nazwę udziału i nazwę użytkownika.</string>
+    <string name="polish_server_missing">Wpisz host i nazwę użytkownika.</string>
+    <string name="polish_all_required">Wypełnij wszystkie pola, aby się połączyć.</string>
+    <string name="polish_ftp_subtitle">Serwer w Twojej sieci lub w internecie</string>
+    <string name="polish_sftp_subtitle">Serwer dostępny przez SSH</string>
+    <string name="polish_webdav_title">Połączenia WebDAV</string>
+    <string name="polish_webdav_add">Dodaj połączenie WebDAV</string>
+    <string name="polish_webdav_subtitle">Serwer WebDAV</string>
+    <string name="polish_allow_self_signed">Zezwalaj na certyfikat z podpisem własnym</string>
+    <string name="polish_nextcloud_title">Połączenia Nextcloud</string>
+    <string name="polish_nextcloud_add">Dodaj Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">Twój własny serwer Nextcloud</string>
+    <string name="polish_nextcloud_tip">Jeśli Twoje konto używa logowania dwuetapowego, użyj hasła aplikacji. Utworzysz je w Nextcloud w sekcji Ustawienia, Bezpieczeństwo, Urządzenia i sesje.</string>
+    <string name="polish_log_in_to">Zaloguj się do %1$s</string>
+    <string name="polish_compressing">Kompresowanie</string>
+    <string name="polish_archive_created">Utworzono archiwum</string>
+    <string name="polish_choose_from_other_app">Wybierz z innej aplikacji</string>
+    <string name="polish_cant_open_app_package">Nie można otworzyć tego pakietu aplikacji.</string>
+    <string name="polish_google_login_failed">Nie udało się zalogować do Google Drive. Spróbuj ponownie.</string>
+    <string name="polish_unlocked">Odblokowano</string>
+    <string name="polish_files_not_saved">Nie udało się zapisać plików.</string>
+    <string name="polish_organize_failed">Nie udało się uporządkować pobranych plików.</string>
+    <string name="polish_extract_failed">Archiwum może być uszkodzone lub brakuje miejsca.</string>
+    <string name="polish_extract_failed_names">Nie udało się wypakować: %1$s.</string>
+    <string name="polish_archive_unreadable">Nie można odczytać tego archiwum. Może być uszkodzone.</string>
+    <string name="polish_current_sort">Bieżące sortowanie</string>
+    <string name="polish_sheet_handle">Uchwyt przeciągania</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">Colore d\'accento</string>
+    <string name="tint_blue">Blu</string>
+    <string name="tint_indigo">Indaco</string>
+    <string name="tint_purple">Viola</string>
+    <string name="tint_pink">Rosa</string>
+    <string name="tint_orange">Arancione</string>
+    <string name="tint_green">Verde</string>
+    <string name="tint_teal">Verde acqua</string>
+</resources>

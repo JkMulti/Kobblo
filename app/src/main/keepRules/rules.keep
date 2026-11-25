@@ -1,0 +1,214 @@
+# R8 rules for Kobblo's release builds.
+#
+# R8 removes and renames whatever it can't see being used. Three kinds of code are used in ways it
+# can't see, and each has a section below: classes read and written by field name (saved data and
+# network messages), classes that the system or a library finds by name or by type, and libraries
+# that reach into themselves by reflection or from native code.
+#
+# Several of those libraries talk to servers and cloud accounts that can't be exercised in testing.
+# They are kept whole rather than trimmed rule by rule, because a class missing from one of them
+# would only show up on someone's phone.
+
+# --- What any class may need ------------------------------------------------------------------------
+
+# Generic signatures and annotations for Gson and the Google API client, inner-class links for
+# reflection, checked exceptions for proxies, and file names with line numbers for crash reports.
+-keepattributes *Annotation*,Signature,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable
+-keepattributes Exceptions,RuntimeVisibleAnnotations,RuntimeVisibleParameterAnnotations,AnnotationDefault
+
+# Native code looks these up by name.
+-keepclasseswithmembernames class * { native <methods>; }
+
+# Enum constants are listed and parsed through these two generated methods.
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Android rebuilds a Parcelable through its CREATOR field.
+-keepclassmembers class * implements android.os.Parcelable { static ** CREATOR; }
+
+# --- Kobblo's own classes ---------------------------------------------------------------------------
+
+# Saved data and network messages are read by field name. A renamed field would lose what people
+# have saved, or stop two devices understanding each other, without any error.
+-keepclassmembers class com.kobblo.gallery.file.explorer.FileItem { <fields>; }
+-keepclassmembers class com.kobblo.gallery.file.explorer.data.** { <fields>; }
+-keepclassmembers class com.kobblo.gallery.file.explorer.localsend.** { <fields>; }
+-keep class com.kobblo.gallery.file.explorer.localsend.*Dto { *; }
+-keep class com.kobblo.gallery.file.explorer.MegaAccount { *; }
+-keep class com.kobblo.gallery.file.explorer.data.ftp.FtpConnection { *; }
+-keep class com.kobblo.gallery.file.explorer.data.sftp.SftpConnection { *; }
+-keep class com.kobblo.gallery.file.explorer.data.smb.SmbConnection { *; }
+-keep class com.kobblo.gallery.file.explorer.data.webdav.WebDavConnection { *; }
+-keep class com.kobblo.gallery.file.explorer.music.MusicData { *; }
+-keep class com.kobblo.gallery.file.explorer.music.MusicTrack { *; }
+-keep class com.kobblo.gallery.file.explorer.music.Playlist { *; }
+-keep class com.kobblo.gallery.file.explorer.music.SavedQueue { *; }
+-keep class com.kobblo.gallery.file.explorer.music.SoundSettings { *; }
+-keep class com.kobblo.gallery.file.explorer.music.TrackStats { *; }
+-keep class com.kobblo.gallery.file.explorer.transfer.core.SavedPeer { *; }
+-keep class com.kobblo.gallery.file.explorer.transfer.core.TransferRecord { *; }
+-keep class com.kobblo.gallery.file.explorer.transfer.core.TransferRecordFile { *; }
+
+# Enum constants are saved by name inside several of those.
+-keep enum com.kobblo.gallery.file.explorer.** { *; }
+
+# Started by the system or by WorkManager from a class name in the manifest or in a work request.
+-keep class com.kobblo.gallery.file.explorer.** extends android.app.Service
+-keep class com.kobblo.gallery.file.explorer.** extends android.content.BroadcastReceiver
+-keep class com.kobblo.gallery.file.explorer.** extends androidx.work.ListenableWorker
+
+# The document thumbnail fetcher and its factory are handed to the image loader as plain objects.
+-keep class com.kobblo.gallery.file.explorer.ui.DocumentThumbnailFetcher** { *; }
+
+# The video player tells this failure apart by its simple name.
+-keepnames class **UnsupportedFormatException
+
+# --- Libraries kept whole ---------------------------------------------------------------------------
+
+# Servers: SMB (smbj, with the mbassador event bus it dispatches packets through), SFTP (sshj),
+# FTP (Commons Net), WebDAV (Sardine, with its HTTP and XML layers), and the embedded HTTP server.
+-keep class com.hierynomus.** { *; }
+-keep class net.engio.mbassy.** { *; }
+-keep class net.schmizz.** { *; }
+-keep class com.jcraft.jzlib.** { *; }
+-keep class eu.vandertil.** { *; }
+-keep class org.apache.commons.net.** { *; }
+-keep class com.thegrizzlylabs.sardineandroid.** { *; }
+-keep class org.apache.http.** { *; }
+-keep class org.simpleframework.xml.** { *; }
+-keep class fi.iki.elonen.** { *; }
+-keep class org.nanohttpd.** { *; }
+-keep class okhttp3.** { *; }
+-keep class okio.** { *; }
+
+# Cloud storage: Dropbox, Google Drive with Google sign-in, and MEGA's native bindings.
+-keep class com.dropbox.core.** { *; }
+-keep class com.google.api.** { *; }
+-keep class com.google.android.gms.auth.** { *; }
+-keep class com.google.android.gms.common.** { *; }
+-keep class nz.mega.sdk.** { *; }
+
+# Encryption providers, loaded by algorithm name.
+-keep class org.bouncycastle.** { *; }
+
+# Archives and documents.
+-keep class net.lingala.zip4j.** { *; }
+-keep class be.stef.rar.** { *; }
+-keep class org.apache.commons.compress.** { *; }
+-keep class org.tukaani.xz.** { *; }
+-keep class com.tom_roush.** { *; }
+
+# JSON.
+-keep class com.google.gson.** { *; }
+
+# Elevated file access: Shizuku.
+-keep class rikka.shizuku.** { *; }
+-keep class moe.shizuku.api.ShizukuApiConstants { *; }
+
+# The media session is reached by the system and by other apps' controllers through its service.
+-keep class androidx.media3.session.** { *; }
+
+# Coil's video frame decoder is registered by class.
+-keep class coil.decode.VideoFrameDecoder** { *; }
+
+# --- Classes a library finds by their type or their annotations ---------------------------------------
+
+# Gson: anonymous TypeToken subclasses carry the type they stand for, and annotated fields are named
+# by their annotations.
+-keep class * extends com.google.gson.reflect.TypeToken
+-keepclassmembers class * {
+    @com.google.gson.annotations.SerializedName <fields>;
+    @com.google.gson.annotations.Expose <fields>;
+}
+
+# The Google API client fills fields marked with @Key.
+-keepclassmembers class * { @com.google.api.client.util.Key <fields>; }
+
+# Coil creates fetchers and decoders through their factories.
+-keep class * implements coil.fetch.Fetcher { *; }
+-keep class * implements coil.fetch.Fetcher$Factory { *; }
+-keep class * implements coil.decode.Decoder { *; }
+-keep class * implements coil.decode.Decoder$Factory { *; }
+
+# smbj builds its ciphers, digests and transports through Factory implementations it looks up at
+# connection time.
+-keep class * implements com.hierynomus.protocol.commons.Factory { *; }
+
+# mbassador finds message handlers by annotation and builds its dispatchers through these exact
+# constructors. Without them a release build fails the moment an SMB connection opens.
+-keep class * implements net.engio.mbassy.dispatch.IHandlerInvocation { *; }
+-keep class * extends net.engio.mbassy.dispatch.HandlerInvocation { *; }
+-keep class * implements net.engio.mbassy.listener.IMessageFilter { *; }
+-keepclassmembers class * { @net.engio.mbassy.listener.Handler <methods>; }
+-keepclassmembers class * {
+    public <init>(net.engio.mbassy.bus.config.IBusConfiguration);
+    public <init>(net.engio.mbassy.bus.common.PubSubSupport, net.engio.mbassy.listener.MessageListener, net.engio.mbassy.subscription.SubscriptionContext);
+    public <init>(net.engio.mbassy.subscription.SubscriptionContext);
+    public <init>(net.engio.mbassy.subscription.SubscriptionContext, net.engio.mbassy.dispatch.IHandlerInvocation);
+}
+
+# Shizuku's binder interfaces.
+-keep class moe.shizuku.** implements android.os.IInterface { *; }
+-keep class dev.rikka.shizuku.** implements android.os.IInterface { *; }
+
+# --- Classes the libraries mention that Android doesn't have ------------------------------------------
+
+# Desktop Java and optional integrations these libraries can use elsewhere. None of it is reached on
+# Android, so the missing classes are not errors.
+-dontwarn java.awt.**
+-dontwarn java.beans.**
+-dontwarn java.lang.management.**
+-dontwarn javax.annotation.**
+-dontwarn javax.el.**
+-dontwarn javax.naming.**
+-dontwarn javax.net.**
+-dontwarn javax.swing.**
+-dontwarn javax.xml.**
+-dontwarn net.sf.saxon.**
+-dontwarn org.ietf.jgss.**
+-dontwarn org.osgi.framework.**
+-dontwarn sun.misc.**
+-dontwarn sun.security.**
+
+# Optional codecs and bytecode tools, by the exact classes R8 reported missing.
+-dontwarn com.github.luben.zstd.BufferPool
+-dontwarn com.github.luben.zstd.ZstdInputStream
+-dontwarn com.github.luben.zstd.ZstdOutputStream
+-dontwarn org.brotli.dec.BrotliInputStream
+-dontwarn org.objectweb.asm.AnnotationVisitor
+-dontwarn org.objectweb.asm.Attribute
+-dontwarn org.objectweb.asm.ClassReader
+-dontwarn org.objectweb.asm.ClassVisitor
+-dontwarn org.objectweb.asm.FieldVisitor
+-dontwarn org.objectweb.asm.Label
+-dontwarn org.objectweb.asm.MethodVisitor
+-dontwarn org.objectweb.asm.Type
+
+# References inside the libraries themselves to parts that aren't packaged.
+-dontwarn androidx.compose.**
+-dontwarn androidx.media3.**
+-dontwarn androidx.security.crypto.**
+-dontwarn be.stef.rar.**
+-dontwarn coil.**
+-dontwarn com.dropbox.core.**
+-dontwarn com.google.api.client.**
+-dontwarn com.google.api.services.drive.**
+-dontwarn com.google.gson.**
+-dontwarn com.hierynomus.**
+-dontwarn com.thegrizzlylabs.sardineandroid.**
+-dontwarn com.tom_roush.pdfbox.**
+-dontwarn dev.rikka.shizuku.**
+-dontwarn fi.iki.elonen.**
+-dontwarn kotlinx.coroutines.**
+-dontwarn moe.shizuku.**
+-dontwarn net.engio.mbassy.**
+-dontwarn net.lingala.zip4j.**
+-dontwarn net.schmizz.sshj.**
+-dontwarn nz.mega.sdk.**
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-dontwarn org.apache.commons.net.**
+-dontwarn org.apache.http.**
+-dontwarn org.bouncycastle.**

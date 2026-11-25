@@ -1,0 +1,386 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Smart Features need Android 11. Below that they stay hidden and nothing calls into their library. -->
+    <uses-sdk tools:overrideLibrary="com.subhashh.lumen.ai" />
+
+    <!-- Files: everything on the phone's storage, on every Android version the app runs on. -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Without it, Android blanks out where each photo was taken, which Places and a photo's details show. -->
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <!-- Apps: the App Manager lists them, and APK files can be installed and apps removed from it. -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!-- The system's uninstall dialog ignores apps that target 28 or later without this. -->
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+    <!-- Servers, cloud storage and sending between devices on the same network. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" android:usesPermissionFlags="neverForLocation" />
+    <!-- Only for starting or joining a local hotspot on Android 12L and older, where the system ties Wi-Fi to location. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Scanning a pairing code is the only use, and everything has another way in. A phone or tablet with no camera can still install. -->
+    <uses-feature android:name="android.hardware.camera.any" android:required="false" />
+
+    <!-- Work that carries on after the app is left: transfers, long file jobs and music. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <!-- Keeps long copies, moves, deletes and archives alive once the person leaves the app. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- The equalizer, and vibration on touch. -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Elevated file access through Shizuku, for people who have it installed. -->
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <application
+        android:name=".KobbloApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:hasFragileUserData="true"
+        android:enableOnBackInvokedCallback="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Kobblo"
+        android:localeConfig="@xml/locales_config">
+
+        <!-- Lets AppCompat remember the language chosen in the app on Android versions before 13. -->
+        <meta-data
+            android:name="autoStoreLocales"
+            android:value="true" />
+
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+
+        <!-- The app -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/launcher_name"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:launchMode="singleTop"
+            android:supportsPictureInPicture="true"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true">
+
+            <!-- Files shared into Kobblo from another app: one, or several at once. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+
+            <!-- Opening a file from another app. One filter per kind, so each shows up under "Open with". -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="application/pdf" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="text/*" />
+            </intent-filter>
+
+            <!-- Photo and video formats that apps often send with no useful MIME type -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.psd" />
+                <data android:pathPattern=".*\\.psb" />
+                <data android:pathPattern=".*\\.tga" />
+                <data android:pathPattern=".*\\.ppm" />
+                <data android:pathPattern=".*\\.pgm" />
+                <data android:pathPattern=".*\\.pbm" />
+                <data android:pathPattern=".*\\.pnm" />
+                <data android:pathPattern=".*\\.heic" />
+                <data android:pathPattern=".*\\.heif" />
+                <data android:pathPattern=".*\\.avif" />
+                <data android:pathPattern=".*\\.apng" />
+                <data android:pathPattern=".*\\.dng" />
+                <data android:pathPattern=".*\\.cr2" />
+                <data android:pathPattern=".*\\.cr3" />
+                <data android:pathPattern=".*\\.nef" />
+                <data android:pathPattern=".*\\.arw" />
+                <data android:pathPattern=".*\\.orf" />
+                <data android:pathPattern=".*\\.rw2" />
+                <data android:pathPattern=".*\\.raf" />
+                <data android:pathPattern=".*\\.srw" />
+                <data android:pathPattern=".*\\.tif" />
+                <data android:pathPattern=".*\\.tiff" />
+                <data android:pathPattern=".*\\.mkv" />
+                <data android:pathPattern=".*\\.flv" />
+                <data android:pathPattern=".*\\.f4v" />
+                <data android:pathPattern=".*\\.ts" />
+                <data android:pathPattern=".*\\.m2ts" />
+                <data android:pathPattern=".*\\.mts" />
+                <data android:pathPattern=".*\\.vob" />
+                <data android:pathPattern=".*\\.wmv" />
+                <data android:pathPattern=".*\\.asf" />
+                <data android:pathPattern=".*\\.rmvb" />
+                <data android:pathPattern=".*\\.ogv" />
+                <data android:pathPattern=".*\\.3g2" />
+            </intent-filter>
+        </activity>
+
+        <!-- Only the first is used. The others stay until LauncherLabel has moved old installs off them. -->
+        <activity-alias
+            android:name=".alias.LauncherAliasDefault"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:label="@string/app_name_preset_default"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".alias.LauncherAliasFiles"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:label="@string/app_name_preset_files"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".alias.LauncherAliasFileManager"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:label="@string/app_name_preset_file_manager"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".gallery.editor.PhotoEditorActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="false" />
+
+        <!-- Handing files to other apps -->
+
+        <!-- Answers other apps asking for a file -->
+        <activity
+            android:name=".tools.picker.FilePickerActivity"
+            android:label="@string/tools_picker_label"
+            android:windowSoftInputMode="adjustResize"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.OPEN_DOCUMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <!-- Specific types only: a catch-all here would also claim requests to pick a contact. -->
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+                <data android:mimeType="vnd.android.cursor.dir/audio" />
+            </intent-filter>
+        </activity>
+
+        <!-- Shows Kobblo's storage inside the system's own file picker. -->
+        <provider
+            android:name=".tools.picker.StorageDocumentsProvider"
+            android:authorities="${applicationId}.documents"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+        <!-- Lends a single file to another app when it's opened or shared from Kobblo. -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:multiprocess="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+        <!-- Sending and receiving -->
+
+        <service
+            android:name=".localsend.NearbyShareService"
+            android:foregroundServiceType="connectedDevice"
+            android:exported="false" />
+
+        <service
+            android:name=".transfer.web.WebShareService"
+            android:foregroundServiceType="connectedDevice"
+            android:exported="false" />
+
+        <receiver
+            android:name=".transfer.send.TransferAnswerReceiver"
+            android:exported="false" />
+
+        <service
+            android:name=".transfer.ReceiveTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_stat_send"
+            android:label="@string/transfer_receive_files"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- File jobs, the PDF reader, video and music -->
+
+        <service
+            android:name=".fileops.FileJobService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+        <!-- Keeps a PDF that crashes the system's native renderer from taking the app with it. -->
+        <service
+            android:name=".viewer.pdf.PdfService"
+            android:process=":pdf"
+            android:exported="false" />
+
+        <service
+            android:name=".viewer.video.VideoAudioService"
+            android:foregroundServiceType="mediaPlayback"
+            android:exported="false" />
+
+        <service
+            android:name=".music.MusicService"
+            android:foregroundServiceType="mediaPlayback"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="androidx.media3.session.MediaSessionService" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".music.MusicTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_stat_music"
+            android:label="@string/music_tile_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- The home screen photo widget, and the Vault's lock -->
+
+        <receiver
+            android:name=".gallery.widget.PhotoWidget"
+            android:exported="false"
+            android:label="@string/gallery_widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/photo_widget_info" />
+        </receiver>
+
+        <!-- Locks the Vault after a while in the background, from an alarm, even with the app asleep. -->
+        <receiver
+            android:name=".vault.VaultLockReceiver"
+            android:exported="false" />
+    </application>
+</manifest>

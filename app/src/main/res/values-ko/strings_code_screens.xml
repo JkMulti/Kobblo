@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">%1$s(으)로 돌아가기</string>
+    <string name="screen_clear_search">검색어 지우기</string>
+    <string name="screen_show_section">%1$s 표시</string>
+    <string name="screen_hide_section">%1$s 숨기기</string>
+    <string name="screen_hide">숨기기</string>
+    <string name="screen_unhide">숨김 해제</string>
+    <string name="screen_paste">붙여넣기</string>
+    <string name="screen_batch_install">일괄 설치</string>
+    <string name="screen_favorite">즐겨찾기</string>
+    <string name="screen_loading_details">상세 정보 불러오는 중…</string>
+    <string name="screen_detail_items">항목</string>
+    <string name="screen_detail_format">형식</string>
+    <string name="screen_detail_resolution">해상도</string>
+    <string name="screen_detail_duration">재생 시간</string>
+    <string name="screen_save_to">%1$s에 저장</string>
+    <string name="screen_pictures">사진</string>
+    <string name="screen_storage">저장소</string>
+    <string name="screen_saving">저장 중</string>
+    <string name="screen_about_description">%1$s은(는) Android용으로 만든 현대적이고 표현력 있는 파일 관리자입니다. 직관적인 파일 탐색, 스마트 분류, 내장 미디어 뷰어, 클라우드 저장소 연동 기능을 제공합니다.</string>
+    <string name="screen_about_links">링크 및 지원</string>
+    <string name="screen_about_website">웹사이트</string>
+    <string name="screen_about_privacy_subtitle">데이터를 보호하는 방법</string>
+    <string name="screen_about_feedback">피드백 및 지원</string>
+    <string name="screen_about_made_with">파키스탄에서 ❤️을 담아 만들었습니다</string>
+    <string name="screen_show_as_icons">아이콘으로 보기</string>
+    <string name="screen_show_as_list">목록으로 보기</string>
+    <string name="screen_view_options">보기 옵션</string>
+    <string name="screen_current_sort">현재 정렬</string>
+    <string name="screen_category_duplicates">중복 파일</string>
+    <string name="screen_category_empty_folders">빈 폴더</string>
+    <string name="screen_empty_images">이미지가 없습니다</string>
+    <string name="screen_empty_videos">동영상이 없습니다</string>
+    <string name="screen_empty_audio">오디오 파일이 없습니다</string>
+    <string name="screen_empty_documents">문서가 없습니다</string>
+    <string name="screen_empty_apps">앱이 없습니다</string>
+    <string name="screen_empty_downloads">다운로드한 파일이 없습니다</string>
+    <string name="screen_empty_archives">압축 파일이 없습니다</string>
+    <string name="screen_empty_large">대용량 파일이 없습니다</string>
+    <string name="screen_empty_duplicates">중복 파일이 없습니다</string>
+    <string name="screen_empty_empty_folders">빈 폴더가 없습니다</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="other">항목 %1$d개 · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="other">항목 %1$d개, %2$s GB 사용 가능</item>
+    </plurals>
+    <string name="screen_connected">연결됨</string>
+    <string name="screen_disconnect_named">%1$s 연결 해제</string>
+    <string name="screen_active">활성</string>
+    <string name="screen_destructive_words">삭제,제거,비우,지우,지워,초기화,연결 해제,로그아웃,폐기,버리</string>
+    <string name="screen_toast_problem_words">수 없,못했,못함,실패,오류,에러,거부</string>
+    <string name="screen_toast_done_words">복사했,복사됨,복사되었,이동했,이동됨,이동되었,저장했,저장됨,저장되었,설치했,설치됨,설치되었,업데이트했,업데이트됨,업데이트되었</string>
+</resources>

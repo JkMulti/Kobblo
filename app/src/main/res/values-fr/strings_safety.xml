@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Suppression</string>
+    <string name="safety_restoring">Restauration</string>
+    <string name="safety_progress_count">%1$s sur %2$s</string>
+    <string name="safety_reason_missing">l\'élément n\'existe plus</string>
+    <string name="safety_reason_no_space">l\'espace de stockage est insuffisant</string>
+    <string name="safety_reason_into_itself">un dossier ne peut pas être placé dans lui-même</string>
+    <string name="safety_reason_denied">l\'application n\'est pas autorisée à le modifier</string>
+    <string name="safety_reason_name_too_long">le nom ou le chemin est trop long</string>
+    <string name="safety_reason_check_failed">la copie ne correspondait pas à l\'original, qui a donc été conservé</string>
+    <string name="safety_reason_not_possible">cette action est impossible pour cet élément</string>
+    <string name="safety_reason_unknown">un problème est survenu</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%1$d sur %2$d n\'a pas été supprimé, car %3$s.</item>
+        <item quantity="many">%1$d sur %2$d n\'ont pas été supprimés, principalement parce que %3$s.</item>
+        <item quantity="other">%1$d sur %2$d n\'ont pas été supprimés, principalement parce que %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%1$d sur %2$d n\'a pas été transféré et reste inchangé, car %3$s.</item>
+        <item quantity="many">%1$d sur %2$d n\'ont pas été transférés et restent inchangés, principalement parce que %3$s.</item>
+        <item quantity="other">%1$d sur %2$d n\'ont pas été transférés et restent inchangés, principalement parce que %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d élément a été renommé, car son nom était déjà pris.</item>
+        <item quantity="many">%1$d d\'éléments ont été renommés, car leurs noms étaient déjà pris.</item>
+        <item quantity="other">%1$d éléments ont été renommés, car leurs noms étaient déjà pris.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">%1$d lien situé dans un dossier n\'a pas pu être copié ici.</item>
+        <item quantity="many">%1$d de liens situés dans un dossier n\'ont pas pu être copiés ici.</item>
+        <item quantity="other">%1$d liens situés dans un dossier n\'ont pas pu être copiés ici.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Arrêté. %1$d élément avait déjà été déplacé, les autres sont restés à leur place.</item>
+        <item quantity="many">Arrêté. %1$d d\'éléments avaient déjà été déplacés, les autres sont restés à leur place.</item>
+        <item quantity="other">Arrêté. %1$d éléments avaient déjà été déplacés, les autres sont restés à leur place.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Arrêté. Rien n\'a été copié.</item>
+        <item quantity="many">Arrêté. Rien n\'a été copié.</item>
+        <item quantity="other">Arrêté. Rien n\'a été copié.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d élément restauré.</item>
+        <item quantity="many">%1$d d\'éléments restaurés.</item>
+        <item quantity="other">%1$d éléments restaurés.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d a été renommé, car son ancien nom est désormais pris.</item>
+        <item quantity="many">%1$d ont été renommés, car leurs anciens noms sont désormais pris.</item>
+        <item quantity="other">%1$d ont été renommés, car leurs anciens noms sont désormais pris.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d a été placé dans Téléchargements, car son emplacement d\'origine est inconnu.</item>
+        <item quantity="many">%1$d ont été placés dans Téléchargements, car leur emplacement d\'origine est inconnu.</item>
+        <item quantity="other">%1$d ont été placés dans Téléchargements, car leur emplacement d\'origine est inconnu.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d est resté dans la corbeille, car %2$s.</item>
+        <item quantity="many">%1$d sont restés dans la corbeille, principalement parce que %2$s.</item>
+        <item quantity="other">%1$d sont restés dans la corbeille, principalement parce que %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">Impossible de supprimer %1$d élément : il est toujours dans la corbeille.</item>
+        <item quantity="many">Impossible de supprimer %1$d d\'éléments : ils sont toujours dans la corbeille.</item>
+        <item quantity="other">Impossible de supprimer %1$d éléments : ils sont toujours dans la corbeille.</item>
+    </plurals>
+    <string name="safety_rename_taken">« %1$s » existe déjà ici. Rien n\'a été renommé.</string>
+    <string name="safety_rename_bad_name">Ce nom ne peut pas être utilisé pour un fichier.</string>
+    <string name="safety_rename_failed">Impossible de renommer cet élément.</string>
+    <string name="safety_create_failed">Impossible de créer « %1$s ». Ce nom est peut-être déjà utilisé.</string>
+    <string name="safety_similar_look_first">Seules les copies exactes sont cochées. Les autres se ressemblent seulement : appuyez sur celles à supprimer, et appuyez de manière prolongée pour les voir d\'abord.</string>
+    <string name="safety_similar_some_failed">Éléments non placés dans la corbeille : %1$d.</string>
+    <string name="safety_job_channel">Opérations sur les fichiers</string>
+    <string name="safety_job_copying_to">Copie vers %1$s</string>
+    <string name="safety_job_moving_to">Déplacement vers %1$s</string>
+    <string name="safety_job_compressing">Création de %1$s</string>
+    <string name="safety_job_extracting">Extraction de %1$s</string>
+    <string name="safety_job_organizing">Organisation des téléchargements</string>
+    <string name="safety_job_finishing">Finalisation</string>
+    <string name="safety_job_stopping">Arrêt en cours</string>
+    <string name="safety_job_cancel_all">Tout annuler</string>
+    <string name="safety_job_waiting">Démarrera une fois l\'opération en cours terminée.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">%1$d autre en attente</item>
+        <item quantity="many">%1$d autres en attente</item>
+        <item quantity="other">%1$d autres en attente</item>
+    </plurals>
+    <string name="safety_job_in_use">Cet élément est en cours de copie ou de déplacement. Réessayez une fois l\'opération terminée.</string>
+    <string name="safety_job_internal_storage">Stockage interne</string>
+    <string name="safety_job_cloud">le cloud</string>
+    <string name="safety_job_nothing_changed">Rien n\'a été modifié.</string>
+    <string name="safety_job_failed_names">Éléments concernés : %1$s.</string>
+    <string name="safety_job_failed_names_more">Éléments concernés : %1$s et %2$d autres.</string>
+    <string name="safety_job_time_limit">Android limite chaque jour la durée de ce type de tâche en arrière-plan. Elle s\'est arrêtée proprement. Ouvrez Kobblo et relancez-la pour terminer.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">%1$d élément copié dans %2$s</item>
+        <item quantity="many">%1$d d\'éléments copiés dans %2$s</item>
+        <item quantity="other">%1$d éléments copiés dans %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">%1$d élément déplacé vers %2$s</item>
+        <item quantity="many">%1$d d\'éléments déplacés vers %2$s</item>
+        <item quantity="other">%1$d éléments déplacés vers %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Copie vers %1$s arrêtée</string>
+    <string name="safety_job_move_stopped">Déplacement vers %1$s arrêté</string>
+    <string name="safety_job_copy_problem">Problème lors de la copie vers %1$s</string>
+    <string name="safety_job_move_problem">Problème lors du déplacement vers %1$s</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">%1$d élément placé dans la corbeille</item>
+        <item quantity="many">%1$d d\'éléments placés dans la corbeille</item>
+        <item quantity="other">%1$d éléments placés dans la corbeille</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">%1$d élément supprimé</item>
+        <item quantity="many">%1$d d\'éléments supprimés</item>
+        <item quantity="other">%1$d éléments supprimés</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Suppression arrêtée</string>
+    <string name="safety_job_delete_problem">Problème lors de la suppression</string>
+    <string name="safety_job_delete_partly">%1$d sur %2$d supprimés. Les autres sont restés à leur place.</string>
+    <string name="safety_job_empty_partly">%1$d sur %2$d supprimés. Les autres sont toujours dans la corbeille.</string>
+    <string name="safety_job_restore_done">Restauration terminée</string>
+    <string name="safety_job_restore_stopped">Restauration arrêtée</string>
+    <string name="safety_job_restore_problem">Problème lors de la restauration</string>
+    <string name="safety_job_restore_partly">%1$d sur %2$d restaurés. Les autres sont toujours dans la corbeille.</string>
+    <string name="safety_job_vault_adding">Ajout au coffre-fort</string>
+    <string name="safety_job_vault_stopped">Ajout au coffre-fort arrêté</string>
+    <string name="safety_job_vault_problem">Impossible d\'ajouter au coffre-fort</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">%1$d élément ajouté au coffre-fort</item>
+        <item quantity="many">%1$d d\'éléments ajoutés au coffre-fort</item>
+        <item quantity="other">%1$d éléments ajoutés au coffre-fort</item>
+    </plurals>
+    <string name="safety_notice_vault">L\'ajout au coffre-fort n\'a pas abouti</string>
+    <string name="safety_notice_vault_waiting">L\'ajout au coffre-fort n\'a pas démarré</string>
+    <string name="safety_notice_vault_detail">Ce qui a été ajouté se trouve dans le coffre-fort. Un élément n\'est retiré de son emplacement qu\'une fois en sécurité dans le coffre-fort : tout le reste est toujours à sa place.</string>
+    <string name="safety_job_organized">Fichiers organisés</string>
+    <string name="safety_job_organize_stopped">Organisation arrêtée</string>
+    <string name="safety_job_organize_problem">Problème lors de l\'organisation</string>
+    <string name="safety_job_compressed">%1$s créé</string>
+    <string name="safety_job_compress_stopped">Création de %1$s arrêtée</string>
+    <string name="safety_job_compress_problem">Impossible de créer %1$s</string>
+    <string name="safety_job_no_archive">Aucune archive n\'a été créée, et vos fichiers n\'ont pas été modifiés.</string>
+    <string name="safety_job_extracted">%1$s extrait</string>
+    <string name="safety_job_extract_stopped">Extraction de %1$s arrêtée</string>
+    <string name="safety_job_extract_stopped_detail">Ce qui avait été décompressé a été supprimé. L\'archive n\'a pas été modifiée.</string>
+    <string name="safety_job_extract_problem">Impossible d\'extraire %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s nécessite un mot de passe</string>
+    <string name="safety_job_extract_prepare_failed">Impossible de préparer l\'extraction de cette archive.</string>
+    <string name="safety_notice_open_folder">Ouvrir le dossier</string>
+    <string name="safety_notice_closed">Kobblo a été fermé avant la fin de l\'opération.</string>
+    <string name="safety_notice_never_started">Kobblo a été fermé pendant que l\'opération attendait son tour. Rien n\'a été modifié.</string>
+    <string name="safety_notice_originals_safe">Vos originaux n\'ont pas été modifiés.</string>
+    <string name="safety_notice_copy_removed">L\'élément inachevé a été supprimé.</string>
+    <string name="safety_notice_original_left">« %1$s » est arrivé en entier, mais tout ou partie de l\'original se trouve encore dans %2$s. Vous pouvez supprimer ce qui reste.</string>
+    <string name="safety_notice_partial_kept">Un élément inachevé se trouve encore dans %1$s.</string>
+    <string name="safety_notice_copy">La copie vers %1$s n\'a pas abouti</string>
+    <string name="safety_notice_copy_waiting">La copie vers %1$s n\'a pas démarré</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">%1$d élément sur %2$d est arrivé en entier.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d sont arrivés en entier.</item>
+        <item quantity="other">%1$d éléments sur %2$d sont arrivés en entier.</item>
+    </plurals>
+    <string name="safety_notice_move">Le déplacement vers %1$s n\'a pas abouti</string>
+    <string name="safety_notice_move_waiting">Le déplacement vers %1$s n\'a pas démarré</string>
+    <string name="safety_notice_move_none">L\'élément est resté à sa place.</string>
+    <string name="safety_notice_organize">L\'organisation des téléchargements n\'a pas abouti</string>
+    <string name="safety_notice_organize_waiting">L\'organisation des téléchargements n\'a pas démarré</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">%1$d élément sur %2$d a été déplacé. S\'il ne l\'a pas été, il est resté à sa place.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d ont été déplacés. Les autres sont restés à leur place.</item>
+        <item quantity="other">%1$d éléments sur %2$d ont été déplacés. Les autres sont restés à leur place.</item>
+    </plurals>
+    <string name="safety_notice_delete">La suppression n\'a pas abouti</string>
+    <string name="safety_notice_delete_waiting">La suppression n\'a pas démarré</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">%1$d élément sur %2$d a été placé dans la corbeille. S\'il ne l\'a pas été, il est resté à sa place.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d ont été placés dans la corbeille. Les autres sont restés à leur place.</item>
+        <item quantity="other">%1$d éléments sur %2$d ont été placés dans la corbeille. Les autres sont restés à leur place.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">%1$d élément sur %2$d a été supprimé. S\'il ne l\'a pas été, il est resté à sa place.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d ont été supprimés. Les autres sont restés à leur place.</item>
+        <item quantity="other">%1$d éléments sur %2$d ont été supprimés. Les autres sont restés à leur place.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">%1$d élément sur %2$d a été supprimé. S\'il ne l\'a pas été, il est toujours dans la corbeille.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d ont été supprimés. Les autres sont toujours dans la corbeille.</item>
+        <item quantity="other">%1$d éléments sur %2$d ont été supprimés. Les autres sont toujours dans la corbeille.</item>
+    </plurals>
+    <string name="safety_notice_restore">La restauration n\'a pas abouti</string>
+    <string name="safety_notice_restore_waiting">La restauration n\'a pas démarré</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">%1$d élément sur %2$d a été restauré. S\'il ne l\'a pas été, il est toujours dans la corbeille.</item>
+        <item quantity="many">%1$d d\'éléments sur %2$d ont été restaurés. Les autres sont toujours dans la corbeille.</item>
+        <item quantity="other">%1$d éléments sur %2$d ont été restaurés. Les autres sont toujours dans la corbeille.</item>
+    </plurals>
+    <string name="safety_notice_compress">La création de %1$s n\'a pas abouti</string>
+    <string name="safety_notice_compress_waiting">La création de %1$s n\'a pas démarré</string>
+    <string name="safety_notice_compress_detail">Aucune archive n\'a été créée, et vos fichiers n\'ont pas été modifiés.</string>
+    <string name="safety_notice_archive_made">L\'archive a été terminée juste avant la fermeture d\'Kobblo, et elle est complète.</string>
+    <string name="safety_notice_extract">L\'extraction de %1$s n\'a pas abouti</string>
+    <string name="safety_notice_extract_waiting">L\'extraction de %1$s n\'a pas démarré</string>
+    <string name="safety_notice_extract_detail">Ce qui avait été décompressé a été supprimé. L\'archive n\'a pas été modifiée.</string>
+    <string name="safety_lock_what_it_is">L\'élément sera masqué dans Kobblo, mais les autres applications pourront toujours le lire. Le coffre-fort, lui, cache aussi les fichiers aux autres applications.</string>
+    <string name="safety_lock_confirm_title">Mot de passe requis</string>
+    <string name="safety_lock_done">Verrouillé. L\'élément est masqué dans Kobblo, mais les autres applications peuvent toujours le lire.</string>
+    <string name="safety_lock_in_folder">Cet élément se trouve dans un dossier verrouillé. Déverrouillez le dossier pour le déverrouiller.</string>
+    <string name="safety_lock_delete_elsewhere">Cet élément est verrouillé. Supprimez-le depuis son dossier, où vous pourrez saisir le mot de passe.</string>
+    <string name="safety_lock_no_app">Aucune autre application ne peut ouvrir ce fichier : il a donc été ouvert ici.</string>
+</resources>

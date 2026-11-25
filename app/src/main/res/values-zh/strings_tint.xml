@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">强调色</string>
+    <string name="tint_blue">蓝色</string>
+    <string name="tint_indigo">靛蓝</string>
+    <string name="tint_purple">紫色</string>
+    <string name="tint_pink">粉色</string>
+    <string name="tint_orange">橙色</string>
+    <string name="tint_green">绿色</string>
+    <string name="tint_teal">青色</string>
+</resources>

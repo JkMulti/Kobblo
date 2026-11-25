@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_pin">PIN</string>
+    <string name="lock_pattern">パターン</string>
+    <string name="lock_password">パスワード</string>
+    <string name="lock_pin_hint">4〜12桁の数字</string>
+    <string name="lock_pattern_hint">4つ以上の点をつなぐ</string>
+    <string name="lock_password_hint">4文字以上</string>
+    <string name="lock_choose">ロック方法を選択</string>
+    <string name="lock_choose_new">新しいロック方法を選択</string>
+    <string name="lock_choose_body">Kobblo専用のロックで、端末の画面ロックとは別のものです。</string>
+    <string name="lock_create_pin">PINを作成</string>
+    <string name="lock_create_pattern">パターンを作成</string>
+    <string name="lock_create_password">パスワードを作成</string>
+    <string name="lock_confirm_pin">PINを確認</string>
+    <string name="lock_confirm_pattern">パターンを確認</string>
+    <string name="lock_confirm_password">パスワードを確認</string>
+    <string name="lock_enter_again">もう一度入力してください</string>
+    <string name="lock_draw_again">もう一度描いてください</string>
+    <string name="lock_mismatch">一致しません。もう一度お試しください。</string>
+    <string name="lock_save_failed">ロックを保存できませんでした。もう一度お試しください。</string>
+    <string name="lock_pin_rule">4〜12桁の数字を使用してください</string>
+    <string name="lock_pattern_rule">4つ以上の点をつなげてください</string>
+    <string name="lock_password_rule">4文字以上にしてください</string>
+    <string name="lock_retired_default">0000 は以前の初期設定です。別のものを選んでください。</string>
+    <string name="lock_enter_pin">PINを入力</string>
+    <string name="lock_draw_pattern">パターンを入力</string>
+    <string name="lock_enter_password">パスワードを入力</string>
+    <string name="lock_is_locked">%1$s はロックされています</string>
+    <string name="lock_enter_current">まず現在のロックを入力してください</string>
+    <string name="lock_confirm_you">本人確認</string>
+    <string name="lock_wrong_pin">PINが正しくありません</string>
+    <string name="lock_wrong_pattern">パターンが正しくありません</string>
+    <string name="lock_wrong_password">パスワードが正しくありません</string>
+    <plurals name="lock_too_many_seconds_count">
+        <item quantity="other">試行回数が多すぎます。%1$d 秒後にもう一度お試しください。</item>
+    </plurals>
+    <plurals name="lock_too_many_minutes_count">
+        <item quantity="other">試行回数が多すぎます。%1$d 分後にもう一度お試しください。</item>
+    </plurals>
+    <string name="lock_unlock">ロック解除</string>
+    <string name="lock_unlock_named">%1$s のロックを解除</string>
+    <string name="lock_next">次へ</string>
+    <string name="lock_delete">削除</string>
+    <string name="lock_not_now">後で</string>
+    <string name="lock_use_type">%1$s を使用</string>
+    <string name="lock_use_fingerprint">指紋認証を使用</string>
+    <string name="lock_biometrics_title">指紋認証も使用しますか？</string>
+    <string name="lock_biometrics_body">ロックの代わりに、指紋や顔でKobbloを開けるようになります。</string>
+    <string name="lock_fingerprint_gate_title">指紋で確認</string>
+    <string name="lock_fingerprint_gate_body">ロックした項目は指紋で開けます。ロック方法を選ぶには、指紋で確認してください。</string>
+    <string name="lock_forgot_pin">PINをお忘れですか？</string>
+    <string name="lock_forgot_pattern">パターンをお忘れですか？</string>
+    <string name="lock_forgot_password">パスワードをお忘れですか？</string>
+    <string name="lock_reset_title">Kobbloのロックをリセット</string>
+    <string name="lock_reset_subtitle">端末の画面ロックで本人確認できます</string>
+    <string name="lock_reset_none">この端末に画面ロックが設定されていないため、忘れたロックはリセットできません。</string>
+    <string name="lock_reason_lock">項目をロック</string>
+    <string name="lock_reason_unlock">項目のロックを解除</string>
+    <string name="lock_reason_open">ロックを解除して開く</string>
+    <string name="settings_privacy">プライバシーとセキュリティ</string>
+    <string name="settings_lock_set_up">Kobbloのロックを設定</string>
+    <string name="settings_lock_change">Kobbloのロックを変更</string>
+    <string name="settings_lock_footer">Kobbloのロックは、ロックした項目とアプリロックを保護します。保管庫には専用のパスワードがあり、画面がオフになるたびにロックされます。</string>
+    <string name="settings_biometrics_desc">ロックの代わりに指紋や顔を使用</string>
+    <string name="settings_app_lock">アプリロック</string>
+    <string name="settings_app_lock_desc">Kobbloを開くときにロックを要求</string>
+    <string name="settings_lock_after">ロックまでの時間</string>
+    <string name="settings_lock_immediately">すぐに</string>
+    <plurals name="settings_lock_minutes">
+        <item quantity="other">%d 分</item>
+    </plurals>
+    <string name="settings_allow_screenshots">スクリーンショットを許可</string>
+    <string name="settings_vault_lock_after">保管庫をロックするまでの時間</string>
+    <string name="settings_vault_lock_after_desc">離れてから再びロック解除を求めるまでの時間</string>
+    <string name="settings_allow_screenshots_desc">保管庫とロックした項目が対象です。オフにすると、最近使ったアプリの画面にも表示されなくなります。</string>
+</resources>

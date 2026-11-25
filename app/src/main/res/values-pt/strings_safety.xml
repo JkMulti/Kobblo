@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">Excluindo</string>
+    <string name="safety_restoring">Restaurando</string>
+    <string name="safety_progress_count">%1$s de %2$s</string>
+    <string name="safety_reason_missing">o item não está mais lá</string>
+    <string name="safety_reason_no_space">não há espaço de armazenamento suficiente</string>
+    <string name="safety_reason_into_itself">uma pasta não pode ficar dentro dela mesma</string>
+    <string name="safety_reason_denied">o app não tem permissão para alterar o item</string>
+    <string name="safety_reason_name_too_long">o nome ou o caminho é longo demais</string>
+    <string name="safety_reason_check_failed">a cópia não correspondeu ao original, então o original foi mantido</string>
+    <string name="safety_reason_not_possible">isso não pode ser feito com este item</string>
+    <string name="safety_reason_unknown">algo deu errado</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="one">%1$d de %2$d não foi excluído porque %3$s.</item>
+        <item quantity="many">%1$d de %2$d não foram excluídos, principalmente porque %3$s.</item>
+        <item quantity="other">%1$d de %2$d não foram excluídos, principalmente porque %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="one">%1$d de %2$d não foi transferido e continua igual, porque %3$s.</item>
+        <item quantity="many">%1$d de %2$d não foram transferidos e continuam iguais, principalmente porque %3$s.</item>
+        <item quantity="other">%1$d de %2$d não foram transferidos e continuam iguais, principalmente porque %3$s.</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="one">%1$d item recebeu um novo nome porque o nome já estava em uso.</item>
+        <item quantity="many">%1$d de itens receberam novos nomes porque os nomes já estavam em uso.</item>
+        <item quantity="other">%1$d itens receberam novos nomes porque os nomes já estavam em uso.</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="one">%1$d link dentro de uma pasta não pôde ser copiado para cá.</item>
+        <item quantity="many">%1$d de links dentro de uma pasta não puderam ser copiados para cá.</item>
+        <item quantity="other">%1$d links dentro de uma pasta não puderam ser copiados para cá.</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="one">Interrompido. %1$d item já tinha sido movido, e o restante está onde estava.</item>
+        <item quantity="many">Interrompido. %1$d de itens já tinham sido movidos, e o restante está onde estava.</item>
+        <item quantity="other">Interrompido. %1$d itens já tinham sido movidos, e o restante está onde estava.</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="one">Interrompido. Nada foi copiado.</item>
+        <item quantity="many">Interrompido. Nada foi copiado.</item>
+        <item quantity="other">Interrompido. Nada foi copiado.</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="one">%1$d item restaurado.</item>
+        <item quantity="many">%1$d de itens restaurados.</item>
+        <item quantity="other">%1$d itens restaurados.</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="one">%1$d recebeu um novo nome, porque outro item agora ocupa o nome antigo.</item>
+        <item quantity="many">%1$d receberam novos nomes, porque outros itens agora ocupam os nomes antigos.</item>
+        <item quantity="other">%1$d receberam novos nomes, porque outros itens agora ocupam os nomes antigos.</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="one">%1$d foi para Downloads, porque não se sabe de onde veio.</item>
+        <item quantity="many">%1$d foram para Downloads, porque não se sabe de onde vieram.</item>
+        <item quantity="other">%1$d foram para Downloads, porque não se sabe de onde vieram.</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="one">%1$d ficou em Excluídos recentemente porque %2$s.</item>
+        <item quantity="many">%1$d ficaram em Excluídos recentemente, principalmente porque %2$s.</item>
+        <item quantity="other">%1$d ficaram em Excluídos recentemente, principalmente porque %2$s.</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="one">Não foi possível excluir %1$d item, e ele continua em Excluídos recentemente.</item>
+        <item quantity="many">Não foi possível excluir %1$d de itens, e eles continuam em Excluídos recentemente.</item>
+        <item quantity="other">Não foi possível excluir %1$d itens, e eles continuam em Excluídos recentemente.</item>
+    </plurals>
+    <string name="safety_rename_taken">“%1$s” já existe aqui, então nada foi renomeado.</string>
+    <string name="safety_rename_bad_name">Esse nome não pode ser usado para um arquivo.</string>
+    <string name="safety_rename_failed">Não foi possível renomear.</string>
+    <string name="safety_create_failed">Não foi possível criar “%1$s”. O nome pode já estar em uso.</string>
+    <string name="safety_similar_look_first">Só as cópias exatas estão marcadas. As outras apenas se parecem, então toque nas que quer remover e toque e segure para ver antes.</string>
+    <string name="safety_similar_some_failed">Não foi possível mover %1$d para Excluídos recentemente.</string>
+    <string name="safety_job_channel">Operações com arquivos</string>
+    <string name="safety_job_copying_to">Copiando para %1$s</string>
+    <string name="safety_job_moving_to">Movendo para %1$s</string>
+    <string name="safety_job_compressing">Criando %1$s</string>
+    <string name="safety_job_extracting">Extraindo %1$s</string>
+    <string name="safety_job_organizing">Organizando downloads</string>
+    <string name="safety_job_finishing">Finalizando</string>
+    <string name="safety_job_stopping">Interrompendo</string>
+    <string name="safety_job_cancel_all">Cancelar tudo</string>
+    <string name="safety_job_waiting">Isto começará quando a operação atual terminar.</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="one">Mais %1$d aguardando</item>
+        <item quantity="many">Mais %1$d aguardando</item>
+        <item quantity="other">Mais %1$d aguardando</item>
+    </plurals>
+    <string name="safety_job_in_use">Isso está sendo usado por uma cópia ou movimentação agora. Tente de novo quando terminar.</string>
+    <string name="safety_job_internal_storage">Armazenamento interno</string>
+    <string name="safety_job_cloud">a nuvem</string>
+    <string name="safety_job_nothing_changed">Nada foi alterado.</string>
+    <string name="safety_job_failed_names">Afetados: %1$s.</string>
+    <string name="safety_job_failed_names_more">Afetados: %1$s e mais %2$d.</string>
+    <string name="safety_job_time_limit">O Android limita por quanto tempo esse tipo de tarefa pode ser executado em segundo plano a cada dia. A tarefa foi interrompida com segurança. Abra o Kobblo e inicie de novo para concluir.</string>
+    <plurals name="safety_job_copied">
+        <item quantity="one">%1$d item copiado para %2$s</item>
+        <item quantity="many">%1$d de itens copiados para %2$s</item>
+        <item quantity="other">%1$d itens copiados para %2$s</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="one">%1$d item movido para %2$s</item>
+        <item quantity="many">%1$d de itens movidos para %2$s</item>
+        <item quantity="other">%1$d itens movidos para %2$s</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">Cópia para %1$s interrompida</string>
+    <string name="safety_job_move_stopped">Movimentação para %1$s interrompida</string>
+    <string name="safety_job_copy_problem">A cópia para %1$s teve um problema</string>
+    <string name="safety_job_move_problem">A movimentação para %1$s teve um problema</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="one">%1$d item movido para Excluídos recentemente</item>
+        <item quantity="many">%1$d de itens movidos para Excluídos recentemente</item>
+        <item quantity="other">%1$d itens movidos para Excluídos recentemente</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="one">%1$d item excluído</item>
+        <item quantity="many">%1$d de itens excluídos</item>
+        <item quantity="other">%1$d itens excluídos</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">Exclusão interrompida</string>
+    <string name="safety_job_delete_problem">A exclusão teve um problema</string>
+    <string name="safety_job_delete_partly">%1$d de %2$d foram removidos. O restante está onde estava.</string>
+    <string name="safety_job_empty_partly">%1$d de %2$d excluídos. O restante continua em Excluídos recentemente.</string>
+    <string name="safety_job_restore_done">Restaurado</string>
+    <string name="safety_job_restore_stopped">Restauração interrompida</string>
+    <string name="safety_job_restore_problem">A restauração teve um problema</string>
+    <string name="safety_job_restore_partly">%1$d de %2$d restaurados. O restante continua em Excluídos recentemente.</string>
+    <string name="safety_job_vault_adding">Adicionando ao Cofre</string>
+    <string name="safety_job_vault_stopped">Adição ao Cofre interrompida</string>
+    <string name="safety_job_vault_problem">Não foi possível adicionar ao Cofre</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="one">%1$d item adicionado ao Cofre</item>
+        <item quantity="many">%1$d de itens adicionados ao Cofre</item>
+        <item quantity="other">%1$d itens adicionados ao Cofre</item>
+    </plurals>
+    <string name="safety_notice_vault">A adição ao Cofre não foi concluída</string>
+    <string name="safety_notice_vault_waiting">A adição ao Cofre não começou</string>
+    <string name="safety_notice_vault_detail">O que foi adicionado está no Cofre. Um item só é removido do local original depois de estar seguro no Cofre, então todo o resto continua lá.</string>
+    <string name="safety_job_organized">Arquivos organizados</string>
+    <string name="safety_job_organize_stopped">Organização interrompida</string>
+    <string name="safety_job_organize_problem">A organização teve um problema</string>
+    <string name="safety_job_compressed">%1$s criado</string>
+    <string name="safety_job_compress_stopped">Criação de %1$s interrompida</string>
+    <string name="safety_job_compress_problem">Não foi possível criar %1$s</string>
+    <string name="safety_job_no_archive">Nenhum arquivo compactado foi criado, e seus arquivos não foram alterados.</string>
+    <string name="safety_job_extracted">%1$s extraído</string>
+    <string name="safety_job_extract_stopped">Extração de %1$s interrompida</string>
+    <string name="safety_job_extract_stopped_detail">O que já tinha sido descompactado foi removido. O arquivo compactado não foi alterado.</string>
+    <string name="safety_job_extract_problem">Não foi possível extrair %1$s</string>
+    <string name="safety_job_extract_needs_password">%1$s precisa de senha</string>
+    <string name="safety_job_extract_prepare_failed">Não foi possível preparar este arquivo compactado para extração.</string>
+    <string name="safety_notice_open_folder">Abrir pasta</string>
+    <string name="safety_notice_closed">O Kobblo foi fechado antes de isto terminar.</string>
+    <string name="safety_notice_never_started">O Kobblo foi fechado enquanto isto aguardava a vez. Nada foi alterado.</string>
+    <string name="safety_notice_originals_safe">Seus originais não foram alterados.</string>
+    <string name="safety_notice_copy_removed">O item incompleto foi removido.</string>
+    <string name="safety_notice_original_left">“%1$s” chegou inteiro, mas parte ou todo o original ainda está em %2$s. Você pode excluir o que sobrou.</string>
+    <string name="safety_notice_partial_kept">Algo incompleto ainda está em %1$s.</string>
+    <string name="safety_notice_copy">A cópia para %1$s não foi concluída</string>
+    <string name="safety_notice_copy_waiting">A cópia para %1$s não começou</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="one">%1$d de %2$d chegou inteiro.</item>
+        <item quantity="many">%1$d de %2$d chegaram inteiros.</item>
+        <item quantity="other">%1$d de %2$d chegaram inteiros.</item>
+    </plurals>
+    <string name="safety_notice_move">A movimentação para %1$s não foi concluída</string>
+    <string name="safety_notice_move_waiting">A movimentação para %1$s não começou</string>
+    <string name="safety_notice_move_none">Tudo continua onde estava.</string>
+    <string name="safety_notice_organize">A organização dos downloads não foi concluída</string>
+    <string name="safety_notice_organize_waiting">A organização dos downloads não começou</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="one">%1$d de %2$d foi movido. Se não foi, está onde estava.</item>
+        <item quantity="many">%1$d de %2$d foram movidos. O restante está onde estava.</item>
+        <item quantity="other">%1$d de %2$d foram movidos. O restante está onde estava.</item>
+    </plurals>
+    <string name="safety_notice_delete">A exclusão não foi concluída</string>
+    <string name="safety_notice_delete_waiting">A exclusão não começou</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="one">%1$d de %2$d foi para Excluídos recentemente. Se não foi, está onde estava.</item>
+        <item quantity="many">%1$d de %2$d foram para Excluídos recentemente. O restante está onde estava.</item>
+        <item quantity="other">%1$d de %2$d foram para Excluídos recentemente. O restante está onde estava.</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="one">%1$d de %2$d foi excluído. Se não foi, está onde estava.</item>
+        <item quantity="many">%1$d de %2$d foram excluídos. O restante está onde estava.</item>
+        <item quantity="other">%1$d de %2$d foram excluídos. O restante está onde estava.</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="one">%1$d de %2$d foi excluído. Se não foi, continua em Excluídos recentemente.</item>
+        <item quantity="many">%1$d de %2$d foram excluídos. O restante continua em Excluídos recentemente.</item>
+        <item quantity="other">%1$d de %2$d foram excluídos. O restante continua em Excluídos recentemente.</item>
+    </plurals>
+    <string name="safety_notice_restore">A restauração não foi concluída</string>
+    <string name="safety_notice_restore_waiting">A restauração não começou</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="one">%1$d de %2$d foi restaurado. Se não foi, continua em Excluídos recentemente.</item>
+        <item quantity="many">%1$d de %2$d foram restaurados. O restante continua em Excluídos recentemente.</item>
+        <item quantity="other">%1$d de %2$d foram restaurados. O restante continua em Excluídos recentemente.</item>
+    </plurals>
+    <string name="safety_notice_compress">A criação de %1$s não foi concluída</string>
+    <string name="safety_notice_compress_waiting">A criação de %1$s não começou</string>
+    <string name="safety_notice_compress_detail">Nenhum arquivo compactado foi criado, e seus arquivos não foram alterados.</string>
+    <string name="safety_notice_archive_made">O arquivo compactado foi concluído pouco antes de o Kobblo ser fechado e está inteiro.</string>
+    <string name="safety_notice_extract">A extração de %1$s não foi concluída</string>
+    <string name="safety_notice_extract_waiting">A extração de %1$s não começou</string>
+    <string name="safety_notice_extract_detail">O que já tinha sido descompactado foi removido. O arquivo compactado não foi alterado.</string>
+    <string name="safety_lock_what_it_is">Isto oculta o item no Kobblo, mas outros apps ainda podem lê-lo. O Cofre também protege os arquivos contra outros apps.</string>
+    <string name="safety_lock_confirm_title">Senha necessária</string>
+    <string name="safety_lock_done">Bloqueado. O item está oculto no Kobblo, mas outros apps ainda podem lê-lo.</string>
+    <string name="safety_lock_in_folder">Este item está dentro de uma pasta bloqueada. Desbloqueie a pasta para desbloqueá-lo.</string>
+    <string name="safety_lock_delete_elsewhere">Este item está bloqueado. Exclua-o pela pasta dele, onde você pode digitar a senha.</string>
+    <string name="safety_lock_no_app">Nenhum outro app consegue abrir isto, então foi aberto aqui.</string>
+</resources>

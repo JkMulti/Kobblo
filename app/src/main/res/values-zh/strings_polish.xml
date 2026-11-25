@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_required">必填</string>
+    <string name="polish_optional">可选</string>
+    <string name="polish_field_name">名称</string>
+    <string name="polish_field_domain">域</string>
+    <string name="polish_field_server">服务器</string>
+    <string name="polish_one_saved">1 个已保存的连接</string>
+    <string name="polish_many_saved">%1$d 个已保存的连接</string>
+    <string name="polish_delete_connection">删除“%1$s”？</string>
+    <string name="polish_delete_connection_note">已保存的密码也会一并删除，服务器上的文件不受影响。</string>
+    <string name="polish_smb_subtitle">Windows 共享或 NAS</string>
+    <string name="polish_smb_missing">请输入主机、共享名称和用户名。</string>
+    <string name="polish_server_missing">请输入主机和用户名。</string>
+    <string name="polish_all_required">请填写所有字段以进行连接。</string>
+    <string name="polish_ftp_subtitle">局域网或互联网上的服务器</string>
+    <string name="polish_sftp_subtitle">通过 SSH 访问的服务器</string>
+    <string name="polish_webdav_title">WebDAV 连接</string>
+    <string name="polish_webdav_add">添加 WebDAV 连接</string>
+    <string name="polish_webdav_subtitle">WebDAV 服务器</string>
+    <string name="polish_allow_self_signed">允许自签名证书</string>
+    <string name="polish_nextcloud_title">Nextcloud 连接</string>
+    <string name="polish_nextcloud_add">添加 Nextcloud</string>
+    <string name="polish_nextcloud_subtitle">您自己的 Nextcloud 服务器</string>
+    <string name="polish_nextcloud_tip">如果您的账户启用了两步验证，请使用应用密码。可在 Nextcloud 的“设置 &gt; 安全 &gt; 设备与会话”中创建。</string>
+    <string name="polish_log_in_to">登录 %1$s</string>
+    <string name="polish_compressing">正在压缩</string>
+    <string name="polish_archive_created">压缩包已创建</string>
+    <string name="polish_choose_from_other_app">从其他应用中选择</string>
+    <string name="polish_cant_open_app_package">无法打开此应用安装包。</string>
+    <string name="polish_google_login_failed">无法登录 Google Drive，请重试。</string>
+    <string name="polish_unlocked">已解锁</string>
+    <string name="polish_files_not_saved">无法保存文件。</string>
+    <string name="polish_organize_failed">无法整理您的下载文件。</string>
+    <string name="polish_extract_failed">压缩包可能已损坏，或存储空间不足。</string>
+    <string name="polish_extract_failed_names">无法解压 %1$s。</string>
+    <string name="polish_archive_unreadable">无法读取此压缩包，它可能已损坏。</string>
+    <string name="polish_current_sort">当前排序</string>
+    <string name="polish_sheet_handle">拖动手柄</string>
+</resources>

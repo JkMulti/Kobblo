@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">保险箱</string>
+    <string name="settings_general">通用</string>
+    <string name="settings_keep_for">保留时长</string>
+    <plurals name="settings_keep_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="settings_trash_footer_on">已删除的文件会在回收站中保留这么长时间，之后将被永久删除。</string>
+    <string name="settings_trash_footer_off">已删除的文件会被立即永久删除，无法恢复。</string>
+    <string name="settings_about_app">关于 Kobblo</string>
+    <string name="settings_version">版本 %1$s</string>
+</resources>

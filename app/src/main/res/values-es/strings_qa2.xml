@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organize_pill_subtitle">Se ordenarán en carpetas</string>
+    <string name="organize_pill_action">Organizar</string>
+    <string name="extract_pill_running">Extrayendo</string>
+    <string name="extract_pill_done">Extraído</string>
+    <string name="extract_pill_done_detail">Todos los archivos extraídos</string>
+    <string name="op_resume">Reanudar</string>
+    <string name="archive_kind">Archivo comprimido</string>
+    <string name="archive_kind_rar">Archivo RAR</string>
+    <string name="archive_extract_here">Extraer aquí</string>
+    <string name="archive_extract_here_subtitle">Extraer los archivos en la carpeta actual</string>
+    <string name="archive_extract_here_downloads">Extraer los archivos en Download</string>
+    <string name="archive_extract_to">Extraer en…</string>
+    <string name="archive_extract_to_subtitle">Elige una carpeta</string>
+    <string name="archive_view_contents">Ver contenido</string>
+    <string name="archive_view_contents_subtitle">Ver los archivos que contiene</string>
+    <string name="archive_delete">Eliminar archivo comprimido</string>
+    <string name="archive_create_title">Crear archivo comprimido</string>
+    <string name="archive_create_name">Nombre del archivo</string>
+    <string name="archive_create_lock">Proteger con contraseña</string>
+    <string name="archive_create_lock_desc">Cifrado con AES-256</string>
+    <string name="archive_create_action">Crear</string>
+    <string name="archive_extract_out_toast">Extrayendo en Download/%1$s</string>
+    <plurals name="archive_create_count">
+        <item quantity="one">%1$d elemento</item>
+        <item quantity="many">%1$d de elementos</item>
+        <item quantity="other">%1$d elementos</item>
+    </plurals>
+    <plurals name="archive_create_subtitle">
+        <item quantity="one">%1$d elemento, %2$s</item>
+        <item quantity="many">%1$d de elementos, %2$s</item>
+        <item quantity="other">%1$d elementos, %2$s</item>
+    </plurals>
+    <string name="archive_password_title">Se necesita contraseña</string>
+    <string name="archive_password_placeholder">Contraseña</string>
+    <string name="archive_password_wrong">Contraseña incorrecta</string>
+    <string name="archive_encrypted_name">Este archivo comprimido está cifrado.</string>
+    <string name="archive_failed_title">No se pudo extraer</string>
+    <string name="archive_failed_dismiss">Aceptar</string>
+    <string name="dialog_new_folder">Nueva carpeta</string>
+    <string name="dialog_new_file">Nuevo archivo</string>
+    <string name="dialog_rename">Renombrar</string>
+    <string name="dialog_rename_placeholder">Nombre nuevo</string>
+    <plurals name="hide_result_hidden">
+        <item quantity="one">%1$d elemento oculto</item>
+        <item quantity="many">%1$d de elementos ocultos</item>
+        <item quantity="other">%1$d elementos ocultos</item>
+    </plurals>
+    <plurals name="hide_result_unhidden">
+        <item quantity="one">%1$d elemento ya no está oculto</item>
+        <item quantity="many">%1$d de elementos ya no están ocultos</item>
+        <item quantity="other">%1$d elementos ya no están ocultos</item>
+    </plurals>
+    <plurals name="hide_result_hide_failed">
+        <item quantity="one">%1$d no se pudo ocultar</item>
+        <item quantity="many">%1$d no se pudieron ocultar</item>
+        <item quantity="other">%1$d no se pudieron ocultar</item>
+    </plurals>
+    <plurals name="hide_result_unhide_failed">
+        <item quantity="one">%1$d no se pudo mostrar</item>
+        <item quantity="many">%1$d no se pudieron mostrar</item>
+        <item quantity="other">%1$d no se pudieron mostrar</item>
+    </plurals>
+    <string name="settings_grid_columns">Columnas de carpetas</string>
+    <string name="settings_grid_columns_desc">En la vista de iconos</string>
+    <string name="settings_lock_password_changed">Contraseña cambiada</string>
+    <string name="settings_show_vault">Mostrar caja fuerte en Herramientas</string>
+    <string name="settings_show_vault_desc">Si está desactivado, mantén pulsado ⋯ o + en Explorar para abrirla</string>
+    <string name="settings_open_with">Abrir con</string>
+    <string name="settings_open_text">Documentos</string>
+    <string name="settings_open_music">Música</string>
+    <string name="settings_open_images">Imágenes</string>
+    <string name="settings_open_videos">Vídeos</string>
+    <string name="settings_open_in_app">Kobblo</string>
+    <string name="settings_open_other">Otra aplicación</string>
+    <string name="settings_organizer_footer">Dónde mueve Organizar descargas cada tipo de archivo.</string>
+    <string name="settings_choose_folder">Elegir</string>
+    <string name="settings_send_name">Nombre del dispositivo</string>
+    <string name="settings_send_name_desc">Lo que ven otros dispositivos cuando buscan este.</string>
+    <string name="settings_send_folder">Archivos recibidos</string>
+    <string name="settings_send_ask">Preguntar antes de recibir</string>
+    <string name="settings_send_ask_on">Aceptar o rechazar cada transferencia entrante</string>
+    <string name="settings_send_ask_off">Cualquiera en tu red puede guardar archivos aquí sin preguntar</string>
+    <string name="crash_title">Kobblo se ha detenido</string>
+    <string name="crash_subtitle">Esto es lo que falló. Se queda en este teléfono salvo que lo compartas.</string>
+    <string name="crash_last_title">Último fallo</string>
+    <string name="crash_last_subtitle">Lo que falló la última vez que Kobblo se detuvo</string>
+    <string name="crash_copy">Copiar</string>
+    <string name="crash_share">Compartir</string>
+    <string name="crash_delete">Eliminar</string>
+    <string name="crash_close">Cerrar</string>
+    <string name="crash_copied">Registro de fallos copiado</string>
+    <string name="crash_share_subject">Registro de fallos de Kobblo</string>
+    <string name="crash_none">No hay fallos registrados</string>
+</resources>

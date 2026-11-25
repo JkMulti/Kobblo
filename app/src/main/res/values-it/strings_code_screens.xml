@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screen_back_to">Torna a %1$s</string>
+    <string name="screen_clear_search">Cancella ricerca</string>
+    <string name="screen_show_section">Mostra %1$s</string>
+    <string name="screen_hide_section">Nascondi %1$s</string>
+    <string name="screen_hide">Nascondi</string>
+    <string name="screen_unhide">Rendi visibile</string>
+    <string name="screen_paste">Incolla</string>
+    <string name="screen_batch_install">Installa in blocco</string>
+    <string name="screen_favorite">Preferito</string>
+    <string name="screen_loading_details">Caricamento dettagli…</string>
+    <string name="screen_detail_items">Elementi</string>
+    <string name="screen_detail_format">Formato</string>
+    <string name="screen_detail_resolution">Risoluzione</string>
+    <string name="screen_detail_duration">Durata</string>
+    <string name="screen_save_to">Salva in %1$s</string>
+    <string name="screen_pictures">Immagini</string>
+    <string name="screen_storage">Memoria</string>
+    <string name="screen_saving">Salvataggio</string>
+    <string name="screen_about_description">%1$s è un gestore di file moderno ed espressivo, creato per Android. Unisce una navigazione intuitiva, la categorizzazione intelligente dei file, visualizzatori multimediali integrati e l\'integrazione con l\'archiviazione cloud.</string>
+    <string name="screen_about_links">Link e supporto</string>
+    <string name="screen_about_website">Sito web</string>
+    <string name="screen_about_privacy_subtitle">Come proteggiamo i tuoi dati</string>
+    <string name="screen_about_feedback">Feedback e supporto</string>
+    <string name="screen_about_made_with">Realizzato con ❤️ in Pakistan</string>
+    <string name="screen_show_as_icons">Mostra come icone</string>
+    <string name="screen_show_as_list">Mostra come elenco</string>
+    <string name="screen_view_options">Opzioni di visualizzazione</string>
+    <string name="screen_current_sort">Ordinamento attuale</string>
+    <string name="screen_category_duplicates">Duplicati</string>
+    <string name="screen_category_empty_folders">Cartelle vuote</string>
+    <string name="screen_empty_images">Nessuna immagine trovata</string>
+    <string name="screen_empty_videos">Nessun video trovato</string>
+    <string name="screen_empty_audio">Nessun file audio trovato</string>
+    <string name="screen_empty_documents">Nessun documento trovato</string>
+    <string name="screen_empty_apps">Nessuna app trovata</string>
+    <string name="screen_empty_downloads">Nessun download trovato</string>
+    <string name="screen_empty_archives">Nessun archivio trovato</string>
+    <string name="screen_empty_large">Nessun file grande trovato</string>
+    <string name="screen_empty_duplicates">Nessun duplicato trovato</string>
+    <string name="screen_empty_empty_folders">Nessuna cartella vuota trovata</string>
+    <plurals name="screen_items_with_size">
+        <item quantity="one">%1$d elemento · %2$s</item>
+        <item quantity="many">%1$d di elementi · %2$s</item>
+        <item quantity="other">%1$d elementi · %2$s</item>
+    </plurals>
+    <plurals name="screen_folder_footer_available">
+        <item quantity="one">%1$d elemento, %2$s GB disponibili</item>
+        <item quantity="many">%1$d di elementi, %2$s GB disponibili</item>
+        <item quantity="other">%1$d elementi, %2$s GB disponibili</item>
+    </plurals>
+    <string name="screen_connected">Connesso</string>
+    <string name="screen_disconnect_named">Disconnetti %1$s</string>
+    <string name="screen_active">Attivo</string>
+    <string name="screen_destructive_words">elimin,rimuov,svuot,cancell,disconnett,scollega,esci,scart,disinstall,azzer,formatt</string>
+    <string name="screen_toast_problem_words">impossibil,non riuscit,non è riuscit,non è possibile,non è stato possibile,errore,negat,rifiutat,non può</string>
+    <string name="screen_toast_done_words">copiat,spostat,salvat,installat,aggiornat</string>
+</resources>

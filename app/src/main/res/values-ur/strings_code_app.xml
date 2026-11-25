@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s۔ %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s۔</string>
+    <string name="app_shizuku_not_running">Shizuku نہیں ملا یا نہیں چل رہا</string>
+    <string name="app_auth_required">تصدیق درکار ہے۔ براہ کرم اجازت دیں۔</string>
+    <string name="app_folder_open_failed">یہ فولڈر نہیں کھل سکا۔</string>
+    <string name="app_cloud">کلاؤڈ</string>
+    <string name="app_open_failed_named">%1$s نہیں کھل سکا</string>
+    <string name="app_open_failed">یہ فائل نہیں کھل سکی۔</string>
+    <string name="app_open_access_denied">دوسری ایپ نے اس فائل تک رسائی کی اجازت نہیں دی۔</string>
+    <string name="app_rename_some_failed">کچھ فائلوں کے نام تبدیل نہیں ہو سکے، کیونکہ وہ نام پہلے سے موجود تھا یا استعمال نہیں ہو سکتا تھا</string>
+    <string name="app_drive_delete_failed">Google Drive کی کچھ فائلیں حذف نہیں ہو سکیں۔</string>
+    <string name="app_organize_nothing">ترتیب دینے کے لیے کوئی فائل نہیں</string>
+    <string name="app_unknown">نامعلوم</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">%1$d دن کے لیے حال ہی میں حذف شدہ میں منتقل کر دیا گیا</item>
+        <item quantity="other">%1$d دن کے لیے حال ہی میں حذف شدہ میں منتقل کر دیا گیا</item>
+    </plurals>
+    <string name="app_bin_moved_for">%1$d %2$s کے لیے حال ہی میں حذف شدہ میں منتقل کر دیا گیا</string>
+    <string name="app_install_uninstalling_old">پچھلا ورژن ان انسٹال ہو رہا ہے…</string>
+    <string name="app_install_done">ایپ انسٹال ہو گئی</string>
+    <string name="app_install_failed">یہ ایپ انسٹال نہیں ہو سکی۔</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">%2$d میں سے %1$d ایپ انسٹال ہو گئی</item>
+        <item quantity="other">%2$d میں سے %1$d ایپس انسٹال ہو گئیں</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">ایک ساتھ خودکار انسٹال کے لیے Shizuku درکار ہے — اس کی بجائے خاموش موڈ استعمال کریں۔</string>
+    <string name="app_mega_wrong_login">غلط ای میل یا پاس ورڈ۔</string>
+    <string name="app_mega_login_failed">لاگ ان نہیں ہو سکا۔ اپنا ای میل اور پاس ورڈ چیک کریں۔</string>
+    <string name="app_connect_failed">منسلک نہیں ہو سکا۔ پتہ اور اپنی لاگ ان تفصیلات چیک کریں۔</string>
+    <string name="app_share_unreadable">یہاں کچھ بھی پڑھا نہیں جا سکا۔</string>
+    <string name="app_share_storage">اسٹوریج</string>
+    <string name="app_share_saved_one">%1$s کو %2$s میں محفوظ کر دیا گیا</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">%2$d میں سے %1$d فائل %3$s میں محفوظ ہو گئی</item>
+        <item quantity="other">%2$d میں سے %1$d فائلیں %3$s میں محفوظ ہو گئیں</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">%1$d فائل %2$s میں محفوظ ہو گئی</item>
+        <item quantity="other">%1$d فائلیں %2$s میں محفوظ ہو گئیں</item>
+    </plurals>
+    <string name="app_recent_just_now">ابھی ابھی</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d منٹ پہلے</item>
+        <item quantity="other">%1$d منٹ پہلے</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d گھنٹہ پہلے</item>
+        <item quantity="other">%1$d گھنٹے پہلے</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d دن پہلے</item>
+        <item quantity="other">%1$d دن پہلے</item>
+    </plurals>
+    <string name="app_recent_visited">دیکھا گیا</string>
+    <string name="app_recent_opened">کھولا گیا</string>
+    <string name="app_recent_renamed_from">%1$s سے نام تبدیل کیا گیا</string>
+    <string name="app_extract_needs_space">اس کے لیے %1$s جگہ درکار ہے، اور %2$s خالی ہے</string>
+    <string name="app_extract_storage_full">روک دیا گیا کیونکہ اسٹوریج تقریباً بھر چکا ہے۔ اس آرکائیو کو کھولنے کے لیے جتنی جگہ چاہیے، اتنی دستیاب نہیں</string>
+</resources>

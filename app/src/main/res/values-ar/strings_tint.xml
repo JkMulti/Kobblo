@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_tint">لون التمييز</string>
+    <string name="tint_blue">أزرق</string>
+    <string name="tint_indigo">نيلي</string>
+    <string name="tint_purple">بنفسجي</string>
+    <string name="tint_pink">وردي</string>
+    <string name="tint_orange">برتقالي</string>
+    <string name="tint_green">أخضر</string>
+    <string name="tint_teal">أزرق مخضر</string>
+</resources>

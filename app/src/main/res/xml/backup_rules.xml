@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Before Android 12. What's in the Vault, and the crash log's file paths, stay on this phone. Keep in step
+     with data_extraction_rules.xml, and see the comment there. -->
+<full-backup-content>
+    <exclude domain="file" path="vault_files/" />
+    <exclude domain="file" path="vault_metadata.json" />
+    <exclude domain="file" path="crash_log.txt" />
+    <!-- This phone's identity for sending: a key that left the phone would let something else be it. -->
+    <exclude domain="file" path="localsend_key.der" />
+    <exclude domain="file" path="localsend_cert.der" />
+    <exclude domain="file" path="saved_devices.json" />
+    <exclude domain="sharedpref" path="kobblo_vault_prefs.xml" />
+    <exclude domain="sharedpref" path="file_jobs.xml" />
+</full-backup-content>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">保管庫</string>
+    <string name="settings_general">一般</string>
+    <string name="settings_keep_for">保持期間</string>
+    <plurals name="settings_keep_days">
+        <item quantity="other">%d 日</item>
+    </plurals>
+    <string name="settings_trash_footer_on">削除したファイルはこの期間ゴミ箱に保管され、その後完全に削除されます。</string>
+    <string name="settings_trash_footer_off">削除したファイルはすぐに完全に削除され、復元できません。</string>
+    <string name="settings_about_app">Kobbloについて</string>
+    <string name="settings_version">バージョン %1$s</string>
+</resources>

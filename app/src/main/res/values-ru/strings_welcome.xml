@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Добро пожаловать в Kobblo</string>
+    <string name="welcome_photos_title">Все фото и видео</string>
+    <string name="welcome_photos_body">Вся медиатека в одной ленте — с альбомами, местами и удобным просмотром.</string>
+    <string name="welcome_files_title">Все ваши файлы</string>
+    <string name="welcome_files_body">Просматривайте папки, облачные хранилища и серверы и удаляйте ненужное.</string>
+    <string name="welcome_send_title">Отправка на устройства рядом</string>
+    <string name="welcome_send_body">Делитесь файлами с телефонами и компьютерами в той же сети Wi-Fi.</string>
+    <string name="welcome_private_title">Все остается на телефоне</string>
+    <string name="welcome_private_body">Без аккаунта и отслеживания. Умные функции работают прямо на телефоне.</string>
+    <string name="welcome_continue">Продолжить</string>
+    <string name="welcome_not_now">Не сейчас</string>
+    <string name="access_title">Разрешите доступ</string>
+    <string name="access_subtitle">Чтобы показать ваши файлы, Kobblo должен их видеть. Найденное никогда не покидает телефон.</string>
+    <string name="access_needed">Обязательно</string>
+    <string name="access_optional">Необязательно</string>
+    <string name="access_files">Файлы и папки</string>
+    <string name="access_files_body">Чтобы просматривать, открывать и упорядочивать все на телефоне.</string>
+    <string name="access_notifications">Уведомления</string>
+    <string name="access_notifications_body">Ход копирования и передачи, а также отправленные вам файлы.</string>
+    <string name="access_notifications_blocked">Выключено. Нажмите, чтобы разрешить в настройках.</string>
+    <string name="access_locations">Геоданные фото</string>
+    <string name="access_locations_body">Где были сняты фото — для раздела «Места» и сведений о фото.</string>
+    <string name="access_locations_blocked">Выключено. Разрешите в разделе «О приложении» &gt; «Разрешения».</string>
+    <string name="access_footer">Все это можно изменить позже в настройках, в разделе «Разрешения».</string>
+    <string name="access_allow">Разрешить доступ</string>
+    <string name="access_settings_row">Разрешения</string>
+    <string name="access_settings_row_body">Файлы, уведомления и геоданные фото</string>
+    <string name="welcome_ready_title">Все готово</string>
+    <string name="welcome_ready_body">Ваши фото готовы к просмотру.</string>
+    <string name="welcome_ready_downloading">Умные функции загружаются и начнут обрабатывать фото по мере загрузки.</string>
+    <string name="welcome_ready_no_access">Разрешите доступ, когда будете готовы, и здесь появятся ваши фото и файлы.</string>
+    <string name="welcome_lets_go">Начать</string>
+</resources>

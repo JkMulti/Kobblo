@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="view_archive_encrypted">Şifrelenmiş</string>
+    <string name="view_archive_enter_password">Şifreyi girin.</string>
+    <string name="view_archive_contents_unreadable">İçerik okunamadı.</string>
+    <string name="view_archive_password_check_failed">Bu şifre kontrol edilemedi.</string>
+    <string name="view_archive_password_prompt">İçindekileri görmek için şifreyi girin.</string>
+    <string name="view_archive_checking_password">Şifre kontrol ediliyor…</string>
+    <plurals name="view_file_count">
+        <item quantity="one">%1$d dosya</item>
+        <item quantity="other">%1$d dosya</item>
+    </plurals>
+    <string name="view_archive_empty">Bu arşiv boş</string>
+    <string name="view_extract_all">Tümünü çıkart</string>
+    <string name="view_archive_invalid_zip">Geçersiz ZIP dosyası</string>
+    <string name="view_archive_extracting">Çıkartılıyor...</string>
+    <string name="view_archive_storage_full">Depolama neredeyse dolu olduğu için durduruldu. Bu arşiv açıldığında mevcut boş alandan daha fazla yer kaplıyor.</string>
+    <string name="view_archive_extraction_cancelled">Çıkartma iptal edildi</string>
+    <string name="view_archive_nothing_extracted">Hiçbir dosya çıkartılmadı</string>
+    <string name="view_archive_encrypted_entry">(şifrelenmiş arşiv)</string>
+    <string name="view_archive_done">Bitti</string>
+    <string name="view_zip_entry_size">Boyut: %1$s</string>
+    <string name="view_zip_entry_size_unknown">Bilinmeyen boyut</string>
+    <plurals name="view_clipboard_items_to_move">
+        <item quantity="one">Taşınacak %1$d öğe</item>
+        <item quantity="other">Taşınacak %1$d öğe</item>
+    </plurals>
+    <plurals name="view_clipboard_items_to_copy">
+        <item quantity="one">Kopyalanacak %1$d öğe</item>
+        <item quantity="other">Kopyalanacak %1$d öğe</item>
+    </plurals>
+    <string name="view_hide_items">Öğeleri gizle</string>
+    <string name="view_show_items">Öğeleri göster</string>
+    <string name="view_move_here">Buraya taşı</string>
+    <string name="view_picker_storage">Depolama</string>
+    <string name="view_picker_downloads">İndirilenler</string>
+    <string name="view_picker_documents">Belgeler</string>
+    <string name="view_picker_pictures">Resimler</string>
+    <string name="view_picker_music">Müzik</string>
+    <string name="view_picker_tap_to_select">Seçmek için dosyalara dokunun</string>
+    <plurals name="view_selected_count">
+        <item quantity="one">%1$d seçili</item>
+        <item quantity="other">%1$d seçili</item>
+    </plurals>
+    <string name="view_label_with_count">%1$s (%2$d)</string>
+    <string name="view_trash_subtitle_kept">%1$s · %2$s saklanır</string>
+    <string name="view_trash_subtitle_not_keeping">%1$s · Silinen dosyalar saklanmıyor</string>
+    <plurals name="view_retention_seconds">
+        <item quantity="one">%1$d saniye</item>
+        <item quantity="other">%1$d saniye</item>
+    </plurals>
+    <plurals name="view_retention_minutes">
+        <item quantity="one">%1$d dakika</item>
+        <item quantity="other">%1$d dakika</item>
+    </plurals>
+    <plurals name="view_retention_hours">
+        <item quantity="one">%1$d saat</item>
+        <item quantity="other">%1$d saat</item>
+    </plurals>
+    <plurals name="view_retention_days">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="view_retention_weeks">
+        <item quantity="one">%1$d hafta</item>
+        <item quantity="other">%1$d hafta</item>
+    </plurals>
+    <plurals name="view_retention_months">
+        <item quantity="one">%1$d ay</item>
+        <item quantity="other">%1$d ay</item>
+    </plurals>
+    <plurals name="view_retention_years">
+        <item quantity="one">%1$d yıl</item>
+        <item quantity="other">%1$d yıl</item>
+    </plurals>
+    <string name="view_show_as_icons">Simge olarak göster</string>
+    <string name="view_show_as_list">Liste olarak göster</string>
+    <string name="view_trash_settings">Son Silinenler ayarları</string>
+    <string name="view_restore_all">Tümünü geri yükle</string>
+    <string name="view_delete_all">Tümünü sil</string>
+    <string name="view_delete_named_title">\"%1$s\" silinsin mi?</string>
+    <string name="view_trash_delete_body">Bundan sonra geri yüklenemez.</string>
+    <string name="view_trash_delete_everything_title">Her şey silinsin mi?</string>
+    <string name="view_trash_delete_everything_body">Bundan sonra Son Silinenler\'deki hiçbir şey geri yüklenemez.</string>
+    <string name="view_trash_days_to_keep">Dosyaların saklanacağı gün</string>
+    <string name="view_cat_duplicates">Yinelenenler</string>
+    <string name="view_manage_storage">Depolamayı yönet</string>
+    <string name="view_manage_storage_subtitle">%1$s boş, telefonunuzun ayarlarında</string>
+    <string name="view_delete_image_title">Resim silinsin mi?</string>
+    <string name="view_delete_moves_to_bin">Son Silinenler\'e taşınacak.</string>
+    <string name="view_edit_image">Resmi düzenle</string>
+    <string name="view_document_unreadable">Bu belge gösterilemiyor. Hasarlı olabilir.</string>
+    <string name="view_document_reading">Belge okunuyor…</string>
+    <string name="view_open_in_external_app">Harici uygulamada aç</string>
+    <string name="view_copy_text">Metni kopyala</string>
+    <string name="view_text_copied">Metin panoya kopyalandı</string>
+    <string name="view_loading_page">Sayfa yükleniyor…</string>
+    <string name="view_share_document">Belgeyi paylaş</string>
+    <string name="view_open_with_chooser">Şununla aç</string>
+    <string name="view_doc_error_reading">Belge okunurken hata oluştu: %1$s</string>
+    <string name="view_doc_unable_to_read_content">İçerik okunamıyor</string>
+    <string name="view_doc_empty">(Boş belge)</string>
+    <string name="view_doc_truncated_pages">... [İçerik kısaltıldı. İlk 250 sayfa gösteriliyor.]</string>
+    <string name="view_doc_empty_file">(Boş dosya)</string>
+    <string name="view_doc_truncated_size">... [İçerik 4 MB sınırında kısaltıldı]</string>
+    <string name="view_docx_empty_no_text">(Bu Word belgesi boş görünüyor veya okunabilir metin içermiyor)</string>
+    <string name="view_docx_error_reading_damaged">DOCX dosyası okunurken hata oluştu: %1$s\n\nDosya bozuk veya şifre korumalı olabilir.</string>
+    <string name="view_docx_unable_to_read">Belge okunamıyor</string>
+    <string name="view_docx_empty">(Bu Word belgesi boş görünüyor)</string>
+    <string name="view_docx_error_reading">DOCX dosyası okunurken hata oluştu: %1$s</string>
+    <string name="view_file_error_reading">Dosya okunurken hata oluştu: %1$s</string>
+    <string name="view_apk_not_installed">Bu uygulama yüklü değil.</string>
+    <string name="view_apk_not_older">Bu, uygulamanın daha eski bir sürümü değil.</string>
+    <string name="view_apk_shizuku_not_connected">Shizuku bağlı değil. Kurmak için dokunun.</string>
+    <string name="view_apk_normal_install">Normal yükleme</string>
+    <string name="view_apk_normal_install_subtitle">Sistem paket yükleyicisini kullanır</string>
+    <string name="view_apk_downgrade">Sürüm düşür</string>
+    <string name="view_apk_downgrade_subtitle">Eski sürümü zorla yükle</string>
+    <string name="view_apk_downgrade_install">Sürüm düşürerek yükle</string>
+    <string name="view_apk_silent_install">Sessiz yükleme</string>
+    <string name="view_apk_silent_install_subtitle">Onay istemeden arka planda yükleme</string>
+    <plurals name="view_apk_install_apps">
+        <item quantity="one">%1$d uygulamayı yükle</item>
+        <item quantity="other">%1$d uygulamayı yükle</item>
+    </plurals>
+    <string name="view_shizuku_connected">Shizuku bağlı</string>
+    <string name="view_apk_install_count">Yükle (%1$d)</string>
+    <string name="view_remove">Kaldır</string>
+    <string name="view_connected_account">Bağlı hesap</string>
+    <string name="view_unknown">Bilinmiyor</string>
+    <string name="view_unknown_version">Bilinmeyen sürüm</string>
+    <plurals name="view_app_count">
+        <item quantity="one">%1$d uygulama</item>
+        <item quantity="other">%1$d uygulama</item>
+    </plurals>
+    <string name="view_apk_downgrade_one_title">Bu uygulamanın sürümü düşürülsün mü?</string>
+    <string name="view_apk_downgrade_one_body">Android, çoğu uygulamada eski bir sürüme dönmeye izin vermez. Bunu yüklemek için önce mevcut uygulamanın kaldırılması gerekir ve bu, uygulamanın tüm verilerini siler.</string>
+    <string name="view_apk_downgrade_many_title">Bu uygulamaların sürümü düşürülsün mü?</string>
+    <string name="view_apk_downgrade_many_body">Android, çoğu uygulamada eski bir sürüme dönmeye izin vermez. Bunları yüklemek için önce mevcut uygulamaların kaldırılması gerekir ve bu, uygulamaların tüm verilerini siler.</string>
+    <string name="view_apk_erase_and_downgrade">Verileri sil ve sürümü düşür</string>
+    <string name="view_apk_try_keeping_data">Verileri korumayı dene</string>
+    <string name="view_share_files">Dosyaları paylaş</string>
+    <string name="view_current_folder">Geçerli klasör</string>
+    <string name="view_delete_selected_item">Seçili öğe silinsin mi?</string>
+    <string name="view_delete_selected_items">Seçili öğeler silinsin mi?</string>
+    <plurals name="view_delete_items_title">
+        <item quantity="one">%1$d öğe silinsin mi?</item>
+        <item quantity="other">%1$d öğe silinsin mi?</item>
+    </plurals>
+    <string name="view_delete_empty_folders_note">Boş klasörler kalıcı olarak silinir, çünkü içlerinde geri yüklenecek bir şey yoktur.</string>
+    <string name="view_delete_they_move_to_bin">Son Silinenler\'e taşınacaklar.</string>
+    <string name="view_extracted_folder_name">Çıkartılanlar</string>
+    <string name="view_share_archive">Arşivi paylaş</string>
+    <string name="view_share_named">Paylaş: %1$s</string>
+    <string name="view_no_app_to_open">Bu dosyayı açacak uygulama yok</string>
+    <string name="view_hiding_files_title">Dosyaları gizleme</string>
+    <string name="view_hiding_files_body">Gizleme, adın başına bir nokta ekler; böylece galeriler ve çoğu uygulama onu atlar. Geri getirmek için Ayarlar\'da Gizli dosyaları göster seçeneğini açın ve öğeye basılı tutun.</string>
+    <string name="view_got_it">Anladım</string>
+    <string name="view_item_exists_title">Öğe zaten var</string>
+    <string name="view_item_exists_body">Bu hedefte \"%1$s\" adlı bir öğe zaten var.</string>
+    <string name="view_item_exists_question">Üzerine yazmak, \"%1$s\" olarak yeniden adlandırmak veya atlamak ister misiniz?</string>
+    <string name="view_overwrite">Üzerine yaz</string>
+    <string name="view_skip">Atla</string>
+    <string name="view_numbering_none">Yok</string>
+</resources>

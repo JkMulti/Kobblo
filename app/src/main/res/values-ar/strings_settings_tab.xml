@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">الخزنة</string>
+    <string name="settings_general">عام</string>
+    <string name="settings_keep_for">الاحتفاظ لمدة</string>
+    <plurals name="settings_keep_days">
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يوماً</item>
+        <item quantity="other">%d يوم</item>
+    </plurals>
+    <string name="settings_trash_footer_on">تبقى الملفات المحذوفة في «المحذوفة مؤخراً» طوال هذه المدة، ثم تُحذف نهائياً.</string>
+    <string name="settings_trash_footer_off">تُحذف الملفات فوراً، ولا يمكن استعادتها من أي مكان.</string>
+    <string name="settings_about_app">حول Kobblo</string>
+    <string name="settings_version">الإصدار %1$s</string>
+</resources>

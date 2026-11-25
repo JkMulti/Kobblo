@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Tresor</string>
+    <string name="settings_general">Allgemein</string>
+    <string name="settings_keep_for">Aufbewahren für</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d Tag</item>
+        <item quantity="other">%d Tage</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Gelöschte Dateien bleiben so lange im Papierkorb und werden dann endgültig entfernt.</string>
+    <string name="settings_trash_footer_off">Gelöschte Dateien sind sofort weg und lassen sich nicht wiederherstellen.</string>
+    <string name="settings_about_app">Über Kobblo</string>
+    <string name="settings_version">Version %1$s</string>
+</resources>

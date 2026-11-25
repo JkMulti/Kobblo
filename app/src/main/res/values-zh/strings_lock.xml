@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_pin">PIN 码</string>
+    <string name="lock_pattern">图案</string>
+    <string name="lock_password">密码</string>
+    <string name="lock_pin_hint">4 至 12 位数字</string>
+    <string name="lock_pattern_hint">至少连接 4 个点</string>
+    <string name="lock_password_hint">至少 4 个字符</string>
+    <string name="lock_choose">选择锁定方式</string>
+    <string name="lock_choose_new">选择新的锁定方式</string>
+    <string name="lock_choose_body">这是 Kobblo 自己的锁定方式，与手机的屏幕锁定相互独立。</string>
+    <string name="lock_create_pin">设置 PIN 码</string>
+    <string name="lock_create_pattern">绘制图案</string>
+    <string name="lock_create_password">设置密码</string>
+    <string name="lock_confirm_pin">确认 PIN 码</string>
+    <string name="lock_confirm_pattern">确认图案</string>
+    <string name="lock_confirm_password">确认密码</string>
+    <string name="lock_enter_again">请再次输入</string>
+    <string name="lock_draw_again">请再次绘制</string>
+    <string name="lock_mismatch">两次不一致，请重试。</string>
+    <string name="lock_save_failed">无法保存锁定方式，请重试。</string>
+    <string name="lock_pin_rule">请使用 4 至 12 位数字</string>
+    <string name="lock_pattern_rule">请至少连接 4 个点</string>
+    <string name="lock_password_rule">请至少使用 4 个字符</string>
+    <string name="lock_retired_default">0000 是旧的默认密码，请另选一个。</string>
+    <string name="lock_enter_pin">输入 PIN 码</string>
+    <string name="lock_draw_pattern">绘制图案</string>
+    <string name="lock_enter_password">输入密码</string>
+    <string name="lock_is_locked">%1$s 已锁定</string>
+    <string name="lock_enter_current">请先验证当前的锁定方式</string>
+    <string name="lock_confirm_you">验证您的身份</string>
+    <string name="lock_wrong_pin">PIN 码错误</string>
+    <string name="lock_wrong_pattern">图案错误</string>
+    <string name="lock_wrong_password">密码错误</string>
+    <plurals name="lock_too_many_seconds_count">
+        <item quantity="other">尝试次数过多，请在 %1$d 秒后重试。</item>
+    </plurals>
+    <plurals name="lock_too_many_minutes_count">
+        <item quantity="other">尝试次数过多，请在 %1$d 分钟后重试。</item>
+    </plurals>
+    <string name="lock_unlock">解锁</string>
+    <string name="lock_unlock_named">解锁 %1$s</string>
+    <string name="lock_next">下一步</string>
+    <string name="lock_delete">删除</string>
+    <string name="lock_not_now">以后再说</string>
+    <string name="lock_use_type">使用 %1$s</string>
+    <string name="lock_use_fingerprint">使用指纹</string>
+    <string name="lock_biometrics_title">同时使用指纹？</string>
+    <string name="lock_biometrics_body">您可以使用指纹或人脸代替锁定方式打开 Kobblo。</string>
+    <string name="lock_fingerprint_gate_title">使用指纹验证</string>
+    <string name="lock_fingerprint_gate_body">已锁定的项目目前通过指纹打开。请先验证指纹，再选择锁定方式。</string>
+    <string name="lock_forgot_pin">忘记 PIN 码？</string>
+    <string name="lock_forgot_pattern">忘记图案？</string>
+    <string name="lock_forgot_password">忘记密码？</string>
+    <string name="lock_reset_title">重置 Kobblo 锁定方式</string>
+    <string name="lock_reset_subtitle">可通过手机的屏幕锁定验证您的身份</string>
+    <string name="lock_reset_none">此手机未设置屏幕锁定，忘记锁定方式后将无法重置。</string>
+    <string name="lock_reason_lock">锁定项目</string>
+    <string name="lock_reason_unlock">解锁项目</string>
+    <string name="lock_reason_open">解锁以打开</string>
+    <string name="settings_privacy">隐私与安全</string>
+    <string name="settings_lock_set_up">设置 Kobblo 锁定方式</string>
+    <string name="settings_lock_change">更改 Kobblo 锁定方式</string>
+    <string name="settings_lock_footer">Kobblo 锁定方式用于保护已锁定的项目和应用锁。保险箱使用独立的密码，并会在屏幕关闭时自动锁定。</string>
+    <string name="settings_biometrics_desc">用指纹或人脸代替锁定方式</string>
+    <string name="settings_app_lock">应用锁</string>
+    <string name="settings_app_lock_desc">打开 Kobblo 时需要解锁</string>
+    <string name="settings_lock_after">自动锁定</string>
+    <string name="settings_lock_immediately">立即</string>
+    <plurals name="settings_lock_minutes">
+        <item quantity="other">%d 分钟</item>
+    </plurals>
+    <string name="settings_allow_screenshots">允许截屏</string>
+    <string name="settings_vault_lock_after">保险箱自动锁定</string>
+    <string name="settings_vault_lock_after_desc">离开多久后需要重新验证</string>
+    <string name="settings_allow_screenshots_desc">适用于保险箱和已锁定的项目。关闭后，它们也不会显示在最近使用的应用中。</string>
+</resources>

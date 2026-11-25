@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_title">Kobblo में आपका स्वागत है</string>
+    <string name="welcome_photos_title">हर फ़ोटो और वीडियो</string>
+    <string name="welcome_photos_body">आपकी पूरी लाइब्रेरी एक ही फ़ीड में, साथ में एल्बम, जगहें और आराम से देखने के लिए बना व्यूअर।</string>
+    <string name="welcome_files_title">आपकी सभी फ़ाइलें</string>
+    <string name="welcome_files_body">फ़ोल्डर, क्लाउड ड्राइव और सर्वर ब्राउज़ करें, और जिसकी ज़रूरत नहीं उसे हटाएँ।</string>
+    <string name="welcome_send_title">आस-पास के डिवाइस पर भेजें</string>
+    <string name="welcome_send_body">उसी Wi-Fi पर मौजूद फ़ोन और कंप्यूटर के साथ फ़ाइलें साझा करें।</string>
+    <string name="welcome_private_title">आपके फ़ोन पर ही रहता है</string>
+    <string name="welcome_private_body">न कोई खाता, न कोई ट्रैकिंग। स्मार्ट सुविधाएँ अपना काम फ़ोन पर ही करती हैं।</string>
+    <string name="welcome_continue">जारी रखें</string>
+    <string name="welcome_not_now">अभी नहीं</string>
+    <string name="access_title">एक्सेस दें</string>
+    <string name="access_subtitle">आपकी फ़ाइलें दिखाने के लिए Kobblo को उन्हें देखना होगा। इसे जो भी मिलता है, वह कभी आपके फ़ोन से बाहर नहीं जाता।</string>
+    <string name="access_needed">ज़रूरी</string>
+    <string name="access_optional">वैकल्पिक</string>
+    <string name="access_files">फ़ाइलें और फ़ोल्डर</string>
+    <string name="access_files_body">आपके फ़ोन पर मौजूद हर चीज़ को ब्राउज़ करने, खोलने और व्यवस्थित करने के लिए।</string>
+    <string name="access_notifications">सूचनाएँ</string>
+    <string name="access_notifications_body">कॉपी और ट्रांसफ़र की प्रगति, और आपको भेजी गई फ़ाइलें।</string>
+    <string name="access_notifications_blocked">बंद है। सेटिंग्स में अनुमति देने के लिए टैप करें।</string>
+    <string name="access_locations">फ़ोटो की जगहें</string>
+    <string name="access_locations_body">आपकी फ़ोटो कहाँ ली गईं, \'जगहें\' और फ़ोटो के विवरण के लिए।</string>
+    <string name="access_locations_blocked">बंद है। ऐप की जानकारी में \'अनुमतियाँ\' में जाकर अनुमति दें।</string>
+    <string name="access_footer">इनमें से किसी को भी बाद में सेटिंग्स में \'अनुमतियाँ\' में जाकर बदलें।</string>
+    <string name="access_allow">एक्सेस दें</string>
+    <string name="access_settings_row">अनुमतियाँ</string>
+    <string name="access_settings_row_body">फ़ाइलें, सूचनाएँ और फ़ोटो की जगहें</string>
+    <string name="welcome_ready_title">सब तैयार है</string>
+    <string name="welcome_ready_body">आपकी फ़ोटो देखने के लिए तैयार हैं।</string>
+    <string name="welcome_ready_downloading">स्मार्ट सुविधाएँ डाउनलोड हो रही हैं, और डाउनलोड होते ही आपकी फ़ोटो पर काम शुरू कर देंगी।</string>
+    <string name="welcome_ready_no_access">जब आप तैयार हों, एक्सेस दें, और आपकी फ़ोटो और फ़ाइलें यहाँ दिखने लगेंगी।</string>
+    <string name="welcome_lets_go">चलिए शुरू करें</string>
+</resources>

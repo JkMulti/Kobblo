@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s. %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s.</string>
+    <string name="app_shizuku_not_running">لم يتم اكتشاف Shizuku أو أنه لا يعمل</string>
+    <string name="app_auth_required">المصادقة مطلوبة. يرجى منح الإذن.</string>
+    <string name="app_folder_open_failed">تعذّر فتح هذا المجلد.</string>
+    <string name="app_cloud">السحابة</string>
+    <string name="app_open_failed_named">تعذّر فتح %1$s</string>
+    <string name="app_open_failed">تعذّر فتح هذا الملف.</string>
+    <string name="app_open_access_denied">لم يسمح التطبيق الآخر بالوصول إلى هذا الملف.</string>
+    <string name="app_rename_some_failed">لم تتم إعادة تسمية بعض الملفات، لأن الاسم مستخدم بالفعل أو لا يمكن استخدامه</string>
+    <string name="app_drive_delete_failed">تعذّر حذف بعض ملفات Google Drive.</string>
+    <string name="app_organize_nothing">لا توجد ملفات لتنظيمها</string>
+    <string name="app_unknown">غير معروف</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="zero">تم النقل إلى «المحذوفة مؤخراً» لمدة %1$d يوم</item>
+        <item quantity="one">تم النقل إلى «المحذوفة مؤخراً» لمدة يوم واحد</item>
+        <item quantity="two">تم النقل إلى «المحذوفة مؤخراً» لمدة يومين</item>
+        <item quantity="few">تم النقل إلى «المحذوفة مؤخراً» لمدة %1$d أيام</item>
+        <item quantity="many">تم النقل إلى «المحذوفة مؤخراً» لمدة %1$d يوماً</item>
+        <item quantity="other">تم النقل إلى «المحذوفة مؤخراً» لمدة %1$d يوم</item>
+    </plurals>
+    <string name="app_bin_moved_for">تم النقل إلى «المحذوفة مؤخراً» لمدة %1$d %2$s</string>
+    <string name="app_install_uninstalling_old">جارٍ إلغاء تثبيت الإصدار السابق…</string>
+    <string name="app_install_done">تم تثبيت التطبيق</string>
+    <string name="app_install_failed">تعذّر تثبيت هذا التطبيق.</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="zero">تم تثبيت %1$d من أصل %2$d تطبيق</item>
+        <item quantity="one">تم تثبيت %1$d من أصل تطبيق واحد</item>
+        <item quantity="two">تم تثبيت %1$d من أصل تطبيقين</item>
+        <item quantity="few">تم تثبيت %1$d من أصل %2$d تطبيقات</item>
+        <item quantity="many">تم تثبيت %1$d من أصل %2$d تطبيقاً</item>
+        <item quantity="other">تم تثبيت %1$d من أصل %2$d تطبيق</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">يحتاج التثبيت المجمّع إلى Shizuku ليعمل تلقائياً — استخدم الوضع الصامت بدلاً من ذلك.</string>
+    <string name="app_mega_wrong_login">البريد الإلكتروني أو كلمة المرور غير صحيحة.</string>
+    <string name="app_mega_login_failed">تعذّر تسجيل الدخول. تحقق من بريدك الإلكتروني وكلمة المرور.</string>
+    <string name="app_connect_failed">تعذّر الاتصال. تحقق من العنوان وبيانات تسجيل الدخول.</string>
+    <string name="app_share_unreadable">تعذّرت قراءة أي شيء هنا.</string>
+    <string name="app_share_storage">وحدة التخزين</string>
+    <string name="app_share_saved_one">تم حفظ %1$s في %2$s</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="zero">تم حفظ %1$d من أصل %2$d ملف في %3$s</item>
+        <item quantity="one">تم حفظ %1$d من أصل ملف واحد في %3$s</item>
+        <item quantity="two">تم حفظ %1$d من أصل ملفين في %3$s</item>
+        <item quantity="few">تم حفظ %1$d من أصل %2$d ملفات في %3$s</item>
+        <item quantity="many">تم حفظ %1$d من أصل %2$d ملفاً في %3$s</item>
+        <item quantity="other">تم حفظ %1$d من أصل %2$d ملف في %3$s</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="zero">لم يُحفظ أي ملف في %2$s</item>
+        <item quantity="one">تم حفظ ملف واحد في %2$s</item>
+        <item quantity="two">تم حفظ ملفين في %2$s</item>
+        <item quantity="few">تم حفظ %1$d ملفات في %2$s</item>
+        <item quantity="many">تم حفظ %1$d ملفاً في %2$s</item>
+        <item quantity="other">تم حفظ %1$d ملف في %2$s</item>
+    </plurals>
+    <string name="app_recent_just_now">الآن</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="zero">قبل %1$d دقيقة</item>
+        <item quantity="one">قبل دقيقة</item>
+        <item quantity="two">قبل دقيقتين</item>
+        <item quantity="few">قبل %1$d دقائق</item>
+        <item quantity="many">قبل %1$d دقيقة</item>
+        <item quantity="other">قبل %1$d دقيقة</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="zero">قبل %1$d ساعة</item>
+        <item quantity="one">قبل ساعة</item>
+        <item quantity="two">قبل ساعتين</item>
+        <item quantity="few">قبل %1$d ساعات</item>
+        <item quantity="many">قبل %1$d ساعة</item>
+        <item quantity="other">قبل %1$d ساعة</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="zero">قبل %1$d يوم</item>
+        <item quantity="one">قبل يوم</item>
+        <item quantity="two">قبل يومين</item>
+        <item quantity="few">قبل %1$d أيام</item>
+        <item quantity="many">قبل %1$d يوماً</item>
+        <item quantity="other">قبل %1$d يوم</item>
+    </plurals>
+    <string name="app_recent_visited">تمت الزيارة</string>
+    <string name="app_recent_opened">تم الفتح</string>
+    <string name="app_recent_renamed_from">تمت إعادة التسمية من %1$s</string>
+    <string name="app_extract_needs_space">يتطلب هذا مساحة %1$s، والمساحة الخالية %2$s</string>
+    <string name="app_extract_storage_full">تم الإيقاف لأن مساحة التخزين ممتلئة تقريباً. يحتاج هذا الأرشيف بعد فك ضغطه إلى مساحة أكبر من المتاحة</string>
+</resources>

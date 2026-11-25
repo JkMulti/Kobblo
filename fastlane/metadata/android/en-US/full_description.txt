@@ -1,0 +1,40 @@
+<p>Kobblo puts your photos, videos, music and files in one place: on your phone, on your own servers and in your cloud storage. It has no account, no ads and no analytics, and nothing leaves your phone unless you send it.</p>
+
+<p><b>Gallery</b></p>
+<ul>
+<li>Every photo and video in one feed, grouped by day and month, with a pinch-to-resize grid</li>
+<li>Albums, Favorites and smart albums such as On This Day, Screenshots and RAW</li>
+<li>Places: photos grouped by town, from a table built into the app</li>
+<li>Similar photos: finds duplicates and look-alikes</li>
+<li>Photo editor: crop, rotate, straighten, filters, light and color</li>
+<li>Motion photos, 360° photos and a metadata explorer</li>
+</ul>
+
+<p><b>Files</b></p>
+<ul>
+<li>Every storage volume, including SD cards, with search, drag and drop and a trash</li>
+<li>Background copy, move, compress and extract</li>
+<li>Open ZIP and RAR archives, create ZIP</li>
+<li>Read PDF, Office, OpenDocument, EPUB and RTF, and edit text files</li>
+<li>Storage analyzer, batch rename, App Manager and APK installer</li>
+</ul>
+
+<p><b>Servers and cloud storage</b></p>
+<ul>
+<li>FTP, SFTP, SMB, WebDAV and Nextcloud</li>
+<li>Google Drive, Dropbox and MEGA</li>
+</ul>
+
+<p><b>Send and share</b></p>
+<ul>
+<li>Nearby Share over Wi-Fi, with QR pairing and a local hotspot</li>
+<li>Web Share: a link any browser on the same network can open</li>
+</ul>
+
+<p><b>Music</b>: library, queue, crossfade, synced lyrics, equalizer and bass boost.</p>
+
+<p><b>Privacy</b>: an encrypted Vault, names included, and an app lock with a PIN, pattern or password.</p>
+
+<p><b>Smart Features</b> (Android 11 and later): find photos by what's in them, select and copy text in photos, and see each person's photos together. They run on your phone, and each downloads its model once, only when you turn it on.</p>
+
+<p>Available in 16 languages, including Urdu and Arabic.</p>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Web Share's page, as it shows in someone else's browser. The phone is the phone running this app. -->
+    <string name="share_web_loading">Loading files</string>
+    <string name="share_web_download_all">Download all</string>
+    <string name="share_web_download">Download</string>
+    <string name="share_web_changed_mind">Changed your mind?</string>
+    <string name="share_web_send_to_phone">Send to this phone</string>
+    <!-- Shown in bold inside share_web_drop. -->
+    <string name="share_web_choose_files">Choose files</string>
+    <!-- %1$s is share_web_choose_files, which opens the browser's file picker. -->
+    <string name="share_web_drop">%1$s or drop files and folders here</string>
+    <string name="share_web_choose_folder">Choose a folder</string>
+    <string name="share_web_asked_first">The phone is asked first, and nothing is sent until it accepts.</string>
+    <string name="share_web_send_note">Send a note or link</string>
+    <string name="share_web_note_placeholder">Type or paste here. The phone is asked first, then it shows up there.</string>
+    <string name="share_web_unencrypted">This page is served directly from the phone over the local network, without encryption. Close it when you are done.</string>
+    <string name="share_web_waiting">Waiting for the phone</string>
+    <!-- %1$s is the phone's name. Allow is the button on the phone (transfer_allow). -->
+    <string name="share_web_let_in">On %1$s, tap Allow to let this browser in.</string>
+    <string name="share_web_not_let_in">Not Let In</string>
+    <string name="share_web_rejected">Rejected on the phone.</string>
+    <string name="share_web_unanswered">Nobody answered on the phone.</string>
+    <string name="share_web_withdrawn">Cancelled.</string>
+    <string name="share_web_cooling">The phone just said no. Give it a moment.</string>
+    <string name="share_web_unreachable">Couldn\'t reach the phone.</string>
+    <string name="share_web_link_stopped">This link has stopped working. Web Share may be off.</string>
+    <string name="share_web_nothing_accepted">Nothing accepted yet</string>
+    <string name="share_web_can_still_send">You can still send files to this phone</string>
+    <plurals name="share_web_you_rejected">
+        <item quantity="one">You rejected %1$d item.</item>
+        <item quantity="other">You rejected %1$d items.</item>
+    </plurals>
+    <!-- %1$s is the phone's name. %2$s is what's coming: transfer_incoming_summary, share_web_offer_notes, or share_web_offer_both. -->
+    <string name="share_web_offer_title">%1$s wants to send you %2$s</string>
+    <plurals name="share_web_offer_notes">
+        <item quantity="one">a note</item>
+        <item quantity="other">%1$d notes</item>
+    </plurals>
+    <!-- Files and notes together: %1$s is the files (transfer_incoming_summary), %2$s the notes (share_web_offer_notes). -->
+    <string name="share_web_offer_both">%1$s and %2$s</string>
+    <!-- The browser tab's title while something waits for an answer. %1$s is the phone's name. -->
+    <string name="share_web_tab_offer">Accept or Reject · %1$s</string>
+    <string name="share_web_waiting_accept">Waiting for the phone to accept</string>
+    <!-- %1$s is the name the file was saved under, %2$s its size. -->
+    <string name="share_web_saved_as">Saved as %1$s · %2$s</string>
+    <!-- %1$d is an HTTP status code. -->
+    <string name="share_web_failed_status">Failed (%1$d)</string>
+    <!-- Beside a file that was being sent. -->
+    <string name="share_web_connection_lost">The connection was lost</string>
+    <!-- Under a note that was being sent. -->
+    <string name="share_web_connection_lost_note">The connection was lost.</string>
+    <string name="share_web_note_sent">Sent. It\'s on the phone\'s screen.</string>
+    <string name="share_web_note_failed">That didn\'t go through.</string>
+
+    <!-- What the phone tells the browser when something can't be done. The page shows it, and History keeps it. -->
+    <string name="share_web_reply_not_let_in">The phone hasn\'t let this browser in</string>
+    <string name="share_web_reply_accept_first">Accept this on the page first</string>
+    <string name="share_web_reply_gone">This file is no longer available</string>
+    <string name="share_web_reply_not_accepted">The phone hasn\'t accepted this</string>
+    <string name="share_web_reply_note_too_long">That\'s too long for a note. Send it as a file instead.</string>
+    <string name="share_web_reply_no_space">Not enough space on the phone</string>
+    <string name="share_web_reply_no_folder">Can\'t open the Received folder</string>
+    <string name="share_web_reply_ran_out">The phone ran out of space</string>
+    <string name="share_web_reply_stopped">Web Share stopped</string>
+    <string name="share_web_reply_interrupted">The upload was interrupted</string>
+    <string name="share_web_reply_damaged">The upload was damaged</string>
+    <string name="share_web_reply_cant_save">Couldn\'t save this file</string>
+    <string name="share_web_reply_note_cut_short">The note was cut short</string>
+
+    <!-- A browser in the list of who's connected, when it can't be named. -->
+    <string name="share_web_browser">Browser</string>
+    <!-- %1$s is a browser (Chrome, or share_web_browser), %2$s the system it runs on (Mac, Windows). -->
+    <string name="share_web_browser_on">%1$s on %2$s</string>
+    <!-- The name of the zip of everything, before ".zip". %1$s is the phone's name. -->
+    <string name="share_web_zip_name">%1$s files</string>
+    <!-- A text file inside that zip listing what couldn't be read, before ".txt". -->
+    <string name="share_web_zip_unreadable">Files that could not be read</string>
+
+    <!-- Why a scanned connection code can't be used, after transfer_qr_invalid's "That code can't be used:". -->
+    <string name="share_pair_too_long">Code is too long</string>
+    <string name="share_pair_missing_version">Missing version</string>
+    <string name="share_pair_newer_version">Made by a newer version of the app</string>
+    <string name="share_pair_bad_version">Bad version</string>
+    <string name="share_pair_missing_address">Missing address</string>
+    <string name="share_pair_bad_address">Bad address</string>
+    <string name="share_pair_missing_port">Missing port</string>
+    <string name="share_pair_bad_port">Bad port</string>
+    <string name="share_pair_bad_protocol">Bad protocol</string>
+    <string name="share_pair_missing_fingerprint">Missing fingerprint</string>
+    <string name="share_pair_bad_fingerprint">Bad fingerprint</string>
+    <string name="share_pair_bad_network_name">Bad network name</string>
+    <string name="share_pair_bad_network_password">Bad network password</string>
+
+    <!-- Names for what didn't name itself. -->
+    <!-- This phone's name for other devices, when it has no name, maker or model to go by. -->
+    <string name="share_device_fallback">Android device</string>
+    <!-- A nearby device that sent no name. -->
+    <string name="share_unknown_device">Unknown</string>
+    <!-- A device using another LocalSend app that sent no name. -->
+    <string name="share_localsend_device">LocalSend Device</string>
+    <!-- A file offered with no usable name. -->
+    <string name="share_unnamed_file">File</string>
+
+    <!-- The notification channel for being visible nearby, as listed in the system's notification settings. -->
+    <string name="share_channel_name">Nearby Share</string>
+    <string name="share_channel_description">Keeps Nearby Share discovery and file transfer active</string>
+</resources>

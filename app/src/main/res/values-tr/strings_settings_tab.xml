@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vault_title">Kasa</string>
+    <string name="settings_general">Genel</string>
+    <string name="settings_keep_for">Saklama süresi</string>
+    <plurals name="settings_keep_days">
+        <item quantity="one">%d gün</item>
+        <item quantity="other">%d gün</item>
+    </plurals>
+    <string name="settings_trash_footer_on">Silinen dosyalar bu süre boyunca Son Silinenler\'de bekler, ardından kalıcı olarak silinir.</string>
+    <string name="settings_trash_footer_off">Silinen dosyalar hemen ve geri getirilemeyecek şekilde silinir.</string>
+    <string name="settings_about_app">Kobblo hakkında</string>
+    <string name="settings_version">Sürüm %1$s</string>
+</resources>

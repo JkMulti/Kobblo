@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="safety_deleting">削除中</string>
+    <string name="safety_restoring">復元中</string>
+    <string name="safety_progress_count">%1$s / %2$s</string>
+    <string name="safety_reason_missing">項目がすでに存在しません</string>
+    <string name="safety_reason_no_space">ストレージの空き容量が不足しています</string>
+    <string name="safety_reason_into_itself">フォルダーをそのフォルダー自身の中に入れることはできません</string>
+    <string name="safety_reason_denied">アプリに変更が許可されていません</string>
+    <string name="safety_reason_name_too_long">名前またはパスが長すぎます</string>
+    <string name="safety_reason_check_failed">コピーがオリジナルと一致しなかったため、オリジナルを残しました</string>
+    <string name="safety_reason_not_possible">この項目ではこの操作を行えません</string>
+    <string name="safety_reason_unknown">問題が発生しました</string>
+    <plurals name="safety_delete_failed">
+        <item quantity="other">%2$d 件中 %1$d 件を削除できませんでした。主な理由: %3$s。</item>
+    </plurals>
+    <plurals name="safety_transfer_failed">
+        <item quantity="other">%2$d 件中 %1$d 件は転送されず、元のままです。主な理由: %3$s。</item>
+    </plurals>
+    <plurals name="safety_transfer_renamed">
+        <item quantity="other">同じ名前がすでに使われていたため、%1$d 個の項目の名前を変更しました。</item>
+    </plurals>
+    <plurals name="safety_links_skipped">
+        <item quantity="other">フォルダー内の %1$d 個のリンクをここにコピーできませんでした。</item>
+    </plurals>
+    <plurals name="safety_move_stopped">
+        <item quantity="other">中止しました。%1$d 個の項目は移動済みで、残りは元の場所にあります。</item>
+    </plurals>
+    <plurals name="safety_copy_stopped">
+        <item quantity="other">中止しました。何もコピーされていません。</item>
+    </plurals>
+    <plurals name="safety_restored">
+        <item quantity="other">%1$d 個の項目を復元しました。</item>
+    </plurals>
+    <plurals name="safety_restored_renamed">
+        <item quantity="other">元の名前の場所に別の項目があるため、%1$d 個の名前を変更しました。</item>
+    </plurals>
+    <plurals name="safety_restored_elsewhere">
+        <item quantity="other">元の場所が不明なため、%1$d 個をDownloadフォルダーに復元しました。</item>
+    </plurals>
+    <plurals name="safety_restore_failed">
+        <item quantity="other">%1$d 個はゴミ箱に残りました。主な理由: %2$s。</item>
+    </plurals>
+    <plurals name="safety_bin_delete_failed">
+        <item quantity="other">%1$d 個の項目を削除できず、ゴミ箱に残っています。</item>
+    </plurals>
+    <string name="safety_rename_taken">「%1$s」はすでにここにあるため、名前を変更しませんでした。</string>
+    <string name="safety_rename_bad_name">その名前はファイル名に使用できません。</string>
+    <string name="safety_rename_failed">名前を変更できませんでした。</string>
+    <string name="safety_create_failed">「%1$s」を作成できませんでした。名前がすでに使われている可能性があります。</string>
+    <string name="safety_similar_look_first">完全に一致するコピーだけが選択されています。それ以外は似ているだけなので、削除したいものをタップしてください。長押しすると事前に確認できます。</string>
+    <string name="safety_similar_some_failed">%1$d 個をゴミ箱に移動できませんでした。</string>
+    <string name="safety_job_channel">ファイル操作</string>
+    <string name="safety_job_copying_to">%1$s にコピー中</string>
+    <string name="safety_job_moving_to">%1$s に移動中</string>
+    <string name="safety_job_compressing">%1$s を作成中</string>
+    <string name="safety_job_extracting">%1$s を解凍中</string>
+    <string name="safety_job_organizing">ダウンロードを整理中</string>
+    <string name="safety_job_finishing">まもなく完了</string>
+    <string name="safety_job_stopping">中止しています</string>
+    <string name="safety_job_cancel_all">すべてキャンセル</string>
+    <string name="safety_job_waiting">現在の処理が終わると開始します。</string>
+    <plurals name="safety_job_more_waiting">
+        <item quantity="other">ほか %1$d 件が待機中</item>
+    </plurals>
+    <string name="safety_job_in_use">現在コピーまたは移動で使用中です。完了してからもう一度お試しください。</string>
+    <string name="safety_job_internal_storage">内部ストレージ</string>
+    <string name="safety_job_cloud">クラウド</string>
+    <string name="safety_job_nothing_changed">何も変更されていません。</string>
+    <string name="safety_job_failed_names">対象: %1$s。</string>
+    <string name="safety_job_failed_names_more">対象: %1$s ほか %2$d 件。</string>
+    <string name="safety_job_time_limit">Androidでは、この種類の処理をバックグラウンドで実行できる時間が1日ごとに制限されています。処理は安全に停止しました。完了するには、Kobbloを開いてもう一度開始してください。</string>
+    <plurals name="safety_job_copied">
+        <item quantity="other">%1$d 個の項目を %2$s にコピーしました</item>
+    </plurals>
+    <plurals name="safety_job_moved">
+        <item quantity="other">%1$d 個の項目を %2$s に移動しました</item>
+    </plurals>
+    <string name="safety_job_copy_stopped">%1$s へのコピーを中止しました</string>
+    <string name="safety_job_move_stopped">%1$s への移動を中止しました</string>
+    <string name="safety_job_copy_problem">%1$s へのコピー中に問題が発生しました</string>
+    <string name="safety_job_move_problem">%1$s への移動中に問題が発生しました</string>
+    <plurals name="safety_job_trashed">
+        <item quantity="other">%1$d 個の項目をゴミ箱に移動しました</item>
+    </plurals>
+    <plurals name="safety_job_deleted">
+        <item quantity="other">%1$d 個の項目を削除しました</item>
+    </plurals>
+    <string name="safety_job_delete_stopped">削除を中止しました</string>
+    <string name="safety_job_delete_problem">削除中に問題が発生しました</string>
+    <string name="safety_job_delete_partly">%2$d 件中 %1$d 件を削除しました。残りは元の場所にあります。</string>
+    <string name="safety_job_empty_partly">%2$d 件中 %1$d 件を削除しました。残りはゴミ箱に残っています。</string>
+    <string name="safety_job_restore_done">復元しました</string>
+    <string name="safety_job_restore_stopped">復元を中止しました</string>
+    <string name="safety_job_restore_problem">復元中に問題が発生しました</string>
+    <string name="safety_job_restore_partly">%2$d 件中 %1$d 件を復元しました。残りはゴミ箱に残っています。</string>
+    <string name="safety_job_vault_adding">保管庫に追加中</string>
+    <string name="safety_job_vault_stopped">保管庫への追加を中止しました</string>
+    <string name="safety_job_vault_problem">保管庫に追加できませんでした</string>
+    <plurals name="safety_job_vault_added">
+        <item quantity="other">%1$d 個の項目を保管庫に追加しました</item>
+    </plurals>
+    <string name="safety_notice_vault">保管庫への追加が完了しませんでした</string>
+    <string name="safety_notice_vault_waiting">保管庫への追加が開始されませんでした</string>
+    <string name="safety_notice_vault_detail">追加済みの項目は保管庫にあります。項目は保管庫に安全に移ってから元の場所から削除されるため、それ以外の項目は元の場所に残っています。</string>
+    <string name="safety_job_organized">ファイルを整理しました</string>
+    <string name="safety_job_organize_stopped">整理を中止しました</string>
+    <string name="safety_job_organize_problem">整理中に問題が発生しました</string>
+    <string name="safety_job_compressed">%1$s を作成しました</string>
+    <string name="safety_job_compress_stopped">%1$s の作成を中止しました</string>
+    <string name="safety_job_compress_problem">%1$s を作成できませんでした</string>
+    <string name="safety_job_no_archive">圧縮ファイルは作成されず、ファイルも変更されていません。</string>
+    <string name="safety_job_extracted">%1$s を解凍しました</string>
+    <string name="safety_job_extract_stopped">%1$s の解凍を中止しました</string>
+    <string name="safety_job_extract_stopped_detail">途中まで展開されたファイルは削除しました。圧縮ファイルは変更されていません。</string>
+    <string name="safety_job_extract_problem">%1$s を解凍できませんでした</string>
+    <string name="safety_job_extract_needs_password">%1$s にはパスワードが必要です</string>
+    <string name="safety_job_extract_prepare_failed">この圧縮ファイルの解凍を準備できませんでした。</string>
+    <string name="safety_notice_open_folder">フォルダーを開く</string>
+    <string name="safety_notice_closed">完了する前にKobbloが終了しました。</string>
+    <string name="safety_notice_never_started">順番待ちの間にKobbloが終了しました。何も変更されていません。</string>
+    <string name="safety_notice_originals_safe">オリジナルは変更されていません。</string>
+    <string name="safety_notice_copy_removed">未完了のファイルは削除しました。</string>
+    <string name="safety_notice_original_left">「%1$s」は完全に届きましたが、元のファイルの一部またはすべてが %2$s に残っています。残ったものは削除してかまいません。</string>
+    <string name="safety_notice_partial_kept">未完了のファイルが %1$s に残っています。</string>
+    <string name="safety_notice_copy">%1$s へのコピーが完了しませんでした</string>
+    <string name="safety_notice_copy_waiting">%1$s へのコピーが開始されませんでした</string>
+    <plurals name="safety_notice_copy_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目は完全にコピーされました。</item>
+    </plurals>
+    <string name="safety_notice_move">%1$s への移動が完了しませんでした</string>
+    <string name="safety_notice_move_waiting">%1$s への移動が開始されませんでした</string>
+    <string name="safety_notice_move_none">元の場所に残っています。</string>
+    <string name="safety_notice_organize">ダウンロードの整理が完了しませんでした</string>
+    <string name="safety_notice_organize_waiting">ダウンロードの整理が開始されませんでした</string>
+    <plurals name="safety_notice_move_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目を移動しました。残りは元の場所にあります。</item>
+    </plurals>
+    <string name="safety_notice_delete">削除が完了しませんでした</string>
+    <string name="safety_notice_delete_waiting">削除が開始されませんでした</string>
+    <plurals name="safety_notice_trash_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目をゴミ箱に移動しました。残りは元の場所にあります。</item>
+    </plurals>
+    <plurals name="safety_notice_delete_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目を削除しました。残りは元の場所にあります。</item>
+    </plurals>
+    <plurals name="safety_notice_empty_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目を削除しました。残りはゴミ箱に残っています。</item>
+    </plurals>
+    <string name="safety_notice_restore">復元が完了しませんでした</string>
+    <string name="safety_notice_restore_waiting">復元が開始されませんでした</string>
+    <plurals name="safety_notice_restore_count">
+        <item quantity="other">%2$d 個中 %1$d 個の項目を復元しました。残りはゴミ箱に残っています。</item>
+    </plurals>
+    <string name="safety_notice_compress">%1$s の作成が完了しませんでした</string>
+    <string name="safety_notice_compress_waiting">%1$s の作成が開始されませんでした</string>
+    <string name="safety_notice_compress_detail">圧縮ファイルは作成されず、ファイルも変更されていません。</string>
+    <string name="safety_notice_archive_made">Kobbloが終了する直前に圧縮ファイルの作成が完了しており、ファイルは完全です。</string>
+    <string name="safety_notice_extract">%1$s の解凍が完了しませんでした</string>
+    <string name="safety_notice_extract_waiting">%1$s の解凍が開始されませんでした</string>
+    <string name="safety_notice_extract_detail">途中まで展開されたファイルは削除しました。圧縮ファイルは変更されていません。</string>
+    <string name="safety_lock_what_it_is">Kobblo内で非表示にします。他のアプリからは引き続き読み取れます。他のアプリからも保護するには保管庫を使用してください。</string>
+    <string name="safety_lock_confirm_title">パスワードが必要です</string>
+    <string name="safety_lock_done">ロックしました。Kobblo内では非表示になりますが、他のアプリからは引き続き読み取れます。</string>
+    <string name="safety_lock_in_folder">ロックされたフォルダー内にあります。ロックを解除するには、フォルダーのロックを解除してください。</string>
+    <string name="safety_lock_delete_elsewhere">この項目はロックされています。パスワードを入力できる元のフォルダーから削除してください。</string>
+    <string name="safety_lock_no_app">これを開ける他のアプリがないため、ここで開きました。</string>
+</resources>

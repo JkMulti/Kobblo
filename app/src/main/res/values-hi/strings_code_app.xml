@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_sentences_joined">%1$s। %2$s</string>
+    <string name="app_title_with_reason">%1$s: %2$s</string>
+    <string name="app_sentence_with_reason">%1$s %2$s।</string>
+    <string name="app_shizuku_not_running">Shizuku नहीं मिला या चल नहीं रहा है</string>
+    <string name="app_auth_required">प्रमाणीकरण ज़रूरी है। कृपया अनुमति दें।</string>
+    <string name="app_folder_open_failed">यह फ़ोल्डर खोला नहीं जा सका।</string>
+    <string name="app_cloud">क्लाउड</string>
+    <string name="app_open_failed_named">%1$s खोला नहीं जा सका</string>
+    <string name="app_open_failed">यह फ़ाइल खोली नहीं जा सकी।</string>
+    <string name="app_open_access_denied">दूसरे ऐप ने इस फ़ाइल का एक्सेस नहीं दिया।</string>
+    <string name="app_rename_some_failed">कुछ फ़ाइलों के नाम नहीं बदले गए, क्योंकि वह नाम पहले से मौजूद था या इस्तेमाल नहीं किया जा सकता था</string>
+    <string name="app_drive_delete_failed">Google Drive की कुछ फ़ाइलें हटाई नहीं जा सकीं।</string>
+    <string name="app_organize_nothing">व्यवस्थित करने के लिए कोई फ़ाइल नहीं</string>
+    <string name="app_unknown">अज्ञात</string>
+    <plurals name="app_bin_moved_days">
+        <item quantity="one">%1$d दिन के लिए \'हाल ही में हटाए गए\' में ले जाया गया</item>
+        <item quantity="other">%1$d दिन के लिए \'हाल ही में हटाए गए\' में ले जाया गया</item>
+    </plurals>
+    <string name="app_bin_moved_for">%1$d %2$s के लिए \'हाल ही में हटाए गए\' में ले जाया गया</string>
+    <string name="app_install_uninstalling_old">पिछला वर्शन अनइंस्टॉल किया जा रहा है…</string>
+    <string name="app_install_done">ऐप इंस्टॉल हो गया</string>
+    <string name="app_install_failed">यह ऐप इंस्टॉल नहीं किया जा सका।</string>
+    <plurals name="app_install_batch_count">
+        <item quantity="one">%2$d में से %1$d ऐप इंस्टॉल हुआ</item>
+        <item quantity="other">%2$d में से %1$d ऐप इंस्टॉल हुए</item>
+    </plurals>
+    <string name="app_install_batch_needs_shizuku">एक साथ अपने-आप इंस्टॉल करने के लिए Shizuku चाहिए — इसके बजाय साइलेंट मोड इस्तेमाल करें।</string>
+    <string name="app_mega_wrong_login">ईमेल या पासवर्ड गलत है।</string>
+    <string name="app_mega_login_failed">लॉग इन नहीं हो सका। अपना ईमेल और पासवर्ड जाँचें।</string>
+    <string name="app_connect_failed">कनेक्ट नहीं हो सका। पता और अपनी लॉगिन जानकारी जाँचें।</string>
+    <string name="app_share_unreadable">यहाँ कुछ भी पढ़ा नहीं जा सका।</string>
+    <string name="app_share_storage">स्टोरेज</string>
+    <string name="app_share_saved_one">%1$s को %2$s में सहेजा गया</string>
+    <plurals name="app_share_saved_some">
+        <item quantity="one">%2$d में से %1$d फ़ाइल %3$s में सहेजी गई</item>
+        <item quantity="other">%2$d में से %1$d फ़ाइलें %3$s में सहेजी गईं</item>
+    </plurals>
+    <plurals name="app_share_saved_all">
+        <item quantity="one">%1$d फ़ाइल %2$s में सहेजी गई</item>
+        <item quantity="other">%1$d फ़ाइलें %2$s में सहेजी गईं</item>
+    </plurals>
+    <string name="app_recent_just_now">अभी-अभी</string>
+    <plurals name="app_recent_minutes_ago">
+        <item quantity="one">%1$d मिनट पहले</item>
+        <item quantity="other">%1$d मिनट पहले</item>
+    </plurals>
+    <plurals name="app_recent_hours_ago">
+        <item quantity="one">%1$d घंटे पहले</item>
+        <item quantity="other">%1$d घंटे पहले</item>
+    </plurals>
+    <plurals name="app_recent_days_ago">
+        <item quantity="one">%1$d दिन पहले</item>
+        <item quantity="other">%1$d दिन पहले</item>
+    </plurals>
+    <string name="app_recent_visited">देखा गया</string>
+    <string name="app_recent_opened">खोला गया</string>
+    <string name="app_recent_renamed_from">%1$s से नाम बदला गया</string>
+    <string name="app_extract_needs_space">इसके लिए %1$s जगह चाहिए, और %2$s खाली है</string>
+    <string name="app_extract_storage_full">स्टोरेज लगभग भर जाने के कारण रोक दिया गया। यह आर्काइव खुलकर जितनी जगह लेगा, उतनी जगह नहीं है</string>
+</resources>

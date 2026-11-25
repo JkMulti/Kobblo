@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kobblo's own lock: a PIN, pattern or password for locked items and App Lock. -->
+    <string name="lock_pin">PIN</string>
+    <string name="lock_pattern">Pattern</string>
+    <string name="lock_password">Password</string>
+    <string name="lock_pin_hint">4 to 12 digits</string>
+    <string name="lock_pattern_hint">Join at least 4 dots</string>
+    <string name="lock_password_hint">At least 4 characters</string>
+
+    <string name="lock_choose">Choose a Lock</string>
+    <string name="lock_choose_new">Choose a New Lock</string>
+    <string name="lock_choose_body">It\'s Kobblo\'s own, separate from your phone\'s screen lock.</string>
+    <string name="lock_create_pin">Create a PIN</string>
+    <string name="lock_create_pattern">Draw a Pattern</string>
+    <string name="lock_create_password">Create a Password</string>
+    <string name="lock_confirm_pin">Confirm Your PIN</string>
+    <string name="lock_confirm_pattern">Confirm Your Pattern</string>
+    <string name="lock_confirm_password">Confirm Your Password</string>
+    <string name="lock_enter_again">Enter it again</string>
+    <string name="lock_draw_again">Draw it again</string>
+    <string name="lock_mismatch">They didn\'t match. Try again.</string>
+    <string name="lock_save_failed">The lock couldn\'t be saved. Try again.</string>
+
+    <string name="lock_pin_rule">Use 4 to 12 digits</string>
+    <string name="lock_pattern_rule">Join at least 4 dots</string>
+    <string name="lock_password_rule">Use at least 4 characters</string>
+    <string name="lock_retired_default">0000 was the old default. Choose another.</string>
+
+    <string name="lock_enter_pin">Enter Your PIN</string>
+    <string name="lock_draw_pattern">Draw Your Pattern</string>
+    <string name="lock_enter_password">Enter Your Password</string>
+    <string name="lock_is_locked">%1$s is locked</string>
+    <string name="lock_enter_current">Enter your current lock first</string>
+    <string name="lock_confirm_you">Confirm it\'s you</string>
+    <string name="lock_wrong_pin">Wrong PIN</string>
+    <string name="lock_wrong_pattern">Wrong pattern</string>
+    <string name="lock_wrong_password">Wrong password</string>
+    <plurals name="lock_too_many_seconds_count">
+        <item quantity="one">Too many tries. Try again in %1$d second.</item>
+        <item quantity="other">Too many tries. Try again in %1$d seconds.</item>
+    </plurals>
+    <plurals name="lock_too_many_minutes_count">
+        <item quantity="one">Too many tries. Try again in %1$d minute.</item>
+        <item quantity="other">Too many tries. Try again in %1$d minutes.</item>
+    </plurals>
+
+    <string name="lock_unlock">Unlock</string>
+    <string name="lock_unlock_named">Unlock %1$s</string>
+    <string name="lock_next">Next</string>
+    <string name="lock_delete">Delete</string>
+    <string name="lock_not_now">Not Now</string>
+    <string name="lock_use_type">Use %1$s</string>
+    <string name="lock_use_fingerprint">Use Fingerprint</string>
+    <string name="lock_biometrics_title">Use Fingerprint Too?</string>
+    <string name="lock_biometrics_body">Your fingerprint or face can open Kobblo in place of the lock.</string>
+    <string name="lock_fingerprint_gate_title">Confirm With Fingerprint</string>
+    <string name="lock_fingerprint_gate_body">Locked items open with your fingerprint. Use it to choose a lock.</string>
+
+    <string name="lock_forgot_pin">Forgot PIN?</string>
+    <string name="lock_forgot_pattern">Forgot Pattern?</string>
+    <string name="lock_forgot_password">Forgot Password?</string>
+    <string name="lock_reset_title">Reset Kobblo\'s Lock</string>
+    <string name="lock_reset_subtitle">Your phone\'s screen lock can vouch for you</string>
+    <string name="lock_reset_none">Without a screen lock on this phone, a forgotten lock can\'t be reset.</string>
+
+    <string name="lock_reason_lock">Lock Item</string>
+    <string name="lock_reason_unlock">Unlock Item</string>
+    <string name="lock_reason_open">Unlock to Open</string>
+
+    <!-- Settings, Privacy & Security. -->
+    <string name="settings_privacy">Privacy &amp; Security</string>
+    <string name="settings_lock_set_up">Set Up Kobblo Lock</string>
+    <string name="settings_lock_change">Change Kobblo Lock</string>
+    <string name="settings_lock_footer">Kobblo\'s lock guards locked items and App Lock. The Vault keeps its own password, and locks whenever the screen turns off.</string>
+    <string name="settings_biometrics_desc">Fingerprint or face in place of the lock</string>
+    <string name="settings_app_lock">App Lock</string>
+    <string name="settings_app_lock_desc">Ask for the lock when opening Kobblo</string>
+    <string name="settings_lock_after">Lock After</string>
+    <string name="settings_lock_immediately">Immediately</string>
+    <plurals name="settings_lock_minutes">
+        <item quantity="one">%d Minute</item>
+        <item quantity="other">%d Minutes</item>
+    </plurals>
+    <string name="settings_allow_screenshots">Allow Screenshots</string>
+    <string name="settings_vault_lock_after">Lock Vault After</string>
+    <string name="settings_vault_lock_after_desc">Time away before it asks again</string>
+    <string name="settings_allow_screenshots_desc">Of the Vault and locked items. Off also keeps them out of recent apps.</string>
+</resources>
