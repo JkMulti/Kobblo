@@ -6,8 +6,8 @@ object AppBrand {
 
     const val SUPPORT_EMAIL = "bitbyteapps51@gmail.com"
 
-    /** The site is served by GitHub Pages from the kobblo/ folder of the public JkMulti.github.io repository. */
-    const val WEBSITE_URL = "https://jkmulti.github.io/kobblo/"
-    const val WEBSITE_LABEL = "jkmulti.github.io/kobblo"
-    const val PRIVACY_URL = "https://jkmulti.github.io/kobblo/privacy/"
+    /** The site is served by GitHub Pages from the public JkMulti/kobblo-web repository. */
+    const val WEBSITE_URL = "https://jkmulti.github.io/kobblo-web/"
+    const val WEBSITE_LABEL = "jkmulti.github.io/kobblo-web"
+    const val PRIVACY_URL = "https://jkmulti.github.io/kobblo-web/privacy/"
 }

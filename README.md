@@ -20,8 +20,8 @@
 
 <p align="center">
   <a href="https://github.com/JkMulti/Kobblo/releases/latest"><b>Download</b></a> ·
-  <a href="https://jkmulti.github.io/kobblo/">Website</a> ·
-  <a href="https://jkmulti.github.io/kobblo/privacy/">Privacy policy</a> ·
+  <a href="https://jkmulti.github.io/kobblo-web/">Website</a> ·
+  <a href="https://jkmulti.github.io/kobblo-web/privacy/">Privacy policy</a> ·
   <a href="mailto:bitbyteapps51@gmail.com">Support</a>
 </p>
 
@@ -197,7 +197,7 @@ Kobblo has no servers of its own and collects nothing. It goes online only for t
 | Nearby Share and Web Share | Your local network, never the internet | Only while you share |
 
 Everything else, including your photos, the search index, the people it finds and your Vault, stays
-on your phone. The full policy is at https://jkmulti.github.io/kobblo/privacy/.
+on your phone. The full policy is at https://jkmulti.github.io/kobblo-web/privacy/.
 
 ## Permissions
 
